@@ -1,0 +1,478 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Gqgnhp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Xm99xE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong> Earn 30% monthly recurring </strong>for Lifetime By Simply Installing<strong> 3 in One Wishlist App!</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "button_UJBQYD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Recurring Earnings",
+            "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xm99xE",
+        "button_UJBQYD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "video_BFccUz": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Wishlist Video.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/ARE_YOU_freelancer_agency_or_Shopify_Expert.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_irtged": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MD7QnT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Get $1</strong> Per App Install! (Either <strong>Free Or Paid Plan </strong>)",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_jGdbJa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Earn attractive commissions by partnering with us to promote the Wishlist Expert app. you can setup your profile & get affiliate link, once you setup an app you get up to 30% lifetime recurring on your account with tranparency. </p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_if9jdD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get 30% Lifetime Recurring",
+            "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MD7QnT",
+        "text_jGdbJa",
+        "button_if9jdD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/RECURRING_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_QUzBrg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hNdQFR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Turn <strong>Your Existing Shopify Clients</strong> into a Passive Income Stream",
+            "heading_size": "h1"
+          }
+        },
+        "button_qxRnKk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get 30% Lifetime Recurring",
+            "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hNdQFR",
+        "button_qxRnKk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "boost_star_experts_marquee_highlights_XjaAqr": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_4J8WCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_6.png",
+            "link": ""
+          }
+        },
+        "image_EBYpF4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wishlist_7.png",
+            "link": ""
+          }
+        },
+        "image_CjQT3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_3.png",
+            "link": ""
+          }
+        },
+        "image_LkfJLi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_4.png",
+            "link": ""
+          }
+        },
+        "image_FnUULM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_8.png",
+            "link": ""
+          }
+        },
+        "image_UTxWFQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wishlist_4.png",
+            "link": ""
+          }
+        },
+        "image_RA9xzb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_7.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4J8WCy",
+        "image_EBYpF4",
+        "image_CjQT3f",
+        "image_LkfJLi",
+        "image_FnUULM",
+        "image_UTxWFQ",
+        "image_RA9xzb"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(248, 249, 250, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1200,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_MTCrPh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bKd9CX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Example Earnings",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bKd9CX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "boost_star_display_policies_CMnF7Y": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_ipYGWq": {
+          "type": "icon",
+          "settings": {
+            "icon": "percent",
+            "headline": "Refer 10 stores on the",
+            "text": "$9.99 plan = <strong>$29.97/month</strong>",
+            "link": ""
+          }
+        },
+        "icon_pAD4GL": {
+          "type": "icon",
+          "settings": {
+            "icon": "percent",
+            "headline": "Refer 10 stores on the",
+            "text": "$29.99 plan = <strong>$89.97/month</strong>",
+            "link": ""
+          }
+        },
+        "icon_BABXDP": {
+          "type": "icon",
+          "settings": {
+            "icon": "percent",
+            "headline": "Refer 100 stores on the",
+            "text": "$29.99 plan = <strong>$899.7/month</strong>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_ipYGWq",
+        "icon_pAD4GL",
+        "icon_BABXDP"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1200,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_LqB9Aa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_edyeNg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Join Our Affiliate Program?",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_edyeNg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_myYnbz": {
+      "type": "multirow",
+      "blocks": {
+        "row_wYqwfy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/bitcoin-into-piggy-bank.jpg",
+            "imglink": "",
+            "caption": "",
+            "heading": "1. Unlimited <strong>Earning</strong> Potential",
+            "text": "<p>No cap on commissions. The more stores you refer, the more you earn.</p>",
+            "button_label": "Start Earning",
+            "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q"
+          }
+        },
+        "row_dcLnFF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/international-money.jpg",
+            "imglink": "",
+            "caption": "",
+            "heading": "2. Recurring<strong> Income</strong>",
+            "text": "<p>Continue earning as long as your referred stores remain active subscribers.</p><p></p>",
+            "button_label": "Start Earning",
+            "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q"
+          }
+        },
+        "row_EW9H6j": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/gift-package-in-hand.jpg",
+            "imglink": "",
+            "caption": "",
+            "heading": "3.<strong> </strong>Bonuses for <strong>Top Performers</strong>",
+            "text": "<p>Exclusive rewards for affiliates achieving milestone targets.</p><p></p>",
+            "button_label": "Start Earning",
+            "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q"
+          }
+        }
+      },
+      "block_order": [
+        "row_wYqwfy",
+        "row_dcLnFF",
+        "row_EW9H6j"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_jETWaD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8LUMBk": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Free Plan</strong>",
+            "text": "<p>Earn a fixed incentive of <strong>$1 per install</strong> for every Shopify store that installs our app.</p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YXn6XC": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>$9.99 Monthly Plan</strong>",
+            "text": "<p>Get <strong>30% recurring commission</strong> on the monthly subscription fee for every store you refer.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eME89b": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>$29.99 Monthly Plan</strong>",
+            "text": "<p>Earn a <strong>30% recurring commission</strong> on the monthly subscription fee for every store you refer.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8LUMBk",
+        "column_YXn6XC",
+        "column_eME89b"
+      ],
+      "settings": {
+        "title": "Plans & <strong>Commision</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Get 30% Lifetime Recurring",
+        "button_link": "https://platform.shoffi.app/signup/affiliate?app=Il_U23p3m7q",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1738001143ddbedd14": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Gqgnhp",
+    "video_BFccUz",
+    "image_with_text_irtged",
+    "rich_text_QUzBrg",
+    "boost_star_experts_marquee_highlights_XjaAqr",
+    "rich_text_MTCrPh",
+    "boost_star_display_policies_CMnF7Y",
+    "rich_text_LqB9Aa",
+    "multirow_myYnbz",
+    "multicolumn_jETWaD",
+    "1738001143ddbedd14"
+  ]
+}

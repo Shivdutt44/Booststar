@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "multicolumn_PV7xd6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QaHHrF": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobject.upload_image.value }}",
+            "title": "{{ metaobject.enter_name.value }}",
+            "text": "<p>{{ metaobject.position.value }}</p>",
+            "link_label": "",
+            "link": "#app-embed"
+          }
+        }
+      },
+      "block_order": [
+        "column_QaHHrF"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "#app-embed",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "boost_star_get_social_wy94ei": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "default",
+        "text_alignment": "center",
+        "headline": "",
+        "text": "",
+        "show_instagram": true,
+        "instagram_link": "https://www.instagram.com/booststar_official/",
+        "show_facebook": true,
+        "facebook_link": "https://www.facebook.com/booststarexpert/",
+        "show_x": true,
+        "x_link": "https://x.com/booststarexpert",
+        "show_threads": true,
+        "threads_link": "https://www.threads.net/@booststar_official",
+        "show_spotify": false,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "https://www.youtube.com/@booststar5863/videos",
+        "show_pinterest": true,
+        "pinterest_link": "https://in.pinterest.com/booststarofficial/",
+        "show_tiktok": false,
+        "tiktok_link": "",
+        "headline_size": 25,
+        "headline_line_height": "inherit",
+        "headline_color": "#111111",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#111111",
+        "icon_color": "#97ba52",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/graph_bg.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "top",
+        "max_width": 1400,
+        "grid_gap": 10,
+        "padding_block": 45,
+        "padding_inline": 1,
+        "margin_block": 0,
+        "element_spacing": 80,
+        "icon_height": 40,
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "headline_font": "system_ui_n4"
+      }
+    },
+    "custom_tab_BNRP7q": {
+      "type": "custom-tab",
+      "blocks": {
+        "tab_mNqHgW": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Biography"
+          }
+        },
+        "text_Np93QT": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.biography_section | metafield_tag }}"
+          }
+        },
+        "tab_XcjgYm": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Experience"
+          }
+        },
+        "text_8Ue4pj": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.experience_with_boost_star_experts | metafield_tag }}"
+          }
+        },
+        "tab_azj4cB": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Responsibilities"
+          }
+        },
+        "text_EzTGWf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.role_and_responsibilities | metafield_tag }}"
+          }
+        },
+        "tab_e3jJdX": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "How can i help ?"
+          }
+        },
+        "text_ygU4AQ": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.how_can_i_help | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "tab_mNqHgW",
+        "text_Np93QT",
+        "tab_XcjgYm",
+        "text_8Ue4pj",
+        "tab_azj4cB",
+        "text_EzTGWf",
+        "tab_e3jJdX",
+        "text_ygU4AQ"
+      ],
+      "settings": {
+        "text_size": 80,
+        "tab_style": "small_tabs",
+        "tab_label_color": "#14213d",
+        "tab_label_highlight_color": "#f8f9fa",
+        "tab_background_color": "#f8f9fa",
+        "tab_highlight_color": "#97ba52",
+        "text_color": "#14213d",
+        "background_color": "",
+        "base_width": 80,
+        "max_width": "1400",
+        "inner_padding": 40,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "system_ui_n4"
+      }
+    },
+    "multicolumn_Q9Yieq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ef4hJz": {
+          "type": "column",
+          "repeater": "{{ metaobject.client_reviews.value }}",
+          "settings": {
+            "image": "{{ block.repeater.business_success_image.value }}",
+            "title": "{{ block.repeater.page_title.value }}",
+            "text": "<h2>⭐⭐⭐⭐⭐</h2><h2></h2>",
+            "link_label": "Get Inspired",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "column_Ef4hJz"
+      ],
+      "custom_css": [
+        "h1 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "See How <strong>{{ metaobject.enter_name.value }}</strong> Drives Success",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_EwHj3U": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/discount-banner_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1722398067f9f29e2b": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_gRqy8e": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 36,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_gRqy8e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "multicolumn_PV7xd6",
+    "boost_star_get_social_wy94ei",
+    "custom_tab_BNRP7q",
+    "multicolumn_Q9Yieq",
+    "image_banner_EwHj3U",
+    "1722398067f9f29e2b"
+  ]
+}

@@ -1,0 +1,1064 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_iPNeR8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TWbk9h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Improve UI/UX With {{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_NHYMmn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply \"{{ metaobject.heading.value }}\" section to improve user engagement.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TWbk9h",
+        "text_NHYMmn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_35.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_DCG4aT": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_kELXpM": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_xtwAyU": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_8CqNDM": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_Ep3FBa": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_rRymUa": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_kELXpM",
+        "icon_with_text_xtwAyU",
+        "icon_with_text_8CqNDM",
+        "icon_with_text_Ep3FBa",
+        "icon_with_text_rRymUa"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_xGQBGn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qjdgFQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 1 FOR CLEAR ANSWER",
+            "heading_size": "h1"
+          }
+        },
+        "text_dEhbzt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To ensure clarity and accurate answers, it is recommended to use Design 1, which provides the most straightforward answer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qjdgFQ",
+        "text_dEhbzt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_V7WfYt": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_8XHzeP": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_H8QKGH": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_jDGcBw": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_YG6GfA": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_mYG4CM": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8XHzeP",
+        "text_H8QKGH",
+        "text_jDGcBw",
+        "text_YG6GfA",
+        "text_mYG4CM"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#97ba52",
+        "s_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(221, 221, 221, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#97ba52",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "hover_color": "#97ba52",
+        "answer_color": "#97ba52",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_HceGgm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_edDe37": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 2 ENHANCING YOUR USER INTERACTION",
+            "heading_size": "h1"
+          }
+        },
+        "text_kbwNkx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use Design 2 to significantly enhance user interactions and engage with customers, delivering a better and seamless user experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_edDe37",
+        "text_kbwNkx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_bgnAXz": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_qWqUnN": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_gCXzCF": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_wbNJ9B": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_pyt87D": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_yB3kRK": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qWqUnN",
+        "text_gCXzCF",
+        "text_wbNJ9B",
+        "text_pyt87D",
+        "text_yB3kRK"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "25D2",
+        "border_radius": 8,
+        "layout_style": "row-reverse",
+        "headline_color": "#000000",
+        "s_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "bg_image": "shopify://shop_images/2q.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_Lx8aqw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hyiNy3": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 3 YOUR QUERIES, OUR ANSWERS",
+            "heading_size": "h1"
+          }
+        },
+        "text_eiTGwG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our design 3 answers to your queries, ensuring clarity and efficiency in addressing your questions and concerns effectively.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hyiNy3",
+        "text_eiTGwG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_x6qCJ8": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_NxFKwg": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_dJ6HVB": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_ThdjHm": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_AzPYVf": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_NYmE7q": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NxFKwg",
+        "text_dJ6HVB",
+        "text_ThdjHm",
+        "text_AzPYVf",
+        "text_NYmE7q"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#97ba52",
+        "s_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#97ba52",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_Yzmen7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hrUVGr": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 4 QUICK SOLUTION AT YOUR FINGERPRINT",
+            "heading_size": "h1"
+          }
+        },
+        "text_ByjxMp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Design 4 provides a quick, convenient solution at your fingertips, including support for easy access and use.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hrUVGr",
+        "text_ByjxMp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_LpB4yj": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_cwyhxK": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_73tyQy": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_38WyHa": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_GFp99W": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_yKdPPw": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cwyhxK",
+        "text_73tyQy",
+        "text_38WyHa",
+        "text_GFp99W",
+        "text_yKdPPw"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "276F",
+        "border_radius": 8,
+        "layout_style": "row-reverse",
+        "headline_color": "#181616",
+        "s_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_knMDNj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hBRYg8": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 5 MAKING NAVIGATION EASY",
+            "heading_size": "h1"
+          }
+        },
+        "text_mWhFDJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use Design 5 to simplify navigation, improve user experience, and make it easier for visitors to find what they need</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hBRYg8",
+        "text_mWhFDJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_DDeNjG": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_prLw7F": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_DEEdiB": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_Upjxzx": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_3GFEje": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_tX9HGa": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_prLw7F",
+        "text_DEEdiB",
+        "text_Upjxzx",
+        "text_3GFEje",
+        "text_tX9HGa"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "25B6",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#181616",
+        "s_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#121212",
+        "background_color": "#97ba52",
+        "hover_color": "#ffffff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_8UdHJA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6TrY3U": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 6 FOR CUSTOMER QUESTIONS",
+            "heading_size": "h1"
+          }
+        },
+        "text_fkqQrh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To address customer questions effectively, implement Design 6, enhancing user experience with a well-organized.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6TrY3U",
+        "text_fkqQrh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_Li9ngB": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_989UV6": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_t8zFDR": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_wfYhbA": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_4jxKNK": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_8jeMEi": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_989UV6",
+        "text_t8zFDR",
+        "text_wfYhbA",
+        "text_4jxKNK",
+        "text_8jeMEi"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "25B6",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#181616",
+        "s_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#121212",
+        "background_color": "#97ba52",
+        "hover_color": "#ffffff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_a9xrcK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7ymBgk": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 7",
+            "heading_size": "h1"
+          }
+        },
+        "text_EeRfpK": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7ymBgk",
+        "text_EeRfpK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "faq_boost_star_idFPFa": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_4KW4Y9": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_qNj9xL": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_8TWi7L": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_M9YNh6": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_EqzC43": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4KW4Y9",
+        "text_qNj9xL",
+        "text_8TWi7L",
+        "text_M9YNh6",
+        "text_EqzC43"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "25B6",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#181616",
+        "s_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#121212",
+        "background_color": "#97ba52",
+        "hover_color": "#ffffff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "image_banner_dnB47w": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_GmihmU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Improve UI/UX With {{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_afCnG9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.meta_description | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_nxcHA9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GmihmU",
+        "text_afCnG9",
+        "buttons_nxcHA9"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_35.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_ytaMnG": {
+      "type": "reviews",
+      "blocks": {
+        "review_XPQdf9": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_XPQdf9"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 1%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_E3EpGM": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_eKhwpN": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_32.svg",
+            "text": "Display Top Collection",
+            "link": "shopify://metaobjects/improve_user_experience/top-collections"
+          }
+        },
+        "image_RAPprN": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_34.svg",
+            "text": "Marquee Highlights",
+            "link": "shopify://metaobjects/improve_user_experience/marquee-highlights"
+          }
+        },
+        "image_Xi8Un6": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_35.svg",
+            "text": "FAQ Designs",
+            "link": "shopify://metaobjects/improve_user_experience/faq"
+          }
+        },
+        "image_BrdPHQ": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "text": "Link Grid",
+            "link": "shopify://metaobjects/improve_user_experience/link-grid"
+          }
+        }
+      },
+      "block_order": [
+        "image_eKhwpN",
+        "image_RAPprN",
+        "image_Xi8Un6",
+        "image_BrdPHQ"
+      ],
+      "settings": {
+        "headline": "<strong>Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_iPNeR8",
+    "boost_star_experts_marquee_highlights_DCG4aT",
+    "rich_text_xGQBGn",
+    "faq_boost_star_V7WfYt",
+    "rich_text_HceGgm",
+    "faq_boost_star_bgnAXz",
+    "rich_text_Lx8aqw",
+    "faq_boost_star_x6qCJ8",
+    "rich_text_Yzmen7",
+    "faq_boost_star_LpB4yj",
+    "rich_text_knMDNj",
+    "faq_boost_star_DDeNjG",
+    "rich_text_8UdHJA",
+    "faq_boost_star_Li9ngB",
+    "rich_text_a9xrcK",
+    "faq_boost_star_idFPFa",
+    "image_banner_dnB47w",
+    "reviews_ytaMnG",
+    "top_collections_boost_star_E3EpGM"
+  ]
+}

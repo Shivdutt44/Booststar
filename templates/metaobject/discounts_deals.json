@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "top_collections_boost_star_dAQUFp": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_Gwze8J": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_hbxNaj": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_fthVLM": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_GrxwLr": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "video_mjy6Di": {
+          "type": "video",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "image_pgwAHq": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_rBHJwn": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Gwze8J",
+        "image_hbxNaj",
+        "image_fthVLM",
+        "image_GrxwLr",
+        "video_mjy6Di",
+        "image_pgwAHq",
+        "image_rBHJwn"
+      ],
+      "settings": {
+        "headline": "<strong>DISCOUNT & DEALS </strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "top",
+        "circle_size": 100,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_yf8WtH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qBJfQP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Default View - {{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qBJfQP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "top_collections_boost_star_dAQUFp",
+    "rich_text_yf8WtH"
+  ]
+}

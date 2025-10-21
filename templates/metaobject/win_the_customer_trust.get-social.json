@@ -1,0 +1,844 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KN4Yjr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9mhnk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrEn3t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win The Customer Trust With {{ metaobject.heading.value }}</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9mhnk",
+        "text_HrEn3t"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_TMyDen": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_RUc6UU": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_mHxyzC": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_HxD4kR": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_3iiTcm": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_UbAnrf": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_RUc6UU",
+        "icon_with_text_mHxyzC",
+        "icon_with_text_HxD4kR",
+        "icon_with_text_3iiTcm",
+        "icon_with_text_UbAnrf"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_pYLpNF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yHwPde": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_JrXdFM": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yHwPde",
+        "text_JrXdFM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_kQDyPt": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "style2",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "<strong>Get the latest news, updates and connect with us on our social networks</strong>",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 33,
+        "headline_line_height": "inherit",
+        "headline_color": "#97ba52",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#176ae6",
+        "icon_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(217, 15, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/qz.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "right",
+        "max_width": 900,
+        "grid_gap": 12,
+        "padding_block": 43,
+        "padding_inline": 24,
+        "margin_block": 41,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": true,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_76qzgA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PeH9nz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tAtmeN": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_PeH9nz",
+        "text_tAtmeN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_kTyP68": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "default",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "Get the latest news, updates and connect with us on our social networks",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 25,
+        "headline_line_height": "inherit",
+        "headline_color": "#111111",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#111111",
+        "icon_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "bg_image": "shopify://shop_images/ewsdrf.png",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 80,
+        "padding_inline": 50,
+        "margin_block": 0,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_Rt9GrK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GMxnJe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_pma3yL": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_GMxnJe",
+        "text_pma3yL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_LEe3Jq": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "style2",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "<strong>Get the latest news, updates and connect with us on our social networks</strong>",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 33,
+        "headline_line_height": "inherit",
+        "headline_color": "#97ba52",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#ffffff",
+        "icon_color": "#97ba52",
+        "background_color": "linear-gradient(164deg, rgba(18, 18, 18, 1), rgba(17, 17, 17, 1) 98%)",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "right",
+        "max_width": 900,
+        "grid_gap": 12,
+        "padding_block": 43,
+        "padding_inline": 24,
+        "margin_block": 41,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": true,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_BgiDhd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_beCGP7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_AUJ4iF": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_beCGP7",
+        "text_AUJ4iF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_FUwHVe": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "style2",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "<strong>Get the latest news, updates and connect with us on our social networks</strong>",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 33,
+        "headline_line_height": "inherit",
+        "headline_color": "#97ba52",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#121212",
+        "icon_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "right",
+        "max_width": 900,
+        "grid_gap": 12,
+        "padding_block": 43,
+        "padding_inline": 24,
+        "margin_block": 41,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": true,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_rGtG3D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Cd33kA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DXh94C": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cd33kA",
+        "text_DXh94C"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_g9zLcW": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "style2",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "<strong>Get the latest news, updates and connect with us on our social networks</strong>",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 33,
+        "headline_line_height": "inherit",
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#121212",
+        "icon_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(217, 15, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/5750_1.jpg",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "right",
+        "max_width": 900,
+        "grid_gap": 12,
+        "padding_block": 43,
+        "padding_inline": 24,
+        "margin_block": 41,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": true,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_FBTBMW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Wntwi4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_rq86Br": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wntwi4",
+        "text_rq86Br"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_gW8jGm": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "style2",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "<strong>Get the latest news, updates and connect with us on our social networks</strong>",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 33,
+        "headline_line_height": "inherit",
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#121212",
+        "icon_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(217, 15, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/5750_1.jpg",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "right",
+        "max_width": 900,
+        "grid_gap": 12,
+        "padding_block": 43,
+        "padding_inline": 24,
+        "margin_block": 41,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": true,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_AtbJ3F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U7HqcA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_nkdYy7": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_U7HqcA",
+        "text_nkdYy7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_get_social_xKY8nF": {
+      "type": "boost-star-get-social",
+      "settings": {
+        "icon_style": "style2",
+        "text_alignment": "center",
+        "headline": "<strong>Follow us on social</strong>",
+        "text": "<strong>Get the latest news, updates and connect with us on our social networks</strong>",
+        "show_instagram": true,
+        "instagram_link": "",
+        "show_facebook": true,
+        "facebook_link": "",
+        "show_x": true,
+        "x_link": "",
+        "show_threads": true,
+        "threads_link": "",
+        "show_spotify": true,
+        "spotify_link": "",
+        "show_linkedin": true,
+        "linkedin_link": "",
+        "show_youtube": true,
+        "youtube_link": "",
+        "show_pinterest": true,
+        "pinterest_link": "",
+        "show_tiktok": true,
+        "tiktok_link": "",
+        "headline_size": 33,
+        "headline_line_height": "inherit",
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#121212",
+        "icon_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(217, 15, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/5750_1.jpg",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "right",
+        "max_width": 900,
+        "grid_gap": 12,
+        "padding_block": 43,
+        "padding_inline": 24,
+        "margin_block": 41,
+        "element_spacing": 50,
+        "icon_height": 35,
+        "override_fonts": true,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "image_banner_fgpgHc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_e3bapT": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_qhx4YG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_rRKTBc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_e3bapT",
+        "text_qhx4YG",
+        "buttons_rRKTBc"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_R4d7th": {
+      "type": "reviews",
+      "blocks": {
+        "review_Mz7EHa": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_Mz7EHa"
+      ],
+      "settings": {
+        "heading": "Explore Other Ways to Win The Customer Trust",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_gbyTqN": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_HEJgfV": {
+          "type": "image",
+          "repeater": "{{ metaobject.win_the_customer_trust.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_HEJgfV"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Win The Customer Trust</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_KN4Yjr",
+    "boost_star_experts_marquee_highlights_TMyDen",
+    "rich_text_pYLpNF",
+    "boost_star_get_social_kQDyPt",
+    "rich_text_76qzgA",
+    "boost_star_get_social_kTyP68",
+    "rich_text_Rt9GrK",
+    "boost_star_get_social_LEe3Jq",
+    "rich_text_BgiDhd",
+    "boost_star_get_social_FUwHVe",
+    "rich_text_rGtG3D",
+    "boost_star_get_social_g9zLcW",
+    "rich_text_FBTBMW",
+    "boost_star_get_social_gW8jGm",
+    "rich_text_AtbJ3F",
+    "boost_star_get_social_xKY8nF",
+    "image_banner_fgpgHc",
+    "reviews_R4d7th",
+    "top_collections_boost_star_gbyTqN"
+  ]
+}

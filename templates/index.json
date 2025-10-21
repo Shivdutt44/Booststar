@@ -1,0 +1,1686 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_yaJ37B": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LbFgrP": {
+          "type": "heading",
+          "settings": {
+            "heading": "TRUSTED <strong>SHOPIFY</strong> <strong>PARTNER </strong>FOR GROWING YOUR ECOMMERCE <strong>BRAND </strong>",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_DEMMRD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At <strong>BOOST STAR Experts</strong> we create Shopify stores that don’t just look good, they sell. Our marketing driven approach turns your brand into a revenue powerhouse.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_q9kVxJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shopify Partners",
+            "button_link": "https://www.shopify.com/partners/directory/partner/boost-star",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LbFgrP",
+        "text_DEMMRD",
+        "button_q9kVxJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/Marketing-_-sales.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_VJ3D9W": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center style=\"margin-top:-30px;\">\n<!-- Google Calendar Appointment Scheduling begin -->\n<link href=\"https://calendar.google.com/calendar/scheduling-button-script.css\" rel=\"stylesheet\">\n<script src=\"https://calendar.google.com/calendar/scheduling-button-script.js\" async></script>\n<script>\n(function() {\n  var target = document.currentScript;\n  window.addEventListener('load', function() {\n    calendar.schedulingButton.load({\n      url: 'https://calendar.google.com/calendar/appointments/AcZssZ08pCdrhvZmLIV9kWOfOYn9yPsHM9-vuPp5X2k=?gv=true',\n      color: '#039BE5',\n      label: 'Schedule Free Consulation',\n      target,\n    });\n  });\n})();\n</script>\n<!-- end Google Calendar Appointment Scheduling -->\n\n</center>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_display_policies_mqhh9J": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_UFLDMT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": "https://trustpilot.com/review/booststar.rlchats.com"
+          }
+        },
+        "icon_9i6P7e": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": "https://partnersdirectory.withgoogle.com/partners/9404980363"
+          }
+        },
+        "icon_RnRhdf": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED </strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_nf6Tg7": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": "https://g.page/r/Ce4BtBFUVOsOEAI/review"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UFLDMT",
+        "icon_9i6P7e",
+        "icon_RnRhdf",
+        "icon_nf6Tg7"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(105deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(0deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": true,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4"
+      }
+    },
+    "multicolumn_FzWp6B": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UGLei9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_15322.webp",
+            "title": "Leading Shopify Partner",
+            "text": "<p>We are leading Shopify partner & provide a wide range of services, including Marketing, UI-UX development, Branding, SEO, Speed optimization, CRO & International expansion.</p>",
+            "link_label": "View Partner Account Detail",
+            "link": "https://www.shopify.com/partners/directory/partner/boost-star"
+          }
+        },
+        "column_KFatgb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOOGLE_PARTNER_2.png",
+            "title": "Turning Genuine Traffic into <strong>Successful Conversions</strong>",
+            "text": "<p>As an acclaimed Google partner company, we are driven by the aim to let your business reach its target height through successful business conversions from genuine online traffic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UGLei9",
+        "column_KFatgb"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin: auto;}"
+      ],
+      "settings": {
+        "title": "YOUR TRUSTED <strong>SHOPIFY & GOOGLE</strong> PARTNER",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "video_jwk4ek": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video_url": "https://youtu.be/SSI0_MQwgLQ",
+        "cover_image": "shopify://shop_images/YT--Thumbnail-2_1.png",
+        "description": "Booststar experts",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "top_collections_boost_star_xC8pT3": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_QLAqE9": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(123deg, rgba(151, 186, 82, 1) 15%, rgba(131, 162, 69, 1) 85%)",
+            "image": "shopify://shop_images/Asset_13_802b543a-30c7-4872-aeec-8e4420e6e3a5.svg",
+            "text": "<strong>Web Experts</strong>",
+            "link": "shopify://metaobjects/our_services/web-development"
+          }
+        },
+        "image_Q4n7Jw": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(123deg, rgba(157, 197, 78, 1) 18%, rgba(141, 174, 74, 1) 83%)",
+            "image": "shopify://shop_images/Asset_12_cbd0168c-a15d-47e0-b532-d68a75a976b6.svg",
+            "text": "<strong>SEO Experts</strong>",
+            "link": "shopify://metaobjects/our_services/seo-services"
+          }
+        },
+        "image_NcEEdR": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(131, 162, 69, 1) 15%, rgba(157, 197, 78, 1) 85%)",
+            "image": "shopify://shop_images/Asset_11_3c6ca8a1-62e5-4148-840a-6358529bdeeb.svg",
+            "text": "<strong>Google Ads Experts</strong>",
+            "link": "shopify://metaobjects/our_services/best-shopify-seo-services"
+          }
+        },
+        "image_DxFQQW": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(131, 162, 69, 1) 15%, rgba(157, 197, 78, 1) 85%)",
+            "image": "shopify://shop_images/Asset_10_1b46a42a-da7d-440e-80d5-485fa9fbed96.svg",
+            "text": "<strong>Meta Ads Experts</strong>",
+            "link": "shopify://metaobjects/our_services/meta-ads-services"
+          }
+        },
+        "image_9VF8yH": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(131, 162, 69, 1) 15%, rgba(157, 197, 78, 1) 85%)",
+            "image": "shopify://shop_images/Asset_7_0a8c4a1f-5150-4611-b7de-756431845a75.svg",
+            "text": "<strong>CRO Experts</strong>",
+            "link": "shopify://metaobjects/our_services/conversion-rate-optimization"
+          }
+        },
+        "image_3bXwBk": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(131, 162, 69, 1) 15%, rgba(157, 197, 78, 1) 85%)",
+            "image": "shopify://shop_images/Asset_3_830fc01f-a81e-40d1-9954-f3a19e8ac5aa.svg",
+            "text": "<strong>Speed Experts</strong>",
+            "link": "shopify://metaobjects/our_services/shopify-speed-optimization-service"
+          }
+        }
+      },
+      "block_order": [
+        "image_QLAqE9",
+        "image_Q4n7Jw",
+        "image_NcEEdR",
+        "image_DxFQQW",
+        "image_9VF8yH",
+        "image_3bXwBk"
+      ],
+      "settings": {
+        "headline": "HIRE THE <strong>BEST EXPERTS FOR YOUR BRAND</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/bg-section-04.jpg",
+        "parallax": false,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "circle_size": 170,
+        "max_width": 1400,
+        "grid_gap": 25,
+        "padding_top": 14,
+        "padding_bottom": 14,
+        "margin_top": 33,
+        "margin_bottom": 60,
+        "mobile_circle_size": 118,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "serif"
+      }
+    },
+    "boost_star_achievement_counter_RKmRXP": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "OUR <strong>ACHIEVEMENTS</strong>",
+        "content": "We helped businesses to increase their <strong>revenue </strong>up to<strong> 60%</strong> in the first year.",
+        "content_alignment": "center",
+        "box_1_number": "1000",
+        "append_1": "+",
+        "box_1_text": "<strong>Happy E-commerce Brands </strong>",
+        "box_2_number": "900000",
+        "append_2": "+",
+        "box_2_text": "<strong>$ Revenue Generated </strong>",
+        "box_3_number": "1800",
+        "append_3": "+",
+        "box_3_text": "<strong>Projects Completed</strong>",
+        "headline_size": 25,
+        "text_size": 15,
+        "count_size": 40,
+        "text_color": "#000000",
+        "headline_color": "#000000",
+        "count_color": "#97ba52",
+        "background_color": "",
+        "number_border_color": "#97ba52",
+        "number_bg": "#121212",
+        "bg_image": "shopify://shop_images/graph_bg.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "element_spacing": 20,
+        "max_width": 1400,
+        "padding_top": 40,
+        "padding_bottom": 48,
+        "margin_top": 0,
+        "margin_bottom": 36,
+        "padding_inline": 25,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "headline_font": "system_ui_n4",
+        "count_font": "system_ui_n4"
+      }
+    },
+    "rich_text_qX9fkb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B63pJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUCCESS WITH <strong>1000+ E-COMMERCE BUSINESSES </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_zbpb4L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We specialize in Shopify, Wix, BigCommerce, WooCommerce<strong> </strong>etc, with <strong>1000+ projects</strong> completed and increased client revenue within <strong>6 months</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B63pJY",
+        "text_zbpb4L"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_experts_marquee_highlights_i6WHp8": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_QFC3KR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17_1_a2df1db6-4222-42dd-8884-117ec54b65a0.png",
+            "link": ""
+          }
+        },
+        "image_dbHy6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_1.png",
+            "link": ""
+          }
+        },
+        "image_ELe69D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_1.png",
+            "link": ""
+          }
+        },
+        "image_MTiacK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18_1.png",
+            "link": ""
+          }
+        },
+        "image_PKeV3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14_1.png",
+            "link": ""
+          }
+        },
+        "image_e8kEmd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/15_1.png",
+            "link": ""
+          }
+        },
+        "image_8kJbYt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_1.png",
+            "link": ""
+          }
+        },
+        "image_dEPCte": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_2_1.png",
+            "link": ""
+          }
+        },
+        "image_mW7HKN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_2_1.png",
+            "link": ""
+          }
+        },
+        "image_drKNQe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_2_1.png",
+            "link": ""
+          }
+        },
+        "image_YUKPAH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_1.png",
+            "link": ""
+          }
+        },
+        "image_G4cTaD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_2_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QFC3KR",
+        "image_dbHy6b",
+        "image_ELe69D",
+        "image_MTiacK",
+        "image_PKeV3W",
+        "image_e8kEmd",
+        "image_8kJbYt",
+        "image_dEPCte",
+        "image_mW7HKN",
+        "image_drKNQe",
+        "image_YUKPAH",
+        "image_G4cTaD"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 110,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "boost_star_experts_marquee_highlights_MM7Gwp": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_Hjb389": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_1.png",
+            "link": ""
+          }
+        },
+        "image_TmqFbm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_1.png",
+            "link": ""
+          }
+        },
+        "image_pdgrgD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_1.png",
+            "link": ""
+          }
+        },
+        "image_wXAtCn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_2_1.png",
+            "link": ""
+          }
+        },
+        "image_mmcFLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2_1.png",
+            "link": ""
+          }
+        },
+        "image_BLtpeC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2_1.png",
+            "link": ""
+          }
+        },
+        "image_pRrBJP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/24_1.png",
+            "link": ""
+          }
+        },
+        "image_rAmqqt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/27_1.png",
+            "link": ""
+          }
+        },
+        "image_4NarBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/26_1.png",
+            "link": ""
+          }
+        },
+        "image_QL884h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/25_1.png",
+            "link": ""
+          }
+        },
+        "image_mJYcYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/29_1.png",
+            "link": ""
+          }
+        },
+        "image_EnYQqH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hjb389",
+        "image_TmqFbm",
+        "image_pdgrgD",
+        "image_wXAtCn",
+        "image_mmcFLw",
+        "image_BLtpeC",
+        "image_pRrBJP",
+        "image_rAmqqt",
+        "image_4NarBC",
+        "image_QL884h",
+        "image_mJYcYc",
+        "image_EnYQqH"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 120,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "boost_star_experts_marquee_highlights_jkKFbD": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_g7cKDD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_1.png",
+            "link": ""
+          }
+        },
+        "image_VrzaFy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/50_1.png",
+            "link": ""
+          }
+        },
+        "image_GKeB7W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/45_1.png",
+            "link": ""
+          }
+        },
+        "image_Abrp8w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/47_1.png",
+            "link": ""
+          }
+        },
+        "image_QWfX4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48_1.png",
+            "link": ""
+          }
+        },
+        "image_LFYKBU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-_2_1.png",
+            "link": ""
+          }
+        },
+        "image_6wfVhe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-_2_1.png",
+            "link": ""
+          }
+        },
+        "image_BhJ4hG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/33_1.png",
+            "link": ""
+          }
+        },
+        "image_x8bwPK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/51_1.png",
+            "link": ""
+          }
+        },
+        "image_NYACLB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/52_1.png",
+            "link": ""
+          }
+        },
+        "image_CMbimb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/49_1.png",
+            "link": ""
+          }
+        },
+        "image_cEp9Ui": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/46_1.png",
+            "link": ""
+          }
+        },
+        "image_ChMRqM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16_1.png",
+            "link": ""
+          }
+        },
+        "image_NzWXPV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dewrw_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_g7cKDD",
+        "image_VrzaFy",
+        "image_GKeB7W",
+        "image_Abrp8w",
+        "image_QWfX4d",
+        "image_LFYKBU",
+        "image_6wfVhe",
+        "image_BhJ4hG",
+        "image_x8bwPK",
+        "image_NYACLB",
+        "image_CMbimb",
+        "image_cEp9Ui",
+        "image_ChMRqM",
+        "image_NzWXPV"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 110,
+        "margin_tp": 10,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "rich_text_6A3MTW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mXhLXY": {
+          "type": "heading",
+          "settings": {
+            "heading": "KIND WORDS FORM OUR <strong>HAPPY CLIENTS</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KCRt4U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We don't just provide best services, we commit to <strong>skyrocketing</strong> your business and sales.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mXhLXY",
+        "text_KCRt4U"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_review_d77fUy": {
+      "type": "video-review",
+      "blocks": {
+        "video_b3BinM": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/gina nail supply digital marketing review.mp4",
+            "link": "",
+            "video_inline": false,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Meet Luis & His Online Business Success",
+            "cite": "Gina Nail Supplies",
+            "cta_link": ""
+          }
+        },
+        "video_6JaHcm": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Nayla Jewelry.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Meet the founder & CEO of <strong>Nayla Jewelry</strong>, crafting inspiring, spiritual pieces since 2011.",
+            "cite": "<strong>Nayla Jewelry</strong>",
+            "cta_link": ""
+          }
+        },
+        "video_rxXmA9": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/DEMOI.mp4",
+            "link": "shopify://metaobjects/client_reviews/de-moi",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Founder of <strong>DEMOI,</strong> Demee Koch, believes in beauty inside and her hometown",
+            "cite": "DEMOI",
+            "cta_link": ""
+          }
+        },
+        "video_4NEz4m": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Jamara Home.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "<strong>Jamara Home</strong> founder brings Nigeria’s best home appliances and accessories.",
+            "cite": "Jamara Home",
+            "cta_link": ""
+          }
+        },
+        "video_DweH8U": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/stickergeen custom stickers speed work, seo review.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Meet Valentine ( Founder ) From <strong>France </strong>Who Sell Custom & Personalided Stickers",
+            "cite": "Sticker Green",
+            "cta_link": ""
+          }
+        },
+        "video_MtJLYz": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Apexl Cosmetics.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Founder of <strong>APEXL Cosmetics</strong> creates premium skincare,  haircare formulations.",
+            "cite": "Apexl Cosmetics",
+            "cta_link": ""
+          }
+        },
+        "video_CWc43F": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Kass Care.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "The founder of <strong>KASS CARE </strong>created the brand for safe consumer products.",
+            "cite": "Kass Care",
+            "cta_link": ""
+          }
+        },
+        "video_jCNAwW": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Josie Boutique.mp4",
+            "link": "",
+            "video_inline": false,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Founder of <strong>Josies Boutique</strong> specializes in premium women products",
+            "cite": "Josie Boutique",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_b3BinM",
+        "video_6JaHcm",
+        "video_rxXmA9",
+        "video_4NEz4m",
+        "video_DweH8U",
+        "video_MtJLYz",
+        "video_CWc43F",
+        "video_jCNAwW"
+      ],
+      "settings": {
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "headline_font": "system_ui_n4",
+        "text_size": 15,
+        "text_line_height": "1.2",
+        "text_color": "#111111",
+        "headline_size": 15,
+        "headline_line_height": "1.2",
+        "headline_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "review_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "highlight_color": "#97ba52",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1400,
+        "grid_gap": 0,
+        "padding_top": 1,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "mobile_display": "slideshow",
+        "mobile_columns": "1fr",
+        "progress_background_color": "linear-gradient(177deg, rgba(17, 17, 17, .25) 3%, rgba(17, 17, 17, 0.25) 100%)",
+        "progress_foreground_color": "linear-gradient(177deg, rgba(17, 17, 17, 1) 3%, rgba(17, 17, 17, 1) 100%)",
+        "indicator_color": "#111111",
+        "enable_autoplay": true,
+        "autoplay_time": "5000",
+        "big_play_pause_button": false,
+        "media_radius": 5,
+        "media_shadow": true
+      }
+    },
+    "rich_text_XXyDd8": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_y3Jy3C": {
+          "type": "caption",
+          "settings": {
+            "caption": "-What We Offer-",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_pU9TjP": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR CREATIVE <strong>SERVICES</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_rD4Km9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are professionals in SEO, CRO, Site speed, Web development, and digital marketing strategies.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_y3Jy3C",
+        "heading_pU9TjP",
+        "text_rD4Km9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_GpVW3X": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dhegtr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_11_7d8b12d3-62ff-48f7-940d-eb163ccdcaeb.svg",
+            "title": "Website Development",
+            "text": "<p>We are comprehensive solution for e-commerce website development services. We take care of fast loading speed and responsive websites with marketing strategies.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://metaobjects/our_services/web-development"
+          }
+        },
+        "column_t6j9nr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_13_08a2751a-5566-46eb-a67f-ecbdf0187573.svg",
+            "title": "Marketing & Sales",
+            "text": "<p> Boost your marketing and sales with us. Your one-stop place for professional, top-notch software, web development, and digital marketing strategies.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://metaobjects/our_services/best-shopify-seo-services"
+          }
+        },
+        "column_XTmn7g": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_10_5eb0d8dd-4c6a-44f7-b711-50b2cc92b79a.svg",
+            "title": "Search Engine Optimization",
+            "text": "<p>We have a professional in-house SEO team. We have experienced SEO experts and team members who Boost your organic traffic and sales.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://metaobjects/our_services/seo-services"
+          }
+        },
+        "column_fczBKB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_9_7e884f23-4d4d-40b7-a40c-890aa4315e02.svg",
+            "title": "Content Writing",
+            "text": "<p>We believe content is the king of your website. we take your content to the next level and boost your Organic traffic by using for our content strategy.</p>",
+            "link_label": "Contact us",
+            "link": "shopify://pages/contact-us"
+          }
+        },
+        "column_V8XMYz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_8.svg",
+            "title": "Premium Graphics Work",
+            "text": "<p>Our dedicated premium graphics team specializes in transforming your images into eye-catching visuals that resonate with your audience.</p>",
+            "link_label": "Contact us",
+            "link": "shopify://pages/contact-us"
+          }
+        },
+        "column_6xUEiU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_12_04d2d2ce-f85b-4add-98e3-9640ba0d5d88.svg",
+            "title": "Mobile App Development",
+            "text": "<p>We are comprehensive solution for mobile App development services. Whether you’re launching a new app or enhancing an existing one.</p>",
+            "link_label": "Contact us",
+            "link": "shopify://pages/contact-us"
+          }
+        }
+      },
+      "block_order": [
+        "column_dhegtr",
+        "column_t6j9nr",
+        "column_XTmn7g",
+        "column_fczBKB",
+        "column_V8XMYz",
+        "column_6xUEiU"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Get Free Consultation",
+        "button_link": "shopify://pages/contact-us",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_gD7GCY": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_kyeQyB": {
+          "type": "caption",
+          "settings": {
+            "caption": "- Before We Start -",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_jcFmRW": {
+          "type": "heading",
+          "settings": {
+            "heading": "EXPLORE OTHER <strong>SERVICES</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "caption_kyeQyB",
+        "heading_jcFmRW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_k4WCcC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WDkW8r": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_25_2776a817-7a1c-407d-b7ec-2d2bd4e043d2.svg",
+            "title": "Conversion Rate Optimization",
+            "text": "<p>Boost profits and conversions by optimizing your website or online store for a better visitor experience.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://metaobjects/our_services/conversion-rate-optimization"
+          }
+        },
+        "column_aLJkxE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_21.svg",
+            "title": "Ongoing website management",
+            "text": "<p>Maintain website performance by analyzing traffic, updating content, and checking health and functionality.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://pages/contact-us"
+          }
+        },
+        "column_M4HEJX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_20.svg",
+            "title": "Store build or redesign",
+            "text": "<p>Create a premium, beautifully designed, responsive & secure website to boost traffic, brand awareness, and customer interaction.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://metaobjects/our_services/web-development"
+          }
+        },
+        "column_tFt9XR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_22.svg",
+            "title": "Social Media Marketing",
+            "text": "<p>Boost traffic and brand awareness with captivating content, wider audience reach, and enhanced social media presense.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://pages/contact-us"
+          }
+        },
+        "column_AeEfJ8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_23_c6e7dbb3-4ae2-4af2-80f3-12f44ae93be4.svg",
+            "title": "Expert Guidance",
+            "text": "<p>Get expert guidance on optimizing your online store for conversions, sales, and speed through detailed audits.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://pages/contact-us"
+          }
+        },
+        "column_BJV4BP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_26_26881809-d4ff-4908-9abd-078f2525c20a.svg",
+            "title": "Speed Optimization & Performance",
+            "text": "<p>Optimize your website for speed and performance with a money-back guarantee and results in 7 days.</p>",
+            "link_label": "Get Free Cunsultation",
+            "link": "shopify://metaobjects/our_services/shopify-speed-optimization-service"
+          }
+        }
+      },
+      "block_order": [
+        "column_WDkW8r",
+        "column_aLJkxE",
+        "column_M4HEJX",
+        "column_tFt9XR",
+        "column_AeEfJ8",
+        "column_BJV4BP"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Get Free Consultation",
+        "button_link": "https://calendar.app.google/U3YudURVGfuZv98Y8",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_RJYAPW": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_k7C7P9": {
+          "type": "caption",
+          "settings": {
+            "caption": "Why BOOST STAR Experts ?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_3BhBnF": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE ARE YOUR PARTNER IN <strong>E-COMMERCE SUCCESS</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_ptp3ne": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are your dedicated partners in e-commerce excellence. Beyond traditional website design, we specialise in crafting unforgettable online experiences that propel success for businesses in the digital realm.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_At7L94": {
+          "type": "button",
+          "settings": {
+            "button_label": "Let's Connect",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_k7C7P9",
+        "heading_3BhBnF",
+        "text_ptp3ne",
+        "button_At7L94"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/booststar.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_m4eaU6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3jJAC7": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUCCESS STORY WITH A <strong>PROVEN CASE STUDIES</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_H8Xxj8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is where we take you on a journey through real-world examples of how we transformed challenges into wins and goals into achievements.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3jJAC7",
+        "text_H8Xxj8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "boost_star_experts_marquee_highlights_TpiiYh": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_Cr69x6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Floor-land-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/floor-land"
+          }
+        },
+        "image_rJKXmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Demoi-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/de-moi"
+          }
+        },
+        "image_WcaWMP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cycle-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/cycle"
+          }
+        },
+        "image_ABTRV9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/On-the-runway-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/olu-ajetomobi"
+          }
+        },
+        "image_FLwrUK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Conscious-chmeist-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/prakher-mathur"
+          }
+        },
+        "image_TMPDcQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sea-shield-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/francisco-linares"
+          }
+        },
+        "image_WE6wWp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pns-_1.png",
+            "link": "shopify://metaobjects/client_reviews/premier-nail-supply"
+          }
+        },
+        "image_749qiM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Baller-babe_1.png",
+            "link": "shopify://metaobjects/client_reviews/baller-babe"
+          }
+        },
+        "image_fzztwq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nayla_1.png",
+            "link": "shopify://metaobjects/client_reviews/magdalena-porbeski"
+          }
+        },
+        "image_yEMkJn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jamara-Homes_1.png",
+            "link": "shopify://metaobjects/client_reviews/jmg"
+          }
+        }
+      },
+      "block_order": [
+        "image_Cr69x6",
+        "image_rJKXmR",
+        "image_WcaWMP",
+        "image_ABTRV9",
+        "image_FLwrUK",
+        "image_TMPDcQ",
+        "image_WE6wWp",
+        "image_749qiM",
+        "image_fzztwq",
+        "image_yEMkJn"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1400,
+        "height": 200,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "multirow_Hed8Wb": {
+      "type": "multirow",
+      "blocks": {
+        "row_FcPwMf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_36-8_ddc712d6-f556-4db7-b559-03327b5088cd.png",
+            "imglink": "shopify://pages/case-studies-ecommerce-website-development-redesign",
+            "caption": "Ecommerce Success Stories",
+            "heading": "Web Development Case Studies",
+            "text": "<ul><li> Lightning-<strong>Fast </strong>Page Load</li><li> <strong>Mobile</strong> First User Experience </li><li> Conversion <strong>Optimized </strong>Product Pages </li><li> Scalable Custom Tech Stack </li><li> <strong>SEO </strong>Driven Site Architecture </li></ul>",
+            "button_label": "Get Inspired ➤ ➤",
+            "button_link": "shopify://pages/case-studies-ecommerce-website-development-redesign"
+          }
+        },
+        "row_9d7CFR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_35-8.png",
+            "imglink": "shopify://pages/case-studies-sales-generation-google-ads",
+            "caption": "Ecommerce Success Stories",
+            "heading": "Sales Generation Case Studies",
+            "text": "<ul><li>Data-Backed Marketing Strategy</li><li>High-Converting <strong>Ad Creatives</strong></li><li><strong>Funnel-Based</strong> Campaign Execution</li><li>Retargeting for <strong>Maximum ROI</strong></li><li><strong>Real-Time</strong> Performance Tracking<br/><br/><br/><br/></li></ul>",
+            "button_label": "Get Inspired ➤ ➤",
+            "button_link": "shopify://pages/case-studies-sales-generation-google-ads"
+          }
+        },
+        "row_Uwfz7m": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_42-8.png",
+            "imglink": "shopify://pages/case-studies-search-engine-optimization",
+            "caption": "Ecommerce Success Stories",
+            "heading": "Search Engine Optimization Case Studies",
+            "text": "<ul><li><strong>High-Intent </strong>Keyword Targeting</li><li>Authoritative <strong>Backlink </strong>Building</li><li>Long-Term <strong>Organic Growth</strong></li><li><strong>Local SEO </strong>Lead Boost</li><li><strong>Core Web Vitals</strong> Optimization</li></ul>",
+            "button_label": "Get Inspired ➤ ➤",
+            "button_link": "shopify://pages/case-studies-search-engine-optimization"
+          }
+        },
+        "row_Jjm3VB": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Asset_41-8.png",
+            "imglink": "#app-embed",
+            "caption": "Ecommerce Success Stories",
+            "heading": "Speed Optimization Case Studies",
+            "text": "<ul><li>Mobile Optimization</li><li>Enhanced User Experience</li><li>Increased Conversions</li><li>Reduced Bounce Rates</li><li>Improved SEO Rankings</li></ul>",
+            "button_label": "Get Inspired ➤ ➤",
+            "button_link": "shopify://pages/case-studies-on-speed-optimization-performance"
+          }
+        }
+      },
+      "block_order": [
+        "row_FcPwMf",
+        "row_9d7CFR",
+        "row_Uwfz7m",
+        "row_Jjm3VB"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_LrgGtD": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_r6DMM4": {
+          "type": "caption",
+          "settings": {
+            "caption": "- Note From Our Founder & CEO -",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_kfrg98": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mr. Ritik Tamrakar",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_txUAfW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over 7 years of experience, our team at <strong>BOOST STAR Experts</strong> works tirelessly to help <strong>E-commerce businesses </strong>to deliver 360-degree solutions and exceptional results for our clients. We are committed to delivering exceptional results and achieving <a href=\"/pages/client-success-stories-boost-star-experts-reviews\" target=\"_blank\" title=\"Client Success Stories : BOOST STAR Experts Reviews\">success</a> together.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dMKb46": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More ➤",
+            "button_link": "shopify://metaobjects/our_leaders/ritik-tamrakar",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_r6DMM4",
+        "heading_kfrg98",
+        "text_txUAfW",
+        "button_dMKb46"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Ritik_Tamrakar_founder_CEO_3_1.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_zVwTka": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_d3rjwd": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEET OUR <strong>LEADERSHIP TEAM</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_EwwQpC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet the backbone of BOOST STAR Experts, The leaders who drive Development, SEO, Marketing, and Internship teams.</p>"
+          }
+        },
+        "button_LHjhti": {
+          "type": "button",
+          "settings": {
+            "button_label": "Meet Our Team",
+            "button_link": "shopify://pages/meet-our-team",
+            "button_style_secondary": true,
+            "button_label_2": "Get Free Consultation",
+            "button_link_2": "https://calendar.app.google/U3YudURVGfuZv98Y8",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d3rjwd",
+        "text_EwwQpC",
+        "button_LHjhti"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_iy3QWJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9zJz9n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Abhishek_tamrakar_boost_star_experts.png",
+            "title": "Abhishek Tamrakar",
+            "text": "<p>Business Analyst</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pfawPC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Shivdutt.png",
+            "title": "Shiv Dutt Chauhan",
+            "text": "<p>Senior Web Expert</p>",
+            "link_label": "",
+            "link": "shopify://metaobjects/our_leaders/shiv-dutt-chauhan"
+          }
+        },
+        "column_Kc9LPN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lovekush-Manjhi-Internship-Manager-600x600-removebg-preview.png",
+            "title": "Lovekush Manjhi",
+            "text": "<p>Head of Internship</p>",
+            "link_label": "",
+            "link": "shopify://metaobjects/our_leaders/lovekush-manjhi"
+          }
+        },
+        "column_PYwKn6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rahman.png",
+            "title": "Ataurahmaan Khan",
+            "text": "<p>Senior SEO Expert</p>",
+            "link_label": "",
+            "link": "shopify://metaobjects/our_leaders/ataurahmaan-khan"
+          }
+        }
+      },
+      "block_order": [
+        "column_9zJz9n",
+        "column_pfawPC",
+        "column_Kc9LPN",
+        "column_PYwKn6"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Meet Entire Team",
+        "button_link": "shopify://pages/meet-our-team",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_QzYHRi": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "LATEST ECOMMERCE<strong> </strong>INSIGHTS <strong>TO HELP YOUR BRAND</strong>",
+        "heading_size": "h1",
+        "blog": "ecommerce",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_with_text_yaJ37B",
+    "custom_liquid_VJ3D9W",
+    "boost_star_display_policies_mqhh9J",
+    "multicolumn_FzWp6B",
+    "video_jwk4ek",
+    "top_collections_boost_star_xC8pT3",
+    "boost_star_achievement_counter_RKmRXP",
+    "rich_text_qX9fkb",
+    "boost_star_experts_marquee_highlights_i6WHp8",
+    "boost_star_experts_marquee_highlights_MM7Gwp",
+    "boost_star_experts_marquee_highlights_jkKFbD",
+    "rich_text_6A3MTW",
+    "video_review_d77fUy",
+    "rich_text_XXyDd8",
+    "multicolumn_GpVW3X",
+    "rich_text_gD7GCY",
+    "multicolumn_k4WCcC",
+    "image_with_text_RJYAPW",
+    "rich_text_m4eaU6",
+    "boost_star_experts_marquee_highlights_TpiiYh",
+    "multirow_Hed8Wb",
+    "image_with_text_LrgGtD",
+    "rich_text_zVwTka",
+    "multicolumn_iy3QWJ",
+    "featured_blog_QzYHRi"
+  ]
+}

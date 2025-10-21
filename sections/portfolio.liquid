@@ -1,0 +1,2400 @@
+{% comment %}
+  Student Resume Section - Dynamic
+  Uses metaobjects for student data
+{% endcomment %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+ 
+        
+
+<div class="student-resume-section" id="student-resume-{{ section.id }}">
+  <!-- Navigation Menu -->
+  <nav class="nav-menu" id="main-nav-{{ section.id }}">
+    <div class="nav-close" id="nav-close-{{ section.id }}">
+      <i class="fas fa-times"></i>
+    </div>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#profile-{{ section.id }}" class="nav-link">
+          <i class="fas fa-user"></i> Profile
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact-{{ section.id }}" class="nav-link">
+          <i class="fas fa-address-book"></i> Contact
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#about-{{ section.id }}" class="nav-link">
+          <i class="fas fa-info-circle"></i> About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#skills-{{ section.id }}" class="nav-link">
+          <i class="fas fa-cogs"></i> Skills
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#certifications-{{ section.id }}" class="nav-link">
+          <i class="fas fa-certificate"></i> Certifications
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#testimonials-{{ section.id }}" class="nav-link">
+          <i class="fas fa-comments"></i> Testimonials
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#portfolio-{{ section.id }}" class="nav-link">
+          <i class="fas fa-briefcase"></i> Portfolio
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="overlay" id="overlay-{{ section.id }}"></div>
+  
+  <div class="resume-container" id="resume-content-{{ section.id }}">
+    <!-- Hero Section -->
+    <section id="profile-{{ section.id }}" class="hero-section">
+      <!-- Decorative shapes -->
+      <div class="decor-shape decor-shape-1"></div>
+      <div class="decor-shape decor-shape-2"></div>
+      
+      <!-- Hero band -->
+      <div class="hero-band"></div>
+      
+      <!-- Menu icon -->
+      <div class="menu-icon" id="menu-toggle-{{ section.id }}">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <!-- Profile section -->
+      <div class="profile-section">
+        <div class="profile-pic">
+          {% if section.settings.student_image %}
+            <img src="{{ section.settings.student_image | img_url: '400x400' }}" alt="{{ section.settings.student_name | escape }} — {{ section.settings.student_role | escape }}">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
+        <div class="profile-info">
+          <h1 class="resume-name">{{ section.settings.student_name }}</h1>
+          <p class="resume-role">{{ section.settings.student_role }}</p>
+          <div class="hero-divider"></div>
+          <div class="cert-pill">{{ section.settings.certification }}</div>
+          <p class="hero-dates">{{ section.settings.internship_dates }}</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact-{{ section.id }}" class="contact-section">
+      <div class="contact-grid">
+        <div class="contact-item" data-contact="phone">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-text">{{ section.settings.phone }}</div>
+        </div>
+        <div class="contact-item" data-contact="location">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-text">{{ section.settings.location }}</div>
+        </div>
+        <div class="contact-item" data-contact="email">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-text">{{ section.settings.email }}</div>
+        </div>
+        <div class="contact-item" data-contact="linkedin">
+          <div class="contact-icon">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="contact-text">LinkedIn</div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about-{{ section.id }}" class="about-section" >
+      <div class="about-wrap">
+        <div class="about-bubble">
+          <h2 class="about-heading">About Me</h2>
+          <p class="about-paragraph" data-about-full="{{ section.settings.about_full }}">{{ section.settings.about_short }}</p>
+          <button class="read-more" id="read-more-btn-{{ section.id }}">Read More</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills-{{ section.id }}" class="skills-section">
+      <h2 class="section-heading">My Skills</h2>
+      <div class="skills-container">
+        {% if section.settings.skill_1_name != blank %}
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">{{ section.settings.skill_1_name }}</span>
+              <span class="skill-percentage">{{ section.settings.skill_1_percentage }}%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: {{ section.settings.skill_1_percentage }}%; background-color: #97ba54;"></div>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if section.settings.skill_2_name != blank %}
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">{{ section.settings.skill_2_name }}</span>
+              <span class="skill-percentage">{{ section.settings.skill_2_percentage }}%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: {{ section.settings.skill_2_percentage }}%; background-color: #97ba54;"></div>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if section.settings.skill_3_name != blank %}
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">{{ section.settings.skill_3_name }}</span>
+              <span class="skill-percentage">{{ section.settings.skill_3_percentage }}%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: {{ section.settings.skill_3_percentage }}%; background-color: #f0d83d;"></div>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if section.settings.skill_4_name != blank %}
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">{{ section.settings.skill_4_name }}</span>
+              <span class="skill-percentage">{{ section.settings.skill_4_percentage }}%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: {{ section.settings.skill_4_percentage }}%; background-color: #97ba54;"></div>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if section.settings.skill_5_name != blank %}
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">{{ section.settings.skill_5_name }}</span>
+              <span class="skill-percentage">{{ section.settings.skill_5_percentage }}%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: {{ section.settings.skill_5_percentage }}%; background-color: #97ba54;"></div>
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </section>
+    
+    <!-- Certifications Section -->
+    <section id="certifications-{{ section.id }}" class="certifications-section">
+      <h2 class="section-heading">Certifications & Highlights</h2>
+      <div class="cert-card">
+        <div class="cert-content">
+          <h3 class="cert-heading">{{ section.settings.certification_title }}</h3>
+          <ul class="cert-list">
+            {% if section.settings.certification_highlight_1 != blank %}
+              <li><i class="fas fa-check-circle"></i> {{ section.settings.certification_highlight_1 }}</li>
+            {% endif %}
+            
+            {% if section.settings.certification_highlight_2 != blank %}
+              <li><i class="fas fa-check-circle"></i> {{ section.settings.certification_highlight_2 }}</li>
+            {% endif %}
+            
+            {% if section.settings.certification_highlight_3 != blank %}
+              <li><i class="fas fa-check-circle"></i> {{ section.settings.certification_highlight_3 }}</li>
+            {% endif %}
+            
+            {% if section.settings.certification_highlight_4 != blank %}
+              <li><i class="fas fa-check-circle"></i> {{ section.settings.certification_highlight_4 }}</li>
+            {% endif %}
+            
+            {% if section.settings.certification_highlight_5 != blank %}
+              <li><i class="fas fa-check-circle"></i> {{ section.settings.certification_highlight_5 }}</li>
+            {% endif %}
+          </ul>
+          <button class="cert-more" id="cert-more-btn-{{ section.id }}">Know More</button>
+          <div class="cert-expanded" id="cert-expanded-{{ section.id }}" style="display: none;">
+            <h4>Additional Certification Details</h4>
+            <p>{{ section.settings.certification_details }}</p>
+          </div>
+        </div>
+        <div class="cert-badge">
+          {% if section.settings.certification_badge %}
+            <img src="{{ section.settings.certification_badge | img_url: '200x200' }}" alt="{{ section.settings.certification_title | escape }}">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials-{{ section.id }}" class="testimonials-section">
+      <h2 class="section-heading">What My Mentor Says</h2>
+      <div class="testimonials-container">
+        <div class="testimonials-carousel" id="testimonials-carousel-{{ section.id }}">
+          {% if section.settings.testimonial_1_mentor_name != blank %}
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-avatar">
+                  {% if section.settings.testimonial_1_mentor_image %}
+                    <img src="{{ section.settings.testimonial_1_mentor_image | img_url: '200x200' }}" alt="{{ section.settings.testimonial_1_mentor_name | escape }}">
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endif %}
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">{{ section.settings.testimonial_1_text }}</p>
+                  <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="testimonial-author">{{ section.settings.testimonial_1_mentor_name }}</div>
+                  <div class="testimonial-role">{{ section.settings.testimonial_1_mentor_role }}</div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          
+          {% if section.settings.testimonial_2_mentor_name != blank %}
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-avatar">
+                  {% if section.settings.testimonial_2_mentor_image %}
+                    <img src="{{ section.settings.testimonial_2_mentor_image | img_url: '200x200' }}" alt="{{ section.settings.testimonial_2_mentor_name | escape }}">
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endif %}
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">{{ section.settings.testimonial_2_text }}</p>
+                  <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="testimonial-author">{{ section.settings.testimonial_2_mentor_name }}</div>
+                  <div class="testimonial-role">{{ section.settings.testimonial_2_mentor_role }}</div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          
+          {% if section.settings.testimonial_3_mentor_name != blank %}
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <div class="testimonial-avatar">
+                  {% if section.settings.testimonial_3_mentor_image %}
+                    <img src="{{ section.settings.testimonial_3_mentor_image | img_url: '200x200' }}" alt="{{ section.settings.testimonial_3_mentor_name | escape }}">
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endif %}
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">{{ section.settings.testimonial_3_text }}</p>
+                  <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="testimonial-author">{{ section.settings.testimonial_3_mentor_name }}</div>
+                  <div class="testimonial-role">{{ section.settings.testimonial_3_mentor_role }}</div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        <div class="testimonial-controls">
+          <button class="testimonial-btn" id="testimonial-prev-{{ section.id }}">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="testimonial-btn" id="testimonial-next-{{ section.id }}">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="testimonials-nav" id="testimonials-nav-{{ section.id }}">
+          {% if section.settings.testimonial_1_mentor_name != blank %}
+            <div class="testimonial-dot active" data-slide="0"></div>
+          {% endif %}
+          
+          {% if section.settings.testimonial_2_mentor_name != blank %}
+            <div class="testimonial-dot" data-slide="1"></div>
+          {% endif %}
+          
+          {% if section.settings.testimonial_3_mentor_name != blank %}
+            <div class="testimonial-dot" data-slide="2"></div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section id="portfolio-{{ section.id }}" class="cta-section">
+      <h2 class="section-heading">What I'm Ready For</h2>
+      <div class="portfolio-cta">
+        <div class="portfolio-image">
+          {% if section.settings.portfolio_image %}
+            <img src="{{ section.settings.portfolio_image | img_url: '600x600' }}" alt="Portfolio Preview">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
+        <div class="portfolio-content">
+          <p class="portfolio-text">{{ section.settings.portfolio_text }}</p>
+          <button class="resume-btn" id="download-btn-{{ section.id }}">Download Portfolio</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Social Media Section -->
+    <section id="social-{{ section.id }}" class="social-section">
+      <h2 class="social-heading">Share My Profile</h2>
+      <div class="social-icons">
+        <div class="social-icon facebook" data-platform="facebook">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="social-icon twitter" data-platform="twitter">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="social-icon linkedin" data-platform="linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class="social-icon instagram" data-platform="instagram">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="social-icon whatsapp" data-platform="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>Page built & gifted by a <a href="#" class="footer-link">Shopify Partner</a></p>
+    </footer>
+  </div>
+  
+  <!-- PDF Download Button -->
+  <div class="pdf-download" id="pdf-download-{{ section.id }}" title="Download as PDF">
+    <i class="fas fa-file-pdf"></i>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Portfolio",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Student Information"
+    },
+    {
+      "type": "text",
+      "id": "student_name",
+      "label": "Student Name",
+      "default": "Aarav Mehta"
+    },
+    {
+      "type": "text",
+      "id": "student_role",
+      "label": "Student Role",
+      "default": "Shopify Developer Intern"
+    },
+    {
+      "type": "image_picker",
+      "id": "student_image",
+      "label": "Student Image"
+    },
+    {
+      "type": "text",
+      "id": "certification",
+      "label": "Certification",
+      "default": "Certified Shopify Training – BOOST STAR Experts"
+    },
+    {
+      "type": "text",
+      "id": "internship_dates",
+      "label": "Internship Dates",
+      "default": "June 2025 – August 2025"
+    },
+    {
+      "type": "header",
+      "content": "Contact Information"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone",
+      "default": "999-999-000"
+    },
+    {
+      "type": "text",
+      "id": "location",
+      "label": "Location",
+      "default": "Bengaluru"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email",
+      "default": "aaravmehta88@gmail.com"
+    },
+    {
+      "type": "header",
+      "content": "About Section"
+    },
+    {
+      "type": "richtext",
+      "id": "about_short",
+      "label": "Short About",
+      "default": "<p>I'm Aarav Mehta, a final-year engineering student with a passion for turning beautiful designs into functional Shopify storefronts.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "about_full",
+      "label": "Full About",
+      "default": "<p>I'm Aarav Mehta, a final-year engineering student with a passion for turning beautiful designs into functional Shopify storefronts. My internship at BOOST STAR Experts helped me gain hands-on experience with real eCommerce brands — now I'm ready for the next step.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Skills"
+    },
+    {
+      "type": "text",
+      "id": "skill_1_name",
+      "label": "Skill 1 Name",
+      "default": "HTML/CSS"
+    },
+    {
+      "type": "range",
+      "id": "skill_1_percentage",
+      "label": "Skill 1 Percentage",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 90
+    },
+    {
+      "type": "text",
+      "id": "skill_2_name",
+      "label": "Skill 2 Name",
+      "default": "Shopify Liquid"
+    },
+    {
+      "type": "range",
+      "id": "skill_2_percentage",
+      "label": "Skill 2 Percentage",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 75
+    },
+    {
+      "type": "text",
+      "id": "skill_3_name",
+      "label": "Skill 3 Name",
+      "default": "Meta Ads"
+    },
+    {
+      "type": "range",
+      "id": "skill_3_percentage",
+      "label": "Skill 3 Percentage",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 80
+    },
+    {
+      "type": "text",
+      "id": "skill_4_name",
+      "label": "Skill 4 Name",
+      "default": "JavaScript"
+    },
+    {
+      "type": "range",
+      "id": "skill_4_percentage",
+      "label": "Skill 4 Percentage",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 60
+    },
+    {
+      "type": "text",
+      "id": "skill_5_name",
+      "label": "Skill 5 Name",
+      "default": "SEO"
+    },
+    {
+      "type": "range",
+      "id": "skill_5_percentage",
+      "label": "Skill 5 Percentage",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 65
+    },
+    {
+      "type": "header",
+      "content": "Certifications"
+    },
+    {
+      "type": "text",
+      "id": "certification_title",
+      "label": "Certification Title",
+      "default": "8-WEEK SHOPIFY INTERNSHIP – Certified by BOOST STAR Experts"
+    },
+    {
+      "type": "text",
+      "id": "certification_highlight_1",
+      "label": "Certification Highlight 1",
+      "default": "Shopify Store Setup"
+    },
+    {
+      "type": "text",
+      "id": "certification_highlight_2",
+      "label": "Certification Highlight 2",
+      "default": "Theme Customization"
+    },
+    {
+      "type": "text",
+      "id": "certification_highlight_3",
+      "label": "Certification Highlight 3",
+      "default": "Ad Campaign Management"
+    },
+    {
+      "type": "text",
+      "id": "certification_highlight_4",
+      "label": "Certification Highlight 4",
+      "default": "Landing Page Design"
+    },
+    {
+      "type": "text",
+      "id": "certification_highlight_5",
+      "label": "Certification Highlight 5",
+      "default": "Email Automation"
+    },
+    {
+      "type": "richtext",
+      "id": "certification_details",
+      "label": "Certification Details",
+      "default": "<p>This 8-week intensive program covered all aspects of Shopify development, from basic store setup to advanced theme customization and optimization techniques.</p><p>Participants worked on real client projects and received mentorship from industry experts.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "certification_badge",
+      "label": "Certification Badge"
+    },
+    {
+      "type": "header",
+      "content": "Testimonials"
+    },
+    {
+      "type": "text",
+      "id": "testimonial_1_mentor_name",
+      "label": "Testimonial 1 - Mentor Name",
+      "default": "Mahi"
+    },
+    {
+      "type": "text",
+      "id": "testimonial_1_mentor_role",
+      "label": "Testimonial 1 - Mentor Role",
+      "default": "Senior Shopify Developer"
+    },
+    {
+      "type": "image_picker",
+      "id": "testimonial_1_mentor_image",
+      "label": "Testimonial 1 - Mentor Image"
+    },
+    {
+      "type": "richtext",
+      "id": "testimonial_1_text",
+      "label": "Testimonial 1 - Text",
+      "default": "<p>Aarav demonstrated exceptional skills in Shopify development during his internship. His attention to detail and problem-solving abilities are impressive.</p>"
+    },
+    {
+      "type": "text",
+      "id": "testimonial_2_mentor_name",
+      "label": "Testimonial 2 - Mentor Name",
+      "default": "Rohan"
+    },
+    {
+      "type": "text",
+      "id": "testimonial_2_mentor_role",
+      "label": "Testimonial 2 - Mentor Role",
+      "default": "Project Manager"
+    },
+    {
+      "type": "image_picker",
+      "id": "testimonial_2_mentor_image",
+      "label": "Testimonial 2 - Mentor Image"
+    },
+    {
+      "type": "richtext",
+      "id": "testimonial_2_text",
+      "label": "Testimonial 2 - Text",
+      "default": "<p>Aarav quickly adapted to our workflow and delivered quality work. His understanding of e-commerce best practices is beyond his experience level.</p>"
+    },
+    {
+      "type": "text",
+      "id": "testimonial_3_mentor_name",
+      "label": "Testimonial 3 - Mentor Name",
+      "default": "Priya"
+    },
+    {
+      "type": "text",
+      "id": "testimonial_3_mentor_role",
+      "label": "Testimonial 3 - Mentor Role",
+      "default": "UX Designer"
+    },
+    {
+      "type": "image_picker",
+      "id": "testimonial_3_mentor_image",
+      "label": "Testimonial 3 - Mentor Image"
+    },
+    {
+      "type": "richtext",
+      "id": "testimonial_3_text",
+      "label": "Testimonial 3 - Text",
+      "default": "<p>I was impressed by Aarav's ability to turn complex design requirements into functional Shopify features. He's a natural problem solver.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Portfolio Section"
+    },
+    {
+      "type": "image_picker",
+      "id": "portfolio_image",
+      "label": "Portfolio Image"
+    },
+    {
+      "type": "richtext",
+      "id": "portfolio_text",
+      "label": "Portfolio Text",
+      "default": "<p>I'm eager to apply my Shopify development skills to help businesses create exceptional online stores. With my training and internship experience, I'm ready to contribute to your team from day one.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Student Resume",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+    /* CSS Variables for Design System */
+:root {
+  --brand: #97ba54;
+  --brand-dark: #7a9643;
+  --text-dark: #111;
+  --text-medium: #333;
+  --text-light: #666;
+  --text-muted: #777;
+  --muted: #f2f2f2;
+  --bg-light: #f7f7f7;
+  --bg-track: #efefef;
+  --border-light: #e6e6e6;
+  --border-lighter: #eaeaea;
+  --shadow-light: rgba(0, 0, 0, 0.04);
+  --shadow-medium: rgba(0, 0, 0, 0.06);
+  --shadow-strong: rgba(0, 0, 0, 0.08);
+  --skill-yellow: #f0d83d;
+  --max-width: 1280px;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 40px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --radius-circle: 50%;
+}
+
+/* Base Styles & Typography */
+.student-resume-section * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.student-resume-section {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: var(--text-medium);
+  line-height: 1.6;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.resume-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 24px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-sm);
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Navigation Menu */
+.nav-menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -5px 0 15px var(--shadow-medium);
+  z-index: 1000;
+  transition: right 0.3s ease;
+  padding: 20px;
+}
+
+.nav-menu.active {
+  right: 0;
+}
+
+.nav-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-dark);
+}
+
+.nav-list {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.nav-item {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-medium);
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: var(--brand);
+}
+
+.nav-link i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero-band {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: var(--brand);
+  border-bottom-left-radius: 60% 20%;
+  border-bottom-right-radius: 60% 20%;
+  z-index: 1;
+}
+
+.decor-shape {
+  position: absolute;
+  z-index: 0;
+}
+
+.decor-shape-1 {
+  top: 100px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: var(--brand);
+  opacity: 0.2;
+  transform: rotate(45deg);
+}
+
+.decor-shape-2 {
+  bottom: 200px;
+  right: -80px;
+  width: 160px;
+  height: 160px;
+  background-color: var(--muted);
+  border-radius: var(--radius-circle);
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  width: 28px;
+  height: 20px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-icon span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-icon.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-icon.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Profile Section */
+.profile-section {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  border-radius: var(--radius-circle);
+  border: 14px solid white;
+  box-shadow: 0 10px 30px var(--shadow-medium);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: var(--spacing-md);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px var(--shadow-strong);
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: var(--spacing-xs);
+  padding:40px 0px;
+}
+
+.resume-name {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: var(--spacing-xs);
+}
+
+.resume-role {
+  font-size: 16px;
+  color: var(--text-light);
+}
+
+.hero-divider {
+  height: 2px;
+  width: 40%;
+  background-color: #ddd;
+  margin: 18px auto;
+}
+
+.cert-pill {
+  display: inline-block;
+  background-color: var(--brand);
+  color: white;
+  padding: 6px 18px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.cert-pill:hover {
+  background-color: var(--brand-dark);
+  transform: translateY(-2px);
+}
+
+.hero-dates {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* Contact Section */
+.contact-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--muted);
+  clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.contact-section::after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  width: 120px;
+  height: 120px;
+  background-color: var(--brand);
+  opacity: 0.1;
+  clip-path: polygon(75% 0, 100% 0, 100% 100%, 0 100%, 0 75%, 75% 75%);
+  z-index: -1;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background-color: white;
+  border: 1px solid var(--border-light);
+  padding: 12px 16px;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 12px var(--shadow-light);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.contact-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px var(--shadow-medium);
+}
+
+.contact-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-circle);
+  background-color: white;
+  border: 1px solid var(--border-lighter);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.contact-item:hover .contact-icon {
+  background-color: var(--brand);
+  transform: scale(1.1);
+}
+
+.contact-item:hover .contact-icon i {
+  color: white;
+}
+
+.contact-icon i {
+  color: var(--brand);
+  transition: color 0.2s;
+}
+
+.contact-text {
+  font-size: 14px;
+  color: var(--text-medium);
+}
+
+/* About Section */
+.about-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+  padding: 40px 0;
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--brand);
+  opacity: 0.15;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 75%);
+  z-index: -1;
+}
+
+.about-section::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--muted);
+  clip-path: polygon(0 25%, 75% 25%, 100% 0, 100% 100%, 0 100%);
+  z-index: -1;
+}
+
+.about-wrap {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top:40px;
+  padding: 60px 20px 0px;
+}
+
+.about-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%);
+  width: 90%;
+  height: 220px;
+  background-color: var(--brand);
+  border-radius: 160px 160px 40px 40px;
+  z-index: 1;
+}
+
+.about-bubble {
+  position: relative;
+  background-color: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: 0 8px 24px var(--shadow-medium);
+  z-index: 2;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-bubble:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px var(--shadow-strong);
+}
+
+.about-heading {
+  color: var(--brand);
+  font-size: 20px;
+  margin-bottom: var(--spacing-sm);
+  text-align: center;
+}
+
+.about-paragraph {
+  font-size: 15px;
+  color: var(--text-medium);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: var(--brand);
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+.read-more:hover {
+  background-color: var(--brand-dark);
+  transform: scale(1.05);
+}
+
+/* Skills Section */
+.skills-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+}
+
+.skills-section::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--brand);
+  opacity: 0.1;
+  clip-path: polygon(0 0, 75% 0, 100% 25%, 100% 100%, 25% 100%, 0 75%);
+  z-index: -1;
+}
+
+.skills-section::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--muted);
+  clip-path: polygon(0 25%, 100% 0, 100% 75%, 75% 100%, 0 100%, 25% 0);
+  z-index: -1;
+}
+
+.section-heading {
+  font-size: 22px;
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  margin-bottom: var(--spacing-md);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-xs);
+}
+
+.skill-label {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background-color: white;
+  border: 1px solid var(--border-lighter);
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.skill-item:hover .skill-label {
+  background-color: var(--brand);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.skill-percentage {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+.skill-bar {
+  height: 14px;
+  background-color: var(--bg-track);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Certifications Section */
+.certifications-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+}
+
+.certifications-section::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--muted);
+  opacity: 0.5;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+  z-index: -1;
+}
+
+.certifications-section::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--brand);
+  opacity: 0.1;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%, 25% 25%);
+  z-index: -1;
+}
+
+.cert-card {
+  background-color: white;
+  border-radius: var(--radius-md);
+  padding: 28px;
+  box-shadow: 0 6px 20px var(--shadow-medium);
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px var(--shadow-strong);
+}
+
+.cert-content {
+  flex: 1;
+}
+
+.cert-heading {
+  font-size: 18px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.cert-list {
+  list-style: none;
+  margin-bottom: var(--spacing-md);
+}
+
+.cert-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-xs);
+  font-size: 14px;
+  transition: transform 0.2s;
+}
+
+.cert-list li:hover {
+  transform: translateX(5px);
+}
+
+.cert-list li i {
+  color: var(--brand);
+  margin-right: var(--spacing-xs);
+}
+
+.cert-badge {
+  width: 150px;
+  height: 150px;
+  border-radius: var(--radius-circle);
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+
+.cert-card:hover .cert-badge {
+  transform: scale(1.01);
+}
+
+.cert-badge img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cert-more {
+  display: inline-block;
+  background-color: var(--brand);
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  border: none;
+}
+
+.cert-more:hover {
+  background-color: var(--brand-dark);
+  transform: translateY(-2px);
+}
+
+.cert-expanded {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-light);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  overflow: hidden;
+}
+
+.testimonials-section::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--brand);
+  opacity: 0.1;
+  clip-path: polygon(0 0, 100% 0, 75% 25%, 75% 75%, 100% 100%, 0 100%);
+  z-index: -1;
+}
+
+.testimonials-section::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--muted);
+  opacity: 0.5;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%, 25% 25%);
+  z-index: -1;
+}
+
+.testimonials-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonials-carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.testimonial-card {
+  min-width: 100%;
+  padding: 0 var(--spacing-sm);
+}
+
+.testimonial-content {
+  background-color: white;
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: 0 8px 20px var(--shadow-light);
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px var(--shadow-strong);
+}
+
+.testimonial-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-circle);
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+
+.testimonial-content:hover .testimonial-avatar {
+  transform: scale(1.1);
+}
+
+.testimonial-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  flex: 1;
+}
+
+.testimonial-quote {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-medium);
+}
+
+.testimonial-stars {
+  color: var(--brand);
+  margin-bottom: var(--spacing-xs);
+}
+
+.testimonial-author {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.testimonial-role {
+  font-size: 12px;
+  color: var(--text-light);
+}
+
+.testimonials-nav {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.testimonial-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-circle);
+  background-color: var(--bg-track);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.testimonial-dot.active {
+  background-color: var(--brand);
+}
+
+.testimonial-dot:hover {
+  transform: scale(1.2);
+}
+
+.testimonial-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--spacing-md);
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.testimonial-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-circle);
+  background-color: white;
+  border: 1px solid var(--border-light);
+  color: var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  box-shadow: 0 4px 8px var(--shadow-light);
+}
+
+.testimonial-btn:hover {
+  background-color: var(--brand);
+  color: white;
+  transform: scale(1.1);
+}
+
+/* CTA Section */
+.cta-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+}
+
+.cta-section::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--muted);
+  opacity: 0.5;
+  clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 0 100%, 0 75%);
+  z-index: -1;
+}
+
+.cta-section::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--brand);
+  opacity: 0.1;
+  clip-path: polygon(75% 0, 100% 0, 100% 100%, 0 100%, 0 75%, 75% 75%);
+  z-index: -1;
+}
+
+.portfolio-cta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xl);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-image {
+  width: 320px;
+  height: 320px;
+  border-radius: var(--radius-circle);
+  background-color: var(--bg-light);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px var(--shadow-strong);
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-content {
+  flex: 1;
+}
+
+.portfolio-heading {
+  font-size: 24px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.portfolio-text {
+  font-size: 15px;
+  color: var(--text-medium);
+  margin-bottom: var(--spacing-md);
+}
+
+.resume-btn {
+  display: inline-block;
+  background-color: var(--brand);
+  color: white;
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  border: none;
+  position: relative;
+  margin:20px 0px;
+  overflow: hidden;
+}
+
+.resume-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: left 0.5s;
+}
+
+.resume-btn:hover:before {
+  left: 100%;
+}
+
+.resume-btn:hover {
+  background-color: var(--brand-dark);
+  transform: translateY(-3px);
+}
+
+/* Social Media Section */
+.social-section {
+  position: relative;
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+}
+
+.social-section::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--brand);
+  opacity: 0.1;
+  clip-path: polygon(0 25%, 25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
+  z-index: -1;
+}
+
+.social-section::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--muted);
+  opacity: 0.5;
+  clip-path: polygon(0 0, 75% 0, 100% 25%, 100% 100%, 25% 100%, 0 75%);
+  z-index: -1;
+}
+
+.social-heading {
+  font-size: 22px;
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-circle);
+  background-color: white;
+  border: 1px solid var(--border-light);
+  color: var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s, color 0.2s;
+  box-shadow: 0 4px 8px var(--shadow-light);
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icon.facebook:hover {
+  background-color: #3b5998;
+  color: white;
+}
+
+.social-icon.twitter:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+.social-icon.instagram:hover {
+  background-color: #e1306c;
+  color: white;
+}
+
+.social-icon.whatsapp:hover {
+  background-color: #25d366;
+  color: white;
+}
+
+.social-icon i {
+  font-size: 20px;
+}
+
+/* PDF Download Button */
+.pdf-download {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-circle);
+  background-color: var(--brand);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px var(--shadow-medium);
+  z-index: 100;
+  transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.pdf-download:hover {
+  background-color: var(--brand-dark);
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px var(--shadow-strong);
+}
+
+.pdf-download i {
+  font-size: 20px;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--text-dark);
+  color: #cfcfcf;
+  padding: 12px 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer-link {
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: var(--brand-dark);
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .resume-container {
+    padding: 20px 20px;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+  .resume-name {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-band {
+    height: 260px;
+  }
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-width: 12px;
+  }
+  .resume-name {
+    font-size: 26px;
+  }
+  .cert-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cert-badge {
+    margin: 0 auto;
+  }
+  .portfolio-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+  .portfolio-image {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 10px 10px;
+  }
+  .hero-band {
+    height: 220px;
+  }
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+    border-width: 10px;
+  }
+  .resume-name {
+    font-size: 22px;
+  }
+  .resume-role {
+    font-size: 14px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-wrap {
+    padding: 40px 0px 30px;
+  }
+  .about-wrap::before {
+    height: 180px;
+    width: 100%;
+  }
+  .skill-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+  .decor-shape {
+    display: none;
+  }
+  .portfolio-image {
+    width: 240px;
+    height: 240px;
+  }
+  .portfolio-heading {
+    font-size: 20px;
+  }
+  .testimonial-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimonial-avatar {
+    margin: 0 auto var(--spacing-sm);
+  }
+  .social-icons {
+    gap: var(--spacing-sm);
+  }
+  .social-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .social-icon i {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-band {
+    height: 180px;
+  }
+  .profile-pic {
+    width: 140px;
+    height: 140px;
+    border-width: 8px;
+  }
+  .resume-name {
+    font-size: 20px;
+  }
+  .hero-divider {
+    width: 60%;
+  }
+  .about-bubble {
+    padding: var(--spacing-md);
+  }
+  .cert-card {
+    padding: 20px;
+  }
+  .cert-badge {
+    width: 80px;
+    height: 80px;
+  }
+  .testimonial-btn {
+    width: 36px;
+    height: 36px;
+  }
+  .pdf-download {
+    width: 48px;
+    height: 48px;
+  }
+  .pdf-download i {
+    font-size: 18px;
+  }
+  .social-icons {
+    flex-wrap: wrap;
+  }
+}
+
+/* Loading Animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.loading {
+  animation: pulse 1.5s infinite;
+}
+
+/* Notification Styles */
+.notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--brand);
+  color: white;
+  padding: 12px 20px;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 12px var(--shadow-medium);
+  z-index: 1000;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+}
+</style>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+  // Initialize all student resume sections on the page
+  const studentSections = document.querySelectorAll('.student-resume-section');
+  
+  studentSections.forEach(section => {
+    const sectionId = section.id;
+    
+    // Navigation Menu
+    const menuToggle = document.getElementById(`menu-toggle-{{section.id}}`);
+    const navMenu = document.getElementById(`main-nav-{{section.id}}`);
+    const navClose = document.getElementById(`nav-close-{{section.id}}`);
+    const overlay = document.getElementById(`overlay-{{section.id}}`);
+    const navLinks = navMenu.querySelectorAll('.nav-link');
+    
+    function openMenu() {
+      navMenu.classList.add('active');
+      overlay.classList.add('active');
+      menuToggle.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeMenu() {
+      navMenu.classList.remove('active');
+      overlay.classList.remove('active');
+      menuToggle.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    
+    menuToggle.addEventListener('click', openMenu);
+    navClose.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+    
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        closeMenu();
+        // Smooth scroll to section
+        const targetId = link.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+          window.scrollTo({
+            top: targetSection.offsetTop - 20,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+    
+    // Testimonials Carousel
+    const carousel = document.getElementById(`testimonials-carousel-{{section.id}}`);
+    const dots = document.getElementById(`testimonials-nav-{{section.id}}`).querySelectorAll('.testimonial-dot');
+    const prevBtn = document.getElementById(`testimonial-prev-{{section.id}}`);
+    const nextBtn = document.getElementById(`testimonial-next-{{section.id}}`);
+    const totalSlides = dots.length;
+    let currentSlide = 0;
+    let autoplayInterval;
+    
+    function goToSlide(slideIndex) {
+      if (slideIndex < 0) slideIndex = totalSlides - 1;
+      if (slideIndex >= totalSlides) slideIndex = 0;
+      
+      carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+      
+      // Update active dot
+      dots.forEach(dot => dot.classList.remove('active'));
+      dots[slideIndex].classList.add('active');
+      
+      currentSlide = slideIndex;
+    }
+    
+    function nextSlide() {
+      goToSlide(currentSlide + 1);
+    }
+    
+    function prevSlide() {
+      goToSlide(currentSlide - 1);
+    }
+    
+    function startAutoplay() {
+      autoplayInterval = setInterval(nextSlide, 5000);
+    }
+    
+    function stopAutoplay() {
+      clearInterval(autoplayInterval);
+    }
+    
+    // Add click event to dots
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        const slideIndex = parseInt(dot.getAttribute('data-slide'));
+        goToSlide(slideIndex);
+        stopAutoplay();
+        startAutoplay();
+      });
+    });
+    
+    // Add click event to prev/next buttons
+    prevBtn.addEventListener('click', () => {
+      prevSlide();
+      stopAutoplay();
+      startAutoplay();
+    });
+    
+    nextBtn.addEventListener('click', () => {
+      nextSlide();
+      stopAutoplay();
+      startAutoplay();
+    });
+    
+    // Pause autoplay on hover
+    carousel.addEventListener('mouseenter', stopAutoplay);
+    carousel.addEventListener('mouseleave', startAutoplay);
+    
+    // Start autoplay
+    startAutoplay();
+    
+    // Animate skill bars when they come into view
+    const skillBars = section.querySelectorAll('.skill-fill');
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const width = entry.target.style.width || 
+                       window.getComputedStyle(entry.target).width;
+          entry.target.style.width = '0';
+          setTimeout(() => {
+            entry.target.style.width = width;
+          }, 100);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    skillBars.forEach(bar => {
+      observer.observe(bar);
+    });
+    
+    // Read More button functionality
+    const readMoreBtn = document.getElementById(`read-more-btn-{{section.id}}`);
+    const aboutParagraph = section.querySelector('.about-paragraph');
+    const aboutFull = document.querySelector('.about-paragraph').dataset.aboutFull;
+    const aboutShort = aboutParagraph.textContent;
+    let isExpanded = false;
+    
+    readMoreBtn.addEventListener('click', () => {
+      if (!isExpanded) {
+        aboutParagraph.innerHTML = aboutFull;
+        readMoreBtn.textContent = 'Read Less';
+        isExpanded = true;
+      } else {
+        aboutParagraph.innerHTML = aboutShort;
+        readMoreBtn.textContent = 'Read More';
+        isExpanded = false;
+      }
+    });
+    
+    // Know More button functionality
+    const knowMoreBtn = document.getElementById(`cert-more-btn-{{section.id}}`);
+    const certExpanded = document.getElementById(`cert-expanded-{{section.id}}`);
+    
+    knowMoreBtn.addEventListener('click', () => {
+      if (certExpanded.style.display === 'none') {
+        certExpanded.style.display = 'block';
+        knowMoreBtn.textContent = 'Show Less';
+      } else {
+        certExpanded.style.display = 'none';
+        knowMoreBtn.textContent = 'Know More';
+      }
+    });
+    
+    // Download Portfolio button functionality
+    const downloadBtn = document.getElementById(`download-btn-{{section.id}}`);
+    downloadBtn.addEventListener('click', () => {
+      showNotification('Portfolio download started!');
+    });
+    
+    // Contact item functionality
+    const contactItems = section.querySelectorAll('.contact-item');
+    contactItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const contactType = item.getAttribute('data-contact');
+        const contactText = item.querySelector('.contact-text').textContent;
+        showNotification(contactText);
+      });
+    });
+    
+    // Social Media Sharing
+    const socialIcons = section.querySelectorAll('.social-icon');
+    const currentUrl = window.location.href;
+    const studentName = section.querySelector('.resume-name').textContent;
+    const title = `${studentName} - Shopify Developer Resume`;
+    
+    socialIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+        const platform = icon.getAttribute('data-platform');
+        let shareUrl = '';
+        
+        switch(platform) {
+          case 'facebook':
+            shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+            break;
+          case 'twitter':
+            shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(title)}`;
+            break;
+          case 'linkedin':
+            shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`;
+            break;
+          case 'instagram':
+            // Instagram doesn't support direct URL sharing, so we'll copy the URL to clipboard
+            if (navigator.clipboard) {
+              navigator.clipboard.writeText(currentUrl).then(() => {
+                showNotification('URL copied to clipboard! Share it on Instagram.');
+              }).catch(err => {
+                showNotification('Failed to copy URL. Please copy manually.');
+              });
+            } else {
+              // Fallback for older browsers
+              const textArea = document.createElement('textarea');
+              textArea.value = currentUrl;
+              document.body.appendChild(textArea);
+              textArea.select();
+              document.execCommand('copy');
+              document.body.removeChild(textArea);
+              showNotification('URL copied to clipboard! Share it on Instagram.');
+            }
+            return;
+          case 'whatsapp':
+            shareUrl = `https://wa.me/?text=${encodeURIComponent(title + ' ' + currentUrl)}`;
+            break;
+        }
+        
+        if (shareUrl) {
+          // Open in a new window/tab
+          window.open(shareUrl, '_blank', 'width=600,height=400');
+        }
+      });
+    });
+    
+    // PDF Download functionality
+    const pdfDownloadBtn = document.getElementById(`pdf-download-{{section.id}}`);
+    
+    pdfDownloadBtn.addEventListener('click', () => {
+      const element = document.getElementById(`resume-content-{{section.id}}`);
+      
+      // Show loading notification
+      const loadingNotification = createNotification('Generating PDF...');
+      document.body.appendChild(loadingNotification);
+      
+      // Create a temporary container with the content
+      const tempContainer = document.createElement('div');
+      tempContainer.style.position = 'absolute';
+      tempContainer.style.left = '-9999px';
+      tempContainer.style.width = '210mm'; // A4 width
+      
+      // Clone the content
+      const clonedContent = element.cloneNode(true);
+      
+      // Remove elements that shouldn't be in PDF
+      const menuIcon = clonedContent.querySelector(`#menu-toggle-{{section.id}}`);
+      if (menuIcon) menuIcon.style.display = 'none';
+      
+      tempContainer.appendChild(clonedContent);
+      document.body.appendChild(tempContainer);
+      
+      // PDF options
+      const opt = {
+        margin: 10,
+        filename: `${studentName.replace(/\s+/g, '_')}_Resume.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { 
+          scale: 2,
+          useCORS: true,
+          logging: false,
+          letterRendering: true,
+          scrollX: 0,
+          scrollY: 0,
+          backgroundColor: '#ffffff'
+        },
+        jsPDF: { 
+          unit: 'mm', 
+          format: 'a4', 
+          orientation: 'portrait',
+          compress: true
+        }
+      };
+      
+      // Generate PDF
+      html2pdf().set(opt).from(clonedContent).save().then(() => {
+        // Remove the temporary container
+        document.body.removeChild(tempContainer);
+        
+        // Remove loading notification
+        removeNotification(loadingNotification);
+        
+        // Show success notification
+        const successNotification = createNotification('PDF downloaded successfully!');
+        document.body.appendChild(successNotification);
+        
+        // Auto-remove success notification after 3 seconds
+        setTimeout(() => {
+          removeNotification(successNotification);
+        }, 3000);
+      }).catch(err => {
+        console.error('PDF generation error:', err);
+        
+        // Remove the temporary container
+        document.body.removeChild(tempContainer);
+        
+        // Remove loading notification
+        removeNotification(loadingNotification);
+        
+        // Show error notification
+        const errorNotification = createNotification('Error generating PDF. Please try again.');
+        document.body.appendChild(errorNotification);
+        
+        // Auto-remove error notification after 3 seconds
+        setTimeout(() => {
+          removeNotification(errorNotification);
+        }, 3000);
+      });
+    });
+    
+    // Notification helper functions
+    function createNotification(message) {
+      const notification = document.createElement('div');
+      notification.className = 'notification';
+      notification.textContent = message;
+      return notification;
+    }
+    
+    function showNotification(message) {
+      const notification = createNotification(message);
+      document.body.appendChild(notification);
+      
+      // Auto-remove notification after 3 seconds
+      setTimeout(() => {
+        removeNotification(notification);
+      }, 3000);
+    }
+    
+    function removeNotification(notification) {
+      notification.style.animation = 'slideOut 0.3s ease';
+      setTimeout(() => {
+        if (notification.parentNode) {
+          notification.parentNode.removeChild(notification);
+        }
+      }, 300);
+    }
+  });
+});
+</script>

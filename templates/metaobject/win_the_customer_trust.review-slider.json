@@ -1,0 +1,1031 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KN4Yjr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9mhnk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrEn3t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win The Customer Trust With {{ metaobject.heading.value }}</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9mhnk",
+        "text_HrEn3t"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_YQ4zzm": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_rKefgC": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_9x84yW": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_gJB3ti": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_KQDAnQ": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_qgpBpr": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_rKefgC",
+        "icon_with_text_9x84yW",
+        "icon_with_text_gJB3ti",
+        "icon_with_text_KQDAnQ",
+        "icon_with_text_qgpBpr"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_KpDaWW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rxzXFR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_EC8Tgd": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_rxzXFR",
+        "text_EC8Tgd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_Pbfm7g": {
+      "type": "reviews",
+      "blocks": {
+        "review_WEiMiA": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_4p47gB": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_GT8iyP": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_HRdU8j": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_WEiMiA",
+        "review_4p47gB",
+        "review_GT8iyP",
+        "review_HRdU8j"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#dddddd",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(230, 226, 226, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#97ba52",
+        "bg_image": "shopify://shop_images/qzs.png",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style2",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "rich_text_nd6jr3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ctygkG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Tmzb3Y": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ctygkG",
+        "text_Tmzb3Y"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_X8tjNz": {
+      "type": "reviews",
+      "blocks": {
+        "review_RDF8am": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_hTfVTj": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_JNxLzR": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_BTyMmh": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_RDF8am",
+        "review_hTfVTj",
+        "review_JNxLzR",
+        "review_BTyMmh"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#dddddd",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(230, 226, 226, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#97ba52",
+        "bg_image": "shopify://shop_images/qzs.png",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style2",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "rich_text_fw4RaN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TrMG44": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_WPPfCy": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TrMG44",
+        "text_WPPfCy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_bJbryU": {
+      "type": "reviews",
+      "blocks": {
+        "review_6X6BPV": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_9KwYew": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_HT3CFB": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_whkAcJ": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_6X6BPV",
+        "review_9KwYew",
+        "review_HT3CFB",
+        "review_whkAcJ"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#dddddd",
+        "bg_color": "linear-gradient(180deg, rgba(204, 255, 211, 1), rgba(211, 223, 186, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#141414",
+        "bg_image": "shopify://shop_images/ewsdrf.png",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "rich_text_c7J6XQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YbiAHg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_t4TPAf": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_YbiAHg",
+        "text_t4TPAf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_meKQ8m": {
+      "type": "reviews",
+      "blocks": {
+        "review_wKYK6x": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_6hgVUW": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_EXYTLJ": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_Ypad6g": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_wKYK6x",
+        "review_6hgVUW",
+        "review_EXYTLJ",
+        "review_Ypad6g"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#ffffff",
+        "section_bg_color": "#000000",
+        "bg_color": "linear-gradient(10deg, rgba(209, 213, 219, 1), rgba(249, 251, 255, 1) 100%)",
+        "star_color": "#97ba52",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style3",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "rich_text_4FTwat": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wYJyL4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_AxyxJh": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wYJyL4",
+        "text_AxyxJh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_MiyqYa": {
+      "type": "reviews",
+      "blocks": {
+        "review_nkDpJ4": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_bzWAhz": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_Ytp3Bi": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_PaXJEc": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_nkDpJ4",
+        "review_bzWAhz",
+        "review_Ytp3Bi",
+        "review_PaXJEc"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#97ba52",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 251, 251, 1) 100%)",
+        "star_color": "#97ba52",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style4",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "rich_text_xYgkxH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VTPT4M": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KkwwNP": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VTPT4M",
+        "text_KkwwNP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_r47X8n": {
+      "type": "reviews",
+      "blocks": {
+        "review_nkzFhx": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_9criiy": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_zmWxMi": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_YBC6bg": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_nkzFhx",
+        "review_9criiy",
+        "review_zmWxMi",
+        "review_YBC6bg"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#97ba52",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 251, 251, 1) 100%)",
+        "star_color": "#97ba52",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style4",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "rich_text_MQxKyR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JHCJyt": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xArVX3": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_JHCJyt",
+        "text_xArVX3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "reviews_Hkp9Je": {
+      "type": "reviews",
+      "blocks": {
+        "review_KNbq7m": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_gUnnxM": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_FdtgHa": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        },
+        "review_6nXYqi": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>",
+            "image": "shopify://shop_images/Asset_43-8.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_KNbq7m",
+        "review_gUnnxM",
+        "review_FdtgHa",
+        "review_6nXYqi"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#97ba52",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 251, 251, 1) 100%)",
+        "star_color": "#97ba52",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style4",
+        "sildes_to_show": 2,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "image_banner_VY99tP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_y74C7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_EHkpMd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_PBcDWm": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_y74C7b",
+        "text_EHkpMd",
+        "buttons_PBcDWm"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_MKYnBK": {
+      "type": "reviews",
+      "blocks": {
+        "review_FKXpP3": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_FKXpP3"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 98%, rgba(146, 188, 87, 1) 99%, rgba(132, 188, 92, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_cEtcU7": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_qP4VFR": {
+          "type": "image",
+          "repeater": "{{ metaobject.win_the_customer_trust.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_qP4VFR"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Win The Customer Trust</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_KN4Yjr",
+    "boost_star_experts_marquee_highlights_YQ4zzm",
+    "rich_text_KpDaWW",
+    "reviews_Pbfm7g",
+    "rich_text_nd6jr3",
+    "reviews_X8tjNz",
+    "rich_text_fw4RaN",
+    "reviews_bJbryU",
+    "rich_text_c7J6XQ",
+    "reviews_meKQ8m",
+    "rich_text_4FTwat",
+    "reviews_MiyqYa",
+    "rich_text_xYgkxH",
+    "reviews_r47X8n",
+    "rich_text_MQxKyR",
+    "reviews_Hkp9Je",
+    "image_banner_VY99tP",
+    "reviews_MKYnBK",
+    "top_collections_boost_star_cEtcU7"
+  ]
+}

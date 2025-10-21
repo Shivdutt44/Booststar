@@ -1,0 +1,14 @@
+<!-- layout/theme.no-header-footer.liquid -->
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    {{ content_for_header }}
+</head>
+  <body>
+    <main id="MainContent">
+      {{ content_for_layout }}
+    </main>
+  </body>
+</html>

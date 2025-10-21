@@ -1,0 +1,560 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_mEbgEm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_agNiUz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Best Digital marketing, SEO & <strong>Shopify</strong> Plus agency Experts In <strong>{{ metaobject.location_name.value }}</strong>",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_mznjc3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for a top digital marketing agency in <strong>{{ metaobject.location_name.value }}</strong>?<strong> BOOST STAR EXPERTS </strong>is well recognized for providing cutting-edge solutions in <a href=\"/pages/our_services/digital-darketing-with-google-ads\" target=\"_blank\" title=\"Best Digital Marketing with Google Ads Services\">digital marketing</a>, <a href=\"/pages/our_services/seo-services\" target=\"_blank\" title=\"Top SEO Services Agency in World\">Search Engine Optimization</a> specially designed for businesses aiming for online success in California. </p><p>With a proven track record in the <strong>{{ metaobject.location_name.value }}</strong>, our agency combines strategy, creativity and data-driven insights to help brands grow their online presence and increase their revenue.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_agNiUz",
+        "text_mznjc3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SS_Blog_20Feature-Lifecycle_v1_01-31-24.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_GFTFHW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RqnrKM": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>TOP 8 AGENCIES IN </strong><strong>{{ metaobject.location_name.value }}</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RqnrKM"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17222622077f98065f": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_BX7FLz": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_BX7FLz"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_7FCtUK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rekqFq": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR <strong>DIGITAL MARKETING </strong>SERVICES TO IMPROVE YOUR <strong>ONLINE BUSINESS </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_iGKDra": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the leading digital marketing agency in <strong>{{ metaobject.location_name.value }}</strong>, We offer a wide range of services to maximise your online presence and drive qualified traffic to your business.</p>"
+          }
+        },
+        "button_wLk6rH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Success Stories",
+            "button_link": "https://www.booststar.in/pages/client-success-stories-boost-star-experts-reviews",
+            "button_style_secondary": false,
+            "button_label_2": "Improve Your Brand Now",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_rekqFq",
+        "text_iGKDra",
+        "button_wLk6rH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_8UwL4q": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7FE36p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/content-writing.png",
+            "title": "<strong> Content Writing & SEO</strong>",
+            "text": "<p>BOOST STAR Experts team crafts SEO-Optimised product descriptions, website pages content, blog writing, and marketing content tailored to your brand. With a focus on user experience and search visibility, we ensure your store not only ranks higher but also resonates with your audience, boosting sales and enhancing brand loyalty. Let us help you create content that drives results!</p>",
+            "link_label": "Read Details",
+            "link": "shopify://metaobjects/our_services/seo-services"
+          }
+        },
+        "column_P6kLgW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Marketing-_-sales.png",
+            "title": "<strong>Marketing & Sales (PPC)</strong>",
+            "text": "<p>BOOST STAR Experts specialise in digital marketing strategies, including SEO, SEM, SMM, PPC, SEM, CRO, Sales Channel Setup and analytics & tracking to increase traffic and conversions. Our approach ensures your brand reaches the right audiences while maximising ROI. Partner with us to convert your e-commerce store into a revenue-generating powerhouse!</p>",
+            "link_label": "Read Details",
+            "link": "shopify://metaobjects/our_services/digital-marketing-with-google-ads"
+          }
+        },
+        "column_PBGzFB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Store-management-_-setup.png",
+            "title": "<strong>Ecommerce Store Setup & Maintenance </strong>",
+            "text": "<p>Setting up and managing an e-commerce store can be overwhelming, but our expert team makes it seamless. From platform selection and store design to product uploads and inventory management, we handle every aspect of your store setup. We also provide ongoing support to ensure smooth operations, including order processing, performance optimization, and security updates.</p>",
+            "link_label": "Start The Project",
+            "link": "shopify://pages/contact-us"
+          }
+        },
+        "column_YAD6Rz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Expert-guidance.png",
+            "title": "<strong>Expert Guidance & Speed Work</strong>",
+            "text": "<p>We offer professional advice on everything from platform selection and design to marketing and scaling strategies. We provide insights backed by industry trends and best practices, ensure your e-commerce business perform in a competitive market. Whether you're launching a new store or optimising an existing one, We are here to help you make informed decisions and achieve long-term success.</p>",
+            "link_label": "Start Free Cunsultation",
+            "link": "shopify://pages/contact-us"
+          }
+        }
+      },
+      "block_order": [
+        "column_7FE36p",
+        "column_P6kLgW",
+        "column_PBGzFB",
+        "column_YAD6Rz"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_GANDfT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_tBLG8E": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.seo_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_tBLG8E"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_6PcKnR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V7tT36": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>GET MOTIVATED WITH SHOPIFY SUCCESS CASE STUDIES </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_XjnJbP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t just take our word for it. Here’s how we’ve helped our clients scale their businesses.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V7tT36",
+        "text_XjnJbP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_77LKCr": {
+      "type": "multirow",
+      "blocks": {
+        "row_JYQkBT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Floor-land-1_1.png",
+            "imglink": "",
+            "caption": "Success After Digital Marketing & Google Ads",
+            "heading": "Maximizing Returns Online wooden Flooring Floor Land Store",
+            "text": "",
+            "button_label": "Read Full Case Study",
+            "button_link": "shopify://metaobjects/case_studies/maximizing-returns-case-study-floor-land-online-success"
+          }
+        },
+        "row_Dz97JJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Baller-babe_1.png",
+            "imglink": "",
+            "caption": "Success After Digital Marketing & Google Ads",
+            "heading": "Doubled Revenue Online Women Wear Baller Babe",
+            "text": "",
+            "button_label": "Read Full Case Study",
+            "button_link": "shopify://metaobjects/case_studies/doubled-revenue-women-active-wear-baller-babe-store"
+          }
+        },
+        "row_Xwpfdi": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/pns-_1.png",
+            "imglink": "",
+            "caption": "Success After Digital Marketing & Google Ads",
+            "heading": "Doubled Revenue Online Women Nail Polish StoreRead Full Case Study",
+            "text": "",
+            "button_label": "Read Full Case Study",
+            "button_link": "shopify://metaobjects/case_studies/doubled-revenue-online-women-nail-polish-store"
+          }
+        },
+        "row_Xnbk8r": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Beyond-beauty_1.png",
+            "imglink": "",
+            "caption": "Success After Digital Marketing & Google Ads",
+            "heading": "Online Beyond Beauty Store Doubles Revenue with Google Ads",
+            "text": "",
+            "button_label": "Read Full Case Study",
+            "button_link": "shopify://metaobjects/case_studies/online-beyond-beauty-store-doubles-revenue-in-3-months-with-google-ads"
+          }
+        }
+      },
+      "block_order": [
+        "row_JYQkBT",
+        "row_Dz97JJ",
+        "row_Xwpfdi",
+        "row_Xnbk8r"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_boost_star_nDTTxT": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_c6qgTY": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_1.value }}",
+            "answer": "<p>{{ metaobject.ans_1.value }}</p>"
+          }
+        },
+        "text_7dLVyy": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_2.value }}",
+            "answer": "<p>{{ metaobject.ans_2.value }}</p>"
+          }
+        },
+        "text_ghDNyK": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_3.value }}",
+            "answer": "<p>{{ metaobject.ans_3.value }}</p>"
+          }
+        },
+        "text_bREYxE": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_4.value }}",
+            "answer": "<p>{{ metaobject.ans_4.value }}</p>"
+          }
+        },
+        "text_4DPBMA": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_5.value }}",
+            "answer": "<p>{{ metaobject.ans_5.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_c6qgTY",
+        "text_7dLVyy",
+        "text_ghDNyK",
+        "text_bREYxE",
+        "text_4DPBMA"
+      ],
+      "settings": {
+        "heading": "<strong>FREQUENTLY ASKED QUESTIONS</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 26,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#111111",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#92bc57",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "rich_text_QqYAnD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p6UzcM": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>CONTACT US TO BOOST YOUR ONLINE STORE AT AFFORDABLE PRICES</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_EPxjA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to improve your online business presence in {{ metaobject.location_name.value }}? Let’s talk! Schedule a <a href=\"/pages/contact-us\" title=\"Contact Us\"><strong>free consultation today</strong></a> to discuss how we can help you achieve your digital marketing, SEO, or Shopify Plus goals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p6UzcM",
+        "text_EPxjA6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "apps_Q8YTCr": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_JGmyaJ": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_JGmyaJ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "top_collections_boost_star_4qw7pF": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_76BdJg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/gmail.svg",
+            "text": "Email us",
+            "link": "mailto:contact@booststar.in"
+          }
+        },
+        "image_HFWfab": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/call.svg",
+            "text": "Call us",
+            "link": "tel:+917000587074"
+          }
+        },
+        "image_NmDfby": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1) 85%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/whatsapp.svg",
+            "text": "WhatsApp",
+            "link": "https://wa.me/7000587074"
+          }
+        },
+        "image_cYwhce": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(73, 251, 17, 0) 81%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/linkedin-icon.svg",
+            "text": "LinkedIn",
+            "link": "https://www.linkedin.com/company/boost-star-experts/"
+          }
+        }
+      },
+      "block_order": [
+        "image_76BdJg",
+        "image_HFWfab",
+        "image_NmDfby",
+        "image_cYwhce"
+      ],
+      "settings": {
+        "headline": "QUICK CONNECT WITH US",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/graph_bg_5799fcf1-4e4f-4d31-9906-6413836376ec.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 60,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_mEbgEm",
+    "rich_text_GFTFHW",
+    "17222622077f98065f",
+    "rich_text_7FCtUK",
+    "multicolumn_8UwL4q",
+    "rich_text_GANDfT",
+    "rich_text_6PcKnR",
+    "multirow_77LKCr",
+    "faq_boost_star_nDTTxT",
+    "rich_text_QqYAnD",
+    "apps_Q8YTCr",
+    "top_collections_boost_star_4qw7pF"
+  ]
+}

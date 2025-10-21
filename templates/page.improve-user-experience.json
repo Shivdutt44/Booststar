@@ -1,0 +1,159 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_aatQLJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_6KHwnR": {
+          "type": "row",
+          "repeater": "{{ page.metafields.custom.improve_user_experience.value }}",
+          "settings": {
+            "image": "{{ block.repeater.banner_image_1_x_1.value }}",
+            "caption": "improve user experience",
+            "heading": "{{ block.repeater.meta_title.value }}",
+            "text": "{{ block.repeater.short_section_description | metafield_tag }}",
+            "button_label": "Install in your Shopify store",
+            "button_link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "row_6KHwnR"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reviews_wKceqg": {
+      "type": "reviews",
+      "blocks": {
+        "review_rqnzbL": {
+          "type": "review",
+          "repeater": "{{ page.metafields.custom.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_rqnzbL"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 99%, rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "contact_form_3FqRVF": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_8XYtQW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ek88T4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you a talented and hard-working individual who works well in teams?",
+            "heading_size": "h2"
+          }
+        },
+        "text_bmDJCt": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>If yes, we may have a spot for you on our team...</p>"
+          }
+        },
+        "button_KaYANG": {
+          "type": "button",
+          "settings": {
+            "button_label": "CLICK HERE FOR OUR CAREERS PAGE",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ek88T4",
+        "text_bmDJCt",
+        "button_KaYANG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_aatQLJ",
+    "reviews_wKceqg",
+    "contact_form_3FqRVF",
+    "rich_text_8XYtQW"
+  ]
+}

@@ -1,0 +1,663 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_eqyhtm": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Trusted by</strong> Over<strong> 10,000+</strong> Shopify Stores",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "hidecart": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_BWkgwV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.preview_link %}\n<a class=\"product-form__buttons product-form__submit button button--full-width\" target=\"_blank\" style=\"align-items: center; justify-content: center;margin-top:-25px;\" href=\"{{product.metafields.custom.preview_link }}\">Check Live Demo</a>\n{% endif %}"
+          }
+        },
+        "icon_with_text_aJ4BKd": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "image_1": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "heading_1": "<strong>4.9 Stars On Trustopilot </strong>",
+            "icon_2": "star",
+            "image_2": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "heading_2": "<strong>4.9 Stars On Google</strong>",
+            "icon_3": "star",
+            "heading_3": ""
+          }
+        },
+        "icon_with_text_nMKEQA": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "chat_bubble",
+            "heading_1": "<strong>Live Support By Experts</strong>",
+            "icon_2": "heart",
+            "heading_2": "<strong>Loved By 10k+ Brands </strong>",
+            "icon_3": "star",
+            "heading_3": ""
+          }
+        },
+        "collapsible_tab_36nXin": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Theme Description",
+            "icon": "eye",
+            "content": "{{ product.description }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_bdgjGh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why are the themes being sold at such a low cost?",
+            "icon": "question_mark",
+            "content": "<p>We aim to make premium Shopify themes affordable for small businesses and entrepreneurs. By negotiating bulk licensing or reselling themes, we can pass on significant savings to our customers.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LnfQr8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is the theme fully functional?",
+            "icon": "question_mark",
+            "content": "<p>Yes, all themes we provide are fully functional, customizable, and optimized for performance. You’ll receive the same features as the original premium version.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_z3nMYU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are these themes safe to use?",
+            "icon": "question_mark",
+            "content": "<p>Absolutely! All themes are thoroughly checked for security and functionality before we provide them. Your website's safety and performance are our priority.</p><p></p><p></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_C9WV4U": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will I get support for the theme?",
+            "icon": "question_mark",
+            "content": "<p>We provide initial installation and customization guidance. For extended technical support, you may need to work with Shopify experts or hire additional developers.</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "text_eqyhtm",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_BWkgwV",
+        "icon_with_text_aJ4BKd",
+        "icon_with_text_nMKEQA",
+        "collapsible_tab_36nXin",
+        "collapsible_tab_bdgjGh",
+        "collapsible_tab_LnfQr8",
+        "collapsible_tab_z3nMYU",
+        "collapsible_tab_C9WV4U",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_wj44MB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GgNP8V": {
+          "type": "heading",
+          "settings": {
+            "heading": "Theme <strong>Highlights</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GgNP8V"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "boost_star_experts_marquee_highlights_MeMKBD": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_Y6b3mt": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.image1.value }}",
+            "link": ""
+          }
+        },
+        "image_MCegHf": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.image2.value }}",
+            "link": ""
+          }
+        },
+        "image_DXcRUV": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.image3.value }}",
+            "link": ""
+          }
+        },
+        "image_G9jDEb": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.image4.value }}",
+            "link": ""
+          }
+        },
+        "image_mqMQfT": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.image5.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Y6b3mt",
+        "image_MCegHf",
+        "image_DXcRUV",
+        "image_G9jDEb",
+        "image_mqMQfT"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "20s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(255, 255, 255, 1) 48.02%, rgba(245, 245, 245, 1) 96.04%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1200,
+        "height": 250,
+        "margin_tp": 36,
+        "margin_bt": 36,
+        "padding_tp": 25,
+        "padding_bt": 25,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_EKW4Ap": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XzkgGF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Theme<strong> Features & Benefits</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XzkgGF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_display_policies_8e6iN6": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_Ga4LcJ": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>Responsive Design</strong>",
+            "text": "Looks great on any device",
+            "link": ""
+          }
+        },
+        "icon_axgCxg": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>Customizable</strong> ",
+            "text": " Match your brand with easy tweaks",
+            "link": ""
+          }
+        },
+        "icon_CaxbN9": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>Fast Loading</strong> ",
+            "text": "Enhances user experience and reduces bounce rates",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_Ga4LcJ",
+        "icon_axgCxg",
+        "icon_CaxbN9"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_display_policies_YprK44": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_VzgbDz": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>Global Support</strong>",
+            "text": " Multi-language and currency options",
+            "link": ""
+          }
+        },
+        "icon_J39PNi": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>Secure Checkout</strong> ",
+            "text": "Safe, SSL-protected transactions",
+            "link": ""
+          }
+        },
+        "icon_6hapfH": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>SEO Optimized</strong>",
+            "text": " Boosts search engine visibility",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_VzgbDz",
+        "icon_J39PNi",
+        "icon_6hapfH"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_block": 30,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "multicolumn_UdxTb6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qHq8Bc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Eo_circle_green_number-1_svg.png",
+            "title": "Select a Theme",
+            "text": "<p>Explore our collection of premium Shopify themes, compare features, and choose the one that suits your business needs.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Mpg8k7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sodapdf-converted__1_-removebg-preview.png",
+            "title": "<strong>Purchase & Download</strong>",
+            "text": "<p>Securely buy the theme at an unbeatable price, and receive instant access to the download link.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WNJWqG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download-removebg-preview_a2409871-559c-400f-a443-3e9fc090d153.png",
+            "title": "<strong>Install & Customize</strong>",
+            "text": "<p>Easily upload the theme to your Shopify store, customize it to match your brand, and start selling online!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qHq8Bc",
+        "column_Mpg8k7",
+        "column_WNJWqG"
+      ],
+      "custom_css": [
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "How to Apply This <strong>Theme</strong> to Your <strong>Shopify</strong> Store",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "image_with_text_4UERHX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_z6rt83": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose<strong> BOOST STAR Experts?</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_87hRHX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✅ <strong>Affordable Prices</strong></p><p>✅ <strong>Premium Quality</strong></p><p>✅ <strong>Customization Support</strong></p><p>✅ <strong>Expert Assistance</strong></p><p>✅ <strong>Secure & Safe</strong></p><p>✅ <strong>Refund Policy</strong></p><p>✅ <strong>Trusted Service</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z6rt83",
+        "text_87hRHX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shopify-experts.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_KrcjpK": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PryUgA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer refunds if I am not satisfied?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, we offer a refund within 3 Business Days if the theme is not working as advertised or if there are any issues on our end.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EbQiY9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know the theme will work for my store?",
+            "icon": "question_mark",
+            "row_content": "<p>Before purchase, we offer a demo or consultation to ensure the theme suits your needs. Our team can guide you in selecting the best theme for your business.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iN9PNJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I purchase an activated Shopify theme?",
+            "icon": "question_mark",
+            "row_content": "<p>You can browse our collection on our website or contact us directly to make a purchase. We accept secure payment methods to ensure a smooth transaction process.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rDwCjf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will using these themes affect my store’s performance?",
+            "icon": "question_mark",
+            "row_content": "<p>Not at all. These themes are optimized for speed and performance to ensure a seamless shopping experience for your customers.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Erax6L": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I install the theme after purchase?",
+            "icon": "question_mark",
+            "row_content": "<p>We provide a step-by-step installation guide or offer installation support as part of the purchase package.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jRiXJp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are these themes approved by Shopify?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, the themes we sell are sourced from approved developers and adhere to Shopify's standards for design and functionality.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bQ9wdQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know your themes are genuine?",
+            "icon": "question_mark",
+            "row_content": "<p>Our themes are tested for originality and functionality before delivery. Additionally, we offer live demonstrations to prove their authenticity.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ALhrbQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I face issues after purchasing the theme?",
+            "icon": "question_mark",
+            "row_content": "<p>We provide post-purchase support for troubleshooting and resolving any issues related to the theme’s functionality.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NrUVJR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer free trials or demos?",
+            "icon": "question_mark",
+            "row_content": "<p>We can provide a live demo of any theme so you can see its features and performance before purchasing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HaYVV9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any hidden costs?",
+            "icon": "question_mark",
+            "row_content": "<p>No, our pricing is transparent, and there are no hidden fees. You pay only the stated cost of the theme.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_k3EKtH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What sets BOOST STAR Experts apart from competitors?",
+            "icon": "question_mark",
+            "row_content": "<p>Trusted by hundreds of satisfied customers.</p><ul><li>Dedicated customer support.</li><li>Unmatched pricing for premium-quality themes.</li><li>Commitment to customer satisfaction with refund policies.</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_PryUgA",
+        "collapsible_row_EbQiY9",
+        "collapsible_row_iN9PNJ",
+        "collapsible_row_rDwCjf",
+        "collapsible_row_Erax6L",
+        "collapsible_row_jRiXJp",
+        "collapsible_row_bQ9wdQ",
+        "collapsible_row_ALhrbQ",
+        "collapsible_row_NrUVJR",
+        "collapsible_row_HaYVV9",
+        "collapsible_row_k3EKtH"
+      ],
+      "settings": {
+        "caption": "Your Ultimate Buying Guide",
+        "heading": "<strong>Get Clarity </strong>Before You Buy!",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "<strong>You may also like</strong>",
+        "heading_size": "h2",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_wj44MB",
+    "boost_star_experts_marquee_highlights_MeMKBD",
+    "rich_text_EKW4Ap",
+    "boost_star_display_policies_8e6iN6",
+    "boost_star_display_policies_YprK44",
+    "multicolumn_UdxTb6",
+    "image_with_text_4UERHX",
+    "collapsible_content_KrcjpK",
+    "related-products"
+  ]
+}

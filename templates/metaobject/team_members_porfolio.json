@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout":"none",
+  "sections": {
+    "portfolio_89bCrt": {
+      "type": "portfolio",
+      "name": "Student Resume",
+      "settings": {
+        "student_name": "Aarav Mehta",
+        "student_role": "Shopify Developer Intern",
+        "certification": "Certified Shopify Training – BOOST STAR Experts",
+        "internship_dates": "June 2025 – August 2025",
+        "phone": "999-999-000",
+        "location": "Bengaluru",
+        "email": "aaravmehta88@gmail.com",
+        "about_short": "<p>I'm Aarav Mehta, a final-year engineering student with a passion for turning beautiful designs into functional Shopify storefronts.</p>",
+        "about_full": "<p>I'm Aarav Mehta, a final-year engineering student with a passion for turning beautiful designs into functional Shopify storefronts. My internship at BOOST STAR Experts helped me gain hands-on experience with real eCommerce brands — now I'm ready for the next step.</p>",
+        "skill_1_name": "HTML/CSS",
+        "skill_1_percentage": 90,
+        "skill_2_name": "Shopify Liquid",
+        "skill_2_percentage": 75,
+        "skill_3_name": "Meta Ads",
+        "skill_3_percentage": 80,
+        "skill_4_name": "JavaScript",
+        "skill_4_percentage": 60,
+        "skill_5_name": "SEO",
+        "skill_5_percentage": 65,
+        "certification_title": "8-WEEK SHOPIFY INTERNSHIP – Certified by BOOST STAR Experts",
+        "certification_highlight_1": "Shopify Store Setup",
+        "certification_highlight_2": "Theme Customization",
+        "certification_highlight_3": "Ad Campaign Management",
+        "certification_highlight_4": "Landing Page Design",
+        "certification_highlight_5": "Email Automation",
+        "certification_details": "<p>This 8-week intensive program covered all aspects of Shopify development, from basic store setup to advanced theme customization and optimization techniques.</p><p>Participants worked on real client projects and received mentorship from industry experts.</p>",
+        "testimonial_1_mentor_name": "Mahi",
+        "testimonial_1_mentor_role": "Senior Shopify Developer",
+        "testimonial_1_text": "<p>Aarav demonstrated exceptional skills in Shopify development during his internship. His attention to detail and problem-solving abilities are impressive.</p>",
+        "testimonial_2_mentor_name": "Rohan",
+        "testimonial_2_mentor_role": "Project Manager",
+        "testimonial_2_text": "<p>Aarav quickly adapted to our workflow and delivered quality work. His understanding of e-commerce best practices is beyond his experience level.</p>",
+        "testimonial_3_mentor_name": "Priya",
+        "testimonial_3_mentor_role": "UX Designer",
+        "testimonial_3_text": "<p>I was impressed by Aarav's ability to turn complex design requirements into functional Shopify features. He's a natural problem solver.</p>",
+        "portfolio_text": "<p>I'm eager to apply my Shopify development skills to help businesses create exceptional online stores. With my training and internship experience, I'm ready to contribute to your team from day one.</p>"
+      }
+    }
+  },
+  "order": [
+    "portfolio_89bCrt"
+  ]
+}

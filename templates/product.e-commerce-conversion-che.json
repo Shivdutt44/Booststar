@@ -1,0 +1,1065 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "custom_liquid_kFihfP": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .cart-timer {\n    background: #f3f4f6;\n    color: #1f2937;\n    font-weight: bold;\n    font-size: 16px;\n    padding: 8px 14px;\n    border-radius: 6px;\n    display: inline-flex;\n    align-items: center;\n    gap: 6px;\n  }\n  .cart-timer span {\n    color: #2563eb;\n  }\n</style>\n\n<div class=\"cart-timer\">🔥Products are limited, checkout within <span id=\"countdown\">02m 00s</span>\n</div>\n\n<script>\n  let timeLeft = 120;\n  function startCountdown() {\n    const countdownEl = document.getElementById(\"countdown\");\n    setInterval(() => {\n      let minutes = Math.floor(timeLeft / 60);\n      let seconds = timeLeft % 60;\n      minutes = minutes < 10 ? \"0\" + minutes : minutes;\n      seconds = seconds < 10 ? \"0\" + seconds : seconds;\n      countdownEl.textContent = `${minutes}m ${seconds}s`;\n      timeLeft--;\n      if (timeLeft < 0) {\n        timeLeft = 120; // reset timer\n      }\n    }, 1000);\n  }\n  startCountdown();\n</script>"
+          }
+        },
+        "text_6bUTc3": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Language:</strong> English",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_ceQMQn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-weight: bold;\">Having trouble converting visitors into buyers? BOOST STAR Experts created this 300+ point conversion checklist for e-commerce brands to optimize every single page and create more sales.</p>\n\n<div class=\"benefits-box\">\n  <p><span class=\"checkmark\">✓</span> Turn website visitors into customers</p>\n  <p><span class=\"checkmark\">✓</span> Increase average order value</p>\n  <p><span class=\"checkmark\">✓</span> Reduce ad costs</p>\n  <p><span class=\"checkmark\">✓</span> Increase profits while scaling faster</p>\n  <p><span class=\"checkmark\">✓</span> Storify has visually clear steps and guidelines</p>\n</div>\n\n<style>\n.checkmark {\n  background-color: #28a745;\n  color: #fff;\n  border-radius: 50%;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 22px;\n  height: 22px;\n  margin-right: 10px;\n  font-weight: bold;\n  font-size: 14px;\n  flex-shrink: 0;\n}\n\n.benefits-box {\n  background-color: #f5f5f5;\n  padding: 16px;\n  border-radius: 10px;\n}\n\n.benefits-box p {\n  font-size: 16px;\n  margin: 10px 0;\n  display: flex;\n  align-items: flex-start;\n  line-height: 1.5;\n}\n\n@media (max-width: 768px) {\n  .benefits-box {\n    padding: 12px;\n  }\n\n  .benefits-box p {\n    font-size: 14px;\n  }\n\n  .checkmark {\n    width: 20px;\n    height: 20px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n}\n</style>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "hidecart": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_pTi3XR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"benefits-box\">\n  <p><span class=\"checkmark\">✓</span> Works on all e-commerce platforms</p>\n  <p><span class=\"checkmark\">✓</span> One-time payment, get lifetime access</p>\n  <p><span class=\"checkmark\">✓</span> Download access and instant use</p>\n  <p><span class=\"checkmark\">✓</span> Use in any country, in any market</p>\n  <p><span class=\"checkmark\">✓</span> Works easy in Sheets or Excel</p>\n</div>\n\n<style>\n.checkmark {\n  background-color: #28a745;\n  color: #fff;\n  border-radius: 50%;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 22px;\n  height: 22px;\n  margin-right: 10px;\n  font-weight: bold;\n  font-size: 14px;\n  flex-shrink: 0;\n}\n\n.benefits-box {\n  background-color: #f5f5f5;\n  padding: 16px;\n  border-radius: 10px;\n}\n\n.benefits-box p {\n  font-size: 16px;\n  margin: 10px 0;\n  display: flex;\n  align-items: flex-start;\n  line-height: 1.5;\n}\n\n@media (max-width: 768px) {\n  .benefits-box {\n    padding: 12px;\n  }\n\n  .benefits-box p {\n    font-size: 14px;\n  }\n\n  .checkmark {\n    width: 20px;\n    height: 20px;\n    font-size: 12px;\n    margin-right: 8px;\n  }\n}\n</style>"
+          }
+        },
+        "collapsible_tab_zJkzgK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>{{ product.description }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mrVQTT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What's included",
+            "icon": "none",
+            "content": "<p>Our checklist has 300+ conversion focused checkpoints. It will optimize every single part of your store for sales and conversion:</p><ul><li>General Settings</li><li>Home Page</li><li>Collection Page</li><li>Product Page</li><li>About us Page</li><li>Cart & Checkout Pages</li><li>Upsell funnel and how to increase average order value</li><li>BONUS: Traffic Optimization</li><li>BONUS: The best E-commerce stores</li></ul><p>Visual examples, step-by-step guides and app/tools recommendations makes this checklist easy for anyone to implement!</p><p>You can implement all strategies yourself and no developer is needed.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_DewXic": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Including Guides & Examples",
+            "icon": "none",
+            "content": "<p>With visual examples, step-by-step guides and app/tools recommendations this checklist is easy for anyone to understand and implement!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_7Ramt4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Access",
+            "icon": "none",
+            "content": "<ul><li>After purchase you will get instant access to the product through email</li><li>Can be used in Google Sheets, Excel or Numbers</li><li>Create your own unique copy that you can make your own changes to</li><li>Free lifetime access to all products</li><li>Download the original product as many times as you want for free</li><li>Get access to all updated versions of this product for free</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_nNjQh6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible with all e-com platforms",
+            "icon": "none",
+            "content": "<p>Compatible with all e-commerce platforms, including Shopify, Wordpress, WooCommerce, Magento, Webflow, Squarespace, Wix, Ecwid, Adobe Commerce and more!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FxXATj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible with all products & markets",
+            "icon": "none",
+            "content": "<p>This checklist is universal and can be used for all types of products and in all countries.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UyGFLe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "100% Satisfaction Guarantee",
+            "icon": "none",
+            "content": "<p>If for any reason you’re not happy with the contents of E-commerce Conversion Rate Checklist we will issue you a 100% refund - no questions asked.</p><p>If you need help, contact us at <a href=\"mailto:hey@launchlabpro.com\">hey@launchlabpro.com</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_RDVx9U": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does it work?",
+            "icon": "none",
+            "content": "<p>1. Purchase our E-commerce Sales and Conversion Checklist</p><p>2. Go over every checkpoint and evaluate your store. This will help you discover how <strong>you</strong> can increase your sales.</p><p>3. Implement the tasks needed for your store.</p><p>4. You're done! Increasing your sales and conversion rate can really be as easy as that.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "custom_liquid_kFihfP",
+        "text_6bUTc3",
+        "custom_liquid_ceQMQn",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_pTi3XR",
+        "collapsible_tab_zJkzgK",
+        "collapsible_tab_mrVQTT",
+        "collapsible_tab_DewXic",
+        "collapsible_tab_7Ramt4",
+        "collapsible_tab_nNjQh6",
+        "collapsible_tab_FxXATj",
+        "collapsible_tab_UyGFLe",
+        "collapsible_tab_RDVx9U"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_749Hbg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JdgJpV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How many customers are slipping away from your store?",
+            "heading_size": "h1"
+          }
+        },
+        "text_FecxUb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BOOST STAR Experts checklist will help optimize your store so you can get more sales.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JdgJpV",
+        "text_FecxUb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "image_banner_bCpptc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fCVfTc": {
+          "type": "heading",
+          "settings": {
+            "heading": "300+ Sales & Conversion Strategies for Your Store",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_kU47tY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BOOST STAR Experts’ checklist helps you optimize every part of your store to increase sales.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fCVfTc",
+        "text_kU47tY"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Bakgrunn_2_430x_e54e7924-7b0f-48d0-b4cc-5013ca914a35.webp",
+        "image_2": "shopify://shop_images/Design_uten_navn_4.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_9xrtb4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RxDBCA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_73699c94-6b60-4cbb-8239-46219b0c7641.png",
+            "title": "<strong>Assistance </strong>",
+            "text": "<p>Proven strategies provided by BOOST STAR Experts and leaders in the ecosystem.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ptejU9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_3.png",
+            "title": "<strong>Try it out </strong>",
+            "text": "<p>The same steps we took to build thriving e-commerce brands. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LwHTV8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_2.png",
+            "title": "<strong>Results</strong>",
+            "text": "<p>We focused on converting visitors into loyal customers with higher sales.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RxDBCA",
+        "column_ptejU9",
+        "column_LwHTV8"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center !important;}",
+        "@media screen and (max-width: 749px) {.multicolumn .title-wrapper-with-link {margin-bottom: 3rem; text-align: center; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "BOOST STAR Experts’ Conversion Playbook",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_YUJJji": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dAtkWy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_300db209-3330-4df8-8ef8-efb03945bda8.png",
+            "title": "Increase Revenue & ROI",
+            "text": "<p>By increasing your conversion rate and order value, your marketing dollar can work harder and give you more returns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CKYfip": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Launch_Lab_E-commerce_Checklists_10.png",
+            "title": "<strong>Lower Ad Spend</strong>",
+            "text": "<p>Better conversions will give you lower costs per sale and more profit from every customer.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HYmdxB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_bcf22ac0-f27c-467d-a0c1-1459877a2e87.webp",
+            "title": "<strong>Grow Without Limitations</strong>",
+            "text": "<p>By boosting sales and lowering expenses, you will be able to scale your store much more quickly and easily.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dAtkWy",
+        "column_CKYfip",
+        "column_HYmdxB"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center !important;}",
+        "@media screen and (max-width: 749px) {.multicolumn .title-wrapper-with-link {margin-bottom: 3rem; text-align: center; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "BOOST STAR Experts’ Path to E-Commerce Expansion",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4b914fa0-01b1-4342-9508-51aba777e8a5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "reviews_HjyrRr": {
+      "type": "reviews",
+      "blocks": {
+        "review_3AT43L": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Daniel P.",
+            "designation": "Colorado",
+            "review": "<p>From cart recovery to upsells, this checklist helped me everywhere.</p>"
+          }
+        },
+        "review_EWP4Mp": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ava B.",
+            "designation": "Washington",
+            "review": "<p>Booststar Experts really understand e-commerce.  Their strategies just work.</p>"
+          }
+        },
+        "review_Dhi968": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Michael S.",
+            "designation": "Ohio",
+            "review": "<p>Lifetime access. I can’t believe it was worth every penny. My store feels unstoppable now.</p>"
+          }
+        },
+        "review_yUmeDJ": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Olivia H.",
+            "designation": "Illinois",
+            "review": "<p>I’ve been through so many guides before, but the BOOST STAR Experts checklist was the most practical.</p>"
+          }
+        },
+        "review_3nigzY": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "David K.",
+            "designation": "Florida",
+            "review": "<p>The steps were clear, simple, and effective.  My conversion rate soared instantly.</p>"
+          }
+        },
+        "review_aCMPyW": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Sophia M.",
+            "designation": "Texas",
+            "review": "<p>I cut my ad spend in half after I used the BOOST STAR Experts checklist.</p>"
+          }
+        },
+        "review_ejUUwp": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "James T.",
+            "designation": "California",
+            "review": "<p>Super easy to follow and practical real strategies! Definitely worth every dollar.</p>"
+          }
+        },
+        "review_VbVFtb": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Emily R.",
+            "designation": " New York",
+            "review": "<p>The checklist was a game changer for my Shopify store. Sales doubled in two months.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_3AT43L",
+        "review_EWP4Mp",
+        "review_Dhi968",
+        "review_yUmeDJ",
+        "review_3nigzY",
+        "review_aCMPyW",
+        "review_ejUUwp",
+        "review_VbVFtb"
+      ],
+      "name": "BOOST : Review Slider",
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffd700",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": false,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 60,
+        "padding-bottom": 40,
+        "padding-inline": 10
+      }
+    },
+    "image_banner_q4PcBH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4NKTwH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eliminate Confusion & Waste Of Effort",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_LMDtLE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There is no ease in building an e-commerce store when you are not sure what strategies will work. That is the reason BOOST STAR Experts designed this checklist, to provide a clear, proven path to avoid risky mistakes.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4NKTwH",
+        "text_LMDtLE"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Bakgrunn_2_430x_e54e7924-7b0f-48d0-b4cc-5013ca914a35.webp",
+        "image_2": "shopify://shop_images/Design_uten_navn_4.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_CYhkFA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bkBRfe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AB_3.png",
+            "title": "<strong>Review the checkpoints</strong>",
+            "text": "<p>Check each conversion point to identify gaps and opportunities for growth in your store.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wwzFKL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AB_3.png",
+            "title": "<strong>Apply the fixes</strong>",
+            "text": "<p>Complete the steps to either add any missing elements or improve any existing ones.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8RGjMz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_2.png",
+            "title": "<strong>Watch the results</strong>",
+            "text": "<p>Watch your sales and conversion rates increase by making simple, established changes.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bkBRfe",
+        "column_wwzFKL",
+        "column_8RGjMz"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center !important;}",
+        "@media screen and (max-width: 749px) {.multicolumn .title-wrapper-with-link {margin-bottom: 3rem; text-align: center; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "How BOOST STAR Experts' Checklist Works",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_4Qgze4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_yiQ3Q7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Having trouble with excessive ad spend?",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_3KGHUf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most of the time, the problem is NOT with your ads, it's your store. The BOOST STAR Experts Conversion Checklist helps you correct that by doubling conversions and stretching every advertising dollar further.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yiQ3Q7",
+        "text_3KGHUf"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Bakgrunn_2_430x_e54e7924-7b0f-48d0-b4cc-5013ca914a35.webp",
+        "image_2": "shopify://shop_images/Design_uten_navn_4.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_8hmLhz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Vt8nkC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Money-Back Guarantee",
+            "heading_size": "h1"
+          }
+        },
+        "text_LA8qP7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can count on the BOOST STAR Experts Conversion Checklist. If it doesn’t work, just return it for a complete refund.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vt8nkC",
+        "text_LA8qP7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "image_banner_76MaCh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HzXPid": {
+          "type": "heading",
+          "settings": {
+            "heading": "What if every visitor bought more often?",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_YQGCJK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get more visitors and clicks with BOOST STAR Experts' checklist.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HzXPid",
+        "text_YQGCJK"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Bakgrunn_2_430x_e54e7924-7b0f-48d0-b4cc-5013ca914a35.webp",
+        "image_2": "shopify://shop_images/Design_uten_navn_4.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "collapsible_content_FerYk9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_dpzCpg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the Conversion Checklist?",
+            "icon": "check_mark",
+            "row_content": "<p>A 300+ link checklist that can help you improve your store and increase your sales.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8cpDmT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Who does it apply to?",
+            "icon": "check_mark",
+            "row_content": "<p>E-commerce owners and marketers who want to increase conversion and profit in their business.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_J9FphR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to be technical?",
+            "icon": "check_mark",
+            "row_content": "<p>No, It's simple, has a beginner-friendly guide, and is super easy to use. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_T8ADcV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What platforms does it work on?",
+            "icon": "check_mark",
+            "row_content": "<p>Works on Shopify, WooCommerce, Magento, and all e-commerce platforms.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rjawX3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it a subscription?",
+            "icon": "check_mark",
+            "row_content": "<p>No, It's a one-time payment and has lifetime access.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aURmhn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How will I get it?",
+            "icon": "check_mark",
+            "row_content": "<p>Instantly downloaded in a Google Sheets/Excel file + Notion via email.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UgRVJV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it actually work?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, It utilizes A/B tested techniques from some of the most successful stores.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_dpzCpg",
+        "collapsible_row_8cpDmT",
+        "collapsible_row_J9FphR",
+        "collapsible_row_T8ADcV",
+        "collapsible_row_rjawX3",
+        "collapsible_row_aURmhn",
+        "collapsible_row_UgRVJV"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_Emnrnw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jLcUkQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Our Conversion Rate Checklist Has Already Helped 4000+ Brand Owners 💙",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jLcUkQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "multicolumn_RFNhCf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bBCqDP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T150338.698.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4wGfQD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T150726.191.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UHgdQp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_2ae2831c-bc16-431b-8c63-5817ca0250ec.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DAHCdN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_51149c52-a3b6-41f2-8022-0bddc17d3f32.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_87XhLR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_88a76a50-5f4c-43cc-b905-d45685da278a.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8tEU7F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4_f4604519-cdcb-4438-b4e3-24308cc5f1a1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LT9XXH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5_4a0eec97-da87-4592-9a46-7fbeb55f011b.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4Pie89": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T150557.654.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fJHzHg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T150828.669.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GPPCzp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T150931.668.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tBFWTX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T151026.658.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yNw6mw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/13.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9bVPpL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/14.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eGncn4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/15.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ykfBWb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T152103.669.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rmzU3f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T152248.827.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z9RqTT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T152509.700_a4c8026e-7f8a-45cc-af25-a52d73a6a09d.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GYP3j7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-05-21T153614.678.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bBCqDP",
+        "column_4wGfQD",
+        "column_UHgdQp",
+        "column_DAHCdN",
+        "column_87XhLR",
+        "column_8tEU7F",
+        "column_LT9XXH",
+        "column_4Pie89",
+        "column_fJHzHg",
+        "column_GPPCzp",
+        "column_tBFWTX",
+        "column_yNw6mw",
+        "column_9bVPpL",
+        "column_eGncn4",
+        "column_ykfBWb",
+        "column_rmzU3f",
+        "column_z9RqTT",
+        "column_GYP3j7"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_749Hbg",
+    "image_banner_bCpptc",
+    "multicolumn_9xrtb4",
+    "multicolumn_YUJJji",
+    "reviews_HjyrRr",
+    "image_banner_q4PcBH",
+    "multicolumn_CYhkFA",
+    "image_banner_4Qgze4",
+    "rich_text_8hmLhz",
+    "image_banner_76MaCh",
+    "collapsible_content_FerYk9",
+    "rich_text_Emnrnw",
+    "multicolumn_RFNhCf",
+    "related-products"
+  ]
+}

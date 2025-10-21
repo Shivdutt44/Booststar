@@ -1,0 +1,361 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KN4Yjr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9mhnk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrEn3t": {
+          "type": "text",
+          "settings": {
+            "text": "Win The Customer Trust With {{ metaobject.heading.value }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9mhnk",
+        "text_HrEn3t"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_37.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "top_collections_boost_star_4H7X8j": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_BCpFqm": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_FBRaW3": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_Q3TGL7": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_nThYcC": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "video_CnjzAc": {
+          "type": "video",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "image_kLV7YG": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_DBdUni": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BCpFqm",
+        "image_FBRaW3",
+        "image_Q3TGL7",
+        "image_nThYcC",
+        "video_CnjzAc",
+        "image_kLV7YG",
+        "image_DBdUni"
+      ],
+      "settings": {
+        "headline": "<strong>WIN THE CUSTOMER TRUST</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "top",
+        "circle_size": 100,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_trust_badges_ckK6eH": {
+      "type": "boost-star-trust-badges",
+      "settings": {
+        "icon_color": "#97ba52",
+        "show_free_shipping": true,
+        "show_money_back": true,
+        "show_secure_payments": true,
+        "show_award_winning": true,
+        "show_premium_quality": true,
+        "show_five_star": true,
+        "show_fast_shipping": false,
+        "show_thousand_sold": false,
+        "show_satisfaction_guaranteed": false,
+        "show_guaranteed_quality": false,
+        "show_exclusive": false,
+        "show_inspected": false,
+        "show_made_in_usa": false,
+        "show_made_in_canada": false,
+        "text_alignment": "center",
+        "headline": "<strong>Our Commitment</strong>",
+        "text": "Learn why more customers trust us over our competition",
+        "headline_size": 25,
+        "text_size": 15,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "icon_height": 100,
+        "max_width": 1600,
+        "grid_gap": 10,
+        "padding_block": 25,
+        "padding_inline": 0,
+        "margin_block": 0,
+        "element_spacing": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "boost_star_trust_badges_gzTpVX": {
+      "type": "boost-star-trust-badges",
+      "settings": {
+        "icon_color": "#111",
+        "show_free_shipping": true,
+        "show_money_back": true,
+        "show_secure_payments": true,
+        "show_award_winning": true,
+        "show_premium_quality": true,
+        "show_five_star": true,
+        "show_fast_shipping": false,
+        "show_thousand_sold": false,
+        "show_satisfaction_guaranteed": false,
+        "show_guaranteed_quality": false,
+        "show_exclusive": false,
+        "show_inspected": false,
+        "show_made_in_usa": false,
+        "show_made_in_canada": false,
+        "text_alignment": "center",
+        "headline": "<strong>Our Commitment</strong>",
+        "text": "Learn why more customers trust us over our competition",
+        "headline_size": 25,
+        "text_size": 15,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/ewsdrf.png",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "icon_height": 100,
+        "max_width": 1600,
+        "grid_gap": 10,
+        "padding_block": 25,
+        "padding_inline": 0,
+        "margin_block": 0,
+        "element_spacing": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "boost_star_trust_badges_wxBPd9": {
+      "type": "boost-star-trust-badges",
+      "settings": {
+        "icon_color": "#a7a7a9",
+        "show_free_shipping": false,
+        "show_money_back": false,
+        "show_secure_payments": false,
+        "show_award_winning": false,
+        "show_premium_quality": false,
+        "show_five_star": false,
+        "show_fast_shipping": true,
+        "show_thousand_sold": true,
+        "show_satisfaction_guaranteed": true,
+        "show_guaranteed_quality": true,
+        "show_exclusive": true,
+        "show_inspected": true,
+        "show_made_in_usa": false,
+        "show_made_in_canada": false,
+        "text_alignment": "center",
+        "headline": "<strong>Our Commitment</strong>",
+        "text": "Learn why more customers trust us over our competition",
+        "headline_size": 25,
+        "text_size": 15,
+        "background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(0, 0, 0, 1) 97.194%)",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "headline_color": "#ffffff",
+        "text_color": "#ffffff",
+        "icon_height": 100,
+        "max_width": 1600,
+        "grid_gap": 10,
+        "padding_block": 25,
+        "padding_inline": 0,
+        "margin_block": 0,
+        "element_spacing": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "boost_star_trust_badges_h7kB6k": {
+      "type": "boost-star-trust-badges",
+      "settings": {
+        "icon_color": "#111",
+        "image_1": "shopify://shop_images/Asset_28_d0bd695c-eae8-4aa7-a0f7-d35bd660e0fa.svg",
+        "image_2": "shopify://shop_images/Asset_26.svg",
+        "image_3": "shopify://shop_images/Asset_24.svg",
+        "image_4": "shopify://shop_images/Asset_25.svg",
+        "image_5": "shopify://shop_images/Asset_23.svg",
+        "show_free_shipping": false,
+        "show_money_back": false,
+        "show_secure_payments": false,
+        "show_award_winning": false,
+        "show_premium_quality": false,
+        "show_five_star": false,
+        "show_fast_shipping": false,
+        "show_thousand_sold": false,
+        "show_satisfaction_guaranteed": false,
+        "show_guaranteed_quality": false,
+        "show_exclusive": false,
+        "show_inspected": false,
+        "show_made_in_usa": false,
+        "show_made_in_canada": false,
+        "text_alignment": "center",
+        "headline": "<strong>Our Commitment</strong>",
+        "text": "Learn why more customers trust us over our competition",
+        "headline_size": 25,
+        "text_size": 15,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/qzs.png",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "icon_height": 100,
+        "max_width": 1600,
+        "grid_gap": 10,
+        "padding_block": 25,
+        "padding_inline": 0,
+        "margin_block": 0,
+        "element_spacing": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_6Mjapm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9Yc93t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Default Design - {{ metaobject.meta_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_TVNbeJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.meta_description | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Yc93t",
+        "text_TVNbeJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_KN4Yjr",
+    "top_collections_boost_star_4H7X8j",
+    "boost_star_trust_badges_ckK6eH",
+    "boost_star_trust_badges_gzTpVX",
+    "boost_star_trust_badges_wxBPd9",
+    "boost_star_trust_badges_h7kB6k",
+    "rich_text_6Mjapm"
+  ]
+}

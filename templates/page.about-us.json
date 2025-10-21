@@ -1,0 +1,649 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_nhAjJV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RwzNwJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT US",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RwzNwJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/startups_20at_20a_20coworking_20space_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_ym97mU": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_JNN7yN": {
+          "type": "caption",
+          "settings": {
+            "caption": "- WHO WE ARE -",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_YBd34p": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE ARE YOUR PARTNER IN E-COMMERCE SUCCESS",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_VdkJ7A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to <a href=\"https://www.booststar.in/\" title=\"https://www.booststar.in/\"><strong>BOOST STAR Experts</strong></a>, your dedicated partners in e-commerce excellence. Beyond traditional website design, we specialise in crafting unforgettable online experiences that propel success for businesses in the digital realm.</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "caption_JNN7yN",
+        "heading_YBd34p",
+        "text_VdkJ7A"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/about_2_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_bU8WzT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KYV3VY": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR VISION",
+            "heading_size": "h1"
+          }
+        },
+        "text_7GHEiP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BOOST STAR Experts is an Agency that provides <strong>e-commerce solutions</strong> to its clients. We are dedicated to delivering the best possible experience to our clients, and we adhere to strong professional standards.  We believe that our clients deserve the best possible service, and we strive to provide it. Our goal is to be the leading provider of e-commerce solutions, and we work hard to achieve it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KYV3VY",
+        "text_7GHEiP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Pc4Q4N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jpdkpg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ECOMMERCE BUSINESSES </strong> WE HELP",
+            "heading_size": "h1"
+          }
+        },
+        "caption_PhT3eE": {
+          "type": "caption",
+          "settings": {
+            "caption": "We specialize in empowering a diverse range of ecommerce businesses to achieve their full potential. for following sectors our tailored strategies and comprehensive digital marketing solutions are designed to boost your online presence, drive traffic, and increase sales.",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jpdkpg",
+        "caption_PhT3eE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_aGcb4V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fXx9Ln": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/d2c-icon.svg",
+            "title": "D2C",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Qxt3GV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/restaurants-icon.svg",
+            "title": "Fashion & Apparel",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rtV3gR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/qsrs-icon.svg",
+            "title": "Electronics & Gadgets",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PUcnQL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/salons-_-wellness-icon.svg",
+            "title": "Home and Garden",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KnWNCW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cafes-icon.svg",
+            "title": "Health and Beauty",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_djCykf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/food-courts-icon.svg",
+            "title": "Food and Beverage",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wCdHc3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grocery-icon.svg",
+            "title": "Pet Supplies",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8XYdi7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cashless-campuses-icon.svg",
+            "title": "Toys and Games",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VxAMwr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cloud-kitchens-icon.svg",
+            "title": "Cloud Kitchens",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DFNdff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/breweries-icon.svg",
+            "title": "Books and Media",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fXx9Ln",
+        "column_Qxt3GV",
+        "column_rtV3gR",
+        "column_PUcnQL",
+        "column_KnWNCW",
+        "column_djCykf",
+        "column_wCdHc3",
+        "column_8XYdi7",
+        "column_VxAMwr",
+        "column_DFNdff"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "#",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EyTCbb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gqnQyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR MISSION",
+            "heading_size": "h1"
+          }
+        },
+        "text_VEWphJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our mission is to help our clients achieve their desired level of success <strong>online</strong> by providing them with the <a href=\"/pages/our-services\" target=\"_blank\" title=\"Our Services\"><strong>services</strong></a> and resources they need to succeed. We work closely with our clients to ensure that their websites are designed and developed to meet their specific needs and goals. We believe that every business deserves to have a <strong>successful online presence</strong>, and we are dedicated to helping our clients achieve this goal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gqnQyj",
+        "text_VEWphJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 40
+      }
+    },
+    "boost_star_achievement_counter_tJV6b6": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "",
+        "content": "",
+        "content_alignment": "center",
+        "box_1_number": "2000",
+        "append_1": "+",
+        "box_1_text": "<strong>Projects Completed</strong>",
+        "box_2_number": "10",
+        "append_2": "+",
+        "box_2_text": "<strong>Years of Experience </strong>",
+        "box_3_number": "125",
+        "append_3": "+",
+        "box_3_text": "<strong>Team Members </strong>",
+        "headline_size": 25,
+        "text_size": 15,
+        "count_size": 40,
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "count_color": "#97ba52",
+        "background_color": "",
+        "number_border_color": "#97ba52",
+        "number_bg": "#121212",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "element_spacing": 15,
+        "max_width": 1400,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 10,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "count_font": "sans-serif"
+      }
+    },
+    "image_with_text_6QyWJG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Lkkxmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "It’s always a joy to hear positive feedback about the work we do.",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_xpBcBW": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>⭐⭐⭐⭐⭐</h2><p>We have spent 5+ years working for most recognised and successful retailers so we have many good review of works.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_FqHzkN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Reviews",
+            "button_link": "shopify://pages/client-success-stories-boost-star-experts-reviews",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lkkxmz",
+        "text_xpBcBW",
+        "button_FqHzkN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/customer23.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pTPYBL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_99FBVm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Free Cunsultation for you Ecommerce business",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_EP8B3w": {
+          "type": "text",
+          "settings": {
+            "text": "<p> With 7+ years of experience, we help eCommerce businesses reach new heights through comprehensive support and dedicated efforts.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_dF4NBh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Our Services",
+            "button_link": "shopify://pages/our-services",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_99FBVm",
+        "text_EP8B3w",
+        "button_dF4NBh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lazy_loading.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_VJTCUk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t4KJ47": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR TEAM MEMBERS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t4KJ47"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_VLPeUH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBPhY8": {
+          "type": "column",
+          "repeater": "{{ page.metafields.custom.team_members.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image.value }}",
+            "title": "{{ block.repeater.enter_name.value }}",
+            "text": "<p>{{ block.repeater.enter_position.value }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBPhY8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Meet entire team",
+        "button_link": "shopify://pages/about-us",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1722156473da98985e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_MNdWX9": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_MNdWX9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "top_collections_boost_star_4qw7pF": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_76BdJg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/image_processing20201103-24799-19vf3o0.gif",
+            "text": "Email us",
+            "link": "mailto:contact@booststar.in"
+          }
+        },
+        "image_HFWfab": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/phone-pulse_ca4e133d-5c95-4b5f-9344-607ac7e4d6e5.gif",
+            "text": "Call us",
+            "link": "tel:+917000587074"
+          }
+        },
+        "image_NmDfby": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1) 85%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/Whatsapp-Logo-GIF-WhatsApp-Icon-GIF-Royalty-Free-Animated-Icon-GIF-350px-after-effects-project.gif",
+            "text": "WhatsApp",
+            "link": "https://wa.me/7000587074"
+          }
+        },
+        "image_cYwhce": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(73, 251, 17, 0) 81%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif",
+            "text": "LinkedIn",
+            "link": "https://www.linkedin.com/company/boost-star-experts/"
+          }
+        },
+        "image_GWBzpL": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/phone-pulse_ca4e133d-5c95-4b5f-9344-607ac7e4d6e5.gif",
+            "text": "Call us",
+            "link": "tel:+916265084929"
+          }
+        }
+      },
+      "block_order": [
+        "image_76BdJg",
+        "image_HFWfab",
+        "image_NmDfby",
+        "image_cYwhce",
+        "image_GWBzpL"
+      ],
+      "settings": {
+        "headline": "<strong>QUICK CONNECT WITH US</strong>",
+        "tag": "h1",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/graph_bg_5799fcf1-4e4f-4d31-9906-6413836376ec.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 60,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_nhAjJV",
+    "image_with_text_ym97mU",
+    "rich_text_bU8WzT",
+    "rich_text_Pc4Q4N",
+    "multicolumn_aGcb4V",
+    "rich_text_EyTCbb",
+    "boost_star_achievement_counter_tJV6b6",
+    "image_with_text_6QyWJG",
+    "image_with_text_pTPYBL",
+    "rich_text_VJTCUk",
+    "multicolumn_VLPeUH",
+    "1722156473da98985e",
+    "top_collections_boost_star_4qw7pF"
+  ]
+}

@@ -1,0 +1,720 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_zgEhXT": {
+      "type": "video",
+      "custom_css": [
+        "h1 {margin: auto; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Introducing <strong>AI Chatbot Expert</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://youtu.be/lH756j85cII",
+        "cover_image": "shopify://shop_images/Ai_Chat_Bot_banner.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_achievement_counter_DGkfTe": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "<strong>We Are Making an Impact!</strong>",
+        "content": "Designed for businesses of all sizes that want to improve their customer support using advanced AI technology customized to fit their specific needs.",
+        "content_alignment": "center",
+        "box_1_number": "1000",
+        "append_1": "+",
+        "box_1_text": "Trusted Users Across Various Industries",
+        "box_2_number": "200000",
+        "append_2": "+",
+        "box_2_text": "Conversations",
+        "box_3_number": "1000",
+        "append_3": "+",
+        "box_3_text": "conversations/month.",
+        "headline_size": 32,
+        "text_size": 15,
+        "count_size": 56,
+        "text_color": "#000000",
+        "headline_color": "#000000",
+        "count_color": "#97ba52",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(151, 186, 82, 1) 100%)",
+        "number_border_color": "#97ba52",
+        "number_bg": "#ffffff",
+        "bg_image": "shopify://shop_images/technology-bg.webp",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "element_spacing": 15,
+        "max_width": 1400,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 10,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "headline_font": "system_ui_n4",
+        "count_font": "system_ui_n4"
+      }
+    },
+    "image_banner_Xmn9P4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6jwJD3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform 24/7 Customer Engagement with AI-Powered Chatbots",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_ARJY9L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boost your business with AI chatbots that enhance customer experiences, improve efficiency, and drive growth.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_UEqLaw": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Start for Free",
+            "button_link_1": "#sprices",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "#",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jwJD3",
+        "text_ARJY9L",
+        "buttons_UEqLaw"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Pngtree_smart_office_automation_3d_rendering_5803198.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "boost_star_experts_marquee_highlights_D3qWcd": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_PgaPrV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_GJNDzJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_m9aCAb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_AahR84": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_NN3MVV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_dgGzJX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_kmQihk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_H4CzwR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        },
+        "image_kwk3JR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.gif",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PgaPrV",
+        "image_GJNDzJ",
+        "image_m9aCAb",
+        "image_AahR84",
+        "image_NN3MVV",
+        "image_dgGzJX",
+        "image_kmQihk",
+        "image_H4CzwR",
+        "image_kwk3JR"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "30s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": false,
+        "slideshow_spacing": 82,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "image_with_text_mJmNEF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cN9qbN": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>What is an AI Chatbot Expert? </strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_tpkk9P": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>AI Chatbot Expert </strong>is advanced, AI-driven virtual assistants designed to revolutionize customer interactions. They provide seamless,<strong> 24/7 support</strong>, enhancing customer experiences while saving time and resources. </p><p>These chatbots are tailored to answer your business needs, handle inquiries, timely respond with meaningful conversations, and<strong> drive customer engagement. </strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_axra3M": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start With AI Chatbot",
+            "button_link": "#sprices",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cN9qbN",
+        "text_tpkk9P",
+        "button_axra3M"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ChatBot-Live_Icon-1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_slideshow_text_RCQapR": {
+      "type": "custom-slideshow-text",
+      "blocks": {
+        "image_3tLMej": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/img1_ccb785fb-f179-4436-9b43-a0ad170e0741.png",
+            "slide_text": ""
+          }
+        },
+        "image_8UAfNT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "slide_text": ""
+          }
+        },
+        "image_Tr8QLF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "slide_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3tLMej",
+        "image_8UAfNT",
+        "image_Tr8QLF"
+      ],
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 38,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(319deg, rgba(NaN, NaN, NaN, 1), rgba(234, 253, 246, 1) 85%)",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 5,
+        "container_background_color": "",
+        "container_max_width": 1400,
+        "container_padding_top_bottom": 40,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 40,
+        "mobile_container_padding_left_right": 15,
+        "element_spacing": 15,
+        "container_radius": 10,
+        "container_shadow": true,
+        "container_border_size": 3,
+        "container_border_color": "#97ba52",
+        "gap": 29,
+        "slideshow_location": "right",
+        "caption_text_color": "#97ba52",
+        "caption_background_color": "linear-gradient(177deg, rgba(255, 255, 255, .5) 3%, rgba(255, 255, 255, .85) 100%)",
+        "progress_background_color": "linear-gradient(177deg, rgba(17, 17, 17, .25) 3%, rgba(17, 17, 17, 0.25) 100%)",
+        "progress_foreground_color": "linear-gradient(177deg, rgba(17, 17, 17, 1) 3%, rgba(17, 17, 17, 1) 100%)",
+        "indicator_color": "#111111",
+        "button_background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1) 100%, rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 20,
+        "button_border_radius": 0,
+        "media_radius": 0,
+        "media_shadow": true,
+        "media_aspect_ratio": "1 / 1",
+        "mobile_media_aspect_ratio": "1 / 1",
+        "desktop_image_width": 1100,
+        "mobile_image_width": 800,
+        "enable_autoplay": true,
+        "autoplay_time": "3000",
+        "headline": "<strong>Meet AI Chatbot Expert</strong>",
+        "content": "BOOST STAR AI Chatbots are tailored to engage users with natural, human-like interactions while delivering accurate and efficient solutions. Our chatbots grow with your business, adapting to new challenges and delivering cutting-edge performance powered by advanced AI technology.Unlock new levels of productivity and satisfaction with technology that works as hard as you do!",
+        "link_text": "Start The Trial",
+        "link": "#sprices"
+      }
+    },
+    "rich_text_ECKqE6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UNMDcG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let’s Build Your Future-Ready<strong> AI Chatbot </strong>Today!",
+            "heading_size": "h1"
+          }
+        },
+        "text_3WefdA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to elevate your customer engagement? Get in touch with<strong> AI Chatbot Expert</strong> and see how our AI-powered chatbots can revolutionize your business.</p>"
+          }
+        },
+        "button_DGMwME": {
+          "type": "button",
+          "settings": {
+            "button_label": "Create AI Chatbot Now",
+            "button_link": "#sprices",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UNMDcG",
+        "text_3WefdA",
+        "button_DGMwME"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 64
+      }
+    },
+    "multirow_yrNeBn": {
+      "type": "multirow",
+      "blocks": {
+        "row_YU7xmn": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_72f89713-87a7-44b1-a205-9ec15294eb51.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Smarter Conversations, Anytime</strong>",
+            "text": "<p>Our AI-powered chatbots are designed to provide instant, personalized, and accurate responses 24/7, ensuring your customers are always satisfied.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_x3wUMG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Tailored to Your Business Needs</strong>",
+            "text": "<p>Whether you're in retail, healthcare, finance, or any other industry, our chatbots are customized to your unique goals and customer base.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nW9TqL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img1_ccb785fb-f179-4436-9b43-a0ad170e0741.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Seamless Integration</strong>",
+            "text": "<p>Easily integrate our chatbot solutions with your website, apps, and CRM systems for a smooth user experience and streamlined operations.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_AHjVyb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/AI_Chatbot_Expert_icon_5.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Boost Productivity</strong>",
+            "text": "<p>Let your chatbot handle repetitive queries, freeing up your team to focus on high-impact tasks and strategic priorities.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_YU7xmn",
+        "row_x3wUMG",
+        "row_nW9TqL",
+        "row_AHjVyb"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_GfMVzH": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center id=\"sprices\"><h2>Start The Trial & Automate Your Business With <b>AI Chatbot Expert</b></h2>\n<form><script src=\"https://cdn.razorpay.com/static/widget/subscription-button.js\" data-subscription_button_id=\"pl_PdLF6WwKN0OMr5\" data-button_theme=\"brand-color\" async> </script> </form>\n</center>",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_gWVTqN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ipMLLH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/live_classes.svg",
+            "title": "<strong>24/7 Availability</strong>",
+            "text": "<p> Provide round-the-clock support to customers, ensuring uninterrupted service and faster response times.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NhEPDb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Web_development.svg",
+            "title": "<strong>Natural Language Processing (NLP)</strong>",
+            "text": "<p>Understand and respond in human-like language, enabling seamless and engaging interactions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X3UAyz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_2_36e55657-d2d0-4c12-a313-90256825abad.svg",
+            "title": "<strong>Customizable Workflows</strong>",
+            "text": "<p> Tailor chatbots to align with your specific business processes, enhancing efficiency and personalization.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nPw3Nk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/online_presence.svg",
+            "title": "<strong>Omnichannel Integration</strong>",
+            "text": "<p>Connect across multiple platforms, including websites, social media, and messaging apps, for a unified user experience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yaP997": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_b8884d9f-f762-4a3b-9af4-850f076de7f8.svg",
+            "title": "<strong>Scalable Solutions</strong>",
+            "text": "<p> Easily adapt to growing business demands, handling increasing workloads without compromising quality.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Fq3Bkw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_b8884d9f-f762-4a3b-9af4-850f076de7f8.svg",
+            "title": "<strong>Advanced Analytics</strong>",
+            "text": "<p>Track and analyze customer interactions to gain actionable insights and improve performance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ipMLLH",
+        "column_NhEPDb",
+        "column_X3UAyz",
+        "column_nPw3Nk",
+        "column_yaP997",
+        "column_Fq3Bkw"
+      ],
+      "settings": {
+        "title": "<strong>Key Features</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_trust_badges_pBrQeL": {
+      "type": "boost-star-trust-badges",
+      "settings": {
+        "icon_color": "#97ba52",
+        "show_free_shipping": false,
+        "show_money_back": false,
+        "show_secure_payments": true,
+        "show_award_winning": true,
+        "show_premium_quality": true,
+        "show_five_star": true,
+        "show_fast_shipping": false,
+        "show_thousand_sold": true,
+        "show_satisfaction_guaranteed": true,
+        "show_guaranteed_quality": true,
+        "show_exclusive": true,
+        "show_inspected": false,
+        "show_made_in_usa": false,
+        "show_made_in_canada": false,
+        "text_alignment": "center",
+        "headline": "<strong>We Promise</strong>",
+        "text": "",
+        "headline_size": 25,
+        "text_size": 15,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "icon_height": 100,
+        "max_width": 1200,
+        "grid_gap": 10,
+        "padding_block": 45,
+        "padding_inline": 0,
+        "margin_block": 0,
+        "element_spacing": 20,
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "headline_font": "system_ui_n4"
+      }
+    },
+    "faq_boost_star_UVUWLi": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_PMcaNY": {
+          "type": "text",
+          "settings": {
+            "question": " How does an AI Chatbot Expert work?",
+            "answer": "<p>The AI Chatbot Expert uses natural language processing (NLP) and machine learning algorithms to understand and respond to user inquiries in real-time. It is trained to recognize various intents, interpret user messages, and provide contextually relevant responses, all while learning from past interactions to improve its accuracy over time.</p>"
+          }
+        },
+        "text_MfmJdd": {
+          "type": "text",
+          "settings": {
+            "question": " Can the chatbot be customized for different industries?",
+            "answer": "<p>Yes, AI Chatbot Expert is highly customizable. It can be tailored to fit the needs of various industries, such as e-commerce, healthcare, education, finance, and customer support. Users can modify the bot’s tone, design, functionality, and integration with other platforms to meet specific business requirements.</p>"
+          }
+        },
+        "text_L8g836": {
+          "type": "text",
+          "settings": {
+            "question": "What are the main benefits of using an AI Chatbot Expert?",
+            "answer": "<p>Some key benefits include enhanced customer service are-</p><ul><li> 24/7 availability</li><li>Reduced operational costs, </li><li>Faster response times, </li><li>Improved lead generation</li><li>Able to handle multiple customer interactions simultaneously </li></ul><p>Additionally, it can automate repetitive tasks and allow businesses to focus on more complex issues.</p>"
+          }
+        },
+        "text_BPUzjt": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_rWWdCU": {
+          "type": "text",
+          "settings": {
+            "question": "Is an AI Chatbot Expert suitable for small businesses?",
+            "answer": "<p>Yes, AI Chatbot Expert is suitable for businesses of all sizes, including small enterprises. Small businesses can benefit from its cost-effective solutions to enhance customer engagement and streamline operations.</p>"
+          }
+        },
+        "text_Ltpn8w": {
+          "type": "text",
+          "settings": {
+            "question": " What kind of support is available for users of AI Chatbot Expert?",
+            "answer": "<p>BOOST STAR Experts offer comprehensive support for users of the AI Chatbot Expert. This includes installation assistance, onboarding training, troubleshooting, regular updates, and dedicated customer service. Users can contact the support team via email, chat, or phone for any inquiries or issues related to the chatbot.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PMcaNY",
+        "text_MfmJdd",
+        "text_L8g836",
+        "text_BPUzjt",
+        "text_rWWdCU",
+        "text_Ltpn8w"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#111111",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#92bc57",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    }
+  },
+  "order": [
+    "video_zgEhXT",
+    "main",
+    "boost_star_achievement_counter_DGkfTe",
+    "image_banner_Xmn9P4",
+    "boost_star_experts_marquee_highlights_D3qWcd",
+    "image_with_text_mJmNEF",
+    "custom_slideshow_text_RCQapR",
+    "rich_text_ECKqE6",
+    "multirow_yrNeBn",
+    "custom_liquid_GfMVzH",
+    "multicolumn_gWVTqN",
+    "boost_star_trust_badges_pBrQeL",
+    "faq_boost_star_UVUWLi"
+  ]
+}

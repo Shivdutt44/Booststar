@@ -1,0 +1,534 @@
+{% capture minify %}
+  <style>
+    #bse-dis-code{{ section.id }} {
+      background-color: {{ section.settings.background_color }};
+      padding-top: {{ section.settings.padding_tp }}px;
+      margin-top: {{ section.settings.margin_tp }}px;
+      padding-bottom: {{ section.settings.padding_bt }}px;
+      margin-bottom: {{ section.settings.margin_bt }}px;
+      {% if section.settings.bg_image != blank %}
+    background-image: url("{{ section.settings.bg_image | image_url }}");
+    background-size: {{section.settings.bg_size}};
+    background-position: {{section.settings.bg_pos}};
+    {% if section.settings.parallax  %}
+    background-attachment: fixed;
+    {% endif %}
+    {% endif %}
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecoupon-wrapper {
+      padding: 25px;
+      max-width : {{section.settings.max_width}}px;
+          margin: 0 auto;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecard {
+      border-radius: {{ section.settings.corner }}px;
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+      border: {{ section.settings.border_width }}px {{ section.settings.border_type }} {{ section.settings.border_color }};
+      background-color: {{ section.settings.card_background_color }};
+      padding: 10px 15px;
+      position: relative;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codemain-wrapper,
+    #bse-dis-code{{ section.id }} .bse-dis-codecopy-button {
+      display: flex;
+      padding: 0 10px;
+      align-items: center;
+    }
+    {% if section.settings.style == "2" %}
+    #bse-dis-code{{ section.id }} .bse-dis-codecard::after {
+      position: absolute;
+      content: "";
+      height: 40px;
+      right: -20px;
+      border-radius: 40px;
+      z-index: 1;
+      top: 70px;
+      background-color: {{ section.settings.background_color }};
+      width: 40px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecard::before {
+      position: absolute;
+      content: "";
+      height: 40px;
+      left: -20px;
+      border-radius: 40px;
+      z-index: 1;
+      top: 70px;
+      background-color: {{ section.settings.background_color }};
+      width: 40px;
+    }
+    {% endif %}
+
+    {% if section.settings.style == "3" %}
+    #bse-dis-code{{ section.id }} .bse-dis-codecard::after {
+      position: absolute;
+      content: "";
+      height: 50px;
+      right: -15px;
+      border-radius: 50%;
+      z-index: 1;
+      top: -15px;
+      background-color: {{ section.settings.background_color }};
+      width: 50px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecard::before {
+      position: absolute;
+      content: "";
+      height: 50px;
+      left: -15px;
+      border-radius: 50%;
+      z-index: 1;
+      bottom: -15px;
+      background-color: {{ section.settings.background_color }};
+      width: 50px;
+    }
+    {% endif %}
+    #bse-dis-code{{ section.id }} .bse-dis-codelogo {
+      padding-left: 5px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codelogo img {
+      min-width: 100px;
+      width: 100px;
+      height: 100px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codevertical-line {
+      border-left: 5px dotted {{ section.settings.vertical_line_color }};
+      height: 100px;
+      margin: 0 15px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecontent {
+      padding-right: 5px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecontent .bse-dis-codeheading {
+      color: {{ section.settings.heading_color }};
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecontent .bse-dis-codedescription {
+      color: {{ section.settings.description_color }};
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecopy-button {
+      margin: 10px;
+      height: 45px;
+      border-radius: 4px;
+      padding: 0;
+      border: 1px solid {{ section.settings.border_coupon_color }};
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecopy-button button {
+      height: 45px;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecopy-button input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-weight: 600;
+      padding-left: 15px;
+      background-color: transparent;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-codecopy-button button {
+      cursor: pointer;
+      padding: 5px 20px;
+      background-color: {{ section.settings.button_background_color }};
+      color: {{ section.settings.button_text_color }};
+      border: 1px solid transparent;
+    }
+  </style>
+{% endcapture %}
+{{ minify | strip_newlines }}
+
+{% capture html %}
+
+  <div id="bse-dis-code{{ section.id }}" class="bse-dis-code{{ section.id }} bse-dis-codesection bse-dis-codeblock bse-dis-codecoupon-coupon-01">
+    <div class="bse-dis-codecontainer-fullwidth">
+      <div class="bse-dis-codecoupon-wrapper bse-dis-coded-flex bse-dis-codejustify-content-center bse-dis-codealign-items-center">
+        <div class="bse-dis-codecard">
+          <div class="bse-dis-codemain-wrapper">
+            <div class="bse-dis-codelogo">
+              {% if section.settings.logo_image != blank %}
+                {{ section.settings.logo_image | image_url: width: 1500 | image_tag: loading: 'lazy' }}
+              {% else %}
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0738/6782/1357/files/macdonal_logo.png?v=1702903228"
+                  width="100"
+                  height="100"
+                  loading="lazy"
+                  alt="Placeholder image"
+                >
+              {% endif %}
+            </div>
+            <div class="bse-dis-codevertical-line"></div>
+            <div class="bse-dis-codecontent bse-dis-coderte">
+              <{{ section.settings.heading_tag }} class="bse-dis-codeheading">{{ section.settings.heading }}</{{ section.settings.heading_tag }}>
+              <p class="bse-dis-codedescription">{{ section.settings.description }}</p>
+            </div>
+          </div>
+          <div class="bse-dis-codecopy-button">
+            <input id="bse-dis-codecoupon-01-copy-value" type="text" readonly value="{{ section.settings.coupon_code }}">
+            <button class="bse-dis-codecoupon-01-copy-btn">{{ section.settings.copy_button_text }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endcapture %}
+ {{ html | strip_newlines }}
+
+
+<script type="text/javascript">
+  function bse_dis_code() {
+    const copyButton = document.querySelector('#bse-dis-code{{ section.id }} .bse-dis-codecoupon-01-copy-btn');
+    copyButton.addEventListener('click', () => {
+      const inputEl = document.querySelector('#bse-dis-code{{ section.id }} #bse-dis-codecoupon-01-copy-value');
+      inputEl.select();
+      document.execCommand('copy');
+      copyButton.innerHTML = '{{ section.settings.copied_button_text }}';
+    });
+  }
+
+  bse_dis_code();
+
+  document.addEventListener('DOMContentLoaded', bse_dis_code);
+
+  if (Shopify.designMode) {
+      document.addEventListener('shopify:section:unload', bse_dis_code);
+      document.addEventListener('shopify:section:load', bse_dis_code);
+  }
+</script>
+
+{% schema %}
+{
+  "name": "BOOST: Discount Code 01",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo image",
+      "info": "Tips: Use transparent png image for best effect."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "10% Coupon"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "options": [
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        },
+        {
+          "value": "div",
+          "label": "Div"
+        }
+      ],
+      "default": "h3",
+      "info": "Heading size"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Valid till 30 March 2025. Copy and use immediately at Checkout page."
+    },
+    {
+      "type": "text",
+      "id": "coupon_code",
+      "label": "Coupon code",
+      "default": "PUCO10"
+    },
+    {
+      "type": "text",
+      "id": "copy_button_text",
+      "label": "Copy button text",
+      "default": "COPY"
+    },
+    {
+      "type": "text",
+      "id": "copied_button_text",
+      "label": "Copied button text",
+      "default": "COPIED"
+    },
+    {
+      "type": "header",
+      "content": "Design"
+    },
+    {
+      "type": "select",
+      "id": "style",
+      "label": "Coupon Style",
+       "options" : [
+          {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+         {
+          "value": "3",
+          "label": "3"
+        }
+       ],
+      "default" : "1"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#e94919"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border Width",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "corner",
+      "label": "Border Radius",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "select",
+      "id": "border_type",
+      "label": "Border Type",
+       "options" : [
+          {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "solid",
+          "label": "Solid"
+        },
+         {
+          "value": "dotted",
+          "label": "Dotted"
+        },
+         {
+          "value": "double",
+          "label": "Double"
+        },
+          {
+          "value": "dashed",
+          "label": "Dashed"
+        },
+        {
+          "value": "groove",
+          "label": "Groove"
+        },
+         {
+          "value": "ridge",
+          "label": "Ridge"
+        },
+       ],
+      "default" : "dashed"
+    },
+    {
+      "type": "header",
+      "content": "Color"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#565656"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#565656"
+    },
+    {
+      "type": "color",
+      "id": "vertical_line_color",
+      "label": "Vertical line color",
+      "default": "#565656"
+    },
+    {
+      "type": "color",
+      "id": "border_coupon_color",
+      "label": "Border coupon color",
+      "default": "#e1e1e1"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background color",
+      "default": "#dc143c"
+    },
+    {
+      "type": "color",
+      "id": "card_background_color",
+      "label": "Card background color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "transparent"
+    },
+    {
+       "type": "header",
+       "content": "Background Image"
+     },
+     {
+       "type" : "image_picker",
+       "id" : "bg_image",
+       "label" : "Background Image"
+     },
+     {
+       "type" : "checkbox",
+       "label" : "Enable Parallax Effect",
+       "id" : "parallax",
+       "default" : false
+     },
+      {
+       "type": "select",
+       "id": "bg_size",
+       "label": "Background Size",
+       "options": [
+         {
+           "value": "cover",
+           "label": "Cover"
+         },
+         {
+           "value": "contain",
+           "label": "Contain"
+         },
+         {
+           "value": "auto",
+           "label": "Auto"
+         }
+       ],
+       "default": "cover"
+     },
+      {
+       "type": "select",
+       "id": "bg_pos",
+       "label": "Background Position",
+       "options": [
+         {
+           "value": "top",
+           "label": "Top"
+         },
+         {
+           "value": "bottom",
+           "label": "Bottom"
+         },
+         {
+           "value": "center",
+           "label": "Center"
+         },
+         {
+           "value": "left",
+           "label": "Left"
+         },
+         {
+           "value": "right",
+           "label": "Right"
+         }
+       ],
+       "default": "center"
+     },
+    {
+      "type": "header",
+      "content": "Dimentions"
+    },
+    {
+       "id": "max_width",
+       "default": 1600,
+       "label": "Max Section Width",
+       "type": "range",
+        "min": 400,
+       "max":1800,
+       "step": 100
+     },
+    {
+       "id": "margin_tp",
+       "default": 0,
+       "label": "Margin Top",
+       "type": "range",
+       "min": 0,
+       "max": 100,
+       "step": 1
+     },
+     {
+       "id": "margin_bt",
+       "default": 0,
+       "label": "Margin Bottom",
+       "type": "range",
+       "min": 0,
+       "max": 100,
+       "step": 1
+     },
+     {
+       "id": "padding_tp",
+       "default": 20,
+       "label": "Padding Top",
+       "type": "range",
+       "min": 0,
+       "max":100,
+       "step": 1
+     },
+     {
+       "id": "padding_bt",
+       "default": 20,
+       "label": "Padding Bottom",
+       "type": "range",
+       "min": 0,
+       "max":100,
+       "step": 1
+     }
+  ],
+  "presets": [
+    {
+      "name": "BOOST: Discount Code 01",
+      "settings": {
+        "background_color": "#dc143c"
+      }
+    }
+  ]
+}
+{% endschema %}

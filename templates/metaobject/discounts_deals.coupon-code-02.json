@@ -1,0 +1,622 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_BXGk4A": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VLzixg": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_XjMCLw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VLzixg",
+        "text_XjMCLw"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_yf8WtH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qBJfQP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xmCz6w": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_qBJfQP",
+        "text_xmCz6w"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_NpFC8f": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#e94919",
+        "description_color": "#565656",
+        "em_color": "#e94919",
+        "button_background_color": "#e94919",
+        "button_text_color": "#ffffff",
+        "border_color": "#e94919",
+        "border_width": 4,
+        "border_type": "dashed",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_Tcbd8J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qWYGyQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_y4HM3V": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_qWYGyQ",
+        "text_y4HM3V"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_aQHqmw": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#97ba52",
+        "description_color": "#97ba52",
+        "em_color": "#97ba52",
+        "button_background_color": "#97ba52",
+        "button_text_color": "#ffffff",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "border_type": "dashed",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_G6Fcim": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9mEaHE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xW7EWL": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_9mEaHE",
+        "text_xW7EWL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_CEJB6G": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#97ba52",
+        "description_color": "#97ba52",
+        "em_color": "#97ba52",
+        "button_background_color": "#a4a4a4",
+        "button_text_color": "#ffffff",
+        "border_color": "#121212",
+        "border_width": 4,
+        "border_type": "dashed",
+        "bg_image": "shopify://shop_images/haloween_2.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_QVQ6Re": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UepNAp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_MLxJMM": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_UepNAp",
+        "text_MLxJMM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_xzh8Q7": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#97ba52",
+        "description_color": "#97ba52",
+        "em_color": "#97ba52",
+        "button_background_color": "#97ba52",
+        "button_text_color": "#ffffff",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "border_type": "dashed",
+        "bg_image": "shopify://shop_images/motion-6252_256.gif",
+        "parallax": false,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_a6c4yD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C6A3Kw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_eyHm6M": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_C6A3Kw",
+        "text_eyHm6M"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_EnXbPd": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#97ba52",
+        "description_color": "#97ba52",
+        "em_color": "#97ba52",
+        "button_background_color": "#97ba52",
+        "button_text_color": "#ffffff",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "border_type": "solid",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_UjUHJM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XNQhFx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_nBDbcr": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XNQhFx",
+        "text_nBDbcr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_UwnryM": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#465076",
+        "description_color": "#465076",
+        "em_color": "#465076",
+        "button_background_color": "#465076",
+        "button_text_color": "#ffffff",
+        "border_color": "#465076",
+        "border_width": 4,
+        "border_type": "solid",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_3gbknN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WpmHhg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_bpGTGr": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_WpmHhg",
+        "text_bpGTGr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_2_hr8iX8": {
+      "type": "boost-star-discount-code-2",
+      "settings": {
+        "heading": "Get 25% Off now",
+        "em_text": "25% OFF",
+        "description": "Valid till 17 March 2025.",
+        "button_text": "COPY",
+        "coupon_code": "10% OFF",
+        "copied_text": "COPIED",
+        "section_bg": "#ffffff",
+        "background_color": "#ffffff",
+        "heading_color": "#97ba52",
+        "description_color": "#97ba52",
+        "em_color": "#97ba52",
+        "button_background_color": "#97ba52",
+        "button_text_color": "#ffffff",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "border_type": "dashed",
+        "bg_image": "shopify://shop_images/Snow_2.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "image_banner_d7zyXM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_qVVgmH": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_3njhkE": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p>{{ metaobject.short_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_r4rRLb": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_qVVgmH",
+        "text_3njhkE",
+        "buttons_r4rRLb"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_hH78EY": {
+      "type": "reviews",
+      "blocks": {
+        "review_wnWgfP": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_wnWgfP"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 1) 100%, rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_qgJWVc": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_YKDUgB": {
+          "type": "image",
+          "repeater": "{{ metaobject.discounts_deals.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_YKDUgB"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Discounts & Deals</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_BXGk4A",
+    "rich_text_yf8WtH",
+    "boost_star_discount_code_2_NpFC8f",
+    "rich_text_Tcbd8J",
+    "boost_star_discount_code_2_aQHqmw",
+    "rich_text_G6Fcim",
+    "boost_star_discount_code_2_CEJB6G",
+    "rich_text_QVQ6Re",
+    "boost_star_discount_code_2_xzh8Q7",
+    "rich_text_a6c4yD",
+    "boost_star_discount_code_2_EnXbPd",
+    "rich_text_UjUHJM",
+    "boost_star_discount_code_2_UwnryM",
+    "rich_text_3gbknN",
+    "boost_star_discount_code_2_hr8iX8",
+    "image_banner_d7zyXM",
+    "reviews_hH78EY",
+    "top_collections_boost_star_qgJWVc"
+  ]
+}

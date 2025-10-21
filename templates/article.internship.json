@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "faq_boost_star_jFbydn": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_Em7NkP": {
+          "type": "text",
+          "settings": {
+            "question": "What function do internships make in my career growth?",
+            "answer": "<p>Gaining practical experience, improving skills, and understanding the workings of the sector all depend on your internships . They may also result in significant connections and job offers. Boost Star Experts promotes the value of internships and offers advice on how to take use of them.</p>"
+          }
+        },
+        "text_BnrkmD": {
+          "type": "text",
+          "settings": {
+            "question": "What should I do if I get more than one offer for an internship?",
+            "answer": "<p>If you have many internship offers,  you can consider the reputation of the organization, the work description, the learning possibilities, and how well the internship fits with your career objectives and more. For a  smart decision, think about Boost Star Experts or asking Experts for help.</p>"
+          }
+        },
+        "text_PetUmL": {
+          "type": "text",
+          "settings": {
+            "question": "How can Boost Star Experts help me in my internship search?",
+            "answer": "<p>Boost Star Experts provides an extensive array of resources and knowledge. Boost Star Experts is made to help you at every stage of the process, from networking events and job postings to resume-building advice and interview preparation materials. for more details visit <a href=\"https://booststar.in/\"><span style=\"text-decoration:underline\">Boost Star Experts</span></a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Em7NkP",
+        "text_BnrkmD",
+        "text_PetUmL"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#97ba52",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#000000",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "featured_product_NB8Tmk": {
+      "type": "featured-product",
+      "blocks": {
+        "text_VxWTLa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_RL9WdU": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_fDbcxr": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Rp79Yy": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_BgM6mC": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_4Kmerj": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_MqCHLY": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_VxWTLa",
+        "title_RL9WdU",
+        "price_fDbcxr",
+        "variant_picker_Rp79Yy",
+        "quantity_selector_BgM6mC",
+        "buy_buttons_4Kmerj",
+        "share_MqCHLY"
+      ],
+      "settings": {
+        "product": "web-development-internship-program",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_boost_star_jFbydn",
+    "featured_product_NB8Tmk"
+  ]
+}

@@ -1,0 +1,1033 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_JBaAxH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fW3tnR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Improve UI/UX With {{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_CyneVh": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fW3tnR",
+        "text_CyneVh"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image_1_x_1.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_DrQEMb": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_CiDU9d": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_MdDYbQ": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_LhmpQK": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_j77AF3": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_iyRyLp": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_CiDU9d",
+        "icon_with_text_MdDYbQ",
+        "icon_with_text_LhmpQK",
+        "icon_with_text_j77AF3",
+        "icon_with_text_iyRyLp"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_ztmjDd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rtntzE": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 1 TEXT TO GO ALONG WITH ICON",
+            "heading_size": "h1"
+          }
+        },
+        "text_U8NVXz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create a design for the text to accompany the icon, and also include for clarity and impact.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rtntzE",
+        "text_U8NVXz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_yPaFwH": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_QDx8KK": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "This is sample text to go along with the icon",
+            "icon": "tag",
+            "link": ""
+          }
+        },
+        "icon_with_text_HndRPd": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "This is sample text to go along with the icon",
+            "icon": "tag",
+            "link": ""
+          }
+        },
+        "icon_with_text_eAkkH4": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "This is sample text to go along with the icon",
+            "icon": "tag",
+            "link": ""
+          }
+        },
+        "icon_with_text_9DxQTJ": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "This is sample text to go along with the icon",
+            "icon": "tag",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_QDx8KK",
+        "icon_with_text_HndRPd",
+        "icon_with_text_eAkkH4",
+        "icon_with_text_9DxQTJ"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "right_chevron",
+        "slideshow_speed": "20s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_ykwym6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wcEKya": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 2 FOR MARQUEE HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_yVTK6G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply Our Design 2 for Marquee Highlights to enhance visual appeal and improve user engagement on Shopify 2.0 themes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wcEKya",
+        "text_yVTK6G"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_nt4Kjb": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_icon_with_text_YXR9jP": {
+          "type": "image_icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Asset_28.svg",
+            "size": 25,
+            "gap": 20,
+            "text": "This is sample text to go along with the icon",
+            "link": ""
+          }
+        },
+        "image_icon_with_text_BzrLDn": {
+          "type": "image_icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Asset_28.svg",
+            "size": 25,
+            "gap": 20,
+            "text": "This is sample text to go along with the icon",
+            "link": ""
+          }
+        },
+        "image_icon_with_text_RMQcc8": {
+          "type": "image_icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Asset_28.svg",
+            "size": 25,
+            "gap": 20,
+            "text": "This is sample text to go along with the icon",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_icon_with_text_YXR9jP",
+        "image_icon_with_text_BzrLDn",
+        "image_icon_with_text_RMQcc8"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "20s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_n8Dmh4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_m4bwRM": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 3 WITH BRAND ICON IMAGE",
+            "heading_size": "h1"
+          }
+        },
+        "text_dnVb8k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enhance your brand with Design 3, featuring a prominent brand and text icon image for a striking and memorable visual identity.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_m4bwRM",
+        "text_dnVb8k"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_L6a4MR": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_zWXUq8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fcfwf.png",
+            "link": ""
+          }
+        },
+        "image_8mCEht": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adadd.png",
+            "link": ""
+          }
+        },
+        "image_mgzRN9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awded.png",
+            "link": ""
+          }
+        },
+        "image_JtTYF3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dedfg.png",
+            "link": ""
+          }
+        },
+        "image_4e7fTm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dfugeh.png",
+            "link": ""
+          }
+        },
+        "image_BqAfYf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/efrg.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zWXUq8",
+        "image_8mCEht",
+        "image_mgzRN9",
+        "image_JtTYF3",
+        "image_4e7fTm",
+        "image_BqAfYf"
+      ],
+      "settings": {
+        "media_aspect_ratio": "4 / 3",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 64,
+        "max_width": 1600,
+        "height": 100,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_AVyDHD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EDbaTw": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 4 FOR YOUR CIRCLE IMAGES",
+            "heading_size": "h1"
+          }
+        },
+        "text_hze8yq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform your website by integrating visually striking marquee highlights using innovative design techniques</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EDbaTw",
+        "text_hze8yq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_78mG7n": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_XVjCnX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5002_1.jpg",
+            "link": ""
+          }
+        },
+        "image_nVdkww": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ewsqz.png",
+            "link": ""
+          }
+        },
+        "image_g4VWMK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e4w.png",
+            "link": ""
+          }
+        },
+        "image_BWNhT7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/65721774_8589090_1.png",
+            "link": ""
+          }
+        },
+        "image_KykcAQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2149745036_1.jpg",
+            "link": ""
+          }
+        },
+        "image_mT83B7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2149745033_1.jpg",
+            "link": ""
+          }
+        },
+        "image_zceCmY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2148134009_1.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XVjCnX",
+        "image_nVdkww",
+        "image_g4VWMK",
+        "image_BWNhT7",
+        "image_KykcAQ",
+        "image_mT83B7",
+        "image_zceCmY"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "circle",
+        "slideshow_speed": "30s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 10,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 100,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_J9YLcJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_taARyw": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 5 WITH CIRCLE MARQUEE HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_fDdnAz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the elegance of Design 5 featuring stunning Circle Marquee Highlights that captivate and enhance your visual experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_taARyw",
+        "text_fDdnAz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_CAqRh8": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_qTbzeT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hgtjuh.png",
+            "link": ""
+          }
+        },
+        "image_nbEPRg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add.png",
+            "link": ""
+          }
+        },
+        "image_nMCga9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/the-pic-galary.png",
+            "link": ""
+          }
+        },
+        "image_3XVCFJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eae.png",
+            "link": ""
+          }
+        },
+        "image_8zwJU6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dsde.png",
+            "link": ""
+          }
+        },
+        "image_8dFeqg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/jn.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qTbzeT",
+        "image_nbEPRg",
+        "image_nMCga9",
+        "image_3XVCFJ",
+        "image_8zwJU6",
+        "image_8dFeqg"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "circle",
+        "slideshow_speed": "50s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_NEyM6M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QzDbHi": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 6 FOR VIDEO MARQUEE HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_WYRdgM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing Design 6 for video marquee highlights to Enhance your Shopify store UI/UX with eye-catching & engaging video highlights.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QzDbHi",
+        "text_WYRdgM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_awemdA": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "video_gpdjRN": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/17289039-uhd_3840_2160_24fps.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_PRqQUQ": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/17289039-uhd_3840_2160_24fps.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_MKBdxx": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/17289039-uhd_3840_2160_24fps.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "video_gpdjRN",
+        "video_PRqQUQ",
+        "video_MKBdxx"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "20s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_hNmUwy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VbVry7": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE GRADIENT MARQUEE HIGHLIGHTS DESIGN 7",
+            "heading_size": "h1"
+          }
+        },
+        "text_gWp3y7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Implement our gradient marquee highlights design 7 for enhanced visual appeal and user engagement in your Shopify 2.0 theme layout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VbVry7",
+        "text_gWp3y7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_experts_marquee_highlights_6GaTbR": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_xVCGer": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/asdasd.png",
+            "link": ""
+          }
+        },
+        "image_KecYGW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/asdad.png",
+            "link": ""
+          }
+        },
+        "image_BFXQ7q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/asdasdsadd.png",
+            "link": ""
+          }
+        },
+        "image_KegkVa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sda.png",
+            "link": ""
+          }
+        },
+        "image_bFgPRg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adddsa.png",
+            "link": ""
+          }
+        },
+        "image_APitLP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/asdddd.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xVCGer",
+        "image_KecYGW",
+        "image_BFXQ7q",
+        "image_KegkVa",
+        "image_bFgPRg",
+        "image_APitLP"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "left_chevron",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(8deg, rgba(173, 12, 248, 1), rgba(28, 0, 0, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "image_banner_CTW4Rx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_eB6aPf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Improve UI/UX With  {{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_9LAqm7": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.short_section_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_MVaDQp": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_eB6aPf",
+        "text_9LAqm7",
+        "buttons_MVaDQp"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image_1_x_1.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_MVNHjc": {
+      "type": "reviews",
+      "blocks": {
+        "review_NJCfEg": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_NJCfEg"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(180deg, rgba(245, 245, 245, 1), rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_PaU9r4": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_7nNith": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_32.svg",
+            "text": "Display Top Collection",
+            "link": "shopify://metaobjects/improve_user_experience/top-collections"
+          }
+        },
+        "image_69bQXw": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_34.svg",
+            "text": "Marquee Highlights",
+            "link": "shopify://metaobjects/improve_user_experience/marquee-highlights"
+          }
+        },
+        "image_HnihDP": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_35.svg",
+            "text": "FAQ Designs",
+            "link": "shopify://metaobjects/improve_user_experience/faq"
+          }
+        },
+        "image_AwzmEV": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "shopify://shop_images/Asset_41.svg",
+            "text": "Link Grid",
+            "link": "shopify://metaobjects/improve_user_experience/link-grid"
+          }
+        }
+      },
+      "block_order": [
+        "image_7nNith",
+        "image_69bQXw",
+        "image_HnihDP",
+        "image_AwzmEV"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Improve UI/UX</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_JBaAxH",
+    "boost_star_experts_marquee_highlights_DrQEMb",
+    "rich_text_ztmjDd",
+    "boost_star_experts_marquee_highlights_yPaFwH",
+    "rich_text_ykwym6",
+    "boost_star_experts_marquee_highlights_nt4Kjb",
+    "rich_text_n8Dmh4",
+    "boost_star_experts_marquee_highlights_L6a4MR",
+    "rich_text_AVyDHD",
+    "boost_star_experts_marquee_highlights_78mG7n",
+    "rich_text_J9YLcJ",
+    "boost_star_experts_marquee_highlights_CAqRh8",
+    "rich_text_NEyM6M",
+    "boost_star_experts_marquee_highlights_awemdA",
+    "rich_text_hNmUwy",
+    "boost_star_experts_marquee_highlights_6GaTbR",
+    "image_banner_CTW4Rx",
+    "reviews_MVNHjc",
+    "top_collections_boost_star_PaU9r4"
+  ]
+}

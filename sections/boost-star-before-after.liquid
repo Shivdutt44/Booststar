@@ -1,0 +1,685 @@
+{% assign short_id = section.id | slice: -3, 3 %}
+
+{% capture css %}
+<style>
+  :root {
+    --bse-beaf-clip-{{ short_id }}: 50%;
+  }
+
+  {% if section.settings.override_fonts %}
+    {{ section.settings.text_font | font_face }}
+    {{ section.settings.headline_font | font_face }}
+  {% endif %}
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap p,
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap li {
+    font-size: {{ section.settings.text_size }}px;
+    {% if section.settings.override_fonts %}
+      font-family: {{ section.settings.text_font.family }}, {{ section.settings.text_font.fallback_families }};
+      font-weight: {{ section.settings.text_font.weight }};
+    {% endif %}
+    color: {{ section.settings.text_color }};
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap p {
+    margin: 0 0 {{ section.settings.element_spacing }}px 0;
+    padding: 0;
+    text-align: {{ section.settings.alignment }};
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap li {
+    text-align: {{ section.settings.alignment }};
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap p:last-child {
+    padding: 0;
+    margin: 0;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h1,
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h2,
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h3,
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h4,
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h5 {
+    font-size: {{ section.settings.headline_size }}px;
+    {% if section.settings.override_fonts %}
+      font-family: {{ section.settings.headline_font.family }}, {{ section.settings.headline_font.fallback_families }};
+      font-weight: {{ section.settings.headline_font.weight }};
+    {% endif %}
+    color: {{ section.settings.headline_color }};
+    text-align: {{ section.settings.alignment }};
+    margin: 0 0 {{ section.settings.element_spacing }}px 0;
+    padding: 0;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap p {
+    margin: 0 0 {{ section.settings.element_spacing }}px 0;
+    padding: 0;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h2 {
+    font-size: {{ section.settings.headline_size | minus: 5 }}px;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h3 {
+    font-size: {{ section.settings.headline_size | minus: 10 }}px;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h4 {
+    font-size: {{ section.settings.headline_size | minus: 15 }}px;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap h5 {
+    font-size: {{ section.settings.headline_size | minus: 20 }}px;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap {
+    margin-block: {{ section.settings.margin_block }}px;
+    background-image: {{ section.settings.background_color }};
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid {
+    position: relative;
+    margin: 0 auto;
+    max-width: {{ section.settings.max_width }}px;
+    padding-block: {{ section.settings.padding_block }}px;
+    padding-inline: {{ section.settings.padding_inline }}px;
+    gap: {{ section.settings.grid_gap }}px;
+  }
+
+  #bse-beaf-{{ section.id }}.bse-beaf-wrap .bse-beaf-rt {
+    margin: 0 0 {{ section.settings.element_spacing }}px 0;
+    padding: 0;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid-left {
+    display: grid;
+    {% if section.settings.video_aspect_ratio == "21 / 9" %}
+    grid-template-columns: 3fr 1fr;
+    {% elsif section.settings.video_aspect_ratio == "16 / 9"%}
+    grid-template-columns: 2fr 1fr;
+    {% else %}
+    grid-template-columns: 1fr 1fr;
+    {% endif %}
+    align-items: center;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid-right {
+    display: grid;
+    {% if section.settings.video_aspect_ratio == "21 / 9" %}
+    grid-template-columns: 1fr 3fr;
+    {% elsif section.settings.video_aspect_ratio == "16 / 9"%}
+    grid-template-columns: 1fr 2fr;
+    {% else %}
+    grid-template-columns: 1fr 1fr;
+    {% endif %}
+    align-items: center;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid-left .bse-beaf-column-media {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid-left .bse-beaf-column-text {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid-right .bse-beaf-column-media {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-grid-right .bse-beaf-column-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  @media only screen and (max-width: 900px) {
+    #bse-beaf-{{ section.id }} .bse-beaf-grid-left,
+    #bse-beaf-{{ section.id }} .bse-beaf-grid-right {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    #bse-beaf-{{ section.id }} .bse-beaf-column-media {
+      margin: 0 0 {{ section.settings.grid_gap }}px 0;
+    }
+  }
+
+  #bse-beaf-{{ section.id }} a.bse-beaf-cta {
+    display: inline-block;
+    padding: {{ section.settings.button_padding_tb }}px {{ section.settings.button_padding_lr }}px;
+    background-image: {{ section.settings.button_background_color }};
+    border-radius: {{ section.settings.button_border_radius }}px;
+    color: {{ section.settings.button_text_color }};
+    font-size: {{ section.settings.button_text_size }}px !important;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: none;
+    transition: .25s all;
+    font-size: 13px;
+  }
+
+  /* before and after */
+  #bse-beaf-{{ section.id }} .bse-beaf-container-wrap {
+    {% if section.settings.media_shadow %}box-shadow: 0 0 5px 0 rgba(0,0,0,0.20);{% endif %}
+    border-radius: {{ section.settings.media_radius }}px;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-container {
+    width: 100%;
+    aspect-ratio: {{ section.settings.media_aspect_ratio }};
+    position: relative;
+    clip-path: border-box;
+    overflow: hidden;
+    border-radius: {{ section.settings.media_radius }}px;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    aspect-ratio: {{ section.settings.media_aspect_ratio }};
+    object-fit: cover;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-container img:first-child {
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-container img:nth-child(2) {
+    clip-path: polygon(0 0, var(--bse-beaf-clip-{{ short_id }}) 0, var(--bse-beaf-clip-{{ short_id }}) 100%, 0% 100%);
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background: rgba(255, 255, 255, 0);
+    outline: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-slider::-webkit-slider-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 800px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-slider::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 800px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-icon {
+    position: absolute;
+    top: 50%;
+    left: var(--bse-beaf-clip-{{ short_id }});
+    width: 50px;
+    height: 50px;
+    transform: translateX(-25px) translatey(-25px);
+    pointer-events: none;
+    background: rgba(255,255,255,.6);
+    border-radius: 50%;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-icon svg {
+    width: 25px;
+    height: 25px;
+    fill: #111;
+    pointer-events: none;
+    transform: translateX(12.5px) translateY(12.5px);
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-before,
+  #bse-beaf-{{ section.id }} .bse-beaf-after {
+    display: inline-block;
+    position: absolute;
+    background: rgba(255,255,255,.75);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #111;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-before {
+    top: 10px;
+    left: 10px;
+  }
+
+  #bse-beaf-{{ section.id }} .bse-beaf-after {
+    top: 10px;
+    right: 10px;
+  }
+</style>
+
+{% endcapture %}
+
+{{ css | strip_newlines }}
+
+{% capture html %}
+
+<div id="bse-beaf-{{ section.id }}" class="bse-beaf-wrap">
+  <div class="bse-beaf-grid bse-beaf-grid-{{ section.settings.media_location }}">
+    <div class="bse-beaf-column bse-beaf-column-media">
+      <div class="bse-beaf-container-wrap">
+        <div class="bse-beaf-container">
+          {% if section.settings.after_image != blank %}
+            <img
+              src="{{ section.settings.after_image | image_url: width: 1024 }}"
+              loading="lazy"
+              srcset="{{ section.settings.after_image | image_url: width: 600 }} 600w, {{ section.settings.after_image | image_url: width: 1024 }} 1100w"
+            >
+          {% else %}
+            <img
+              src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg version='1.1' viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Crect x='2' y='2' width='100%' height='100%' fill='%23C8C8C8' stroke='%23D8D8D8' stroke-width='4'/%3E%3C/g%3E%3C/svg%3E"
+            >
+          {% endif %}
+          {% if section.settings.before_image != blank %}
+            <img
+              src="{{ section.settings.before_image | image_url: width: 1024 }}"
+              loading="lazy"
+              srcset="{{ section.settings.before_image | image_url: width: 600 }} 600w, {{ section.settings.before_image | image_url: width: 1024 }} 1100w"
+            >
+          {% else %}
+            <img
+              src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg version='1.1' viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Crect x='2' y='2' width='100%' height='100%' fill='%23D8D8D8' stroke='%23D8D8D8' stroke-width='4'/%3E%3C/g%3E%3C/svg%3E"
+            >
+          {% endif %}
+
+          <span class="bse-beaf-before">{{ section.settings.before_caption }}</span>
+          <span class="bse-beaf-after">{{ section.settings.after_caption }}</span>
+
+          <input id="bse-beaf-slider-{{ short_id }}" type="range" min="0" max="100" value="50" class="bse-beaf-slider">
+
+          <span class="bse-beaf-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+              <path d="m680-280-56-56 103-104H520v-80h207L624-624l56-56 200 200-200 200Zm-400 0L80-480l200-200 56 56-103 104h207v80H233l103 104-56 56Z"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="bse-beaf-column bse-beaf-column-text">
+      {% if section.settings.headline %}
+        <h2 class="heading">{{ section.settings.headline }}</h2>
+      {% endif %}
+      {% if section.settings.content %}
+        <div class="bse-beaf-rt">{{ section.settings.content }}</div>
+      {% endif %}
+      {% if section.settings.link_text != blank %}
+        <p>
+          <a class="bse-beaf-cta" href="{{ section.settings.link }}">{{ section.settings.link_text }}</a>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+          
+<script
+  type="text/javascript"
+>  
+  function initBeforeAfter() {
+  var el_{{ short_id }} = document.querySelector(`#bse-beaf-slider-{{ short_id }}`);
+
+  el_{{ short_id }}.addEventListener(`input`, (e)=>{
+    const pos = e.target.value;
+    var r = document.querySelector(':root');
+
+    r.style.setProperty('--bse-beaf-clip-{{ short_id }}', `${pos}%`);
+  });
+  }
+ initBeforeAfter();
+  
+  document.addEventListener('DOMContentLoaded', initBeforeAfter);
+  
+  if (Shopify.designMode) {
+     document.addEventListener('shopify:section:unload', initBeforeAfter);
+     document.addEventListener('shopify:section:load', initBeforeAfter);
+  }
+</script>
+
+  {% endcapture %}
+  
+  {{ html | strip_newlines }}
+
+                
+{% schema %}
+{
+  "name": "BOOST - Before After",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Before & After Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "before_image",
+      "label": "Before Image"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "before_caption",
+      "label": "Before Caption",
+      "default": "Before"
+    },
+    {
+      "type": "image_picker",
+      "id": "after_image",
+      "label": "After Image"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "after_caption",
+      "label": "After Caption",
+      "default": "After"
+    },
+    {
+      "type": "select",
+      "id": "media_aspect_ratio",
+      "label": "Media Aspect Ratio",
+      "options": [
+        {
+          "value": "21 / 9",
+          "label": "21:9"
+        },
+        {
+          "value": "16 / 9",
+          "label": "16:9"
+        },
+        {
+          "value": "4 / 3",
+          "label": "4:3"
+        },
+        {
+          "value": "1 / 1",
+          "label": "1:1"
+        }
+      ],
+      "default": "16 / 9"
+    },
+    {
+      "type": "range",
+      "id": "media_radius",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Round Borders on Media",
+      "default": 4
+    },
+    {
+      "type": "checkbox",
+      "id": "media_shadow",
+      "default": true,
+      "label": "Shadow on Media"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "headline",
+      "label": "Headline",
+      "default": "<b>Sample headline</b>"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>This is an example of the content that can be added to the section."
+    },
+    {
+      "type": "inline_richtext",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "Shop More"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "select",
+      "id": "media_location",
+      "label": "Media Location",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "text_alignment",
+      "id": "alignment",
+      "label": "Text Alignment",
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Styling"
+    },
+    {
+      "type": "range",
+      "id": "headline_size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Headline Size",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "headline_color",
+      "default": "#111111",
+      "label": "Headline Color"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Text Size",
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "default": "#111111",
+      "label": "Text Color"
+    },
+    {
+      "type": "header",
+      "content": "Background",
+      "info": "Set the background for the section."
+    },
+    {
+      "type": "color_background",
+      "id": "background_color",
+      "default": "linear-gradient(164deg, #FFF 0%, #FFF 100%)",
+      "label": "Background Color"
+    },
+    {
+      "type": "header",
+      "content": "Dimensions"
+    },
+    {
+     "id": "max_width",
+     "default": 1600,
+     "label": "Max Width of Section",
+     "type": "range",
+     "min": 500,
+     "max":1800,
+     "step": 100
+   },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "default": 20,
+      "label": "Spacing between columns",
+      "min": 0,
+      "max":50,
+      "step": 1
+    },
+    {
+     "id": "padding_block",
+     "default": 25,
+     "label": "Padding Top/Bottom",
+     "type": "range",
+     "min": 0,
+     "max":100,
+     "step": 1
+   },
+   {
+     "id": "padding_inline",
+     "default": 20,
+     "label": "Padding Left/Right",
+     "type": "range",
+     "min": 0,
+     "max":100,
+     "step": 1
+   },
+   {
+     "id": "margin_block",
+     "default": 0,
+     "label": "Margin Top/Bottom",
+    "type": "range",
+     "min": 0,
+     "max":100,
+     "step": 1
+   },
+    {
+     "id": "element_spacing",
+     "default": 15,
+     "label": "Spacing between Elements",
+    "type": "range",
+     "min": 0,
+     "max":30,
+     "step": 1
+   },
+    {
+      "type": "header",
+      "content": "Button Style",
+      "info": "Set the look and feel of the button"
+    },
+    {
+      "type": "color_background",
+      "id": "button_background_color",
+      "default": "linear-gradient(164deg, #92bc57 0%, #92bc57 100%)",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "default": "#fff",
+      "label": "Button Text Color"
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Text Size",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "button_padding_tb",
+      "default": 10,
+      "label": "Button Padding Top/Bottom",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_lr",
+      "default": 25,
+      "label": "Button Padding Left/Right",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "default": 5,
+      "label": "Button Border Radius",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Font",
+      "info": "Set the fonts for your section"
+    },
+    {
+      "type": "checkbox",
+      "id": "override_fonts",
+      "label": "Override theme fonts",
+      "default": false
+    },
+    {
+      "type": "font_picker",
+      "id": "text_font",
+      "label": "Text Font",
+      "default": "sans-serif"
+    },
+    {
+      "type": "font_picker",
+      "id": "headline_font",
+      "label": "Headline Font",
+      "default": "sans-serif"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BOOST - Before After",
+      "category": "Conversion Optimizer"
+    }
+  ]
+}
+{% endschema %}

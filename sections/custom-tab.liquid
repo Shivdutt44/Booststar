@@ -1,0 +1,1483 @@
+{%- assign button_alpha = section.settings.button_background_color | color_extract: 'alpha' -%}
+
+{%- assign widths = '180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 1950, 2100, 2260, 2450, 2700, 3000, 3350, 3750, 4100' -%}
+
+{%- if section.settings.max_width contains 'px' or section.settings.max_width contains '%' -%}
+  {%- assign max_width = section.settings.max_width -%}
+{%- else -%}
+  {%- assign max_width = section.settings.max_width | append: 'px' -%}
+{%- endif -%}
+
+{%- capture font_settings_list -%}
+{{ section.settings.main_font | font_face: font_display: 'swap' }}~
+{{ section.settings.main_font | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }}~
+{{ section.settings.main_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}~
+{{ section.settings.main_font | font_modify: 'style', 'italic' | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }}~
+{{ section.settings.heading_font | font_face: font_display: 'swap' }}~
+{{ section.settings.heading_font | font_modify: 'weight', 'normal' | font_face: font_display: 'swap' }}~
+{{ section.settings.heading_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}~
+{{ section.settings.heading_font | font_modify: 'style', 'italic' | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }}
+{%- endcapture -%}
+{%- assign font_array = font_settings_list | split: '~' -%}
+
+{% assign tabs = section.blocks | where: 'type', 'tab' %}
+{% assign tab_count = tabs | size %}
+
+{%- capture minify -%}
+<style>
+
+{%- if section.settings.override_theme_font != blank -%}
+  {%- for font in font_array -%}
+    {%- unless font contains 'error' -%}{{ font }}{%- endunless -%}
+  {%- endfor -%}
+  #WP--{{ section.id }} {
+    --main-font: {{ section.settings.main_font.family }}, {{ section.settings.main_font.fallback_families }};
+    --main-font-weight: {{ section.settings.main_font.weight }};
+    --main-font-style: {{ section.settings.main_font.style }};
+    --heading-font: {{ section.settings.heading_font.family }}, {{ section.settings.heading_font.fallback_families }};
+    --heading-font-weight: {{ section.settings.heading_font.weight }};
+    --heading-font-style: {{ section.settings.heading_font.style }};
+  }
+{%- endif -%}
+
+#WP--{{ section.id }} {
+  background: {{ section.settings.background_color }};
+  margin-top: {{ section.settings.outer_margin }}px;
+  margin-bottom: {{ section.settings.outer_margin }}px;
+}
+
+#WP--{{ section.id }} .wbs-pck__sizer {
+  padding-top: {{ section.settings.inner_padding }}px;
+  padding-bottom: {{ section.settings.inner_padding }}px;
+  width: {{ section.settings.base_width }}%;
+  max-width: {{ max_width }};
+  margin: 0 auto;
+}
+
+#WP--{{ section.id }} .wbs-pck__tab-button-wrapper {
+	display: flex;
+	grid-gap: 4px;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#WP--{{ section.id }} .wbs-pck__tab-title {
+  border: none;
+  transition: 0.3s ease;
+  line-height: calc(3px + 2ex + 3px);
+  color: {{ section.settings.tab_label_color }};
+  font-size: calc(var(--WP-g-small-heading-size, var(--WP-small-heading-size, 25px)) * {{ section.settings.text_size | times: 0.008 }});
+  cursor: pointer;
+  {%- if section.settings.override_theme_font != blank -%}
+    font-family: var(--heading-font);
+    font-weight: var(--heading-font-weight);
+    font-style: var(--heading-font-style);
+  {%- endif -%}
+}
+
+#WP--{{ section.id }} .wbs-pck__tab-title p {
+  margin: 0;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title {
+  position: relative;
+  border: none;
+	border-radius: 6px 6px 0 0;
+  background: transparent;
+  padding: 1.5rem;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title:hover {
+  background: {{ section.settings.tab_highlight_color | color_modify: 'alpha', 0.4 }};
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title[aria-selected="true"]{
+  background: {{ section.settings.tab_highlight_color }};
+	color: {{ section.settings.tab_label_highlight_color}}
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-panel--small_tabs{
+	border-top: 4px solid {{ section.settings.tab_highlight_color }};
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title {
+  position: relative;
+	border-radius: 6px 6px 0 0;
+  background: transparent;
+  padding: 1.5rem;
+	padding-bottom: calc(1.5rem + 4px);
+	width: calc(100% / {{tab_count}} );
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 4px;
+	width: 0;
+	background: {{ section.settings.tab_highlight_color }};
+	transition: 0.6s ease;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title:hover {
+  background: {{ section.settings.tab_background_color | color_modify: 'alpha', 0.4 }};
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title[aria-selected="true"]{
+  background: {{ section.settings.tab_background_color }};
+	color: {{ section.settings.tab_label_highlight_color}}
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title[aria-selected="true"]::after {
+  width: 100%;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-panel--buttons {
+	border-radius: 10px;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--buttons.wbs-pck__tab-button-wrapper {
+	background: {{ section.settings.tab_background_color }};
+	width: max-content;
+	margin: 2rem auto;
+	padding: 1.2rem;
+	border-radius: 50px;
+	gap: 1rem;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--buttons .wbs-pck__tab-title {
+	background: transparent;
+	padding: 0.8rem 1.5rem;
+	border-radius: 50px;
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--buttons .wbs-pck__tab-title:hover {
+  background: {{ section.settings.tab_highlight_color | color_modify: 'alpha', 0.4 }};
+}
+
+#WP--{{ section.id }} .wbs-pck_tab-style--buttons .wbs-pck__tab-title[aria-selected="true"]{
+  background: {{ section.settings.tab_highlight_color }};
+	color: {{ section.settings.tab_label_highlight_color}};
+}
+
+#WP--{{ section.id }} .wbs-pck__tab-panel {
+  width: 100%;
+  margin: auto;
+  background: {{ section.settings.tab_background_color }};
+  padding: 1.5em;
+}
+
+#WP--{{ section.id }} .wbs-pck__tab-panel[aria-hidden="false"] {
+  display: block;
+	position: relative;
+}
+
+#WP--{{ section.id }} .wbs-pck__tab-panel[aria-hidden="true"] {
+  display: none;
+}
+
+#WP--{{ section.id }} .wbs-pck__rte p,
+#WP--{{ section.id }} .wbs-pck__rte ul {
+  line-height: calc(3px + 2.5ex + 3px);
+  color: {{ section.settings.text_color }};
+  font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
+  {%- if section.settings.override_theme_font != blank -%}
+  font-family: var(--main-font);
+  font-weight: var(--main-font-weight);
+  font-style: var(--main-font-style);
+  {%- endif -%}
+}
+
+#WP--{{ section.id }} .wbs-pck__small-text p,
+#WP--{{ section.id }} .wbs-pck__small-text ul {
+  font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.008 }});
+}
+
+{%- if section.settings.text_alignment == 'center' -%}
+  #WP--{{ section.id }} .wbs-pck__rte ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+{%- elsif section.settings.text_alignment == 'right' -%}
+  #WP--{{ section.id }} .wbs-pck__rte ul {
+    display: table;
+    margin-left: auto;
+    text-align: left;
+  }
+{%- endif -%}
+
+#WP--{{ section.id }} .wbs-pck__block {
+  color: {{ section.settings.text_color }};
+}
+
+#WP--{{ section.id }} .wbs-pck__block + .wbs-pck__block {
+  margin-top: 15px;
+}
+
+{%- if section.settings.animation != 'none' -%}
+  #WP--{{ section.id }}.wbs-pck__animation-applied [style*="--wbs-pck-animate"] {
+    animation-name: wbs-pck__animation--{{ section.settings.animation }};
+  }
+{%- else -%}
+  #WP--{{ section.id }} [style*="--wbs-pck-animate"] {
+    opacity: 1;
+  }
+{% endif %}
+
+{%- if section.settings.custom_css != blank -%}
+  {%- assign custom_section_declarations = section.settings.custom_css | split: '}' -%}
+  {%- for declaration in custom_section_declarations -%}
+    {%- if declaration contains '{' -%}
+      #WP--{{ section.id }} {{ declaration }} }
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+@media (max-width: 480px) {
+  #WP--{{ section.id }} {
+    margin-top: {{ section.settings.outer_margin | divided_by: 2 }}px;
+    margin-bottom: {{ section.settings.outer_margin | divided_by: 2 }}px;
+  }
+
+  #WP--{{ section.id }} .wbs-pck__sizer {
+    max-width: {{ max_width }};
+    padding-top: {{ section.settings.inner_padding | divided_by: 2 }}px;
+    padding-bottom: {{ section.settings.inner_padding | divided_by: 2 }}px;
+    padding-left: {{ section.settings.inner_padding | divided_by: 2 }}px;
+    padding-right: {{ section.settings.inner_padding | divided_by: 2 }}px;
+  }
+
+	#WP--{{ section.id }} .wbs-pck__tab-button-wrapper {
+		justify-content: flex-start;
+    overflow: auto;
+	}
+
+	#WP--{{ section.id }} .wbs-pck__tab-title {
+		padding: 1rem;
+		white-space: nowrap;
+	}
+
+
+	#WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title {
+		width: unset;
+	}
+
+	#WP--{{ section.id }} .wbs-pck__tab-title  {
+		line-height: calc(3px + 2ex + 3px);
+		font-size: calc(var(--WP-g-small-heading-size, var(--WP-small-heading-size, 18px)) * {{ section.settings.text_size | times: 0.008 }});
+	}
+
+	#WP--{{ section.id }} .wbs-pck_tab-style--buttons.wbs-pck__tab-button-wrapper {
+		width: unset;
+		margin: 1rem auto;
+		padding: 0.8rem;
+		border-radius: 50px;
+		gap: 1rem;
+	}
+
+	#WP--{{ section.id }} .wbs-pck_tab-style--buttons .wbs-pck__tab-title {
+		padding: 0.6rem 1.2rem;
+	}
+
+
+
+  {%- if section.settings.mobile_custom_css != blank -%}
+    {%- assign mobile_custom_declarations = section.settings.mobile_custom_css | split: '}' -%}
+    {%- for declaration in mobile_custom_declarations -%}
+      {%- if declaration contains '{' -%}
+        #WP--{{ section.id }} {{ declaration }} }
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+}
+  
+</style>
+
+<section id="WP--{{ section.id }}" class="WP--{{ section.id }} wbs-pck__tabbed-content wbs-pck__section">
+  <div class="wbs-pck__sizer">
+    <div class="wbs-pck__wrapper">
+    <div class="wbs-pck__tab-button-wrapper wbs-pck_tab-style--{{ section.settings.tab_style }}">
+      {%- for tab in tabs -%}
+        <button class="wbs-pck__tab-title" data-wbs-pck-tab="{{ tab.id }}" role="tab" aria-selected="{%- if forloop.first -%}true{%- else -%}false{%- endif -%}">
+          <p class="wbs-pck__small-heading">{{ tab.settings.tab_heading }}</p>
+        </button>
+      {%- endfor -%}
+    </div>
+    {%- assign tab_loop = 0 -%}
+    {%- for block in section.blocks -%}
+      {%- if block.type != 'tab' and forloop.first == true -%}
+        <div class="wbs-pck__tab-panel wbs-pck__grid-tab wbs-pck__grid-tab--0">
+      {%- endif -%}
+      {%- if block.type == 'tab' -%}
+        {%- assign tab_loop = tab_loop | plus: 1 -%}
+        {%- if tabs[0].id != block.id and forloop.first == false -%}
+          </div><!-- end tab -->
+        {%- endif -%}
+        <div class="wbs-pck__tab-panel wbs-pck_tab-panel--{{ section.settings.tab_style }} wbs-pck__grid-tab wbs-pck__grid-tab--{{ tab_loop }} wbs-pck__justify-{{ section.settings.text_alignment }}" id="WP--{{ block.id }}" class="wbs-pck__tab-panel" data-wbs-pck-panel="{{ block.id }}" role="tabpanel" aria-hidden="{%- if forloop.first -%}false{%- else -%}true{%- endif -%}">
+        {% continue %}
+      {%- endif -%}
+        <div id="WP--{{ block.id }}" class="wbs-pck__block wbs-pck__block-id-{{ block.id }} wbs-pck__block--{{ block.type }} wbs-pck__block--{{ forloop.index }}" {{ block.shopify_attributes }}>
+        {%- case block.type -%}
+          {%- when 'collapsible_content' -%}
+              <div id="WP--{{ block.id }}" class="wbs-pck__block wbs-pck__block-id-{{ block.id }} wbs-pck__block--{{ block.type }} wbs-pck__block--{{ forloop.index }}">
+                {%- comment -%}Icons: SVG URI encoded icons{%- endcomment -%}
+                {%- capture closed_icon -%}
+                  {%- case block.settings.icon_style -%}
+                    {%- when 'plus_minus' -%}
+                      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z' fill='{{ section.settings.text_color | replace: "#", "%23" }}'/%3E%3C/svg%3E")
+                    {%- when 'caret' -%}
+                      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z' fill='{{ section.settings.text_color | replace: "#", "%23" }}'/%3E%3C/svg%3E")
+                    {%- when 'plus_minus_square' -%}
+                      url("data:image/svg+xml,%3Csvg clip-rule='evenodd' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m21 3.998c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm6.75 6.752h-3.5c-.414 0-.75.336-.75.75s.336.75.75.75h3.5v3.5c0 .414.336.75.75.75s.75-.336.75-.75v-3.5h3.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-3.5v-3.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75z' fill-rule='nonzero' fill='{{ section.settings.text_color | replace: "#", "%23" }}'/%3E%3C/svg%3E")
+                  {%- endcase -%}
+                {%- endcapture -%}
+
+                {%- capture open_icon -%}
+                  {%- case block.settings.icon_style -%}
+                    {%- when 'plus_minus' -%}
+                      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 10h24v4h-24z' fill='{{ section.settings.text_color | replace: "#", "%23" }}'/%3E%3C/svg%3E")
+                    {%- when 'caret' -%}
+                      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z' fill='{{ section.settings.text_color | replace: "#", "%23" }}'/%3E%3C/svg%3E")
+                    {%- when 'plus_minus_square' -%}
+                      url("data:image/svg+xml,%3Csvg clip-rule='evenodd' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m21 4c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm11.75 6.752h-8.5c-.414 0-.75.336-.75.75s.336.75.75.75h8.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z' fill-rule='nonzero' fill='{{ section.settings.text_color | replace: "#", "%23" }}'/%3E%3C/svg%3E");
+                  {%- endcase -%}
+                {%- endcapture -%}
+                <style>
+                  #WP--{{ section.id }} .wbs-pck__block--collapsible_content + .wbs-pck__block--collapsible_content {
+                    margin-top: 0;
+                  }
+
+                  #WP--{{ section.id }} .wbs-pck__block--collapsible_content + .wbs-pck__block--collapsible_content .wbs-pck__accordion {
+                    border-top: 0;
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__accordion {
+                    border-top: thin solid {{ section.settings.text_color }};
+                    border-bottom: thin solid {{ section.settings.text_color }};
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__question {
+                    position: relative;
+                    cursor: pointer;
+                    display: block;
+                    padding: 10px 25px 10px 0;
+                    color: {{ section.settings.text_color }};
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__small-heading {
+                    margin: 0;
+                    font-size: calc(var(--WP-g-small-heading-size, var(--WP-small-heading-size, 24px)) * {{ section.settings.text_size | times: 0.008 }});
+                    {%- if section.settings.override_theme_font != blank -%}
+                      font-family: var(--heading-font);
+                      font-weight: var(--heading-font-weight);
+                      font-style: var(--heading-font-style);
+                    {%- endif -%}
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__question::-webkit-details-marker {
+                    display: none;
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__accordion[open] > .wbs-pck__question:after {
+                    background-image: {{ open_icon }};
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__question:after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                    height: 20px;
+                    width: 20px;
+                    background-image: {{ closed_icon }};
+                    background-size: contain;
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__answer {
+                    padding-top: 10px;
+                    margin-bottom: 0;
+                  }
+
+                  .wbs-pck__block-id-{{ block.id }} .wbs-pck__inner-answer {
+                    padding: 10px;
+                    padding-top: 0;
+                  }
+                </style>
+                <details class="wbs-pck__accordion wbs-pck__icon-style-{{ block.settings.icon_style }}" {%- if block.settings.show_open == true -%} open {%- endif -%}>
+                  <summary class="wbs-pck__question">
+                    <h3 class="wbs-pck__small-heading">{{ block.settings.title }}</h3>
+                  </summary>
+                  <div class="wbs-pck__answer">
+                    <div class="wbs-pck__inner-answer wbs-pck__text wbs-pck__rte">
+                      {{ block.settings.text }}
+                    </div>
+                  </div>
+                </details>
+              </div>
+          {%- when 'newsletter' -%}
+            <style>
+              {%- assign button_alpha = block.settings.button_background_color | color_extract: 'alpha' -%}
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__form {
+                --form-gap: 5px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: calc(var(--form-gap) * 2);
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__form-text {
+                color: inherit;
+                font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__form input {
+                margin: unset;
+                padding: 0.8em;
+                font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__form input[type="text"],
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__form input[type="email"] {
+                padding: 0.8em;
+                background: transparent;
+                border: thin solid {{ section.settings.text_color }};
+                color: {{ section.settings.text_color }};
+                {%- if section.settings.override_theme_font != blank -%}
+                font-family: var(--main-font);
+                font-weight: var(--main-font-weight);
+                font-style: var(--main-font-style);
+                {%- endif -%}
+              }
+
+              .wbs-pck__form--{{ block.id }} input {
+                width: 100%;
+              }
+
+              {%- if block.settings.show_first_name and block.settings.show_last_name -%}
+                .wbs-pck__form--{{ block.id }}-compact .wbs-pck__newsletter_first-name,
+                .wbs-pck__form--{{ block.id }}-compact .wbs-pck__newsletter_last-name {
+                  width: calc(50% - var(--form-gap));
+                }
+              {%- endif -%}
+
+              .wbs-pck__form--{{ block.id }}-compact .wbs-pck__newsletter_email {
+                width: calc(70% - var(--form-gap));
+              }
+
+              .wbs-pck__form--{{ block.id }}-compact .wbs-pck__button {
+                width: calc(30% - var(--form-gap));
+              }
+
+              .wbs-pck__block-id-{{ block.id }} input::placeholder {
+                opacity: 0.6;
+                color: {{ section.settings.text_color }};
+                {%- if section.settings.override_theme_font != blank -%}
+                font-family: var(--main-font);
+                font-weight: var(--main-font-weight);
+                font-style: var(--main-font-style);
+                {%- endif -%}
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button {
+                justify-content: center;
+                text-align: center;
+                transition: all 0.3s ease-in-out;
+                border: thin solid;
+                border-radius: {{ block.settings.button_radius }}px;
+                color: {{ block.settings.button_label_color }};
+                font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
+                border-color: {%- if button_alpha != 0 -%}{{ block.settings.button_background_color }}{%- else -%}{{ block.settings.button_label_color }}{%- endif -%};
+                background-color: {{ block.settings.button_background_color }};
+                {%- if section.settings.override_theme_font != blank -%}
+                font-family: var(--main-font);
+                font-weight: var(--main-font-weight);
+                font-style: var(--main-font-style);
+                {%- endif -%}
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button:hover {
+                opacity: 1;
+                {%- if button_alpha != 0 -%}
+                background-color: {{ block.settings.button_background_color | color_darken: 10 }};
+                border-color: transparent;
+                {%- else -%}
+                background-color: {{ block.settings.button_label_color | color_modify: 'alpha', 0.1 }}
+                {%- endif -%};
+              }
+            </style>
+            {%- capture form_id -%}wbs-pck__form-{{ section.id }}{%- endcapture -%}
+            {%- form 'customer', id: form_id -%}
+
+              {%- comment -%} Error and success messages for submitted form {%- endcomment -%}
+              <div class="wbs-pck__form-response wbs-pck__text">
+                {%- if form.posted_successfully? -%}
+                  <p class="wbs-pck__form-reply--success">{{ 'success' | t }}</p>
+                {%- elsif form.errors -%}
+                  {%- for field in form.errors -%}
+                    <p class="wbs-pck__form-reply--error">{{ field }} - {{ form.errors.messages[field] }}</p>
+                  {%- endfor -%}
+                {%- endif -%}
+              </div>
+
+              {%- comment -%} Hidden newsletter fields {%- endcomment -%}
+              <input type="hidden" name="contact[tags]" value="newsletter"/>
+              <input type="hidden" name="challenge" value="false" />
+
+              <div class="wbs-pck__form wbs-pck__form--{{ block.id }} wbs-pck__form--{{ block.id }}-{{ block.settings.layout }}">
+                {%- if block.settings.show_first_name -%}
+                  <label class="wbs-pck__visually-hidden" for="first-name-{{ block.id }}">{{ block.settings.first_name_label }}</label>
+                  <input class="wbs-pck__newsletter_first-name" type="text" name="contact[first_name]" id="first-name-{{ block.id }}" placeholder="{{ block.settings.first_name_label }}" />
+                {%- endif -%}
+                {%- if block.settings.show_last_name -%}
+                  <label class="wbs-pck__visually-hidden" for="last-name-{{ block.id }}">{{ block.settings.last_name_label }}</label>
+                  <input class="wbs-pck__newsletter_last-name" type="text" name="contact[last_name]" id="last-name-{{ block.id }}" placeholder="{{ block.settings.last_name_label }}" />
+                {%- endif -%}
+                <label class="wbs-pck__visually-hidden" for="email-{{ block.id }}">{{ block.settings.email_label }}</label>
+                <input class="wbs-pck__newsletter_email" type="email" name="contact[email]" required id="email-{{ block.id }}" placeholder="{{ block.settings.email_label }}" />
+                <input class="wbs-pck__button" type="submit" value="{{ block.settings.submit_label }}" />
+              </div>
+
+            {%- endform -%}
+          {%- when 'small_text' -%}
+            {%- if block.settings.small_text != blank -%}
+              <div class="wbs-pck__small-text wbs-pck__rte">
+                {{ block.settings.small_text }}
+              </div>
+            {%- endif -%}
+
+            {%- when 'select_image' -%}
+            {%- if block.settings.select_image != blank -%}
+              <div class="image_select" style="height:800px; width:100%;">
+                    <img src="{{ block.settings.select_image | img_url:'master'}}" height="100%" width="100%">
+              </div>
+            {%- endif -%}
+          
+          {%- when 'heading' -%}
+            <style>
+              {%- if block.settings.enable_custom_font != blank -%}
+                {{ block.settings.custom_font | font_face: font_display: 'swap' }}
+                {{ block.settings.custom_font | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }}
+                {{ block.settings.custom_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+                {{ block.settings.custom_font | font_modify: 'style', 'italic' | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }}
+                .wbs-pck__block-id-{{ block.id }} {
+                  --custom-font: {{ block.settings.custom_font.family }}, {{ block.settings.custom_font.fallback_families }};
+                  --custom-font-weight: {{ block.settings.custom_font.weight }};
+                  --custom-font-style: {{ block.settings.custom_font.style }};
+                }
+              {% endif %}
+
+              {%- assign block_heading_alpha = block.settings.block_heading_color | color_extract: 'alpha' -%}
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__heading {
+                margin: 0;
+                line-height: calc(3px + 2ex + 3px);
+                {%- if block_heading_alpha != 0 -%}
+                  color: {{ block.settings.block_heading_color }};
+                {%- endif -%}
+                {%- if block.settings.block_heading_size != blank -%}
+                  font-size: calc({{ block.settings.block_heading_size }} * {{ section.settings.text_size | times: 0.01 }});
+                {%- else -%}
+                  font-size: calc(var(--WP-g-heading-size, var(--WP-heading-size, 35px)) * {{ section.settings.text_size | times: 0.01 }});
+                {%- endif -%}
+                {%- if block.settings.enable_custom_font != blank -%}
+                font-family: var(--custom-font);
+                font-weight: var(--custom-font-weight);
+                font-style: var(--custom-font-style);
+                {%- elsif section.settings.override_theme_font != blank -%}
+                font-family: var(--heading-font);
+                font-weight: var(--heading-font-weight);
+                font-style: var(--heading-font-style);
+                {%- endif -%}
+              }
+
+              @media (max-width: 480px) {
+                .wbs-pck__block-id-{{ block.id }} .wbs-pck__heading {
+                  {%- if block.settings.block_heading_size != blank -%}
+                    font-size: min({{ block.settings.block_heading_size }}, 50px);
+                  {%- endif -%}
+                }
+              }
+
+            </style>
+            {%- if block.settings.title != blank -%}
+              <{{- block.settings.heading_level }} class="wbs-pck__heading" id="{{ block.settings.anchor_id | remove: '#' }}">
+                {{ block.settings.title | newline_to_br }}
+              </{{- block.settings.heading_level -}}>
+            {%- endif -%}
+
+          {%- when 'text' -%}
+            {%- if block.settings.text != blank -%}
+              <div class="wbs-pck__text wbs-pck__rte">
+                {{ block.settings.text }}
+              </div>
+            {%- endif -%}
+          {%- when 'buttons' -%}
+            <style>
+              {%- assign button_alpha_primary = block.settings.button_background_color_primary | color_extract: 'alpha' -%}
+              {%- assign button_alpha_secondary = block.settings.button_background_color_secondary | color_extract: 'alpha' -%}
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button-area {
+                display: grid;
+                grid-gap: 1.3em;
+                {%- if section.settings.text_alignment == 'center' -%}
+                  margin: 0 auto;
+                {%- elsif section.settings.text_alignment == 'right' -%}
+                  margin: 0 0 0 auto;
+                {%- endif -%}
+                {%- if block.settings.button_label_primary != blank and block.settings.button_label_secondary != blank -%}
+                  grid-template-columns: repeat(2, 1fr);
+                {%- else -%}
+                  grid-template-columns: 1fr;
+                  max-width: 200px;
+                {%- endif -%}
+                max-width: 100%;
+                width: fit-content;
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                text-decoration: none;
+                padding: 0.5em 1.2em;
+                margin-top: 0;
+                border: thin solid;
+                transition: all 0.3s ease-in-out;
+                border-radius: {{ block.settings.button_radius }}px;
+                line-height: calc(3px + 2ex + 3px);
+                font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
+                {%- if section.settings.override_theme_font != blank -%}
+                font-family: var(--main-font);
+                font-weight: var(--main-font-weight);
+                font-style: var(--main-font-style);
+                {%- endif -%}
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button-primary {
+                color: {{ block.settings.button_label_color_primary }};
+                border-color: {%- if button_alpha_primary != 0 -%}{{ block.settings.button_background_color_primary }}{%- else -%}{{ block.settings.button_label_color_primary }}{%- endif -%};
+                background-color: {{ block.settings.button_background_color_primary }};
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button-secondary {
+                color: {{ block.settings.button_label_color_secondary }};
+                border-color: {%- if button_alpha_secondary != 0 -%}{{ block.settings.button_background_color_secondary }}{%- else -%}{{ block.settings.button_label_color_secondary }}{%- endif -%};
+                background-color: {{ block.settings.button_background_color_secondary }};
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button-primary:hover {
+                opacity: 1;
+                {%- if button_alpha_primary != 0 -%}
+                background-color: {{ block.settings.button_background_color_primary | color_darken: 10 }};
+                border-color: transparent;
+                {%- else -%}
+                background-color: {{ block.settings.button_label_color_primary | color_modify: 'alpha', 0.1 }}
+                {%- endif -%};
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__button-secondary:hover {
+                opacity: 1;
+                {%- if button_alpha_secondary != 0 -%}
+                background-color: {{ block.settings.button_background_color_secondary | color_darken: 10 }};
+                border-color: transparent;
+                {%- else -%}
+                background-color: {{ block.settings.button_label_color_secondary | color_modify: 'alpha', 0.1 }}
+                {%- endif -%};
+              }
+
+              @media (max-width: 480px) {
+                .wbs-pck__block-id-{{ block.id }} div.wbs-pck__button-area {
+                  grid-template-columns: 1fr;
+                  width: 100%;
+                  gap: 10px;
+                }
+              }
+            </style>
+            <div class="wbs-pck__button-area">
+              {%- if block.settings.button_label_primary != blank -%}
+                <a class="wbs-pck__button wbs-pck__button-primary" {%- if block.settings.link_primary != blank -%} href="{{ block.settings.link_primary }}" {%- endif -%} {% if block.settings.external_link_primary %}target="_blank"{% endif %}>{{ block.settings.button_label_primary }}</a>
+              {%- endif -%}
+              {%- if block.settings.button_label_secondary != blank -%}
+                <a class="wbs-pck__button wbs-pck__button-secondary" {%- if block.settings.link_secondary != blank -%}href="{{ block.settings.link_secondary }}"{%- endif -%} {% if block.settings.external_link_secondary %}target="_blank"{% endif %}>{{ block.settings.button_label_secondary }}</a>
+              {%- endif -%}
+            </div>
+          {%- when 'divider' -%}
+            <style>
+              .wbs-pck__block-id-{{ block.id }} {
+                padding-top: {{ block.settings.padding_top }}px;
+                padding-bottom: {{ block.settings.padding_bottom }}px;
+              }
+
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__divider {
+                height: 0;
+                border: none;
+                background: transparent;
+                {%- if section.settings.text_alignment == 'left' -%}
+                  margin: 0;
+                {%- elsif section.settings.text_alignment == 'right' -%}
+                  margin: 0 0 0 auto;
+                {%- else -%}
+                  margin: 0 auto;
+                {%- endif -%}
+                width: {{ block.settings.base_width }}%;
+                border-top: {{ block.settings.thickness }}px {{ block.settings.style }} {{ block.settings.divider_color }};
+              }
+            </style>
+            <hr class="wbs-pck__divider" aria-hidden="true">
+          {%- when 'liquid' -%}
+            {{ block.settings.liquid }}
+          {%- when '@app' -%}
+            {% render block %}
+          {%- when 'spacer' -%}
+          <style>
+            #shopify-section-{{ section.id }} #WP--{{ section.id }} .wbs-pck__block-id-{{ block.id }},
+            #shopify-section-{{ section.id }} #WP--{{ section.id }} .wbs-pck__block-id-{{ block.id }} + .wbs-pck__block {
+              margin-top: 0;
+            }
+            .wbs-pck__block-id-{{ block.id }} .wbs-pck__spacer {
+              height: {{ block.settings.size }}px;
+              display: block !important;
+            }
+            @media (max-width: 480px) {
+              .wbs-pck__block-id-{{ block.id }} .wbs-pck__spacer {
+                height: {{ block.settings.size | times: 0.75 | round: 0 }}px;
+              }
+            }
+          </style>
+          <div class="wbs-pck__spacer" aria-hidden="true"></div>
+        {%- endcase -%}
+          {%- if section.blocks[0].type != 'tab' and forloop.first == true -%}
+          </div>
+        {%- endif -%}
+      </div><!-- end tab -->
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endcapture -%}
+{{ minify | strip_newlines }}
+
+{% schema %}
+{
+  "name": "Tabbed content",
+  "class": "WP__tabbed-content",
+  "settings": [
+     {
+        "type": "paragraph",
+        "content": "Support WebSensePro by [Subscribing our Channel](https:\/\/youtube.com\/@websensepro?sub_confirmation=1)"
+      },
+    {
+      "type": "header",
+      "content": "Text appearance"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 80,
+      "max": 150,
+      "step": 5,
+      "default": 100,
+      "unit": "%"
+    },
+    {
+      "type": "header",
+      "content": "Design"
+    },
+		{
+      "type": "select",
+      "id": "tab_style",
+      "label": "Tab style",
+      "default": "small_tabs",
+      "options": [
+				{
+					"value": "small_tabs",
+					"label": "Small tabs"
+				},
+        {
+          "value": "big_tabs",
+          "label": "Big tabs"
+        },
+        {
+          "value": "buttons",
+          "label": "Buttons"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "tab_label_color",
+      "label": "Tab label",
+      "default": "#14213D"
+    },
+    {
+      "type": "color",
+      "id": "tab_label_highlight_color",
+      "label": "Tab highlighted label",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "tab_background_color",
+      "label": "Tab background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "tab_highlight_color",
+      "label": "Tab highlight",
+      "default": "#FCA311"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#14213D"
+    },
+    {
+      "type": "color_background",
+      "id": "background_color",
+      "label": "Background",
+      "default": "linear-gradient(360deg, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1) 100%)"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "base_width",
+      "label": "Size",
+      "min": 80,
+      "max": 100,
+      "step": 5,
+      "default": 95,
+      "unit": "%"
+    },
+    {
+      "type": "text",
+      "id": "max_width",
+      "label": "Maximum width",
+      "placeholder": "eg. 1200px",
+      "info": "Sets width constraint for content."
+    },
+    {
+      "type": "range",
+      "id": "inner_padding",
+      "label": "Inner padding",
+      "info": "Only applies to top and bottom.",
+      "min": 0,
+      "max": 100,
+      "default": 40,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "outer_margin",
+      "label": "Outer margin",
+      "info": "Only applies to top and bottom.",
+      "min": 0,
+      "max": 100,
+      "default": 0,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "liquid",
+      "id": "custom_css",
+      "label": "CSS"
+    },
+    {
+      "type": "liquid",
+      "id": "mobile_custom_css",
+      "label": "Mobile CSS",
+      "info": "Applied on screens less than 480px."
+    },
+    {
+      "type": "checkbox",
+      "id": "override_theme_font",
+      "label": "Override default theme font",
+      "default": false
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Headings",
+      "default": "serif"
+    },
+    {
+      "type": "font_picker",
+      "id": "main_font",
+      "label": "Text",
+      "default": "sans-serif"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "[Tab]",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_heading",
+          "label": "Tab heading",
+          "default": "Tab"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Attention-grabbing headline"
+        },
+        {
+          "type": "header",
+          "content": "Advanced"
+        },
+        {
+          "type": "color",
+          "id": "block_heading_color",
+          "label": "Heading color"
+        },
+        {
+          "type": "text",
+          "id": "block_heading_size",
+          "label": "Base text size",
+          "info": "Set custom base size for heading. Leave empty to default to base size of 35px. Base size is affected by section text size setting."
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_custom_font",
+          "label": "Enable custom font",
+          "default": false
+        },
+        {
+          "type": "font_picker",
+          "id": "custom_font",
+          "label": "Custom font",
+          "default": "abel_n4"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "h1"
+            },
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            },
+            {
+              "value": "h5",
+              "label": "h5"
+            },
+            {
+              "value": "h6",
+              "label": "h6"
+            }
+          ],
+          "default": "h2",
+          "info": "The most important heading has the rank 1 (<h1>) and the least important heading has rank 6 (<h6>). Only use one h1 on a page."
+        }
+      ]
+    },
+    {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": [
+        {
+          "type": "range",
+          "id": "size",
+          "label": "Spacing height",
+          "min": 0,
+          "max": 100,
+          "default": 10,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "name": "Divider",
+      "settings": [
+        {
+          "type": "range",
+          "id": "base_width",
+          "label": "Width",
+          "min": 20,
+          "max": 100,
+          "step": 5,
+          "default": 50,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "thickness",
+          "label": "Thickness",
+          "min": 0,
+          "max": 10,
+          "default": 1,
+          "unit": "px"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Style",
+          "default": "solid",
+          "options": [
+            {
+              "value": "solid",
+              "label": "Solid line"
+            },
+            {
+              "value": "dotted",
+              "label": "Dotted line"
+            },
+            {
+              "value": "dashed",
+              "label": "Dashed line"
+            },
+            {
+              "value": "double",
+              "label": "Double line"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Design"
+        },
+        {
+          "type": "color",
+          "id": "divider_color",
+          "label": "Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "label": "Padding - top",
+          "min": 0,
+          "max": 100,
+          "default": 40,
+          "step": 5,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "label": "Padding - bottom",
+          "min": 0,
+          "max": 100,
+          "default": 40,
+          "step": 5,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Regular text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Drag and drop block options like heading, text, buttons, dividers, and more.</p>"
+        }
+      ]
+    },
+    {
+      "type": "small_text",
+      "name": "Small text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "small_text",
+          "label": "Small text",
+          "default": "<p>New arrivals</p>"
+        }
+      ]
+    },
+    {
+      "type": "select_image",
+      "name": "select image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "select_image",
+          "label": "Small text"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "Buttons",
+      "settings": [
+        {
+          "type": "range",
+          "id": "button_radius",
+          "label": "Button border radius",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "default": 0,
+          "unit": "px"
+        },
+        {
+          "type": "header",
+          "content": "Primary button"
+        },
+        {
+          "type": "text",
+          "id": "button_label_primary",
+          "label": "Primary button",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "link_primary",
+          "label": "Primary link"
+        },
+        {
+          "type": "checkbox",
+          "id": "external_link_primary",
+          "label": "Open primary link in a new window"
+        },
+        {
+          "type": "color",
+          "id": "button_label_color_primary",
+          "label": "Primary button label",
+          "default": "#121212"
+        },
+        {
+          "type": "color",
+          "id": "button_background_color_primary",
+          "label": "Primary button background",
+          "default": "rgba(0,0,0,0)"
+        },
+        {
+          "type": "header",
+          "content": "Secondary button"
+        },
+        {
+          "type": "text",
+          "id": "button_label_secondary",
+          "label": "Secondary button",
+          "default": "Shop now"
+        },
+        {
+          "type": "url",
+          "id": "link_secondary",
+          "label": "Secondary link"
+        },
+        {
+          "type": "checkbox",
+          "id": "external_link_secondary",
+          "label": "Open secondary link in a new window"
+        },
+        {
+          "type": "color",
+          "id": "button_label_color_secondary",
+          "label": "Secondary button label",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "button_background_color_secondary",
+          "label": "Secondary button background",
+          "default": "#121212"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter form",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Any customers who sign up will have an account created for them in Shopify. [View customers](/admin/customers?query=&accepts_marketing=1)"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "label": "Layout",
+          "options": [
+            {
+              "value": "stacked",
+              "label": "Stacked"
+            },
+            {
+              "value": "compact",
+              "label": "Compact"
+            }
+          ],
+          "default": "compact"
+        },
+        {
+          "type": "text",
+          "id": "email_label",
+          "label": "Email label",
+          "default": "Email address"
+        },
+        {
+          "type": "text",
+          "id": "submit_label",
+          "label": "Submit label",
+          "default": "Submit"
+        },
+        {
+          "type": "header",
+          "content": "First name"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_first_name",
+          "label": "Show first name",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "first_name_label",
+          "label": "First name label",
+          "default": "First name"
+        },
+        {
+          "type": "header",
+          "content": "Last name"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_last_name",
+          "label": "Show last name",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "last_name_label",
+          "label": "Last name label",
+          "default": "Last name"
+        },
+        {
+          "type": "header",
+          "content": "Design"
+        },
+        {
+          "type": "color",
+          "id": "button_label_color",
+          "label": "Button label",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "button_background_color",
+          "label": "Button background",
+          "default": "#283144"
+        },
+        {
+          "type": "range",
+          "id": "button_radius",
+          "label": "Button border radius",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "default": 0,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "liquid",
+      "name": "Liquid/HTML",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Copy and paste your custom code."
+        },
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "Liquid and/or HTML"
+        }
+      ]
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabbed content",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Tab 1"
+          }
+        },
+        {
+          "type": "heading",
+          "settings": {
+            "title": "Tab 1 Heading"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus rerum maiores nulla dolore perferendis, illo in iusto!</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Tab 2"
+          }
+        },
+        {
+          "type": "heading",
+          "settings": {
+            "title": "Tab 2 Heading"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iure in sunt provident rerum cumque, sit fugit dolores, eius exercitationem, reiciendis ipsum? Voluptatibus rerum maiores nulla dolore perferendis, illo in iusto!</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "locales": {
+    "en": {
+      "sold_out": "Sold Out",
+      "sale": "Sale",
+      "buy_button_variant_label": "View Options",
+      "buy_button_label": "Add to Cart"
+    }
+  }
+}
+{% endschema %}
+{%- comment -%} JSON Settings {%- endcomment -%}
+<script type="application/json" data-wbs-pck="{{ section.id }}">
+  {
+    "id": {{ section.id | json }},
+    "show_arrows": {{ section.settings.show_arrows | json }},
+    "animation": {{ section.settings.animation | json }}
+  }
+</script>
+<script data-wbs-pck-js="{{ section.id }}" type="module" defer>
+(function(){
+
+  const wbsPack = {
+    settings: {},
+    slider: {},
+    animateSection: function(entries, observer){
+      // Target the first entry available.
+      let observedSection = entries[0];
+      if (observedSection.isIntersecting) {
+        observedSection.target.classList.add('wbs-pck__animation-applied');
+      }
+    },
+    switchTab: function(e, section){
+      const tab = e.currentTarget;
+      const tabs = section.querySelectorAll(`[data-wbs-pck-tab]`);
+      const tabPanel = section.querySelector(`[data-wbs-pck-panel="${tab.dataset.wbsPckTab}"]`);
+      const tabPanels = section.querySelectorAll(`[data-wbs-pck-panel]`);
+      const sliderElem = section.querySelector(`[data-slider="${tab.dataset.wbsPckTab}"]`);
+
+      tabs.forEach(function(elem){
+        elem.setAttribute('aria-selected', false);
+      });
+      tab.setAttribute('aria-selected', true);
+
+      tabPanels.forEach(function(elem){
+        elem.setAttribute('aria-hidden', true);
+      });
+      tabPanel.setAttribute('aria-hidden', false);
+
+    },
+    load: function(section){
+
+      if (this.settings.animation !== 'none'){
+        const options = {
+          root: null,
+          rootMargin: '0px',
+          threshold: [0, 0.25, 0.5, 0.75, 1]
+        };
+        const observer = new IntersectionObserver( this.animateSection, options );
+        if (section) {
+          observer.observe(section);
+        }
+      }
+      section.querySelectorAll('[data-wbs-pck-tab]').forEach(function(tab){
+        tab.addEventListener('click', function(e){
+          wbsPack.switchTab(e, section);
+        });
+      });
+
+    },
+    unload: function(section){
+      section.classList.remove('wbs-pck__animation-applied')
+    }
+  }
+
+  window.addEventListener('shopify:section:unload', function (e) {
+    const settings = document.querySelector(`[data-wbs-pck="${e.detail.sectionId}"]`);
+    const sectionId = e.detail.sectionId;
+    const section = document.querySelector(`#WP--${e.detail.sectionId}`);
+    if (sectionId == wbsPack.settings.id){
+      wbsPack.unload(section);
+    }
+  });
+
+  window.addEventListener('shopify:block:select', function (e) {
+    wbsPack.settings = JSON.parse(document.querySelector('[data-wbs-pck="{{ section.id }}"]').innerHTML);
+    const sectionId = {{ section.id | json }};
+    const section = document.querySelector(`#WP--${sectionId}`);
+
+    if (sectionId == wbsPack.settings.id){
+      wbsPack.load(section);
+    }
+  });
+
+  wbsPack.settings = JSON.parse(document.querySelector('[data-wbs-pck="{{ section.id }}"]').innerHTML);
+  const sectionId = {{ section.id | json }};
+  const section = document.querySelector(`#WP--${sectionId}`);
+
+  if (sectionId == wbsPack.settings.id){
+    wbsPack.load(section);
+  }
+})()
+</script>

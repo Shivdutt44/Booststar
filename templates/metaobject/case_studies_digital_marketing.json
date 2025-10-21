@@ -1,0 +1,202 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_At9UYK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CgA6ak": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CgA6ak"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/service_digital_marketing_agency_toronto.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_M8R4k7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KyyxMp": {
+          "type": "heading",
+          "settings": {
+            "heading": "BUSINESS OVERVIEW",
+            "heading_size": "h1"
+          }
+        },
+        "text_CdexQx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is an <strong>USA </strong>Based <strong>Women Nail Polish Store Brand</strong> main focus to offer a range of affordable, top-quality items that meet your needs. We understand that finding quality products at an affordable price can be a challenge. That's why we've made it our mission to provide our customers with a wide selection of high-quality, affordable products.</p><p><br/>They are looking to scale the business & increase its sales as well as brand value. Their major goal is to get 4x ROAS on ad spend.</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KyyxMp",
+        "text_CdexQx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/4q.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Nd9nKW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_c8DiVa": {
+          "type": "heading",
+          "settings": {
+            "heading": "BUSINESS OBJECTIVE",
+            "heading_size": "h1"
+          }
+        },
+        "text_6ceRg7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The primary objective of that ecommerce store is to increase sales with <strong>4x ROAS.</strong> They want to increase the brand search volume also with campaigns & wanna reach new customers by targeting them with the best campaigns strategy.</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_c8DiVa",
+        "text_6ceRg7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/4q.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reviews_ER89LK": {
+      "type": "reviews",
+      "blocks": {
+        "review_hVTPNG": {
+          "type": "review",
+          "repeater": "{{ metaobject.client_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.client_full_name.value }}",
+            "designation": "{{ block.repeater.client_designation.value }}",
+            "review": "{{ block.repeater.review_description | metafield_tag }}",
+            "image": "{{ block.repeater.client_profile.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_hVTPNG"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffd700",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style2",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": false,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "multicolumn_hTFbWD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NHLAJk": {
+          "type": "column",
+          "repeater": "{{ metaobject.team_members.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image.value }}",
+            "title": "{{ block.repeater.enter_name.value }}",
+            "text": "<p>{{ block.repeater.write_about_him_her | metafield_tag }}</p>",
+            "link_label": "{{ block.repeater.enter_position.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NHLAJk"
+      ],
+      "settings": {
+        "title": "WHO WORKED ON THIS PROJECT",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_At9UYK",
+    "image_with_text_M8R4k7",
+    "image_with_text_Nd9nKW",
+    "reviews_ER89LK",
+    "multicolumn_hTFbWD"
+  ]
+}

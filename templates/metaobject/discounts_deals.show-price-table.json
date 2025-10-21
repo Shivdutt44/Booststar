@@ -1,0 +1,1147 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_wdPmjQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7HHEGC": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_hgecjq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply \"<strong>Show Price Table</strong>\" section to show offers  and deals . </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7HHEGC",
+        "text_hgecjq"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_w7Yj9V": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_GKkJQz": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_R6peHG": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_VPPTzt": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_bKTUzh": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_PTddeF": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_GKkJQz",
+        "icon_with_text_R6peHG",
+        "icon_with_text_VPPTzt",
+        "icon_with_text_bKTUzh",
+        "icon_with_text_PTddeF"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_yf8WtH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qBJfQP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_QUgTyA": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_qBJfQP",
+        "text_QUgTyA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_txFNGp": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_WjJp44": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Asset_4_b1b92ca4-fa2a-4b4a-b943-2437a8ef6c87.svg",
+            "highlighted": false,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_FDQ9Bq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Asset_45.svg",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_rFQnMd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Asset_4_b1b92ca4-fa2a-4b4a-b943-2437a8ef6c87.svg",
+            "highlighted": false,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_WjJp44",
+        "item_FDQ9Bq",
+        "item_rFQnMd"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#121212",
+        "headline_color": "#97ba52",
+        "price_color": "#121212",
+        "highlight_color": "#111111",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1), rgba(151, 186, 82, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_BCzhRV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_33qqCy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_f8yWGQ": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_33qqCy",
+        "text_f8yWGQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_dnKUcg": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_mUUYrn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/wded.png",
+            "highlighted": false,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_JTiBMP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/wded.png",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_eU8kx8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/wded.png",
+            "highlighted": false,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_mUUYrn",
+        "item_JTiBMP",
+        "item_eU8kx8"
+      ],
+      "settings": {
+        "price_size": 24,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#465076",
+        "headline_color": "#465076",
+        "price_color": "#97ba52",
+        "highlight_color": "#465076",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(70, 80, 118, 1), rgba(70, 80, 118, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "4 / 3",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_fTdCzw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ej9w3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_4Q9CUw": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ej9w3z",
+        "text_4Q9CUw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_wkL6X7": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_j7azNW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/asdad.png",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_NiLKaK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/adddsa.png",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_KMnibY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sda.png",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_j7azNW",
+        "item_NiLKaK",
+        "item_KMnibY"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(248, 249, 250, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#97ba52",
+        "headline_color": "#121212",
+        "price_color": "#465076",
+        "highlight_color": "#111111",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(18, 18, 18, 1), rgba(18, 18, 18, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_U3biPB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jVjKhF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_C6NbDy": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jVjKhF",
+        "text_C6NbDy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_CcWCeK": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_D34RTi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_wkyNha": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_KFMTfE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_D34RTi",
+        "item_wkyNha",
+        "item_KFMTfE"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(78, 110, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "price_color": "#ffffff",
+        "highlight_color": "#111111",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(16, 208, 26, 1), rgba(16, 208, 26, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_rikXAc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fBXrac": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_AJWAbW": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fBXrac",
+        "text_AJWAbW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_g6zFUP": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_KQq8xM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_rm3z7e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_ft4q9G": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_KQq8xM",
+        "item_rm3z7e",
+        "item_ft4q9G"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(78, 110, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "price_color": "#ffffff",
+        "highlight_color": "#111111",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(16, 208, 26, 1), rgba(16, 208, 26, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_QEHVYn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M6iabt": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_g4nyGr": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M6iabt",
+        "text_g4nyGr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_HqGfeG": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_EzUcCK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_wzQkBC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_EPkEUg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_EzUcCK",
+        "item_wzQkBC",
+        "item_EPkEUg"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(78, 110, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "price_color": "#ffffff",
+        "highlight_color": "#111111",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(16, 208, 26, 1), rgba(16, 208, 26, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_GeaMVn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4hGDhd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_7bnPhC": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4hGDhd",
+        "text_7bnPhC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_price_table_VbBCmi": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_YX6rVh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_k83Baq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_efetQ8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/web-dev-gif.gif",
+            "highlighted": true,
+            "title": "Standard",
+            "description": "Perfect for Getting Started",
+            "price": "$25 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_YX6rVh",
+        "item_k83Baq",
+        "item_efetQ8"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(78, 110, 15, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "price_color": "#ffffff",
+        "highlight_color": "#111111",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(16, 208, 26, 1), rgba(16, 208, 26, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "image_banner_PmBLg8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LxeHrL": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_3Qknxt": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p>{{ metaobject.short_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_HQAtLx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_LxeHrL",
+        "text_3Qknxt",
+        "buttons_HQAtLx"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_8U9txU": {
+      "type": "reviews",
+      "blocks": {
+        "review_e4BDJT": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_e4BDJT"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_VHeQFk": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_t9aiRT": {
+          "type": "image",
+          "repeater": "{{ metaobject.discounts_deals.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_t9aiRT"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Discounts & Deals</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_wdPmjQ",
+    "boost_star_experts_marquee_highlights_w7Yj9V",
+    "rich_text_yf8WtH",
+    "boost_star_price_table_txFNGp",
+    "rich_text_BCzhRV",
+    "boost_star_price_table_dnKUcg",
+    "rich_text_fTdCzw",
+    "boost_star_price_table_wkL6X7",
+    "rich_text_U3biPB",
+    "boost_star_price_table_CcWCeK",
+    "rich_text_rikXAc",
+    "boost_star_price_table_g6zFUP",
+    "rich_text_QEHVYn",
+    "boost_star_price_table_HqGfeG",
+    "rich_text_GeaMVn",
+    "boost_star_price_table_VbBCmi",
+    "image_banner_PmBLg8",
+    "reviews_8U9txU",
+    "top_collections_boost_star_VHeQFk"
+  ]
+}

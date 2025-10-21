@@ -1,0 +1,965 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_p8JQ4P": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4daeTG": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.case_study_title.value }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4daeTG"
+      ],
+      "settings": {
+        "image": "{{ metaobject.featured_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_MEUfPp": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_i6LRhb": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 40,
+            "gap": 10,
+            "text": "<strong>{{ metaobject.result_numbers_1.value }}</strong><strong>{{ metaobject.append_text_1.value }}</strong><strong>  </strong><strong>{{ metaobject.result_txt_1.value }}</strong>",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_bDqiLQ": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 40,
+            "gap": 10,
+            "text": "<strong>{{ metaobject.result_numbers_2.value }}</strong><strong>{{ metaobject.append_text_2.value }}</strong><strong> </strong><strong>{{ metaobject.result_txt_3.value }}</strong>",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_i6bGAU": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 40,
+            "gap": 10,
+            "text": "<strong>{{ metaobject.result_numbers_3.value }}</strong><strong>{{ metaobject.append_text_3.value }}</strong><strong> </strong><strong>{{ metaobject.result_txt_3.value }}</strong>",
+            "icon": "trending",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_i6LRhb",
+        "icon_with_text_bDqiLQ",
+        "icon_with_text_i6bGAU"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#97ba52",
+        "background_color": "linear-gradient(180deg, rgba(17, 17, 17, 1), rgba(17, 17, 17, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_74i7hd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hCkCUV": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BUSINESS OVERVIEW</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hCkCUV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_rYhqUe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BBbVAm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Brand</strong> Introduction",
+            "heading_size": "h1"
+          }
+        },
+        "text_TCQh4c": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.business_overviews | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BBbVAm",
+        "text_TCQh4c"
+      ],
+      "settings": {
+        "image": "{{ metaobject.client_review.value.client_website_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_nMEPqy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NJtVt7": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAJOR <strong>BUSINESS</strong> CHALLENGES",
+            "heading_size": "h1"
+          }
+        },
+        "caption_TkLWPq": {
+          "type": "caption",
+          "settings": {
+            "caption": "Issues Identified by Our Team at Project Inception",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NJtVt7",
+        "caption_TkLWPq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_gNkwDj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4eH438": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/stratergie.svg",
+            "title": "",
+            "text": "{{ metaobject.business_challenge_1 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tF73p9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/target_audience.svg",
+            "title": "",
+            "text": "{{ metaobject.business_challenge_2 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gAL74H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/brand_differentiation.svg",
+            "title": "",
+            "text": "{{ metaobject.business_challenge_3 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z4yXHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/online_authority.svg",
+            "title": "",
+            "text": "{{ metaobject.business_challenge_4 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xUNFXE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/online_presence.svg",
+            "title": "",
+            "text": "{{ metaobject.business_challenge_5 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iBM8zy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/adapting_to_trends.svg",
+            "title": "",
+            "text": "{{ metaobject.business_challenge_6 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4eH438",
+        "column_tF73p9",
+        "column_gAL74H",
+        "column_z4yXHm",
+        "column_xUNFXE",
+        "column_iBM8zy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_aLmECJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_j7AKJq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ACTIONS</strong> TAKEN BY OUR TEAM",
+            "heading_size": "h1"
+          }
+        },
+        "caption_jj7ata": {
+          "type": "caption",
+          "settings": {
+            "caption": "Strategies & implementations by team boost star experts",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_j7AKJq",
+        "caption_jj7ata"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_LVQyJf": {
+      "type": "multirow",
+      "blocks": {
+        "row_VDPjdG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Analysis.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>ACTION  1</strong></p>{{ metaobject.action_1 | metafield_tag }}",
+            "button_label": "Facing same issues ?",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_bWV39y": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/optimization.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>ACTION 2</strong></p>{{ metaobject.action_2 | metafield_tag }}",
+            "button_label": "Facing same issues ?",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_YNDYyr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Technical_Seo.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>ACTION 3</strong></p>{{ metaobject.action_3 | metafield_tag }}",
+            "button_label": "Facing same issues ?",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_YCCpXD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/preference_analysis.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>ACTION 4</strong></p>{{ metaobject.action_4 | metafield_tag }}",
+            "button_label": "Facing same issues ?",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_VJ8fdK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/keyword_ranking.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>ACTION 5</strong></p>{{ metaobject.action_5 | metafield_tag }}",
+            "button_label": "Facing same issues ?",
+            "button_link": "#app-embed"
+          }
+        }
+      },
+      "block_order": [
+        "row_VDPjdG",
+        "row_bWV39y",
+        "row_YNDYyr",
+        "row_YCCpXD",
+        "row_VJ8fdK"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_achievement_counter_ADir8w": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "<strong>RESULTS</strong>",
+        "content": "Highlighting the Significant Impact on Online Business with <strong>BOOST STAR Experts</strong> Help Within 6 Months",
+        "content_alignment": "center",
+        "box_1_number": "{{ metaobject.result_numbers_1.value }}",
+        "append_1": "{{ metaobject.append_text_1.value }}",
+        "box_1_text": "{{ metaobject.result_txt_1.value }}",
+        "box_2_number": "{{ metaobject.result_numbers_2.value }}",
+        "append_2": "{{ metaobject.append_text_2.value }}",
+        "box_2_text": "{{ metaobject.result_txt_2.value }}",
+        "box_3_number": "{{ metaobject.result_numbers_3.value }}",
+        "append_3": "{{ metaobject.append_text_3.value }}",
+        "box_3_text": "{{ metaobject.result_txt_3.value }}",
+        "headline_size": 25,
+        "text_size": 15,
+        "count_size": 40,
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "count_color": "#97ba52",
+        "background_color": "",
+        "number_border_color": "#97ba52",
+        "number_bg": "#111111",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "element_spacing": 25,
+        "max_width": 1400,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 10,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "count_font": "sans-serif"
+      }
+    },
+    "boost_star_before_after_f4Ert9": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "{{ metaobject.before_matrics.value }}",
+        "before_caption": "<strong>BEFORE </strong>",
+        "after_image": "{{ metaobject.after_matrics.value }}",
+        "after_caption": "<strong>AFTER</strong>",
+        "media_aspect_ratio": "4 / 3",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "<strong>CHECK OUT OUR BEFORE / AFTER SUCCESS </strong>",
+        "content": "<p>{{ metaobject.meta_description.value }}</p>",
+        "link_text": "Start your project",
+        "link": "#app-embed",
+        "media_location": "left",
+        "alignment": "left",
+        "headline_size": 28,
+        "headline_color": "#121212",
+        "text_size": 15,
+        "text_color": "#121212",
+        "background_color": "",
+        "max_width": 1400,
+        "grid_gap": 36,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_T4XWU7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XKmW9A": {
+          "type": "heading",
+          "settings": {
+            "heading": "CLIENT REVIEW",
+            "heading_size": "h1"
+          }
+        },
+        "caption_ibXkit": {
+          "type": "caption",
+          "settings": {
+            "caption": "FEEDBACK BY {{ metaobject.client_review.value.client_designation.value }} AT {{ metaobject.client_review.value.client_full_name.value }}",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XKmW9A",
+        "caption_ibXkit"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qwKdPW": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_jWdmiw": {
+          "type": "caption",
+          "settings": {
+            "caption": "{{ metaobject.client_review.value.client_designation.value }} at {{ metaobject.client_review.value.client_full_name.value }}",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_QhwHAV": {
+          "type": "heading",
+          "settings": {
+            "heading": "⭐⭐⭐⭐⭐",
+            "heading_size": "h1"
+          }
+        },
+        "text_V9LXaa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.client_review.value.review_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "button_UBryEL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Inspired ➤ ➤",
+            "button_link": "{{ metaobject.client_review.value.system.url }}",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_jWdmiw",
+        "heading_QhwHAV",
+        "text_V9LXaa",
+        "button_UBryEL"
+      ],
+      "settings": {
+        "image": "{{ metaobject.client_review.value.business_success_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7zLyB9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zpdFaK": {
+          "type": "heading",
+          "settings": {
+            "heading": "RESULTS IN DETAIL",
+            "heading_size": "h1"
+          }
+        },
+        "text_Kn9GGp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.result_achieved | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zpdFaK",
+        "text_Kn9GGp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_GBVHAi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jKYR4M": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONCLUSION",
+            "heading_size": "h1"
+          }
+        },
+        "text_z8HQeU": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.conclusions | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jKYR4M",
+        "text_z8HQeU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1722331805d5dd7e09": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_jTDff8": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_jTDff8"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "top_collections_boost_star_4qw7pF": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_76BdJg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/image_processing20201103-24799-19vf3o0.gif",
+            "text": "Email us",
+            "link": "mailto:contact@booststar.in"
+          }
+        },
+        "image_HFWfab": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/phone-pulse_ca4e133d-5c95-4b5f-9344-607ac7e4d6e5.gif",
+            "text": "Call us",
+            "link": "tel:+917000587074"
+          }
+        },
+        "image_NmDfby": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1) 85%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/Whatsapp-Logo-GIF-WhatsApp-Icon-GIF-Royalty-Free-Animated-Icon-GIF-350px-after-effects-project.gif",
+            "text": "WhatsApp",
+            "link": "https://wa.me/7000587074"
+          }
+        },
+        "image_cYwhce": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(73, 251, 17, 0) 81%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif",
+            "text": "LinkedIn",
+            "link": "https://www.linkedin.com/company/boost-star-experts/"
+          }
+        },
+        "image_GWBzpL": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/phone-pulse_ca4e133d-5c95-4b5f-9344-607ac7e4d6e5.gif",
+            "text": "Call us",
+            "link": "tel:+916265084929"
+          }
+        }
+      },
+      "block_order": [
+        "image_76BdJg",
+        "image_HFWfab",
+        "image_NmDfby",
+        "image_cYwhce",
+        "image_GWBzpL"
+      ],
+      "settings": {
+        "headline": "<strong>QUICK CONNECT WITH US</strong>",
+        "tag": "h1",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/graph_bg_5799fcf1-4e4f-4d31-9906-6413836376ec.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 60,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_RnfyNx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bFJHe6": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHO <strong>HELPED</strong>  <strong>{{ metaobject.client_review.value.client_full_name.value }}</strong><strong>?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "caption_yP8pDb": {
+          "type": "caption",
+          "settings": {
+            "caption": "Experts Who Contributed to Achieving Outstanding Results",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bFJHe6",
+        "caption_yP8pDb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Mk3BYL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bTHF8b": {
+          "type": "column",
+          "repeater": "{{ metaobject.team_members_worked.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image.value }}",
+            "title": "{{ block.repeater.enter_name.value }}",
+            "text": "<p>{{ block.repeater.enter_position.value }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bTHF8b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_MX9Wa4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iYBAPL": {
+          "type": "heading",
+          "settings": {
+            "heading": "MORE <strong>PROVEN </strong>CASE STUDIES",
+            "heading_size": "h1"
+          }
+        },
+        "caption_PnjW9F": {
+          "type": "caption",
+          "settings": {
+            "caption": "Experts Who Contributed to Achieving Outstanding Results",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iYBAPL",
+        "caption_PnjW9F"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_experts_marquee_highlights_EwniK4": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_MVF8rD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Floor-land-1_1.png",
+            "link": ""
+          }
+        },
+        "image_96mfN9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Demoi-1_1.png",
+            "link": ""
+          }
+        },
+        "image_zixE7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kass_1.png",
+            "link": ""
+          }
+        },
+        "image_bwrc9N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Beyond-beauty_1.png",
+            "link": ""
+          }
+        },
+        "image_V8q8br": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cycle-1_1.png",
+            "link": ""
+          }
+        },
+        "image_p44dwf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Conscious-chmeist-1_1.png",
+            "link": ""
+          }
+        },
+        "image_hAgNcF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pns-_1.png",
+            "link": ""
+          }
+        },
+        "image_bGVXan": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/On-the-runway-1_1.png",
+            "link": ""
+          }
+        },
+        "image_wEkUEW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sea-shield-1_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MVF8rD",
+        "image_96mfN9",
+        "image_zixE7b",
+        "image_bwrc9N",
+        "image_V8q8br",
+        "image_p44dwf",
+        "image_hAgNcF",
+        "image_bGVXan",
+        "image_wEkUEW"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1400,
+        "height": 220,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 46,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_p8JQ4P",
+    "boost_star_experts_marquee_highlights_MEUfPp",
+    "rich_text_74i7hd",
+    "image_with_text_rYhqUe",
+    "rich_text_nMEPqy",
+    "multicolumn_gNkwDj",
+    "rich_text_aLmECJ",
+    "multirow_LVQyJf",
+    "boost_star_achievement_counter_ADir8w",
+    "boost_star_before_after_f4Ert9",
+    "rich_text_T4XWU7",
+    "image_with_text_qwKdPW",
+    "rich_text_7zLyB9",
+    "rich_text_GBVHAi",
+    "1722331805d5dd7e09",
+    "top_collections_boost_star_4qw7pF",
+    "rich_text_RnfyNx",
+    "multicolumn_Mk3BYL",
+    "rich_text_MX9Wa4",
+    "boost_star_experts_marquee_highlights_EwniK4"
+  ]
+}

@@ -1,0 +1,124 @@
+{% schema %}
+{
+  "name": "Coupon Code",
+  "settings": [
+    {
+      "type": "text",
+      "id": "input_value",
+      "label": "Input Value",
+      "default": "Hello World"
+    },
+    {
+      "type": "text",
+      "id": "input_label",
+      "label": "Input Label",
+      "default": "Enter Your Coupon"
+    },
+    {
+      "type": "text",
+      "id": "tooltip_text",
+      "label": "Tooltip Text",
+      "default": "Copy to clipboard"
+    },
+    {
+      "type": "text",
+      "id": "tooltip_copied_text",
+      "label": "Tooltip Copied Text",
+      "default": "Copied: "
+    }
+  ],
+  "presets": [
+    {
+      "name": "Coupon Code"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.custom-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-tooltip .custom-tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.custom-tooltip .custom-tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.custom-tooltip:hover .custom-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.custom-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-input {
+  border: 1px dashed #555;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+</style>
+
+<section>
+  <p>
+    {{ section.settings.input_label }}
+  </p>
+
+  <input readonly type="text" value="{{product.metafields.custom.coupon_code.value}}" id="customInput" class="custom-input">
+
+  <div class="custom-tooltip">
+    <button class="custom-button" onclick="customFunction()" onmouseout="customOutFunc()">
+      <span class="custom-tooltiptext" id="customTooltip">{{ section.settings.tooltip_text }}</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+    </button>
+  </div>
+</section>
+
+<script>
+function customFunction() {
+  var copyText = document.getElementById("customInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  
+  var tooltip = document.getElementById("customTooltip");
+  tooltip.innerHTML = "{{ settings.tooltip_copied_text }}" + copyText.value;
+}
+
+function customOutFunc() {
+  var tooltip = document.getElementById("customTooltip");
+  tooltip.innerHTML = "{{ settings.tooltip_text }}";
+}
+</script>

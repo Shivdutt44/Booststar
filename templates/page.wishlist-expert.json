@@ -1,0 +1,625 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_zVE7FM": {
+      "type": "video",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "heading": "<strong>3 IN ONE WISHLIST APP</strong> FOR YOUR <strong>SHOPIFY</strong> STORE",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://www.youtube.com/watch?v=EdGhiQmkj0Q",
+        "cover_image": "shopify://shop_images/Wishlist_Banner_6.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_wTJada": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Wishlist_Banner_6.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_RNy8KD": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_7Q6KCV": {
+          "type": "caption",
+          "settings": {
+            "caption": "WISHLIST EXPERT BY BOOST STAR EXPERTS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_raU4WH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>3 IN 1 </strong>SHOPIFY APP TO<strong> SUPERCHARGE </strong>YOUR ECOMMERCE STORE",
+            "heading_size": "h1"
+          }
+        },
+        "button_qfwaEF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try For Free",
+            "button_link": "https://apps.shopify.com/wishlist-expert",
+            "button_style_secondary": false,
+            "button_label_2": "View Demo",
+            "button_link_2": "https://apps.shopify.com/wishlist-expert",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "caption_7Q6KCV",
+        "heading_raU4WH",
+        "button_qfwaEF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_experts_marquee_highlights_grGf4H": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_rknaUN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wishlist_4.png",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "image_KDqDaE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_5.png",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "image_q7pKjg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_3.png",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "image_rqDUz9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_4.png",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "image_CxYLEQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_7.png",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "image_A4DyCi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wishlist_Banner_8.png",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        }
+      },
+      "block_order": [
+        "image_rknaUN",
+        "image_KDqDaE",
+        "image_q7pKjg",
+        "image_rqDUz9",
+        "image_CxYLEQ",
+        "image_A4DyCi"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "radial-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1400,
+        "height": 300,
+        "margin_tp": 30,
+        "margin_bt": 30,
+        "padding_tp": 30,
+        "padding_bt": 30,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "image_banner_nbccnw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_g8HyVN": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Boost Your Online Store's Potential with Wishlist Expert</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_4HayRV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save Favorites, Boost Engagement, Drive Sales.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_UBTJ8f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View Demo",
+            "button_link_1": "https://apps.shopify.com/wishlist-expert",
+            "button_style_secondary_1": true,
+            "button_label_2": "Try For Free",
+            "button_link_2": "https://apps.shopify.com/wishlist-expert",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_g8HyVN",
+        "text_4HayRV",
+        "buttons_UBTJ8f"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/experienced_2_e010e66e-2b54-4a63-a452-1b43d96ce0d4.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_VPGWrx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LtDUnG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wishlist_expert_shopify_app-Photoroom.png",
+            "title": " 1. Save Favorites with Wishlist",
+            "text": "<p>Effortlessly save and organize your favorite items in a <strong>personalized wishlist</strong> for easy access anytime.</p>",
+            "link_label": "Install Now",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "column_DHLBzt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/happy_clients_7e7dfbba-359d-43ed-b77d-f8672bb58333.svg",
+            "title": "2. Most Liked Notifications",
+            "text": "<p> Stay updated with the most liked notifications, highlighting what’s popular and engaging in your store.</p>",
+            "link_label": "Install Now",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        },
+        "column_DfQ4hw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/how-to-increase-sales-on-amazon.gif",
+            "title": "3. Sales Notifications",
+            "text": "<p> Never miss a deal with real-time sales notifications tailored to your preferences.</p>",
+            "link_label": "Install Now",
+            "link": "https://apps.shopify.com/wishlist-expert"
+          }
+        }
+      },
+      "block_order": [
+        "column_LtDUnG",
+        "column_DHLBzt",
+        "column_DfQ4hw"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin: auto;}"
+      ],
+      "settings": {
+        "title": "<strong>ADDITIONAL PERKS WITH WISHLIST</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_37FUji": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gmDH7w": {
+          "type": "heading",
+          "settings": {
+            "heading": "TRY <strong>WISHLIST EXPERT </strong>FOR FREE",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_TBny8R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wishlist Experts provides the ultimate solution for managing your favorite items and keeping up with what you love! </p><p>Save your favorite products effortlessly, never miss a beat with real-time notifications for most-liked items, and stay ahead of the curve with instant updates on sales and discounts. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_KwUFCe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Install Now",
+            "button_link": "https://apps.shopify.com/wishlist-expert",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gmDH7w",
+        "text_TBny8R",
+        "button_KwUFCe"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/wishlist_6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_BXnKrC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6ddc9G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/360_F_864647862_61G2ESPRHwqAcUI9rtueP1uxuN6FIMxT.jpg",
+            "title": "Increase Engagement",
+            "text": "<p>Encourage customers to interact more with your store.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rY47B4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images_6.png",
+            "title": "Higher Conversions",
+            "text": "<p>Turn interest into purchases by saving favorites.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GHLH6x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CITYPNG.COM_Black_Heart_Like_Social_Media_Notification_Love_-_800x800_56015391-46e1-435a-a7a7-cd58e6e8efa2.png",
+            "title": "Most Liked Notifications",
+            "text": "<p>Integrated with popup that show top liked products</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mpdYQV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/brand_differentiation.svg",
+            "title": "Actionable Insights",
+            "text": "<h3></h3><p>Use reports to understand shopper behavior and improve strategies.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NxiPVq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/online_presence.svg",
+            "title": "Effortless Integration",
+            "text": "<p>Setup takes minutes with no technical expertise needed.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gwgAPN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lazy_loading.svg",
+            "title": "Improve Trust",
+            "text": "<p>Build credibility with real-time Sales Notifications.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6ddc9G",
+        "column_rY47B4",
+        "column_GHLH6x",
+        "column_mpdYQV",
+        "column_NxiPVq",
+        "column_gwgAPN"
+      ],
+      "custom_css": [
+        "h2,a {text-align: center; margin: auto;}"
+      ],
+      "settings": {
+        "title": "WHY CHOOSE <strong>WISHLIST EXPERT?</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Try For Free",
+        "button_link": "https://apps.shopify.com/wishlist-expert",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_bL9TRe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C8cexd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>HOW IT WORKS?</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C8cexd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_bcgBgL": {
+      "type": "multirow",
+      "blocks": {
+        "row_JQ7rCp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/image_400141fd-5f80-40bd-86a5-6d9b916646ab.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "ENABLE THE<strong> WISHLIST EXPERT</strong> APP",
+            "text": "<p>Shopify Store Activate the Wishlist Expert App by enabling the embed app block in the theme editor.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dbxXiN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/image_481e37b4-41a2-4900-b73d-ca3ae7e8a44f.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "SETUP <strong>WISHLIST</strong> ON ENTIRE STORE",
+            "text": "<p>Add Wishlist Icon to the Product Page<br/>In the theme editor, navigate to the Sections page and add the Wishlist icon to your product page.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Wckgtc": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/image_1.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "ENABLE<strong> SALES NOTIFICATION</strong> POPUP",
+            "text": "<p>Display real time sales popup to visitors & motivate them to buy products</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_kjfrwt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/image_3.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "ENABLE<strong> MOST LIKED </strong>NOTIFICATION",
+            "text": "<p>Display real-time trending products dynamically selected by the app based on the most wishlisted items.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_JQ7rCp",
+        "row_dbxXiN",
+        "row_Wckgtc",
+        "row_kjfrwt"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_boost_star_93Xxki": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_khxJB7": {
+          "type": "text",
+          "settings": {
+            "question": "How do I enable the Wishlist feature in my store?",
+            "answer": "<p>Navigate to the theme editor, enable the embed app block, and add the Wishlist icon to your desired pages.</p>"
+          }
+        },
+        "text_QmFBRA": {
+          "type": "text",
+          "settings": {
+            "question": " Can I customize the heart icon for the Wishlist?",
+            "answer": "<p>Yes, the icon's size, color, and position can be customized from the app settings.</p>"
+          }
+        },
+        "text_hL8nrJ": {
+          "type": "text",
+          "settings": {
+            "question": "What types of notifications can I display with the app?",
+            "answer": "<p>You can display Sales Notifications for recent purchases and Most Liked Notifications for top-liked products. Visit the plans section for more information.</p>"
+          }
+        },
+        "text_gYxJqr": {
+          "type": "text",
+          "settings": {
+            "question": " How does the app determine the \"most liked\" products?",
+            "answer": "<p>The app collects and analyzes customer Wishlist activity to showcase the most liked products.</p>"
+          }
+        },
+        "text_MbALtx": {
+          "type": "text",
+          "settings": {
+            "question": "Can I control which notifications are displayed?",
+            "answer": "<p>Can I control which notifications are displayed?</p>"
+          }
+        },
+        "text_iBQwYY": {
+          "type": "text",
+          "settings": {
+            "question": "Is it possible to include customer names in Sales Notifications?",
+            "answer": "<p>Yes, you can customize Sales Notifications to include customer first names.</p>"
+          }
+        },
+        "text_B4CBxJ": {
+          "type": "text",
+          "settings": {
+            "question": " How often are the Most Liked Notifications updated?",
+            "answer": "<p>The app updates Most Liked Notifications in real-time based on customer interactions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_khxJB7",
+        "text_QmFBRA",
+        "text_hL8nrJ",
+        "text_gYxJqr",
+        "text_MbALtx",
+        "text_iBQwYY",
+        "text_B4CBxJ"
+      ],
+      "settings": {
+        "heading": "<strong>FREQUENTLY ASKED QUESTIONS</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#484948",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "icon_color": "#97ba52",
+        "question_color": "#121212",
+        "background_color": "#f5f5f5",
+        "hover_color": "#97ba52",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_zVE7FM",
+    "image_banner_wTJada",
+    "rich_text_RNy8KD",
+    "boost_star_experts_marquee_highlights_grGf4H",
+    "image_banner_nbccnw",
+    "multicolumn_VPGWrx",
+    "image_with_text_37FUji",
+    "multicolumn_BXnKrC",
+    "rich_text_bL9TRe",
+    "multirow_bcgBgL",
+    "faq_boost_star_93Xxki"
+  ]
+}

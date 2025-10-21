@@ -1,0 +1,314 @@
+<style>
+    .lp-img-gallery {
+        width: 80%;
+        margin: 100px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 30px;
+        text-align: var(--lp-gallery-text-align, center); /* Default to center */
+    }
+
+    .lp-img-gallery a {
+        display: block;
+        width: 100%;
+    }
+
+    .lp-img-gallery img {
+        width: 100%;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .lp-img-gallery img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+    }
+
+    /* Wrapper */
+    .lp-image-wrapper {
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .lp-image-wrapper img {
+        width: 80%;
+        max-width: 500px;
+        transition: transform 0.3s ease;
+    }
+
+    .lp-image-wrapper img:hover {
+        transform: scale(1.02);
+    }
+
+    .lp-image-wrapper span {
+        position: absolute;
+        font-family: sans-serif;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 15px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .lp-image-wrapper span:hover {
+        background: rgba(0, 0, 0, 0.8);
+        transform: scale(1.1);
+    }
+
+    #lpImgModalClose {
+        top: 20px;
+        right: 20px;
+    }
+
+    #lpNextImage {
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    #lpPrevImage {
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+
+    .lp-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    .lp-arrow svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    @media (min-width: 640px) {
+        .lp-image-wrapper span {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .lp-image-wrapper span:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .lp-gallery-heading {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    .lp-gallery-paragraph {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+    }
+</style>
+
+<div class="lp-img-gallery-container">
+    <div class="lp-gallery-heading" style="text-align: {{ section.settings.heading_position }}">{{ section.settings.heading }}</div>
+    <div class="lp-gallery-paragraph" style="text-align: {{ section.settings.paragraph_position }}">{{ section.settings.paragraph }}</div>
+    <div class="lp-img-gallery" id="lpImgGallery" style="--lp-gallery-text-align: {{ section.settings.image_position }}">
+        {% for block in section.blocks %}
+            {% if block.type == 'gallery' %}
+                <a href="{{ block.settings.link }}">
+                    <img src="{{ block.settings.starimg | img_url:'master' }}" alt="Gallery Image">
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="lp-image-wrapper" id="lpModalWrapper">
+    <img src="" id="fullImg" />
+    <span id="lpImgModalClose" class="lp-arrow">&#10005;</span>
+    <span id="lpNextImage" class="lp-arrow">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+    </span>
+    <span id="lpPrevImage" class="lp-arrow">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+    </span>
+</div>
+
+<script>
+    let images = document.querySelectorAll('#lpImgGallery img');
+    let wrapper = document.getElementById("lpModalWrapper");
+    let imgWrapper = document.getElementById("fullImg");
+    let close = document.getElementById("lpImgModalClose");
+    let next = document.getElementById("lpNextImage");
+    let prev = document.getElementById("lpPrevImage");
+    let indexOfCurrent = null;
+
+    images.forEach((img, index) => {
+        img.addEventListener("click", (event) => {
+            event.preventDefault(); // Prevent the anchor link from navigating
+            indexOfCurrent = index;
+            openModal(indexOfCurrent);
+        });
+    });
+
+    function openModal(index) {
+        wrapper.style.display = "flex";
+        imgWrapper.src = images[index].getAttribute('src');
+        document.body.style.overflow = "hidden";
+    }
+
+    close.addEventListener("click", () => closeModal());
+
+    function closeModal() {
+        wrapper.style.display = "none";
+        document.body.style.overflow = "unset";
+    }
+
+    next.addEventListener("click", () => {
+        indexOfCurrent = (indexOfCurrent + 1) % images.length;
+        openModal(indexOfCurrent);
+    });
+
+    prev.addEventListener("click", () => {
+        indexOfCurrent = (indexOfCurrent - 1 + images.length) % images.length;
+        openModal(indexOfCurrent);
+    });
+
+    document.addEventListener("keydown", ({ key }) => {
+        if (key === "Escape") {
+            closeModal();
+        }
+        if (key === "ArrowRight") {
+            next.click();
+        }
+        if (key === "ArrowLeft") {
+            prev.click();
+        }
+    });
+</script>
+
+{% schema %}
+{
+    "name": "Choose Your Section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Gallery Heading",
+            "default": "Our Gallery"
+        },
+        {
+            "type": "text",
+            "id": "paragraph",
+            "label": "Gallery Paragraph",
+            "default": "Check out our latest collection below."
+        },
+        {
+            "type": "select",
+            "id": "heading_position",
+            "label": "Heading Position",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                },
+                {
+                    "value": "right",
+                    "label": "Right"
+                }
+            ],
+            "default": "center"
+        },
+        {
+            "type": "select",
+            "id": "paragraph_position",
+            "label": "Paragraph Position",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                },
+                {
+                    "value": "right",
+                    "label": "Right"
+                }
+            ],
+            "default": "center"
+        },
+        {
+            "type": "select",
+            "id": "image_position",
+            "label": "Image Position",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                },
+                {
+                    "value": "right",
+                    "label": "Right"
+                }
+            ],
+            "default": "center"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "gallery",
+            "name": "Image Gallery",
+            "limit": 8,
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "starimg",
+                    "label": "Choose Image"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Image Link"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "name": "Text with Icon",
+            "limit": 8,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text_id",
+                    "label": "Heading"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Multiple Blocks"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,615 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_az9wqJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cMhQLM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 1",
+            "heading_size": "h1"
+          }
+        },
+        "text_LeTpYG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Begin by navigating to Shopify's App Store and searching for the <strong>Ecom Wishlist Expert</strong> application.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cMhQLM",
+        "text_LeTpYG"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_8ErrNx": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_dee91bde-821a-49ff-9e45-c1fb857b8d56.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_kF4Cjy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mWBNr4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 2",
+            "heading_size": "h1"
+          }
+        },
+        "text_Lw7miJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Install the Wishlist app by clicking the <strong>Open</strong> button.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mWBNr4",
+        "text_Lw7miJ"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_Hb3pyW": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_2c8e821c-a4fb-46c5-b2b3-f462d53c63b4.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_mLwBFy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mVwLXE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 3",
+            "heading_size": "h1"
+          }
+        },
+        "text_j9DnEH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Proceed to set up the Wishlist app step by step</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mVwLXE",
+        "text_j9DnEH"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_XYB8tj": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_3e629b56-5645-44cf-a568-7b1bfa57a441.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_WM8mhX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Vi7W8K": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 4",
+            "heading_size": "h1"
+          }
+        },
+        "text_CBjyjw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>First, go to <strong>Customization</strong>. Open the <strong>Embed Extension</strong>, enable the Wishlist button, and configure the font size, text color, background color, and position as needed.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vi7W8K",
+        "text_CBjyjw"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_Ut9ppi": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_400141fd-5f80-40bd-86a5-6d9b916646ab.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_Vd9nUV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BGCgdy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 5",
+            "heading_size": "h1"
+          }
+        },
+        "text_i43RP4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Next, go to <strong>Settings</strong> and complete all the outlined steps. This completes the first stage of the setup process.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BGCgdy",
+        "text_i43RP4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_9gzbX8": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_610e250e-978c-4262-914b-4a8c11142c89.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_q7Cy74": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_banrzG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 6",
+            "heading_size": "h1"
+          }
+        },
+        "text_D6iwK4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the second stage, access the <strong>Edit Code</strong> section, locate the header.liquid file, copy the provided code, paste it, and save your changes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_banrzG",
+        "text_D6iwK4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_XWnbaL": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_6c001937-0ff6-4eb3-9bfb-cc24b6d52422.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_BNpbBC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JNhC39": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 7",
+            "heading_size": "h1"
+          }
+        },
+        "text_n8yhrt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the third stage, search for the product-card.liquid file, copy the corresponding code, paste it, and save the file.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JNhC39",
+        "text_n8yhrt"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_whtCGk": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_5fc1b6ff-d7c3-48aa-958d-13b18dbe76af.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_6eri9j": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MxMN6h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 8",
+            "heading_size": "h1"
+          }
+        },
+        "text_gid9fW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Wishlist setup is now complete. Navigate to the product page to confirm that the Wishlist icon is displayed as expected.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MxMN6h",
+        "text_gid9fW"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_MgyBpz": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_481e37b4-41a2-4900-b73d-ca3ae7e8a44f.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_XW9Ypn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MdqkYR": {
+          "type": "heading",
+          "settings": {
+            "heading": "We have two functionalities available",
+            "heading_size": "h1"
+          }
+        },
+        "text_tzVh8D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1) Sales Notification <br/>2) Most Liked Notification</p>"
+          }
+        },
+        "heading_iVkEcM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 1",
+            "heading_size": "h1"
+          }
+        },
+        "text_4fJweF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sales Notification and Most Liked Notification will help will be coming as a notification on your mobile and desktop devices and that will show the real time sales so you can background color you can change the position you can change the notification interval and notification Delay along with that you can also customize your own personalized message and then after you can save it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MdqkYR",
+        "text_tzVh8D",
+        "heading_iVkEcM",
+        "text_4fJweF"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_Uw4bdb": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_C9kj4E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fUWQk6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 2",
+            "heading_size": "h1"
+          }
+        },
+        "text_bPNy3V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>sales notification application and once we will click on this it will redirected to the product page</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fUWQk6",
+        "text_bPNy3V"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_dramNX": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_jhHL4y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_94cU9f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 3",
+            "heading_size": "h1"
+          }
+        },
+        "text_xCBNCQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The same you can do for Most Liked Notifications so most like a notification different type of people so it is a same but the logic something different and once you will enable the both pop up.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_94cU9f",
+        "text_xCBNCQ"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_xybdeV": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_LpmiMF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RYC7Pt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step : 4",
+            "heading_size": "h1"
+          }
+        },
+        "text_qHRLrA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>you can see this pop up loved by many Get it before it's gone!.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RYC7Pt",
+        "text_qHRLrA"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_9DjiHf": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image_4.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_az9wqJ",
+    "image_banner_8ErrNx",
+    "rich_text_kF4Cjy",
+    "image_banner_Hb3pyW",
+    "rich_text_mLwBFy",
+    "image_banner_XYB8tj",
+    "rich_text_WM8mhX",
+    "image_banner_Ut9ppi",
+    "rich_text_Vd9nUV",
+    "image_banner_9gzbX8",
+    "rich_text_q7Cy74",
+    "image_banner_XWnbaL",
+    "rich_text_BNpbBC",
+    "image_banner_whtCGk",
+    "rich_text_6eri9j",
+    "image_banner_MgyBpz",
+    "rich_text_XW9Ypn",
+    "image_banner_Uw4bdb",
+    "rich_text_C9kj4E",
+    "image_banner_dramNX",
+    "rich_text_jhHL4y",
+    "image_banner_xybdeV",
+    "rich_text_LpmiMF",
+    "image_banner_9DjiHf"
+  ]
+}

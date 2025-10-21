@@ -1,0 +1,168 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "none",
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "hidecart": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "sell_checklist_QHH3g3": {
+      "type": "sell-checklist",
+      "name": "SEO Checklist Product Page",
+      "settings": {
+        "primary_color": "#97ba52",
+        "secondary_color": "#f5f5f5",
+        "heading_font": "open_sans_n4",
+        "body_font": "poppins_n4",
+        "logo_image": "shopify://shop_images/Artboard_1.png",
+        "product_name": "Ecommerce SEO Checklist",
+        "product_url": "",
+        "notification_title": "Limited Time Offer",
+        "notification_text": "Get 30% off today only! Don't miss this opportunity to boost your store's SEO.",
+        "show_countdown": true,
+        "countdown_label": "🔥Products are limited, checkout within",
+        "countdown_minutes": 1,
+        "countdown_seconds": 33,
+        "hero_title": "Verified SEO Checklist For Your Website",
+        "hero_subtitle": "<p>Use our <strong>80+ point checklist </strong>to take the guesswork out of SEO. Raise your online store search rankings, gain more buyers, and convert free traffic consistently into sales.</p>",
+        "hero_cta_text": "GET INSTANT ACCESS NOW",
+        "problem_title": "Tired of Wasting Money on Ads with Little Return?",
+        "problem_image_alt": "SEO problems",
+        "transition_text": "What if you could attract a steady stream of free, targeted traffic to your store without constantly increasing your ad budget?",
+        "problem_cta_text": "DISCOVER THE SOLUTION",
+        "solution_title": "BOOST STAR Experts SEO Checklist: Your Blueprint for E-Commerce Success",
+        "solution_description": "<p>Our comprehensive 80+ point SEO checklist is designed specifically for e-commerce stores. It provides step-by-step guidance to optimize your online store for search engines, attract more organic traffic, and increase sales.</p>",
+        "solution_image_alt": "SEO Checklist Preview",
+        "core_promise_title": "With BOOST STAR Experts E-Commerce SEO Checklist, you'll be able to:",
+        "solution_cta_text": "GET MY BLUEPRINT",
+        "value_title": "Stop Guessing. Start Implementing a Proven SEO System.",
+        "mastery_title": "What You'll Master:",
+        "value_cta_text": "MASTER THESE SKILLS",
+        "testimonials_title": "Real Results from E-Commerce Stores Like Yours.",
+        "testimonials_cta_text": "JOIN THESE SUCCESS STORIES",
+        "offer_title": "Invest in Your Store's Future.",
+        "offer_image_alt": "SEO Checklist Product",
+        "offer_features_title": "What You Get:",
+        "access_title": "Access Information:",
+        "original_price": "Rs. 8,700.00",
+        "sale_price": "Rs. 6,000.00",
+        "discount_badge": "Save Rs. 2,700",
+        "offer_cta_text": "GET INSTANT ACCESS NOW",
+        "guarantee_text": "100% Satisfaction Guarantee | Secure Checkout",
+        "faq_title": "Frequently Asked Questions",
+        "faq_cta_text": "READY TO BOOST YOUR SEO?",
+        "final_cta_title": "Your Store's Success Story Starts Here",
+        "before_image_alt": "Before SEO",
+        "before_label": "BEFORE",
+        "after_image_alt": "After SEO",
+        "after_label": "AFTER",
+        "final_cta_subtitle": "Stop Wasting Money on Ads. Start Building Sustainable Traffic.",
+        "final_cta_button_text": "DOWNLOAD THE SEO CHECKLIST NOW",
+        "show_floating_cta": true,
+        "floating_cta_text": "GET ACCESS NOW",
+        "footer_text": "<p>Designed for e-commerce store owners who want to maximize their organic traffic and sales.</p>",
+        "footer_developer_credit": true,
+        "developer_name": "BOOST STAR Experts",
+        "developer_url": "https://booststar.in/"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "sell_checklist_QHH3g3"
+  ]
+}

@@ -1,0 +1,576 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "boost_acivement_counter_rmQPqW": {
+      "type": "boost-acivement-counter",
+      "disabled": true,
+      "settings": {
+        "headline": "",
+        "content_alignment": "center",
+        "content": "",
+        "box_1_number": 5000,
+        "box_1_text": "increase in Organic Traffic",
+        "box_2_number": 20.4,
+        "box_2_text": "<strong>ROI</strong>",
+        "box_3_number": 116,
+        "box_3_text": "<strong>Increasein CombinedSearch Revenue</strong>",
+        "headline_size": 25,
+        "text_size": 15,
+        "count_size": 75,
+        "text_color": "#000000",
+        "headline_color": "#ffffff",
+        "count_color": "#000000",
+        "background_color": "linear-gradient(164deg, rgba(218, 239, 190, 1) 100%, rgba(85, 85, 85, 1) 100%)",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "count_font": "sans-serif"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_ym97mU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ENz7wx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Best Shopify SEO Services",
+            "heading_size": "h2"
+          }
+        },
+        "caption_jJ64qQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Boost Your Shopify Store Visibility with Booststar Experts",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_VdkJ7A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you having difficulty improving your Shopify store sales? Work with Shopify SEO expertise to increase sales and volume of orders. As a certified <strong>Shopify SEO agency in India</strong>, Boost Star Expert’s Solutions has expertise in helping online stores expand their customer base by implementing the best Shopify SEO strategies.</p><p>Your Shopify store will undoubtedly be enhanced to its peak performance when you purchase Booststar Experts services. Inside Booststar.in Being a Melbourne-based SEO business, it offers expert <strong>Shopify SEO services</strong> that enhance Shopify store performance. We will help your store get the much-needed exposure it requires to boost visitors and, consequently, sales. </p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_fqDEew": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENz7wx",
+        "caption_jJ64qQ",
+        "text_VdkJ7A",
+        "button_fqDEew"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shopify-seo-services.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_fTnVNx": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_xRkHCg": {
+          "type": "caption",
+          "settings": {
+            "caption": "Hire us",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_L3fGU6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make Significant Sales with Expert Shopify SEO Services ",
+            "heading_size": "h2"
+          }
+        },
+        "text_fAB3MR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boost Star Experts offers experienced <strong>Shopify SEO experts </strong>with years of experience and skills who know how to apply the best Shopify SEO strategies to generate traffic to online stores and improve conversion rates. Our <strong>Shopify SEO experts</strong> are up to date on the latest Shopify marketing strategies and best practices for SEO. They make use of their skills to search out the elements that affect an eCommerce website's visibility on the internet. In addition, we use unique strategies to search engines optimize a Shopify site and show its products to potential buyers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_xRkHCg",
+        "heading_L3fGU6",
+        "text_fAB3MR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_EyTCbb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gqnQyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boost Star experts Show Shopify SEO traffic and Growth to be helpful for your Shopify store",
+            "heading_size": "h2"
+          }
+        },
+        "text_VEWphJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Analyze the Shopify SEO performance of your Shopify store in depth. Identify which areas need to be enhanced, such as the speed of the website, its mobile-friendliness, and existing keyword ranks.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gqnQyj",
+        "text_VEWphJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_JRnBAC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ePQrC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make Significant Sales with Expert Shopify SEO Services",
+            "heading_size": "h2"
+          }
+        },
+        "text_eikiBr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You may use the following way to get in touch with us. Our Shopify experts are eagerly awaiting to response to your call or request. Our promise is to provide a solution that helps you fulfill your business goals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ePQrC9",
+        "text_eikiBr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq_boost_star_LHFAtE": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_mpKd6H": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Analysis of E-commerce Keywords",
+            "answer": "<p>There are limitations on the keywords that must be included in the items, though.</p><p>As long as the sections are as closely related to the page as possible, they should be pertinent to the popular keywords that are included in the search string. </p>"
+          }
+        },
+        "text_BB7bdD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Content Optimization: Practicality",
+            "answer": "<p>Highlight terms used in product advertisements or even product names.</p><p>Earn money by distributing the acquired content naturally so that readers who are interested in the post's subject matter can locate it on their own.</p>"
+          }
+        },
+        "text_EgNwmc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Technical Search Engine Optimization",
+            "answer": "<p>Boost the website's overall loading speed and make sure it works well on all devices for users.</p><p>Address any obstacles affecting how highly you rank on websites or search engines.</p>"
+          }
+        },
+        "text_QeHViA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Creating Links: Obtain superior backlinks.",
+            "answer": "<p>Additionally, confirm that the indicator at your store makes stamps certifying that it satisfies validity and reliability requirements.</p>"
+          }
+        },
+        "text_Cf3KyL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Performance Monitoring",
+            "answer": "<p>Report tracking should be included in your SEO efforts.</p><p>To enhance the outcomes, the same data should be used for software and important decisions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mpKd6H",
+        "text_BB7bdD",
+        "text_EgNwmc",
+        "text_QeHViA",
+        "text_Cf3KyL"
+      ],
+      "settings": {
+        "heading": "<strong>Analysis of E-commerce Keywords</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27BD",
+        "border_radius": 18,
+        "layout_style": "row",
+        "headline_color": "#97ba52",
+        "s_background_color": "linear-gradient(164deg, rgba(204, 240, 166, 0.15) 100%, rgba(85, 85, 85, 1) 100%)",
+        "icon_color": "#fff",
+        "question_color": "#23321a",
+        "background_color": "#97ba52",
+        "hover_color": "#EFEFEF",
+        "answer_color": "#111111",
+        "answer_bg_color": "#fff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "multirow_Q6hPpV": {
+      "type": "multirow",
+      "blocks": {
+        "row_AgNUGq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6265.png_860-removebg-preview.png",
+            "caption": "Caption",
+            "heading": "Analysis of E-commerce Keywords",
+            "text": "<p>There are limitations on the keywords that must be included in the items, though.</p><p>As long as the sections are as closely related to the page as possible, they should be pertinent to the popular keywords that are included in the search string. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_D6qMTh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1_MBEX2NwK9cLijne0IEwsjA.webp",
+            "caption": "Caption",
+            "heading": "Content Optimization: Practicality",
+            "text": "<p>Highlight terms used in product advertisements or even product names.</p><p>Earn money by distributing the acquired content naturally so that readers who are interested in the post's subject matter can locate it on their own.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_qBJNfF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/seo-01.png",
+            "caption": "Caption",
+            "heading": "Technical Search Engine Optimization",
+            "text": "<p>Boost the website's overall loading speed and make sure it works well on all devices for users.</p><p>Address any obstacles affecting how highly you rank on websites or search engines.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_z8WWQF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/seo-6271942_1920.png",
+            "caption": "Caption",
+            "heading": "Creating Links: Obtain superior backlinks.",
+            "text": "<p>Additionally, confirm that the indicator at your store makes stamps certifying that it satisfies validity and reliability requirements.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_kPAgY6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/png-clipart-computer-icons-monitoring-computer-monitors-application-performance-management-computer-servers-others-text-logo.png",
+            "caption": "Caption",
+            "heading": "Performance Monitoring",
+            "text": "<p>Report tracking should be included in your SEO efforts.</p><p>To enhance the outcomes, the same data should be used for software and important decisions.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_aEbrct": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/shopify-perfomance-optimization-small.webp",
+            "caption": "Caption",
+            "heading": "Shopify Speed Optimization",
+            "text": "<p>Boost Star Experts provides Best Shopify Speed Optimization services which ensures a fast loading time for your website. There are many aspects that our Shopify speed optimization services cover to speed up the load time of your eCommerce store, from performance analysis to AMP and managing links and more.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_AgNUGq",
+        "row_D6qMTh",
+        "row_qBJNfF",
+        "row_z8WWQF",
+        "row_kPAgY6",
+        "row_aEbrct"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dBcwhJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TTn39N": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shopify Speed Optimization",
+            "heading_size": "h2"
+          }
+        },
+        "text_kcGhdk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boost Star Experts provides Best Shopify Speed Optimization services which ensures a fast loading time for your website. There are many aspects that our Shopify speed optimization services cover to speed up the load time of your eCommerce store, from performance analysis to AMP and managing links and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TTn39N",
+        "text_kcGhdk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_Gz3fWy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gFHxPQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Did You Select Boost Star Experts For Your Shopify SEO Services?",
+            "heading_size": "h2"
+          }
+        },
+        "text_9MB6kJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boost Star Experts provides Best Shopify Speed Optimization services which ensures a fast loading time for your website. There are many aspects that our Shopify speed optimization services cover to speed up the load time of your eCommerce store, from performance analysis to AMP and managing links and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gFHxPQ",
+        "text_9MB6kJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_cPRTbL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bniXYn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/partners.png",
+            "title": "<strong>Team with Experience</strong>",
+            "text": "<p>We can provide the following promises since our committed staff of SEO experts is constantly available.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Eymjp8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3664521-removebg-preview.png",
+            "title": "<strong>Personalized Approaches</strong>",
+            "text": "<p>Our intake strategy is situation-specific; there is no one-size-fits-all approach that we use.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BiBeTW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mobile-payment-e-commerce-market-shopping-online-payment-flat-illustration-template_135170-57-removebg-preview.png",
+            "title": "<strong>Results-Oriented</strong>",
+            "text": "<p>Our goal in this chapter is to paint a much clearer picture for you of exactly what we can do for your company.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bniXYn",
+        "column_Eymjp8",
+        "column_BiBeTW"
+      ],
+      "settings": {
+        "title": "Why Did You Select Boost Star Experts For Your Shopify SEO Services?",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_WVJmKr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9AXKC9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Market_launch-bro.svg",
+            "title": "Shopify Speed Optimization",
+            "text": "<p>At Boost Star Experts, we understand the importance of a quick-loading Shopify site for search engine rankings and user experience. Our complete Shopify Speed Optimization services are made to improve the usability of your store, offering your consumers easy access and fast load times. We start by carefully reviewing your website to find any areas that are slowing it down, including big picture files, poor-quality code, or excessive app use. Then, using Standard techniques such as image bending, lazy loading, and CSS and JavaScript file minification, our experts take care of these issues. To further improve speed, we also use browser caching and optimise your Shopify theme. Using Shopify Speed Optimization from Boost Star Experts.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_d8zaxX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images_24a20b66-7dce-4054-a286-78889935fb60.jpg",
+            "title": "Digital Marketing With Google Ads",
+            "text": "<p>With Google Ads, Boost Star Experts offers a full-featured digital marketing solution that will improve your online visibility and increase your relevant website traffic. Boost Star Experts creates personalized ad campaigns that target potential clients exactly when they are searching for your products or services using the power of Google Ads. If you want the correct people to see your ads, our team of experts carefully analyses keywords to determine which ones are most effective. Our main goal is to create visually appealing and persuasive ad language that forces clicks. To maximise your return on investment, Boost Star Experts also continually analyses and optimises your campaigns by modifying bidding, targeting, and ad creatives. Getting access to thorough performance records can help you learn significant things about the success of your campaigns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pBew6k": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/3664521-removebg-preview.png",
+            "title": "<strong>Personalized Approaches</strong>",
+            "text": "<p>Our intake strategy is situation-specific; there is no one-size-fits-all approach that we use.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UnFDxm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mobile-payment-e-commerce-market-shopping-online-payment-flat-illustration-template_135170-57-removebg-preview.png",
+            "title": "Conversion Rate Optimization",
+            "text": "<p>Boost Star Experts, we know that growing and enhancing website traffic is just the first step. Our services for Conversion Rate Optimization (CRO) have the goal to convert that traffic into useful results. We identify and remove some barriers to conversion on your website by analysing user behaviour and using more data-driven approaches.Through a variety of methods and strategies, including split testing, landing page optimization, usability testing, and design optimization, I can drive more traffic and leads to your website. My extensive background in analytics and data analysis allows me to make data-driven decisions about optimization, resulting in an average increase of 25% in conversion rates.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9AXKC9",
+        "column_d8zaxX",
+        "column_pBew6k",
+        "column_UnFDxm"
+      ],
+      "settings": {
+        "title": "We Start for following services",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "boost_acivement_counter_rmQPqW",
+    "main",
+    "image_with_text_ym97mU",
+    "rich_text_fTnVNx",
+    "rich_text_EyTCbb",
+    "rich_text_JRnBAC",
+    "faq_boost_star_LHFAtE",
+    "multirow_Q6hPpV",
+    "rich_text_dBcwhJ",
+    "rich_text_Gz3fWy",
+    "multicolumn_cPRTbL",
+    "multicolumn_WVJmKr"
+  ]
+}

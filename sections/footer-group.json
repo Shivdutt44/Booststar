@@ -1,0 +1,173 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+      "top_collections_boost_star_4qw7pF": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_76BdJg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/gmail.svg",
+            "text": "Email us",
+            "link": "mailto:contact@booststar.in"
+          }
+        },
+        "image_NmDfby": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1) 85%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/whatsapp.svg",
+            "text": "WhatsApp",
+            "link": "https://wa.me/7000587074"
+          }
+        },
+        "image_cYwhce": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(73, 251, 17, 0) 81%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/linkedin-icon.svg",
+            "text": "LinkedIn",
+            "link": "https://www.linkedin.com/company/boost-star-experts/"
+          }
+        },
+        "image_HFWfab": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/call.svg",
+            "text": "Call us",
+            "link": "tel:+917000587074"
+          }
+        }
+      },
+      "block_order": [
+        "image_76BdJg",
+        "image_NmDfby",
+        "image_cYwhce",
+        "image_HFWfab"
+      ],
+      "settings": {
+        "headline": "<strong>QUICK CONNECT WITH US</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/graph_bg_5799fcf1-4e4f-4d31-9906-6413836376ec.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 60,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "ss_slope_EQgmYe": {
+      "type": "ss-slope",
+      "settings": {
+        "slope_height": 80,
+        "slope_height_mobile": 50,
+        "slope_skew": 80,
+        "slope_skew_mobile": 60,
+        "slope_direction": "left",
+        "slope_direction_mobile": "left",
+        "top_bg_color": "#97ba52",
+        "bottom_bg_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 210,
+        "border_thickness": 0
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand_information_pfgYt8": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "link_list_gdDVaR": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our Services",
+            "menu": "our-services"
+          }
+        },
+        "link_list_z3anFF": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Company",
+            "menu": "main-menu"
+          }
+        },
+        "link_list_egqPcU": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Join Internship</strong>",
+            "menu": "internship-header"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_pfgYt8",
+        "link_list_gdDVaR",
+        "link_list_z3anFF",
+        "link_list_egqPcU"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "top_collections_boost_star_4qw7pF",
+    "ss_slope_EQgmYe",
+    "footer"
+  ]
+}

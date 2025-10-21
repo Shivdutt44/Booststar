@@ -1,0 +1,707 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_fB4JhW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NbFYLg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Web Development 8 Weeks Internship Program",
+            "heading_size": "h1"
+          }
+        },
+        "text_EJmEHC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>90% Practical + 10% Theory</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NbFYLg",
+        "text_EJmEHC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/must_20have_20features_20of_20best_20coworking_20software.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_88Lj9d": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HkiGMj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Online Free Full Stack Web Developer Internship",
+            "heading_size": "h1"
+          }
+        },
+        "text_DfAmkQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WSA Free online Internship for Web Development is an Online real-time experience for Engineering students. It will take you through a journey of skill building and project building experience. You will understand the various product development phases and skills required to work on any Web Application product in Industry. This free online internship with certificate program is a hands-on, monitored and mentored program for 30 days, with our highly experienced Mentors.</p>"
+          }
+        },
+        "button_t8Mq7j": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply for Internship",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HkiGMj",
+        "text_DfAmkQ",
+        "button_t8Mq7j"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_tVxMKq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_84YTmF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.webp",
+            "title": "Its Online",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AcgbQN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.webp",
+            "title": "Build Projects",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4aJpFb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.webp",
+            "title": "Career Building",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cwBDgN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.webp",
+            "title": "Its Free",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_84YTmF",
+        "column_AcgbQN",
+        "column_4aJpFb",
+        "column_cwBDgN"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_HeRt8W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VJtm9H": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ABOUT OUR INTERNSHIP  PROGRAM</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_BaredV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BOOST STAR Experts, we take pleasure in sharing our wealth of experience to inspire and propel students toward their goals. Our team, a collective of seasoned professionals with diverse streams of computer science expertise, is passionate about guiding students to make informed career decisions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VJtm9H",
+        "text_BaredV"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_4BQBnY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GgCwHD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Online Free Full Stack Internship ​- Explainer",
+            "heading_size": "h1"
+          }
+        },
+        "text_LMjTqA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Believing in the transformative power of guidance, we actively involve students in live projects after providing comprehensive training. This hands-on approach allows them to learn through practical application, fostering a dynamic and engaging learning experience. At BOOST STAR Experts, we don’t just offer internships; we offer a gateway to real-world success, empowering students to shape their career paths with confidence.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GgCwHD",
+        "text_LMjTqA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qHARFE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PX9WXq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mr.Unknown",
+            "heading_size": "h1"
+          }
+        },
+        "text_Vnbdxy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Today technology is touching every product you can think of. Web application technologies are going to open up new opportunities for Engineers in the future. Having said that, as a tier-2 or tier-3 engineering college student in India and many similar engineering colleges outside India lack the opportunity where engineering students can get a hands-on, practical exposure when they are in the college. </p><p> </p><p>We from WSA want to transform this gap by offering an Online free full stack <a href=\"https://internship.aicte-india.org/\"><strong>internship program</strong></a>. This is a 30 day immersive program guided by mentors, where you will be able to build a complete web application and deploy in a server by making it live. Designed as a combination of skill building and project building this internship program offers a unique opportunity for students to <a href=\"https://www.webstackacademy.com/placements/\"><strong>launch their career</strong></a> in new age web development.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_BgpgRf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply For Intership",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PX9WXq",
+        "text_Vnbdxy",
+        "button_BgpgRf"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Our-Team12.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_MwEDm9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rfYCDn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still Dreaming About a Product Company Job?",
+            "heading_size": "h1"
+          }
+        },
+        "text_jVQjAd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As an Engineering student, the dream of getting into a product company remains elusive. While there are tons of opportunities opening up thanks to the Cloud phenomenon, obtaining the right set of skills is the challenge. Even someone who has exposure to legacy web development stack (ex: PHP / .NET) getting into new age JavaScript based <a href=\"https://mern.js.org/\"><strong>MERN Stack</strong></a> (MongoDB, Express.js, React, Node.js) plays a very important role in enabling product company transition for engineers. </p><p> </p><p>WSA’s Free online Internship for Web Development program aptly addresses this legacy-modern day stack gap and provides you with a launch pad for a career in Full Stack Web Development.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rfYCDn",
+        "text_jVQjAd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_W3WqnP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MFkD6H": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Do Our Interns Say?",
+            "heading_size": "h1"
+          }
+        },
+        "text_gzJyeW": {
+          "type": "text",
+          "settings": {
+            "text": "<h2></h2><p>With our 20+ years in the EdTech industry, our internship programs benefited thousands of engineering college students. Here is a glance of what they have to say.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MFkD6H",
+        "text_gzJyeW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/connected.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7eULDj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hRn9zc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>COURSE LAYOUT</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_BHfqxC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>8 Weeks Internship Program </strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hRn9zc",
+        "text_BHfqxC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_jMz84B": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/How-It-Works-1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "slideshow_KmdBaB": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ighN6i": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_2.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ebqzwy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_3.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cfLydQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_3_90add813-7d57-4ef0-9098-d2ce278ba867.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_qHnGqT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_5.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_k6URkx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_6.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_CpxaJF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_7.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mAagWE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_8.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6aVBVQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_9.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_nbfzjB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web_Development_Internship_12.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ighN6i",
+        "slide_ebqzwy",
+        "slide_cfLydQ",
+        "slide_qHnGqT",
+        "slide_k6URkx",
+        "slide_CpxaJF",
+        "slide_mAagWE",
+        "slide_6aVBVQ",
+        "slide_nbfzjB"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "contact_form_bJMKgQ": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "<strong>HOW TO APPLY ?</strong>",
+        "heading_size": "h1",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_k9X4KC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Q6yi86": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Do I Enroll for This Internship?",
+            "icon": "check_mark",
+            "row_content": "<p>Please apply for this internship from the application form given above. Our team will do a screening and let you know about a written test date. U need to clear the test in order to get enrolled into this internship.</p><p> </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Xq37Ep": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Do You Mean by Free Internship?",
+            "icon": "check_mark",
+            "row_content": "<p>For this internship as a student you don’t need to pay anything. It’s our vision to contribute to industry-academia gap, which we have been doing for the past 17+ years in various channels.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PnREJQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Is the Internship Program Done Online?",
+            "icon": "check_mark",
+            "row_content": "<p>The entire internship program is done via Emertxe’s online / digital ecosystem. This means you will be using virtual conferencing tools, chat ecosystem, online submission tools etc…to do your internship. Hence, a good laptop / PC with stable internet connectivity is mandatory for this program.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fAgi73": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Type of Job Roles Can I Target after This Internship?",
+            "icon": "check_mark",
+            "row_content": "<p>You can target the following job profiles by taking our Online Internship Program:</p><ul><li><strong>Back End Web Developer</strong></li><li><strong>FullStack Web Developer</strong></li><li><strong>Front End Web Designer</strong></li></ul><p>Depending on your profile, you will be designing, developing, and maintaining necessary components. These opportunities are accessible in a variety of industries, </p><p>So your role would be a hybrid of domains (for example, FinTech) and profile (Ex: Front End Developer). For additional information, please see our <a href=\"https://www.slideshare.net/WebStackAcademy/wsa-web-application-development-courses\"><strong>WSA – Career Guide</strong></a> Document.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TzLwAM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I Be Hired after the Internship Completion?",
+            "icon": "check_mark",
+            "row_content": "<p>No. This is purely an internship program. If you want to get into a job, please check our <strong>placement oriented longer term programs </strong>in Web Application Development.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rdQtxF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I Am Interested in Doing My Master’s Degree. Will This Internship Help?",
+            "icon": "check_mark",
+            "row_content": "<p>es. This internship can act as a bridge before you enroll for a Master’s Degree, especially with foreign universities. Depending on your performance in the internship we can provide you with Letter Of Recommendation (LOR) which has helped tons of students to get admission along with TA / RA. A good number of our students get admissions into top-notch universities based out of the USA / Europe / Singapore.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Q6yi86",
+        "collapsible_row_Xq37Ep",
+        "collapsible_row_PnREJQ",
+        "collapsible_row_fAgi73",
+        "collapsible_row_TzLwAM",
+        "collapsible_row_rdQtxF"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Internship FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/faq2.svg",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_etC8Px": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qP3FCb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>CONCLUSION</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_T8VtcD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Throughout the course, you'll engage with real-time projects, gaining practical insights crucial for transitioning into a full-time web developer. Learning web development is straightforward with the right approach, and the tools taught in this course are industry-standard. Your journey as a web developer gains value through your previous works, and here, you'll build a portfolio that sets the course for your career. Professionals will assess and provide feedback on your work, offering opportunities for continuous improvement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qP3FCb",
+        "text_T8VtcD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_fB4JhW",
+    "rich_text_88Lj9d",
+    "multicolumn_tVxMKq",
+    "rich_text_HeRt8W",
+    "rich_text_4BQBnY",
+    "image_with_text_qHARFE",
+    "rich_text_MwEDm9",
+    "image_with_text_W3WqnP",
+    "rich_text_7eULDj",
+    "image_banner_jMz84B",
+    "slideshow_KmdBaB",
+    "contact_form_bJMKgQ",
+    "collapsible_content_k9X4KC",
+    "rich_text_etC8Px"
+  ]
+}

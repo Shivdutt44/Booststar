@@ -1,0 +1,588 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_ym97mU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ENz7wx": {
+          "type": "heading",
+          "settings": {
+            "heading": "About us",
+            "heading_size": "h2"
+          }
+        },
+        "text_VdkJ7A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Booststar Experts is a Jaipur, India-based eCommerce agency specializing in the Shopify platform and digital marketing. We are dedicated to helping eCommerce startups enhance their online presence and grow their businesses.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_fqDEew": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENz7wx",
+        "text_VdkJ7A",
+        "button_fqDEew"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Jaipuria-geeks-aboutus.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_aPgk4e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wG8hmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Services",
+            "heading_size": "h2"
+          }
+        },
+        "text_NiCcdR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>consectetur adipisicing elit. Eveniet, sed culpa</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wG8hmz",
+        "text_NiCcdR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_WEChpF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cNnEXf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify-svgrepo-com.svg",
+            "title": "Shopify",
+            "text": "<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sed culpa?  Quasi, quis. Maxime, eligendi.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EULwa4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pngegg_21.png",
+            "title": "WooCommerce",
+            "text": "<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sed culpa?  Quasi, quis. Maxime, eligendi.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PaUWaW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_8.png",
+            "title": "BIGCOMMERCE",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xKFnjr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/magento-svgrepo-com.svg",
+            "title": "Magento",
+            "text": "<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sed culpa?  Quasi, quis. Maxime, eligendi.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wTPGCk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wix-Round-Black-Logo-PNG.png",
+            "title": "Web Design",
+            "text": "<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sed culpa?  Quasi, quis. Maxime, eligendi.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GCYGDd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/phpmysql.png",
+            "title": "PHP",
+            "text": "<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sed culpa?  Quasi, quis. Maxime, eligendi.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TQKPRU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/512px-WordPress_blue_logo_svg.png",
+            "title": "WordPress",
+            "text": "<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sed culpa?  Quasi, quis. Maxime, eligendi.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wkrTNK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icons_mern500px.png",
+            "title": "MERN",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_T97aLh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hire-laravel-developers-mobile.webp",
+            "title": "Laravel",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cNnEXf",
+        "column_EULwa4",
+        "column_PaUWaW",
+        "column_xKFnjr",
+        "column_wTPGCk",
+        "column_GCYGDd",
+        "column_TQKPRU",
+        "column_wkrTNK",
+        "column_T97aLh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_6QyWJG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Lkkxmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "More than an eCommerce company, We’re Your Partner in Success",
+            "heading_size": "h2"
+          }
+        },
+        "text_xpBcBW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Booststar Experts is a Jaipur, India-based eCommerce agency specializing in the Shopify platform and digital marketing. We are dedicated to helping eCommerce startups enhance their online presence and grow their businesses.</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lkkxmz",
+        "text_xpBcBW"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/645ed2_5fdb26c3ef0a40ca95f2e1ca481fd2cf_mv2.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_XGTCTk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xNaAyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our services",
+            "heading_size": "h2"
+          }
+        },
+        "text_4WjkCC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everything that needs for your eCommerce growth</p><p>Specializing in designing, building, and marketing eCommerce.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xNaAyE",
+        "text_4WjkCC"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_ELe4qL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nTCjNJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/shopify-plus\">Shopify Plus Development</a>",
+            "text": "<p>Are you on your way to becoming an enterprise and looking scalable solution?</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iwPw4i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_speed_optimization_jaipuriageeks_2529ef3a-ed33-4751-8e80-164d8a435364.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/shopify-marketing\">Shopify Marketing Experts</a>",
+            "text": "<p>Increase customers on your Shopify store through our effective marketing techniques</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UEGwCL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_store_design_jaipuriageeks_8def39f2-7c20-41d5-afec-bfd02dc73dd6.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/shopify-store-setup\">Shopify Store Setup</a>",
+            "text": "<h3></h3><p>We will take care of all the things to make your Shopify store ready for launch.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dTaJiU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled-1.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/shopify-theme-customization\">Shopify Theme Customization</a>",
+            "text": "<h3></h3><p>Add new features to your Shopify store with code or an app, and fix any technical issues</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dqtfpr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_custom_app_development5.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/shopify-custom-app-development\">Shopify App Development</a>",
+            "text": "<h3></h3><p>Didn’t find desired functionality? Don’t worry, We are here to build a custom Shopify app.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hzF6hV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_store_migration_49446e4a-f9f2-4512-a43e-bead482726cf.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/shopify-store-migration\">Shopify Store Migration</a>",
+            "text": "<h3></h3><p>Migrate your store over the Shopify platform and enhance your online retail experience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MXkCqi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ready-to-use02.jpg",
+            "title": "<a href=\"https://www.jaipuriageeks.com/collections/shopify-themes\">Ready to use eCommerce</a>",
+            "text": "<h3></h3><p>Looking to start eCommerce with nominal budget, choose our ready to use eCommerce solution.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_irptNb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hire-developers02.webp",
+            "title": "<a href=\"https://www.jaipuriageeks.com/pages/hire-shopify-developer\">Hire Shopify Developer</a>",
+            "text": "<h3></h3><p>Are you a consultant or mediator agency, Hire a Shopify expert on going basic as needed.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nTCjNJ",
+        "column_iwPw4i",
+        "column_UEGwCL",
+        "column_dTaJiU",
+        "column_dqtfpr",
+        "column_hzF6hV",
+        "column_MXkCqi",
+        "column_irptNb"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_aGcb4V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Qxt3GV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images_1.jpg",
+            "title": "Ritik Tamrakar",
+            "text": "<p>CEO</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rtV3gR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ataurahmaan-600x617-removebg-preview.png",
+            "title": "Ataur Khan",
+            "text": "<p>SR. Developer</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KnWNCW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Profile-Picture-6-600x600-removebg-preview.png",
+            "title": "Shiv Dutt Chauhan",
+            "text": "<p>SR. Developer</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PUcnQL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lovekush-Manjhi-Internship-Manager-600x600-removebg-preview.png",
+            "title": "Lovekush Majhi",
+            "text": "<p>Internship Manger</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_djCykf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Suchi-Tamrakar-Senior-SEO-Executive-600x600-removebg-preview.png",
+            "title": "Suchi Tarkar",
+            "text": "<p>SEO Excutive</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wCdHc3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Abhishek-600x600-removebg-preview.png",
+            "title": "Abhishek Tamrakar",
+            "text": "<p>BDA</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Qxt3GV",
+        "column_rtV3gR",
+        "column_KnWNCW",
+        "column_PUcnQL",
+        "column_djCykf",
+        "column_wCdHc3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our Team Leader",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "View More Member",
+        "button_link": "#",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_8XYtQW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ek88T4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you a talented and hard-working individual who works well in teams?",
+            "heading_size": "h2"
+          }
+        },
+        "text_bmDJCt": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>If yes, we may have a spot for you on our team...</p>"
+          }
+        },
+        "button_KaYANG": {
+          "type": "button",
+          "settings": {
+            "button_label": "CLICK HERE FOR OUR CAREERS PAGE",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ek88T4",
+        "text_bmDJCt",
+        "button_KaYANG"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_EyTCbb": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_rUmf9d": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_gqnQyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quick Connect",
+            "heading_size": "h2"
+          }
+        },
+        "text_VEWphJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You may use the following way to get in touch with us. Our Shopify experts are eagerly awaiting to response to your call or request. Our promise is to provide a solution that helps you fulfill your business goals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_rUmf9d",
+        "heading_gqnQyj",
+        "text_VEWphJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_ym97mU",
+    "rich_text_aPgk4e",
+    "multicolumn_WEChpF",
+    "image_with_text_6QyWJG",
+    "rich_text_XGTCTk",
+    "multicolumn_ELe4qL",
+    "multicolumn_aGcb4V",
+    "rich_text_8XYtQW",
+    "rich_text_EyTCbb"
+  ]
+}

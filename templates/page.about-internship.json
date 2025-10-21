@@ -1,0 +1,256 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_dB36kb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BpnB8H": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT INTERNSHIP",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_MfBTQL": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BpnB8H",
+        "text_MfBTQL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_23_c6e7dbb3-4ae2-4af2-80f3-12f44ae93be4.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_ym97mU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ENz7wx": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Story",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_VdkJ7A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our free internship program started with a mission to empower students and freshers. By offering real-world experience, we aim to bridge the gap between education and employment. At BOOST STAR Experts, we believe in nurturing talent for a brighter future.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENz7wx",
+        "text_VdkJ7A"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_2_5d2aa7c0-3b55-4167-93cd-de47e3fe24b1.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_XMVEah": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QEJR6N": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY WE STARTED INTERNSHIP ?",
+            "heading_size": "h1"
+          }
+        },
+        "text_jDXQn3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BOOST STAR Experts, we believe in giving back. Our free internship program started to empower students and freshers with real-world experience. We aim to nurture the next generation of eCommerce experts, providing them with valuable career growth opportunities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QEJR6N",
+        "text_jDXQn3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_nKGM7m": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BidVqU": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Founding Vision",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_irWPdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our founding vision at BOOST STAR Experts is to elevate eCommerce businesses to new heights through innovative strategies and dedicated support. We aim to create a hub of excellence, where our expertise drives success and our commitment to client satisfaction sets us apart. Through our services and internships, we strive to foster growth and empower future leaders in the eCommerce industry.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BidVqU",
+        "text_irWPdb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_2_5d2aa7c0-3b55-4167-93cd-de47e3fe24b1.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_6QyWJG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Lkkxmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Internship Program Launch</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_xpBcBW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Inception:</strong><br/>Recognizing the importance of nurturing young talent, BOOST STAR Experts launched its internship program to provide aspiring web developers with hands-on experience and professional guidance.</p><p><strong>Goals:</strong><br/>The program aims to bridge the gap between academic knowledge and real-world application, equipping interns with the skills and confidence needed to thrive in the competitive tech landscape.</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lkkxmz",
+        "text_xpBcBW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Asset_1_9fea53f6-e5f3-48db-93e2-207d46a6cedc.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_EyTCbb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gqnQyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN INTERNSHIP TODAY",
+            "heading_size": "h1"
+          }
+        },
+        "text_aWgq6K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you are passionate about <a href=\"https://www.booststar.in/products/web-development-internship-program\" title=\"https://www.booststar.in/products/web-development-internship-program\">Web development</a> or <a href=\"https://www.booststar.in/products/google-ads-internship-industrial-training\" title=\"https://www.booststar.in/products/google-ads-internship-industrial-training\">Digital marketing</a> and eager to learn from the best in the industry, we invite you to join our internship program at BOOST STAR Experts. Together, let's shape the future of digital innovation.</p>"
+          }
+        },
+        "button_NbH3CT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join Now",
+            "button_link": "shopify://collections/join-internship-industrial-training",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gqnQyj",
+        "text_aWgq6K",
+        "button_NbH3CT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_dB36kb",
+    "image_with_text_ym97mU",
+    "rich_text_XMVEah",
+    "image_with_text_nKGM7m",
+    "image_with_text_6QyWJG",
+    "rich_text_EyTCbb"
+  ]
+}

@@ -1,0 +1,1204 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_kM69tc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YRnt7a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Improve UI/UX With  {{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_VUqj4W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply \"<strong>Top Collections</strong>\" section to improve user engagement. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YRnt7a",
+        "text_VUqj4W"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image_1_x_1.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_jfWi7d": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_dXimbC": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_XCheLP": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_EjVfxU": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_TJQ7Eg": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_wdDEyC": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_dXimbC",
+        "icon_with_text_XCheLP",
+        "icon_with_text_EjVfxU",
+        "icon_with_text_TJQ7Eg",
+        "icon_with_text_wdDEyC"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_mGmaee": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LXaiYP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1 FOR HIGHLIGHTS  COLLECTION</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_kgPmAH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enhance your collection visual appeal by using Design 1, perfect for showcasing highlights effectively and beautifully.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LXaiYP",
+        "text_kgPmAH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_cNGJNe": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_VFYEGX": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1), rgba(151, 186, 82, 1) 15%)",
+            "image": "shopify://shop_images/1q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_HYR8pj": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "shopify://shop_images/2q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_TAB9NG": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "shopify://shop_images/4q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_XXiEyN": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(301deg, rgba(99, 135, 28, 1) 15%, rgba(151, 186, 82, 1) 85%)",
+            "image": "shopify://shop_images/3q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_dkfg8H": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "shopify://shop_images/5q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_jJdKRE": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(99, 135, 28, 1) 15%, rgba(151, 186, 82, 1) 85%)",
+            "image": "shopify://shop_images/1q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_7AqADN": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(99, 135, 28, 1) 15%, rgba(151, 186, 82, 1) 85%)",
+            "image": "shopify://shop_images/3q.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VFYEGX",
+        "image_HYR8pj",
+        "image_TAB9NG",
+        "image_XXiEyN",
+        "image_dkfg8H",
+        "image_jJdKRE",
+        "image_7AqADN"
+      ],
+      "settings": {
+        "headline": "<strong>Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#97ba52",
+        "text_color": "#111111",
+        "background_color": "",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/qzs.png",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": true,
+        "text_font": "poppins_n4"
+      }
+    },
+    "rich_text_dBeQ3q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DCp7Pw": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 2 FEATURE SQUARE COLLECTION",
+            "heading_size": "h1"
+          }
+        },
+        "text_rjjYYH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're introducing our design 2 with a sleek, modern square collection with innovative features for an enhanced user experience</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DCp7Pw",
+        "text_rjjYYH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_t3dc8m": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_AUyj6Q": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(87deg, rgba(151, 186, 82, 1) 46%, rgba(87, 121, 20, 1) 85%)",
+            "image": "shopify://shop_images/5002_1.jpg",
+            "text": "Summer Collection",
+            "link": ""
+          }
+        },
+        "image_98VLy9": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(93deg, rgba(151, 186, 82, 1) 52%, rgba(87, 121, 20, 1) 85%)",
+            "image": "shopify://shop_images/Untitled-1.png",
+            "text": "Womens",
+            "link": ""
+          }
+        },
+        "image_7eUwNK": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(271deg, rgba(87, 121, 20, 1) 14%, rgba(151, 186, 82, 1) 42%)",
+            "image": "shopify://shop_images/ewsqz.png",
+            "text": "Mens",
+            "link": ""
+          }
+        },
+        "image_TDYmXb": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(272deg, rgba(87, 121, 20, 1) 15%, rgba(151, 186, 82, 1) 34%)",
+            "image": "shopify://shop_images/e4w.png",
+            "text": "Kids",
+            "link": ""
+          }
+        },
+        "image_AWmn6n": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(278deg, rgba(87, 121, 20, 1) 15%, rgba(151, 186, 82, 1) 41%)",
+            "image": "shopify://shop_images/2148134009_1.jpg",
+            "text": "combo",
+            "link": ""
+          }
+        },
+        "image_9V7EQb": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(101deg, rgba(151, 186, 82, 1) 54%, rgba(87, 121, 20, 1) 85%)",
+            "image": "shopify://shop_images/2149745033_1.jpg",
+            "text": "Jacket",
+            "link": ""
+          }
+        },
+        "image_z7g6iL": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(272deg, rgba(87, 121, 20, 1) 11%, rgba(151, 186, 82, 1) 40%)",
+            "image": "shopify://shop_images/2149745036_1.jpg",
+            "text": "Versity Jacket",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AUyj6Q",
+        "image_98VLy9",
+        "image_7eUwNK",
+        "image_TDYmXb",
+        "image_AWmn6n",
+        "image_9V7EQb",
+        "image_z7g6iL"
+      ],
+      "settings": {
+        "headline": "<strong>Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#97ba52",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/qzs.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "top",
+        "circle_size": 210,
+        "max_width": 1600,
+        "grid_gap": 35,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 108,
+        "mobile_grid_gap": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_iaJncG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kGjNja": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 3 KEY HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_4DQEdR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use Design 3 key highlights to enhance visual appeal, functionality, and user experience, ensuring standout performance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kGjNja",
+        "text_4DQEdR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_EEhQC6": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_bg8tPF": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/ewde.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_TM84qr": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/ewdxed.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_RBb484": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/daqed.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_VtYhxt": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/edewsd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_TyJjqc": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/efefffffffff.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bg8tPF",
+        "image_TM84qr",
+        "image_RBb484",
+        "image_VtYhxt",
+        "image_TyJjqc"
+      ],
+      "settings": {
+        "headline": "<strong>Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(360deg, rgba(255, 255, 255, 1) 3%, rgba(195, 188, 188, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 160,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_iqUThX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Um4Tz9": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 4 TOP HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_bQKExc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use design to showcase the top 6 highlights effectively, ensuring they stand out and attract customer attention.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Um4Tz9",
+        "text_bQKExc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_4qaVDt": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_UjazFp": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(161, 158, 166, 1) 18%, rgba(241, 233, 233, 1) 85%)",
+            "image": "shopify://shop_images/aww.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_EwMmWB": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(161, 158, 166, 1) 15%, rgba(241, 233, 233, 1) 85%)",
+            "image": "shopify://shop_images/efr.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_hADAPy": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(161, 158, 166, 1) 15%, rgba(241, 233, 233, 1) 85%)",
+            "image": "shopify://shop_images/jhhg.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_hqtwnk": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(161, 158, 166, 1) 15%, rgba(241, 233, 233, 1) 85%)",
+            "image": "shopify://shop_images/ees.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_TcwEpj": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(161, 158, 166, 1) 15%, rgba(241, 233, 233, 1) 85%)",
+            "image": "shopify://shop_images/dede.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_Fea8UC": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(161, 158, 166, 1) 15%, rgba(241, 233, 233, 1) 85%)",
+            "image": "shopify://shop_images/ssd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UjazFp",
+        "image_EwMmWB",
+        "image_hADAPy",
+        "image_hqtwnk",
+        "image_TcwEpj",
+        "image_Fea8UC"
+      ],
+      "settings": {
+        "headline": "<strong>Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-octagon",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 160,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_Fm4gw4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k4J7km": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 5 FEATURE SQUARE HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_CHTNzp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience Design 5 with unique square highlights that enhance functionality and aesthetics, offering a distinctive and modern look.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k4J7km",
+        "text_CHTNzp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_NXNNY4": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_BY4BV7": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/deedf.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_gQbiJN": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/wded.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_y4BBp6": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/eddef.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_RxXfEh": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/ddd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_FGaqJh": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/eawde.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_EyQWja": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/addaesd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BY4BV7",
+        "image_gQbiJN",
+        "image_y4BBp6",
+        "image_RxXfEh",
+        "image_FGaqJh",
+        "image_EyQWja"
+      ],
+      "settings": {
+        "headline": "<strong>Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-parallelogram",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/Asset_44.svg",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 230,
+        "max_width": 1600,
+        "grid_gap": 10,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 115,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_BP66eF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6qndaa": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 6 WITH CIRCLE HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_DwTXgh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the elegance of Design 5 featuring stunning Circle Highlights that captivate and enhance your visual experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6qndaa",
+        "text_DwTXgh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_7YfPfa": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_MdEyhj": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/add.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_ybRmjg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/dsde.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_dXJ7jd": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/eae.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_RER4U8": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/hgtjuh.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_mV3LHx": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/the-pic-galary.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_jzHAJc": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/jn.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MdEyhj",
+        "image_ybRmjg",
+        "image_dXJ7jd",
+        "image_RER4U8",
+        "image_mV3LHx",
+        "image_jzHAJc"
+      ],
+      "settings": {
+        "headline": "<strong> Top Collections</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "left",
+        "shape": "bse-circle",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 140,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 70,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_adK8W8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A8KVRB": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE DESIGN 7 GRADIENT CIRCLE HIGHLIGHTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_aCLUaC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore Design 7, featuring circle highlights that enhance visual appeal and provide a modern, eye-catching touch to your theme.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A8KVRB",
+        "text_aCLUaC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "top_collections_boost_star_Pr9jqR": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_WYTqni": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/adddsa.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_rfRyVz": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/asdad.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_gn9czc": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/asdasdsadd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_zAKLLq": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/sda.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_h64EpK": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/asdasd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        },
+        "image_LzLJUM": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/asdddd.png",
+            "text": "Highlights",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WYTqni",
+        "image_rfRyVz",
+        "image_gn9czc",
+        "image_zAKLLq",
+        "image_h64EpK",
+        "image_LzLJUM"
+      ],
+      "settings": {
+        "headline": "Clearance Sale",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse_cut-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/ripple.gif",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 250,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 45,
+        "mobile_circle_size": 125,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "image_banner_XQqrLU": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9iTR87": {
+          "type": "heading",
+          "settings": {
+            "heading": "Improve UI/UX With  {{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_XjKCyh": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.short_section_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_AeKzWy": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9iTR87",
+        "text_XjKCyh",
+        "buttons_AeKzWy"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image_1_x_1.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_LChTqF": {
+      "type": "reviews",
+      "blocks": {
+        "review_TxniwN": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_TxniwN"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_NtYraN": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_PKYptx": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_32.svg",
+            "text": "Display Top Collection",
+            "link": "shopify://metaobjects/improve_user_experience/top-collections"
+          }
+        },
+        "image_ehVdK8": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_34.svg",
+            "text": "Marquee Highlights",
+            "link": "shopify://metaobjects/improve_user_experience/marquee-highlights"
+          }
+        },
+        "image_E6hP9K": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/Asset_35.svg",
+            "text": "FAQ Designs",
+            "link": "shopify://metaobjects/improve_user_experience/faq"
+          }
+        },
+        "image_zGWV97": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "shopify://shop_images/Asset_41.svg",
+            "text": "Link Grid",
+            "link": "shopify://metaobjects/improve_user_experience/link-grid"
+          }
+        }
+      },
+      "block_order": [
+        "image_PKYptx",
+        "image_ehVdK8",
+        "image_E6hP9K",
+        "image_zGWV97"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Improve UI/UX</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_kM69tc",
+    "boost_star_experts_marquee_highlights_jfWi7d",
+    "rich_text_mGmaee",
+    "top_collections_boost_star_cNGJNe",
+    "rich_text_dBeQ3q",
+    "top_collections_boost_star_t3dc8m",
+    "rich_text_iaJncG",
+    "top_collections_boost_star_EEhQC6",
+    "rich_text_iqUThX",
+    "top_collections_boost_star_4qaVDt",
+    "rich_text_Fm4gw4",
+    "top_collections_boost_star_NXNNY4",
+    "rich_text_BP66eF",
+    "top_collections_boost_star_7YfPfa",
+    "rich_text_adK8W8",
+    "top_collections_boost_star_Pr9jqR",
+    "image_banner_XQqrLU",
+    "reviews_LChTqF",
+    "top_collections_boost_star_NtYraN"
+  ]
+}

@@ -1,0 +1,412 @@
+{% capture css %}
+  
+<style>
+    #bse-dis-code{{ section.id }} {
+    padding-top: {{ section.settings.padding_tp }}px;
+    margin-top: {{ section.settings.margin_tp }}px;
+    padding-bottom: {{ section.settings.padding_bt }}px;
+    margin-bottom: {{ section.settings.margin_bt }}px;
+    background-color: {{ section.settings.section_bg }};
+    {% if section.settings.bg_image != blank %}
+    background-image: url("{{ section.settings.bg_image | image_url }}");
+    background-size: {{section.settings.bg_size}};
+    background-position: {{section.settings.bg_pos}};
+    {% if section.settings.parallax  %}
+    background-attachment: fixed;
+    {% endif %}
+    {% endif %}
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn {
+      font-weight: 700;
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.3s;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+      border-radius: 0.5rem;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon {
+      line-height: 1.2;
+      display: flex;
+      margin: 0 auto;
+      padding: 0;
+    }
+  #bse-dis-code{{ section.id }} .bse-dis-02-btn-wrap {
+      max-width : {{section.settings.max_width}}px;
+      margin: 0 auto;
+  }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon .bse-dis2-left-ele {
+      width: 80%;
+      padding: 20px;
+      background-color: {{ section.settings.background_color }};
+      transition: all 0.6s;
+      transform-origin: top left;
+      border: {{ section.settings.border_width }}px {{ section.settings.border_type }} {{ section.settings.border_color }};
+      border-right: 0;
+      transform-style: preserve-3d;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon .bse-dis2-left-ele span.bse-dis-2-h {
+      color: {{ section.settings.heading_color }};
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon .bse-dis2-left-ele span.bse-dis-codedescription {
+      color: {{ section.settings.description_color }};
+      font-weight: 400;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon .bse-dis2-left-ele em {
+      font-size: 38px;
+      font-style: normal;
+      display: block;
+      color: {{ section.settings.em_color }};
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon .bse-dis2-right-el {
+      position: relative;
+      width: 20%;
+      transition: all 0.6s;
+      transform-origin: top left;
+      border-left: {{ section.settings.border_width }}px {{ section.settings.border_type }} {{ section.settings.background_color }};
+      background: {{ section.settings.button_background_color }};
+      color: {{ section.settings.button_text_color }};
+      transform-style: preserve-3d;
+    }
+    #bse-dis-code{{ section.id }} .bse-dis-02-btn-coupon .bse-dis2-right-el span {
+      position: absolute;
+      transform: rotate(90deg);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(90deg);
+      display: inline-block;
+      width: 100%;
+    }
+  </style>
+
+   {% endcapture %} 
+ {{ css | strip_newlines }}
+ 
+
+{% capture html %}
+
+<section id="shopify-section-template--{{ section.id }}" class="shopify-section">
+    <div id="bse-dis-code{{ section.id }}" class="bse-dis-code{{ section.id }} bse-dis-codesection bse-dis-codeblock">
+        <div class="bse-dis-02-btn-wrap">
+          <div class="bse-dis-02-btn bse-dis-02-btn-coupon">
+            <div class="bse-dis2-left-ele">
+              <span class="bse-dis-2-h">{{ section.settings.heading }}</span><br>
+              <em>{{ section.settings.em_text }}</em>
+              <span class="bse-dis-codedescription">{{ section.settings.description }}</span>
+            </div>
+            <div class="bse-dis2-right-el" coupon_code="{{ section.settings.coupon_code }}" onclick="bse_dis_code2">
+              <span class="bse-dis-2-content">{{ section.settings.button_text }}</span>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+  {% endcapture %}
+ {{ html | strip_newlines }}
+
+
+{% schema %}
+{
+  "name": "BOOST : Discount Code 02",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Get 25% Off now"
+    },
+    {
+      "type": "text",
+      "id": "em_text",
+      "label": "Emphasized text",
+      "default": "25% OFF"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Valid till 17 March 2025."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "COPY"
+    },
+    {
+      "type": "text",
+      "id": "coupon_code",
+      "label": "Coupon Code",
+      "default": "10% OFF"
+    },
+    {
+      "type": "text",
+      "id": "copied_text",
+      "label": "Copied text",
+      "default": "COPIED"
+    },
+    {
+      "type": "color",
+      "id": "section_bg",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#e94919"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#565656"
+    },
+    {
+      "type": "color",
+      "id": "em_color",
+      "label": "Emphasized text color",
+      "default": "#e94919"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background color",
+      "default": "#e94919"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#e94919"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border Width",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "border_type",
+      "label": "Border Type",
+       "options" : [
+          {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "solid",
+          "label": "Solid"
+        },
+         {
+          "value": "dotted",
+          "label": "Dotted"
+        },
+         {
+          "value": "double",
+          "label": "Double"
+        },
+          {
+          "value": "dashed",
+          "label": "Dashed"
+        },
+        {
+          "value": "groove",
+          "label": "Groove"
+        },
+         {
+          "value": "ridge",
+          "label": "Ridge"
+        },
+       ],
+      "default" : "dashed"
+    },
+    {
+       "type": "header",
+       "content": "Background Image"
+     },
+     {
+       "type" : "image_picker",
+       "id" : "bg_image",
+       "label" : "Background Image"
+     },
+     {
+       "type" : "checkbox",
+       "label" : "Enable Parallax Effect",
+       "id" : "parallax",
+       "default" : false
+     },
+      {
+       "type": "select",
+       "id": "bg_size",
+       "label": "Background Size",
+       "options": [
+         {
+           "value": "cover",
+           "label": "Cover"
+         },
+         {
+           "value": "contain",
+           "label": "Contain"
+         },
+         {
+           "value": "auto",
+           "label": "Auto"
+         }
+       ],
+       "default": "cover"
+     },
+      {
+       "type": "select",
+       "id": "bg_pos",
+       "label": "Background Position",
+       "options": [
+         {
+           "value": "top",
+           "label": "Top"
+         },
+         {
+           "value": "bottom",
+           "label": "Bottom"
+         },
+         {
+           "value": "center",
+           "label": "Center"
+         },
+         {
+           "value": "left",
+           "label": "Left"
+         },
+         {
+           "value": "right",
+           "label": "Right"
+         }
+       ],
+       "default": "center"
+     },
+    {
+      "type": "header",
+      "content": "Dimentions"
+    },
+    {
+       "id": "max_width",
+       "default": 1600,
+       "label": "Max Section Width",
+       "type": "range",
+        "min": 400,
+       "max":1800,
+       "step": 100
+     },
+    {
+       "id": "margin_tp",
+       "default": 0,
+       "label": "Margin Top",
+       "type": "range",
+       "min": 0,
+       "max": 100,
+       "step": 1
+     },
+     {
+       "id": "margin_bt",
+       "default": 0,
+       "label": "Margin Bottom",
+       "type": "range",
+       "min": 0,
+       "max": 100,
+       "step": 1
+     },
+     {
+       "id": "padding_tp",
+       "default": 20,
+       "label": "Padding Top",
+       "type": "range",
+       "min": 0,
+       "max":100,
+       "step": 1
+     },
+     {
+       "id": "padding_bt",
+       "default": 20,
+       "label": "Padding Bottom",
+       "type": "range",
+       "min": 0,
+       "max":100,
+       "step": 1
+     }
+  ],
+  "presets": [
+    {
+      "name": "BOOST : Discount Code 02",
+      "category": "CRO",
+      "settings": {
+        "background_color": "#ffffff",
+        "heading_color": "#e94919",
+        "description_color": "#565656",
+        "em_color": "#e94919",
+        "border_color": "#e94919",
+        "button_background_color": "#e94919",
+        "button_text_color": "#ffffff"
+      }
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+
+
+  function bse_dis_code2() {
+   
+    const copyButtons = document.querySelectorAll('.bse-dis2-right-el');
+
+    copyButtons.forEach(button => {
+      const copyButton = button.querySelector('.bse-dis-02-btn-wrap');
+      const copiedButton = button.querySelector('.bse-dis-2-content');
+
+      button.addEventListener('click', () => {
+        var tempInput = document.createElement('input');
+        tempInput.value = button.getAttribute('coupon_code');
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        copiedButton.innerHTML = '{{ section.settings.copied_text }}';
+
+        setTimeout(() => {
+          copiedButton.innerHTML = '{{ section.settings.button_text }}';
+        }, 3000);
+      });
+    });    
+ 
+  }
+
+  document.addEventListener('DOMContentLoaded', bse_dis_code2);
+
+  if (Shopify.designMode) {
+    document.addEventListener('shopify:section:unload', bse_dis_code2);
+    document.addEventListener('shopify:section:load', bse_dis_code2);
+  }
+</script>
+
+

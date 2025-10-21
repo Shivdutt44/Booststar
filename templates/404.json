@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "multicolumn_tQh6D3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TLYX4m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_97.png",
+            "title": "<strong>Oops, you found our 404 page</strong>",
+            "text": "<p>This is not a fault, just an accident that was not intentional. However, we doubt that this is the page you're looking for and we apologize profusely for it.<br/><br/><a href=\"/\" title=\"/\">Return Home</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TLYX4m"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "multicolumn_tQh6D3",
+    "main"
+  ]
+}

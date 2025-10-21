@@ -1,0 +1,656 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KN4Yjr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9mhnk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrEn3t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win The Customer Trust With {{ metaobject.heading.value }}</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9mhnk",
+        "text_HrEn3t"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_88Ugwa": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_rkwU6z": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_pHCQ3R": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_adLm8E": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_L7GDdp": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_9Qa6CE": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_rkwU6z",
+        "icon_with_text_pHCQ3R",
+        "icon_with_text_adLm8E",
+        "icon_with_text_L7GDdp",
+        "icon_with_text_9Qa6CE"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_MBdyC9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pAjWMh": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_RdmYfe": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_pAjWMh",
+        "text_RdmYfe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_wP3eVK": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(244, 232, 232, 1), rgba(255, 255, 255, 1) 100%)",
+        "image_1": "shopify://shop_images/wded.png",
+        "image_2": "shopify://shop_images/asdasdsadd.png",
+        "image_3": "shopify://shop_images/asdasd.png",
+        "image_4": "shopify://shop_images/asdasdsadd.png",
+        "image_5": "shopify://shop_images/asdad.png",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "rich_text_fmALDN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rBUrBE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_XfWcjq": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_rBUrBE",
+        "text_XfWcjq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_qGJYXq": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(237, 28, 28, 1), rgba(255, 255, 255, 1))",
+        "image_1": "shopify://shop_images/wded.png",
+        "image_2": "shopify://shop_images/asdasdsadd.png",
+        "image_3": "shopify://shop_images/asdasd.png",
+        "image_4": "shopify://shop_images/asdasdsadd.png",
+        "image_5": "shopify://shop_images/asdad.png",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "rich_text_fnakNR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FTd6q4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_JqpJpY": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTd6q4",
+        "text_JqpJpY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_XeycWy": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(237, 28, 28, 1), rgba(255, 255, 255, 1))",
+        "image_1": "shopify://shop_images/wded.png",
+        "image_2": "shopify://shop_images/asdasdsadd.png",
+        "image_3": "shopify://shop_images/asdasd.png",
+        "image_4": "shopify://shop_images/asdasdsadd.png",
+        "image_5": "shopify://shop_images/asdad.png",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "rich_text_R7YUGM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_c3BRmm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_kp73X8": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_c3BRmm",
+        "text_kp73X8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_p8Dqkf": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(237, 28, 28, 1), rgba(255, 255, 255, 1) 100%)",
+        "image_1": "shopify://shop_images/Asset_42.svg",
+        "image_2": "shopify://shop_images/asdasdsadd.png",
+        "image_3": "shopify://shop_images/asdasd.png",
+        "image_4": "shopify://shop_images/asdasdsadd.png",
+        "image_5": "shopify://shop_images/asdad.png",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "rich_text_QUPEQY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MRERhC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_YfG4dy": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MRERhC",
+        "text_YfG4dy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_AMHMbb": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "rich_text_9wxCMe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Y7yFMi": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_jHqbCY": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y7yFMi",
+        "text_jHqbCY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_iTcGi7": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "rich_text_3VV4gK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_h6HBx4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_UyUzcC": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_h6HBx4",
+        "text_UyUzcC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_payment_icon_kxL7aw": {
+      "type": "boost-star-payment-icon",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1600,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_block": 25,
+        "margin_block": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": true,
+        "show_paypal": true,
+        "show_apple_pay": true,
+        "show_google_pay": true,
+        "show_shop_pay": true
+      }
+    },
+    "image_banner_EcrfBD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CTCFQc": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_6xQhYM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_AdEbBW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_CTCFQc",
+        "text_6xQhYM",
+        "buttons_AdEbBW"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_Di7N6A": {
+      "type": "reviews",
+      "blocks": {
+        "review_96CzpP": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_96CzpP"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_DHxCEz": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_F989eJ": {
+          "type": "image",
+          "repeater": "{{ metaobject.win_the_customer_trust.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_F989eJ"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Win The Customer Trust</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_KN4Yjr",
+    "boost_star_experts_marquee_highlights_88Ugwa",
+    "rich_text_MBdyC9",
+    "boost_star_payment_icon_wP3eVK",
+    "rich_text_fmALDN",
+    "boost_star_payment_icon_qGJYXq",
+    "rich_text_fnakNR",
+    "boost_star_payment_icon_XeycWy",
+    "rich_text_R7YUGM",
+    "boost_star_payment_icon_p8Dqkf",
+    "rich_text_QUPEQY",
+    "boost_star_payment_icon_AMHMbb",
+    "rich_text_9wxCMe",
+    "boost_star_payment_icon_iTcGi7",
+    "rich_text_3VV4gK",
+    "boost_star_payment_icon_kxL7aw",
+    "image_banner_EcrfBD",
+    "reviews_Di7N6A",
+    "top_collections_boost_star_DHxCEz"
+  ]
+}

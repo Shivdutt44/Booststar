@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_h7A7iP": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/CHOOSE_THE_THEME_THAT_SALES.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_MefF3W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RiARYE": {
+          "type": "heading",
+          "settings": {
+            "heading": "SELECT THE<strong> PERFECT THEME</strong> THAT MATCHES <strong>YOUR BRAND</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RiARYE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_R8drhE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fXkqa8": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHOOSE THE <strong>BEST SHOPIFY THEME </strong>FOR<strong> </strong>YOUR <strong>BRAND</strong>",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_G8nGEa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✅ SEO-friendly  ✅ Lightning-fast speed</p><p>✅ Fully responsive design ✅ Expertly tested for performance</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fXkqa8",
+        "text_G8nGEa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1561016246211.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_cGCwnY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dVH9fJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Verified by <strong>Experts & Marketers</strong> With <strong>Unbeatable</strong> Prices",
+            "heading_size": "h1"
+          }
+        },
+        "text_T3jzGB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get Premium Shopify themes, trusted by experts, at unbeatable prices. </p><p>Elevate your store's design and boost sales today!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dVH9fJ",
+        "text_T3jzGB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 88
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "multicolumn_k87KnD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wN89xW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Course-Duration.svg",
+            "title": "Program Duration",
+            "text": "<p>2 Months</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JBDHxA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/online-education.svg",
+            "title": "Delivery Mode",
+            "text": "<p>Live Virtual Classes</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PL3LYm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Daily-Duration.webp",
+            "title": "Daily Duration",
+            "text": "<p>2.5 Hours (Class&Labs)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_df9rLy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Doubt-Clearing.svg",
+            "title": "Doubt Clearing",
+            "text": "<p>Live Chat & Forums</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eQFnb3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Online-Portfolio.svg",
+            "title": "Online Portfolio",
+            "text": "<p>12 projects to showcase</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_F7KiYz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DISHA-Workshops-1.webp",
+            "title": "DISHA Workshops",
+            "text": "<p>Resume & Interview Prep</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LLaL34": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mock-Interviews.svg",
+            "title": "Competitive Coding",
+            "text": "<p>DSA and problem-solving</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_edMrRQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Placement-Support.svg",
+            "title": "Placement Support",
+            "text": "<p>2 years unlimited chances</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wN89xW",
+        "column_JBDHxA",
+        "column_PL3LYm",
+        "column_df9rLy",
+        "column_eQFnb3",
+        "column_F7KiYz",
+        "column_LLaL34",
+        "column_edMrRQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_QwQ43D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GRRUeJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "SOFT SKILLS & INTERVIEW PREP WORKSHOPS INCLUDED",
+            "heading_size": "h1"
+          }
+        },
+        "text_iRq7Hd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DISHA means Direction in Hindi. We strongly believe you as a student require close guidance to achieve your goal of skilling and placements. Hence under the umbrella of DISHA, multiple workshops and sessions are planned to make you realize your goals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GRRUeJ",
+        "text_iRq7Hd"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_UDg9xT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AmfXir": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Resume.webp",
+            "title": "",
+            "text": "<h3>Resume Preparation</h3><p>Learn how to build an impressive resume which can help to ace your interviews. Get expert tips about DOs and DON’T in a resume.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3HMdne": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Interview-Facing-Workshp.png",
+            "title": "Interview Facing",
+            "text": "<p>Interview facing is an art and science. Understand different personalities you will be meeting as an interviewer and come out as a winner by attending  this workshop.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9mRDhW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mock-Interview.svg",
+            "title": "Mock Interviews",
+            "text": "<p>Frequent mock interviews are conducted and feedback is shared with you. This will help you to understand the gaps and perform well during real interviews.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Mtieib": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Company-Specific-Preps.webp",
+            "title": "Company Specific Preps",
+            "text": "<p>With more than 80% repeat recruiters, we know what companies ask for. Attending these company specific preps will definitely increase your chances.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Nx6FmP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mock-Interview-1.svg",
+            "title": "Monthly Meetings",
+            "text": "<p>Every month meetings are conducted to give placement updates and career trends. You can also clarify all our questions about placements by attending these sessions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nNWg9Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Interview-Facing-Workshp-copy.webp",
+            "title": "Master Class Webinars",
+            "text": "<p>Launched as a series, Master Class Webinars bring industry experts to interact with you. Learn from experts who have been there and done that.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AmfXir",
+        "column_3HMdne",
+        "column_9mRDhW",
+        "column_Mtieib",
+        "column_Nx6FmP",
+        "column_nNWg9Q"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_h7A7iP",
+    "rich_text_MefF3W",
+    "product-grid",
+    "image_banner_R8drhE",
+    "rich_text_cGCwnY",
+    "banner",
+    "multicolumn_k87KnD",
+    "rich_text_QwQ43D",
+    "multicolumn_UDg9xT"
+  ]
+}

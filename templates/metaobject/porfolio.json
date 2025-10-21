@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "none",
+  "sections": {
+    "portfolio_ntEz8F": {
+      "type": "portfolio",
+      "name": "Student Resume",
+      "settings": {
+        "student_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].student_name.value }}",
+        "student_role": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].student_role.value }}",
+        "student_image": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].student_image.value }}",
+        "certification": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification.value }}",
+        "internship_dates": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].internship_dates.value }}",
+        "phone": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].phone.value }}",
+        "location": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].location.value }}",
+        "email": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].email.value }}",
+        "about_short": "<p>{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].short_about | metafield_tag }}</p>",
+        "about_full": "<p>{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].full_about | metafield_tag }}</p>",
+        "skill_1_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].skill_1_name.value }}",
+        "skill_1_percentage": 90,
+        "skill_2_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].skill_2_name.value }}",
+        "skill_2_percentage": 75,
+        "skill_3_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].skill_3_name.value }}",
+        "skill_3_percentage": 80,
+        "skill_4_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].skill_4_name.value }}",
+        "skill_4_percentage": 60,
+        "skill_5_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].skill_5_name.value }}",
+        "skill_5_percentage": 65,
+        "certification_title": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_title.value }}",
+        "certification_highlight_1": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_highlight_1.value }}",
+        "certification_highlight_2": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_highlight_2.value }}",
+        "certification_highlight_3": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_highlight_3.value }}",
+        "certification_highlight_4": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_highlight_4.value }}",
+        "certification_highlight_5": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_highlight_5.value }}",
+        "certification_details": "<p>{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_details | metafield_tag }}</p>",
+        "certification_badge": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].certification_badge.value }}",
+        "testimonial_1_mentor_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_1_mentor_name.value }}",
+        "testimonial_1_mentor_role": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_1_mentor_role.value }}",
+        "testimonial_1_mentor_image": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_1_mentor_image.value }}",
+        "testimonial_1_text": "<p>{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_1_text | metafield_tag }}</p>",
+        "testimonial_2_mentor_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_2_mentor_name.value }}",
+        "testimonial_2_mentor_role": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_2_mentor_role.value }}",
+        "testimonial_2_mentor_image": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_2_mentor_image.value }}",
+        "testimonial_2_text": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_2_text | metafield_tag }}",
+        "testimonial_3_mentor_name": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_3_mentor_name.value }}",
+        "testimonial_3_mentor_role": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_3_mentor_role.value }}",
+        "testimonial_3_mentor_image": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_3_mentor_image.value }}",
+        "testimonial_3_text": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].testimonial_3_text | metafield_tag }}",
+        "portfolio_image": "{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].portfolio_image.value }}",
+        "portfolio_text": "<p>{{ metaobjects.team_members_porfolio[\"shopify-liquid\"].portfolio_text | metafield_tag }}</p>"
+      }
+    }
+  },
+  "order": [
+    "portfolio_ntEz8F"
+  ]
+}

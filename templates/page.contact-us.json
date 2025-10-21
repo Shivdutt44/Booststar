@@ -1,0 +1,423 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "top_collections_boost_star_4qw7pF": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_76BdJg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/image_processing20201103-24799-19vf3o0.gif",
+            "text": "Email us",
+            "link": "mailto:contact@booststar.in"
+          }
+        },
+        "image_HFWfab": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/phone-pulse_ca4e133d-5c95-4b5f-9344-607ac7e4d6e5.gif",
+            "text": "Call us",
+            "link": "tel:+917000587074"
+          }
+        },
+        "image_NmDfby": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1) 85%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/Whatsapp-Logo-GIF-WhatsApp-Icon-GIF-Royalty-Free-Animated-Icon-GIF-350px-after-effects-project.gif",
+            "text": "WhatsApp",
+            "link": "https://wa.me/7000587074"
+          }
+        },
+        "image_cYwhce": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(73, 251, 17, 0) 81%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif",
+            "text": "LinkedIn",
+            "link": "https://www.linkedin.com/company/boost-star-experts/"
+          }
+        },
+        "image_GWBzpL": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/phone-pulse_ca4e133d-5c95-4b5f-9344-607ac7e4d6e5.gif",
+            "text": "Call us",
+            "link": "tel:+916265084929"
+          }
+        }
+      },
+      "block_order": [
+        "image_76BdJg",
+        "image_HFWfab",
+        "image_NmDfby",
+        "image_cYwhce",
+        "image_GWBzpL"
+      ],
+      "settings": {
+        "headline": "<strong>QUICK CONNECT WITH US</strong>",
+        "tag": "h1",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/graph_bg_5799fcf1-4e4f-4d31-9906-6413836376ec.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 60,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "1722156473da98985e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_MNdWX9": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_MNdWX9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "boost_star_display_policies_mqhh9J": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_UFLDMT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": "https://trustpilot.com/review/booststar.rlchats.com"
+          }
+        },
+        "icon_9i6P7e": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": "https://partnersdirectory.withgoogle.com/partners/9404980363"
+          }
+        },
+        "icon_RnRhdf": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED </strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_nf6Tg7": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": "https://g.page/r/Ce4BtBFUVOsOEAI/review"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UFLDMT",
+        "icon_9i6P7e",
+        "icon_RnRhdf",
+        "icon_nf6Tg7"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(105deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(0deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": true,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "image_with_text_6QyWJG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Lkkxmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re Your Partner in Ecommerce Success",
+            "heading_size": "h2"
+          }
+        },
+        "text_xpBcBW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/\" target=\"_blank\" title=\"/\">BOOST STAR EXperts</a> is a Chhatishgan India-based eCommerce agency specializing in the Shopify platform and digital marketing. We are dedicated to helping eCommerce startups enhance their online presence and grow their businesses.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_rAkXXC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Success Stories",
+            "button_link": "shopify://pages/client-success-stories-boost-star-experts-reviews",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lkkxmz",
+        "text_xpBcBW",
+        "button_rAkXXC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_22.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_ym97mU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ENz7wx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact us",
+            "heading_size": "h2"
+          }
+        },
+        "text_VdkJ7A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Booststar Experts is a Jaipur, India-based eCommerce agency specializing in the Shopify platform and digital marketing. We are dedicated to helping eCommerce startups enhance their online presence and grow their businesses.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_fqDEew": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify://pages/about-company",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENz7wx",
+        "text_VdkJ7A",
+        "button_fqDEew"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Asset_2_36e55657-d2d0-4c12-a313-90256825abad.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_qX9fkb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B63pJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SUCCESS WITH 1000+ E-COMMERCE BUSINESSES </strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_zbpb4L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are one of the best eCommerce service providers, specializing in Shopify, Wix, BigCommerce, and WooCommerce. We have worked on 1000+ projects and increased our clients' revenue within 6 months.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B63pJY",
+        "text_zbpb4L"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_aGcb4V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KnWNCW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/group-individuals-gathered-around-table-engaging-meeting-using-laptop-people-are-having-meeting-simple-minimalist-flat-vector-illustration_538213-53670.jpg",
+            "title": "Success Stories",
+            "text": "",
+            "link_label": "View Now",
+            "link": "shopify://pages/client-success-stories-boost-star-experts-reviews"
+          }
+        },
+        "column_Qxt3GV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/leader-supervising-office-worker-creative-startup_80802-418.jpg",
+            "title": "Our Team",
+            "text": "",
+            "link_label": "View Now",
+            "link": "shopify://pages/meet-our-team"
+          }
+        },
+        "column_rtV3gR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/business-team-planning-working-process-flat-vector-illustration-cartoon-colleagues-talking-sharing-thoughts-smiling-company-office-teamwork-workflow-concept_74855-9813.jpg",
+            "title": "About us",
+            "text": "",
+            "link_label": "View Now",
+            "link": "shopify://pages/about-us"
+          }
+        },
+        "column_PUcnQL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kids-video-conference-with-friend-home_80802-693.jpg",
+            "title": "Join Internship",
+            "text": "",
+            "link_label": "View Now",
+            "link": "shopify://pages/join-internship-program"
+          }
+        },
+        "column_djCykf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/perfect-design-illustration-digital-marketing_362714-927.jpg",
+            "title": "Ecommerce Articles",
+            "text": "",
+            "link_label": "View Now",
+            "link": "shopify://blogs/ecommerce"
+          }
+        }
+      },
+      "block_order": [
+        "column_KnWNCW",
+        "column_Qxt3GV",
+        "column_rtV3gR",
+        "column_PUcnQL",
+        "column_djCykf"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "#",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "top_collections_boost_star_4qw7pF",
+    "1722156473da98985e",
+    "main",
+    "boost_star_display_policies_mqhh9J",
+    "image_with_text_6QyWJG",
+    "image_with_text_ym97mU",
+    "rich_text_qX9fkb",
+    "multicolumn_aGcb4V"
+  ]
+}

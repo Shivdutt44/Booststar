@@ -1,0 +1,236 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "faq_boost_star_jFbydn": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_Em7NkP": {
+          "type": "text",
+          "settings": {
+            "question": "{{ article.metafields.custom.faq_1.value }}",
+            "answer": "{{ article.metafields.custom.ans_1 | metafield_tag }}"
+          }
+        },
+        "text_tjzBCd": {
+          "type": "text",
+          "settings": {
+            "question": "{{ article.metafields.custom.faq2.value }}",
+            "answer": "{{ article.metafields.custom.ans2 | metafield_tag }}"
+          }
+        },
+        "text_yQf6UX": {
+          "type": "text",
+          "settings": {
+            "question": "{{ article.metafields.custom.faq3.value }}",
+            "answer": "{{ article.metafields.custom.ans3 | metafield_tag }}"
+          }
+        },
+        "text_QjC7Qp": {
+          "type": "text",
+          "settings": {
+            "question": "{{ article.metafields.custom.faq4.value }}",
+            "answer": "{{ article.metafields.custom.ans4 | metafield_tag }}"
+          }
+        },
+        "text_T6Nktp": {
+          "type": "text",
+          "settings": {
+            "question": "{{ article.metafields.custom.faq5.value }}",
+            "answer": "{{ article.metafields.custom.ans5 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_Em7NkP",
+        "text_tjzBCd",
+        "text_yQf6UX",
+        "text_QjC7Qp",
+        "text_T6Nktp"
+      ],
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "25B6",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#97ba52",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#97ba52",
+        "question_color": "#ffffff",
+        "background_color": "#121212",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "featured_blog_m6Lezg": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "DON'T MISS THESE",
+        "heading_size": "h2",
+        "blog": "ecommerce",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Xy8iiQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EkWJQB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Baller-babe_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/case_studies/floor-land-uk-speed-optimization-overview"
+          }
+        },
+        "column_brxFJ4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cycle-1_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/cycle"
+          }
+        },
+        "column_KcCRYp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pns-_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/premier-nail-supply"
+          }
+        },
+        "column_D4QN6J": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/floorlandgif.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/case_studies/floor-land-uk-speed-optimization-overview"
+          }
+        },
+        "column_8Pt6FQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Jamara-Homes_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/jmg"
+          }
+        },
+        "column_aLMUE8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/consciouschemiste.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/prakher-mathur"
+          }
+        }
+      },
+      "block_order": [
+        "column_EkWJQB",
+        "column_brxFJ4",
+        "column_KcCRYp",
+        "column_D4QN6J",
+        "column_8Pt6FQ",
+        "column_aLMUE8"
+      ],
+      "settings": {
+        "title": "BOOST YOUR INSPIRATION WITH SHOPIFY SUCCESS STORIES",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Read more",
+        "button_link": "shopify://pages/case-studies-sales-generation-google-ads",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_boost_star_jFbydn",
+    "featured_blog_m6Lezg",
+    "multicolumn_Xy8iiQ"
+  ]
+}

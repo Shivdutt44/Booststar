@@ -1,0 +1,725 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_jmreeC": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zYziJB": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_ffiPEE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply \"<strong>Announcement Bar With Countdown Offer</strong>\" section to show offers  and deals . </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zYziJB",
+        "text_ffiPEE"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_rNYyt7": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_hDBDjd": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_NxUjtW": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_qkbU4w": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_UUmApJ": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_LGtTa7": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_hDBDjd",
+        "icon_with_text_NxUjtW",
+        "icon_with_text_qkbU4w",
+        "icon_with_text_UUmApJ",
+        "icon_with_text_LGtTa7"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_yf8WtH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qBJfQP": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN 1 FOR COUNTDOWN OFFER",
+            "heading_size": "h1"
+          }
+        },
+        "text_8JtHFk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Check out design 1 for countdown offer, featuring exclusive deals, limited-time discounts, and a sleek design perfect for urgent promotions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qBJfQP",
+        "text_8JtHFk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_wyDtrY": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "star",
+        "text": "Display Discounts",
+        "text_alignment": "right",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 50,
+        "corner": 26,
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(198, 113, 31, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#f2f7fa",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "rich_text_9Pxxqn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8CkJWP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_UMwdFf": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8CkJWP",
+        "text_UMwdFf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_3WrEFe": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "payment",
+        "text": "Display Discounts",
+        "text_alignment": "center",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 30,
+        "corner": 5,
+        "max_width": 1600,
+        "padding_block": 9,
+        "padding_inline": 18,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(103, 198, 31, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#f2f7fa",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "rich_text_L9tQbp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CGy6Yc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_j4kKgd": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CGy6Yc",
+        "text_j4kKgd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_tb7e6m": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "gift",
+        "text": "Display Discounts",
+        "text_alignment": "left",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 30,
+        "corner": 5,
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#0d8bf4",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "bg_image": "shopify://shop_images/haloween_2.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "rich_text_xCVtNT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RWtGiF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_zmRbDV": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RWtGiF",
+        "text_zmRbDV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_gfmnmz": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "gift",
+        "text": "Display Discounts",
+        "text_alignment": "left",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 30,
+        "corner": 5,
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#0d8bf4",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "bg_image": "shopify://shop_images/Snow_2.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "rich_text_bFhGgB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gnPT3K": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_8G4mXJ": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gnPT3K",
+        "text_8G4mXJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_QfPcUD": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "gift",
+        "text": "Display Discounts",
+        "text_alignment": "left",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 30,
+        "corner": 5,
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#0d8bf4",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "bg_image": "shopify://shop_images/beach_2.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "rich_text_iRmwYE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GhxYVP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_mmeLKt": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_GhxYVP",
+        "text_mmeLKt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_XTtJya": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "gift",
+        "text": "Display Discounts",
+        "text_alignment": "left",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 30,
+        "corner": 5,
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#0d8bf4",
+        "text_color": "#121212",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "bg_image": "shopify://shop_images/Asset_44.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "rich_text_pKJhT9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DLFDW8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DB6d9A": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_DLFDW8",
+        "text_DB6d9A"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_countdown_offer_kfkTUn": {
+      "type": "boost-star-countdown-offer",
+      "settings": {
+        "end_date": "12/12/2030",
+        "page_link": "",
+        "icon": "gift",
+        "text": "Display Discounts",
+        "text_alignment": "left",
+        "text_size": 15,
+        "timer_size": 15,
+        "icon_size": 30,
+        "corner": 5,
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 39,
+        "background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(34, 34, 34, 1) 100%)",
+        "countdown_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "icon_color": "#0d8bf4",
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "timer_color": "#111111",
+        "border_color": "#0d8bf4",
+        "bg_image": "shopify://shop_images/Asset_4_3ba3fcd6-b8dc-47b3-9b8f-9d53c871d6b0.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "timer_font": "sans-serif"
+      }
+    },
+    "image_banner_RYtTwa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YyernE": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_akUBKj": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.short_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_dLKwDr": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_YyernE",
+        "text_akUBKj",
+        "buttons_dLKwDr"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_eQAARD": {
+      "type": "reviews",
+      "blocks": {
+        "review_YkmBeL": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_YkmBeL"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(255, 255, 255, 1) 1%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_gCTfKD": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_i8Afni": {
+          "type": "image",
+          "repeater": "{{ metaobject.discounts_deals.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_i8Afni"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Discounts & Deals</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_jmreeC",
+    "boost_star_experts_marquee_highlights_rNYyt7",
+    "rich_text_yf8WtH",
+    "boost_star_countdown_offer_wyDtrY",
+    "rich_text_9Pxxqn",
+    "boost_star_countdown_offer_3WrEFe",
+    "rich_text_L9tQbp",
+    "boost_star_countdown_offer_tb7e6m",
+    "rich_text_xCVtNT",
+    "boost_star_countdown_offer_gfmnmz",
+    "rich_text_bFhGgB",
+    "boost_star_countdown_offer_QfPcUD",
+    "rich_text_iRmwYE",
+    "boost_star_countdown_offer_XTtJya",
+    "rich_text_pKJhT9",
+    "boost_star_countdown_offer_kfkTUn",
+    "image_banner_RYtTwa",
+    "reviews_eQAARD",
+    "top_collections_boost_star_gCTfKD"
+  ]
+}

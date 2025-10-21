@@ -1,0 +1,595 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_YNFy9y": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JEDYJk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience <strong>Real Company Work </strong>Before Your First Job.",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_7aUk3y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of hearing “<strong>you need experience</strong>” at every interview? The Boost Star Experience Program gives you exactly that. You get a chance to work on real projects, get mentored by experts, and get certificates and referrals that actually work. </p><p>Join <strong>India’s leading industry simulation program</strong> and begin your journey not in theory but in action.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qP9czq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Your Journey",
+            "button_link": "#payment",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JEDYJk",
+        "text_7aUk3y",
+        "button_qP9czq"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/boost-star-banner-2_b144641a-95fb-4c0c-8e87-d68766420b6b.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pcfYCw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qKhhbB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Turn <strong>“No Experience”</strong> into Real Experience before you graduate.",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_b4GCYM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Getting a job ready doesn't start with a degree, it starts with doing the <strong>actual work.</strong><br/><br/>The Boost Star Experience Program lets you work on l<strong>ive industry projects</strong> and <strong>earn certificates and referrals</strong> that make you stand out.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_RbHreG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Building Experience",
+            "button_link": "#payment",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qKhhbB",
+        "text_b4GCYM",
+        "button_RbHreG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/boost-star-banner_82ff763d-d083-4675-93d8-ab43bf3efdef.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_thKQRx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_q4kVGF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not just training, this would feel like<strong> your first job.</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_kegp3m": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/\" target=\"_blank\" title=\"/\">BOOST STAR Experts</a> bridges a gap between your classroom and your career. Work on real projects, guided by mentors who have been in your shoes. Build a portfolio that speaks louder than your CGPA and walk into interviews with proof of your skills. </p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_E6UVJx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Start Building Experience",
+            "button_link_1": "#payment",
+            "button_style_secondary_1": false,
+            "button_label_2": "Download Programme Brochure",
+            "button_link_2": "#download",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_q4kVGF",
+        "text_kegp3m",
+        "buttons_E6UVJx"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banner_ss.png",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_3Lbmby": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DD6PeN": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is BOOST STAR <strong>Industry Experience Program?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_e8FLib": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This 3–6-week program is designed to turn students and freshers into confident professionals through practical work experience.</p><p>Here's what makes it different:</p><ul><li><strong>You’ll work on company-style projects </strong>similar to real job projects.</li><li><strong>Get 1:1 mentorship</strong> and actionable feedback from industry experts.</li><li><strong>Earn a certificate + a powerful referral letter </strong>to back your next opportunity. </li></ul><p>Build a resume that reflects your experience and gives you company exposure.</p>"
+          }
+        },
+        "button_f68zXL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "#payment",
+            "button_style_secondary": false,
+            "button_label_2": "See What You’ll Learn",
+            "button_link_2": "#download",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DD6PeN",
+        "text_e8FLib",
+        "button_f68zXL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_TDPxq8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JX7ay8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Best_Project_of_the_Week_2.png",
+            "title": "Real Projects ",
+            "text": "<p>Work on tasks that feel exactly the same as a real job so when you land your first job, you won’t feel like a beginner.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VJ7i8Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/modern-woman-at-laptop-working.jpg",
+            "title": "A Network that stays with you ",
+            "text": "<p>Get lifetime access to a private community of alumni, mentors, and peers</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VQJmLm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Certificate_of_Completion11.jpg",
+            "title": "Recommendations That Open the Door",
+            "text": "<p>A well-written referral letter that speaks for you and makes you stand out in the stack of job applications. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PnkDTf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/07086-ezgif.com-video-to-gif-converter.gif",
+            "title": "Career Support That Doesn't Ghost You ",
+            "text": "<p>From Resume building to LinkedIn optimization and interview prep. We help you get noticed and remembered by recruiters. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_whNfJM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/student-getting-diploma.jpg",
+            "title": "A Certification That Counts",
+            "text": "<p>Boost Star-signed certificate of completion that reflects your efforts, skills and commitment.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kjPjdw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6-programming-background-with-person-working-with-codes-computer-1024x580.jpg",
+            "title": "Best Mentors",
+            "text": "<p>Learn directly from the professionals who have faced the same challenge and get 1:1 guidance from them.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JX7ay8",
+        "column_VJ7i8Q",
+        "column_VQJmLm",
+        "column_PnkDTf",
+        "column_whNfJM",
+        "column_kjPjdw"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin: 0 auto;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>WHY JOIN THIS PROGRAM?</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_eGtwVa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_R8rz9J": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>This Program is Perfect For ?</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_txPfd7": {
+          "type": "text",
+          "settings": {
+            "text": "<h3></h3><ul><li><strong>Final-year students</strong> who want hands-on experience before graduating.</li><li><strong>Freshers</strong> who need real projects to show recruiters.</li><li><strong>Freelancers/ job seekers</strong> wanting to prove their skills with confidence.</li><li>Anyone tired of “fake internships” or “theory-only” learning and want something <strong>that actually adds value?</strong></li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R8rz9J",
+        "text_txPfd7"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/experience.svg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_C7fXex": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<center id=\"payment\">\n<h2>\nSpots fill fast. Don't wait for “someday” to build your future. \n</h2>\n<p>\nClick on the button below and join our team!\n</p>\n<form><script src=\"https://checkout.razorpay.com/v1/payment-button.js\" data-payment_button_id=\"pl_QdvBm8RR311Kgg\" async> </script> </form>\n\n</center>",
+        "color_scheme": "scheme-4",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "video_review_aTqpzP": {
+      "type": "video-review",
+      "blocks": {
+        "image_wWzbdB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_2.png",
+            "quote": "“This wasn’t just theory — I actually contributed to a campaign Boost Star was running. It’s on my resume now!”",
+            "cite": "",
+            "cta_link": ""
+          }
+        },
+        "image_KJ4UBH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_3.png",
+            "quote": "\"I got my first job interview because of the Boost Star referral and project experience. Totally worth the fee.”",
+            "cite": "",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWzbdB",
+        "image_KJ4UBH"
+      ],
+      "name": "BOOST - Media Review Grid",
+      "settings": {
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "text_size": 15,
+        "text_line_height": "1.2",
+        "text_color": "#111111",
+        "headline_size": 15,
+        "headline_line_height": "1.2",
+        "headline_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "review_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "highlight_color": "#97ba52",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1000,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "mobile_display": "stacked",
+        "mobile_columns": "1fr",
+        "progress_background_color": "linear-gradient(177deg, rgba(17, 17, 17, .25) 3%, rgba(17, 17, 17, 0.25) 100%)",
+        "progress_foreground_color": "linear-gradient(177deg, rgba(17, 17, 17, 1) 3%, rgba(17, 17, 17, 1) 100%)",
+        "indicator_color": "#111111",
+        "enable_autoplay": true,
+        "autoplay_time": "5000",
+        "big_play_pause_button": true,
+        "media_radius": 5,
+        "media_shadow": true
+      }
+    },
+    "image_with_text_rDqzNn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_piPwfP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Key Highlights</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_CzCjwt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Work on real projects with measurable results guided by Boost Star Experts.</p><p>Connect with senior leaders across both starter and pro plans. Meet the CEO and founder in the interactive sessions to guide your progress & Earn recommendation letters when you perform well in the program. </p><p>Get career support including guidance, incentives, and certificates.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_cNd4ja": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join Now",
+            "button_link": "#payment",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_piPwfP",
+        "text_CzCjwt",
+        "button_cNd4ja"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/extra-perks_f262bf32-d22a-4c0c-ad97-b1db7016845e.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_boost_star_BmtYRy": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_Grr9Qc": {
+          "type": "text",
+          "settings": {
+            "question": "Is this a paid internship?",
+            "answer": "<p>No, this is a <strong>paid training program with job simulation</strong>. You invest in hands-on training, mentorship, and certification that builds your future.<br/><br/></p>"
+          }
+        },
+        "text_Ukw6UA": {
+          "type": "text",
+          "settings": {
+            "question": "Is it online or offline?",
+            "answer": "<p>100% online. You can participate from anywhere with a laptop and internet.</p>"
+          }
+        },
+        "text_b4rjGF": {
+          "type": "text",
+          "settings": {
+            "question": "Will I get a certificate?",
+            "answer": "<p>Yes! You'll receive a <strong>signed digital certificate</strong> from Boost Star, which you can showcase on LinkedIn and in job applications.<br/><br/></p>"
+          }
+        },
+        "text_KLq6CN": {
+          "type": "text",
+          "settings": {
+            "question": "Will I get a job after this?",
+            "answer": "<p>We <strong>do not guarantee placements</strong>, but you walk away with :<br/></p><ul><li>Career support(resume + mock interviews)<br/><br/></li><li>A referral/recommendation letter (Elite track)<br/><br/></li><li>Projects that strengthen your job applications</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Grr9Qc",
+        "text_Ukw6UA",
+        "text_b4rjGF",
+        "text_KLq6CN"
+      ],
+      "name": "BOOST : Display FAQ's",
+      "settings": {
+        "heading": "<strong>Frequently Asked Questions</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "276F",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#111111",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#484948",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "image_banner_Qib3LQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9CGawn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Your next Step- Limited Seats, Unlimited Possibilities</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_MycyP6": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Spots fill fast. Don't wait for “someday” to build your future. </strong></h3><p>Whether you're stuck with no experience, confused about your next step, or tired of fake internships. This is where your career momentum begins.</p><p>New batch starts soon. Take your shot now. </p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_d7AV63": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Apply Now",
+            "button_link_1": "#payment",
+            "button_style_secondary_1": false,
+            "button_label_2": "Download Detailed Broacher PDF",
+            "button_link_2": "#download",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9CGawn",
+        "text_MycyP6",
+        "buttons_d7AV63"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_YNFy9y",
+    "image_with_text_pcfYCw",
+    "image_banner_thKQRx",
+    "rich_text_3Lbmby",
+    "multicolumn_TDPxq8",
+    "image_with_text_eGtwVa",
+    "custom_liquid_C7fXex",
+    "video_review_aTqpzP",
+    "image_with_text_rDqzNn",
+    "faq_boost_star_BmtYRy",
+    "image_banner_Qib3LQ"
+  ]
+}

@@ -1,0 +1,408 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "multirow_YdH6fp": {
+      "type": "multirow",
+      "blocks": {
+        "row_GrxRxJ": {
+          "type": "row",
+          "settings": {
+            "image": "{{ metaobject.business_success_image.value }}",
+            "imglink": "",
+            "caption": "{{ metaobject.client_designation.value }} AT {{ metaobject.client_full_name.value }}",
+            "heading": "{{ metaobject.page_title.value }}",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️</p>{{ metaobject.review_description | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_GrxRxJ"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "boost_star_achievement_counter_8zpk6C": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "<strong>POSITIVE BUSINESS IMPACT</strong>",
+        "content": "Highlighting the Significant Impact of <strong>6 Months </strong>on Online Business with <strong>BOOST STAR Experts's</strong> Help",
+        "content_alignment": "center",
+        "box_1_number": "{{ metaobject.result_in_numbers_1.value }}",
+        "append_1": "{{ metaobject.append_text_1.value }}",
+        "box_1_text": "{{ metaobject.result_title_1.value }}",
+        "box_2_number": "{{ metaobject.result_in_numbers_2.value }}",
+        "append_2": "{{ metaobject.append_text_2.value }}",
+        "box_2_text": "{{ metaobject.result_title_2.value }}",
+        "box_3_number": "{{ metaobject.result_in_numbers_3.value }}",
+        "append_3": "{{ metaobject.append_text_3.value }}",
+        "box_3_text": "{{ metaobject.result_title_3.value }}",
+        "headline_size": 28,
+        "text_size": 15,
+        "count_size": 40,
+        "text_color": "#000000",
+        "headline_color": "#000000",
+        "count_color": "#97ba52",
+        "background_color": "",
+        "number_border_color": "#97ba52",
+        "number_bg": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "element_spacing": 20,
+        "max_width": 1400,
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 10,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "count_font": "sans-serif"
+      }
+    },
+    "boost_star_achievement_counter_NtNebm": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "",
+        "content": "",
+        "content_alignment": "center",
+        "box_1_number": "{{ metaobject.result_in_numbers_4.value }}",
+        "append_1": "{{ metaobject.append_text_4.value }}",
+        "box_1_text": "{{ metaobject.result_title_4.value }}",
+        "box_2_number": "{{ metaobject.result_in_numbers_5.value }}",
+        "append_2": "{{ metaobject.append_text_5.value }}",
+        "box_2_text": "{{ metaobject.result_title_5.value }}",
+        "box_3_number": "{{ metaobject.result_in_numbers_6.value }}",
+        "append_3": "{{ metaobject.append_text_6.value }}",
+        "box_3_text": "{{ metaobject.result_title_6.value }}",
+        "headline_size": 25,
+        "text_size": 15,
+        "count_size": 40,
+        "text_color": "#ffffff",
+        "headline_color": "#ffffff",
+        "count_color": "#97ba52",
+        "background_color": "",
+        "number_border_color": "#97ba52",
+        "number_bg": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "element_spacing": 15,
+        "max_width": 1400,
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 10,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "count_font": "sans-serif"
+      }
+    },
+    "image_with_text_BDNPm7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TAVn7m": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.client_full_name.value }} Ecommerce Success",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_VtaRrP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Achieved Results After Doing :</strong></p><p>{{ metaobject.client_services.value }}</p><p>{{ metaobject.meta_description | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TAVn7m",
+        "text_VtaRrP"
+      ],
+      "settings": {
+        "image": "{{ metaobject.client_website_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_MBWApf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hjcHcK": {
+          "type": "heading",
+          "settings": {
+            "heading": "How {{ metaobject.client_full_name.value }} Achieved Success in Online Business?",
+            "heading_size": "h1"
+          }
+        },
+        "text_yFwjYx": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.client_success_storey | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hjcHcK",
+        "text_yFwjYx"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_experts_marquee_highlights_BLtCB8": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_Pka9gf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Floor-land-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/floor-land"
+          }
+        },
+        "image_GgnDNP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Demoi-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/de-moi"
+          }
+        },
+        "image_a6iGCV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sea-shield-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/francisco-linares"
+          }
+        },
+        "image_CK9CbC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cycle-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/cycle"
+          }
+        },
+        "image_8JkGzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/On-the-runway-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/olu-ajetomobi"
+          }
+        },
+        "image_XVm9ga": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Beyond-beauty_1.png",
+            "link": "shopify://metaobjects/client_reviews/premier-nail-supply"
+          }
+        },
+        "image_KfVJ7t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Conscious-chmeist-1_1.png",
+            "link": "shopify://metaobjects/client_reviews/prakher-mathur"
+          }
+        },
+        "image_nDUCr8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kass_1.png",
+            "link": "shopify://metaobjects/client_reviews/kass"
+          }
+        }
+      },
+      "block_order": [
+        "image_Pka9gf",
+        "image_GgnDNP",
+        "image_a6iGCV",
+        "image_CK9CbC",
+        "image_8JkGzE",
+        "image_XVm9ga",
+        "image_KfVJ7t",
+        "image_nDUCr8"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 30,
+        "max_width": 1400,
+        "height": 200,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "multicolumn_hzBNi4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Rpr6Wy": {
+          "type": "column",
+          "source": "{{ metaobject.related_case_studies.value }}",
+          "settings": {
+            "image": "{{ metaobject.related_case_studies.value.featured_image.value }}",
+            "title": "{{ metaobject.related_case_studies.value.case_study_title.value }}",
+            "text": "",
+            "link_label": "Read more",
+            "link": "{{ metaobject.related_case_studies.value.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "column_Rpr6Wy"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "GET MOTIVATION WITH CASE STUDIES",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Read more",
+        "button_link": "shopify://pages/client-success-stories-boost-star-experts-reviews",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1722159683e9fa12d8": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_Rna9qg": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 36,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_Rna9qg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_EyfCpw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XwPiGW": {
+          "type": "heading",
+          "settings": {
+            "heading": "WANT A FREE CONSULTATION FOR YOUR ONLINE BUSINESS ?",
+            "heading_size": "h1"
+          }
+        },
+        "text_3pQxCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let’s Connect to Discuss Your <strong>Business Challenges</strong> and Find the Path to Online Success.</p>"
+          }
+        },
+        "button_8kXCVt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Free Consultation",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "Read Success Stories",
+            "button_link_2": "shopify://pages/client-success-stories-boost-star-experts-reviews",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XwPiGW",
+        "text_3pQxCr",
+        "button_8kXCVt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "multirow_YdH6fp",
+    "boost_star_achievement_counter_8zpk6C",
+    "boost_star_achievement_counter_NtNebm",
+    "image_with_text_BDNPm7",
+    "rich_text_MBWApf",
+    "boost_star_experts_marquee_highlights_BLtCB8",
+    "multicolumn_hzBNi4",
+    "1722159683e9fa12d8",
+    "rich_text_EyfCpw"
+  ]
+}

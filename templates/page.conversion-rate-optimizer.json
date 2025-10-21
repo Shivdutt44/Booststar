@@ -1,0 +1,580 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_ym97mU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ENz7wx": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Shopify App Conversion Rate Optimizer",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_VdkJ7A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Booststar Experts is a Jaipur, India-based eCommerce agency specializing in the Shopify platform and digital marketing. We are dedicated to helping eCommerce startups enhance their online presence and grow their businesses.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_fqDEew": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENz7wx",
+        "text_VdkJ7A",
+        "button_fqDEew"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/about-us.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "boost_star_experts_marquee_highlights_eRQtYz": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_xb7KHb": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "FAST LOADING TIME",
+            "icon": "check",
+            "link": ""
+          }
+        },
+        "icon_with_text_fxQb7z": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "FREE TO USE",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_QmHfAF": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "COMPATIBLE WITH SHOPIFY 2.0",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_g3eDdw": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 25,
+            "gap": 5,
+            "text": "5 STAR RATINGS",
+            "icon": "star",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_xb7KHb",
+        "icon_with_text_fxQb7z",
+        "icon_with_text_QmHfAF",
+        "icon_with_text_g3eDdw"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "reviews_4AbBF9": {
+      "type": "reviews",
+      "blocks": {
+        "review_fCMTMM": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>"
+          }
+        },
+        "review_BwQRPT": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>"
+          }
+        },
+        "review_cCXdJ3": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>"
+          }
+        },
+        "review_thYJcx": {
+          "type": "review",
+          "settings": {
+            "reviews": "5",
+            "name": "Ritik",
+            "designation": "Founder & CEO",
+            "review": "<p>Absolutely love my new product! It's stylish, functional, and exactly what I needed – highly recommend!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_fCMTMM",
+        "review_BwQRPT",
+        "review_cCXdJ3",
+        "review_thYJcx"
+      ],
+      "settings": {
+        "heading": "CRO is loved by  9,000+ Shopify brands",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style2",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": false,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "multicolumn_ELe4qL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nTCjNJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Optimize Speed in one click",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FGKYCK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Improve Loading Time",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kEFVaR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Display Offers & Coupons",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aGTaCt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Display Policies",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Cd4EtK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Display Your Brand Vs Competitors",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zkC7kH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Display Reviews Everywhere",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qXyrQm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Sticky Add to cart",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jjNVYH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify_plus_logo_jaipuriageeks_187ae4bb-e946-4e82-b37e-97dc9eb0f932.webp",
+            "title": "Display Top Categories",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nTCjNJ",
+        "column_FGKYCK",
+        "column_kEFVaR",
+        "column_aGTaCt",
+        "column_Cd4EtK",
+        "column_zkC7kH",
+        "column_qXyrQm",
+        "column_jjNVYH"
+      ],
+      "settings": {
+        "title": "Top 10 Reasons to Choose This Shopify App",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Install Free App",
+        "button_link": "#",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EyTCbb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gqnQyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "5 EASY STEPS TO IMPROVE CONVERSION RATE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gqnQyj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_77LKCr": {
+      "type": "multirow",
+      "blocks": {
+        "row_y4cWci": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_33.svg",
+            "imglink": "",
+            "caption": "App By BOOST STAR Experts",
+            "heading": "1.  Optimize Website Speed",
+            "text": "<h3>✓  Improve Website Speed </h3><h3>✓  Improve Website Speed </h3><h3>✓  Improve Website Speed  </h3>",
+            "button_label": "See How It Helps",
+            "button_link": "shopify://pages/discount-deals-shopify-cro-app"
+          }
+        },
+        "row_YgzL8b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_33.svg",
+            "imglink": "",
+            "caption": "App By BOOST STAR Experts",
+            "heading": "2. Win The Customer Trust",
+            "text": "<h3>✓  Display Reviews</h3><h3>✓  Display Policies</h3><h3>✓ Get Social</h3><h3>✓ Display Trust Badges</h3>",
+            "button_label": "See How It Helps",
+            "button_link": "shopify://pages/win-the-customer-trust-shopify-app"
+          }
+        },
+        "row_YbqQWm": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_33.svg",
+            "imglink": "",
+            "caption": "App By BOOST STAR Experts",
+            "heading": "3.  Promote Discount & Deals",
+            "text": "<h3>✓ Announce Offers</h3><h3>✓ Show Achievements </h3><h3>✓ Coupon Code</h3><h3>✓ Countdown Timer</h3>",
+            "button_label": "See How It Helps",
+            "button_link": "shopify://pages/show-discounts-deals-shopify-app"
+          }
+        },
+        "row_nfQcDN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_33.svg",
+            "imglink": "",
+            "caption": "App By BOOST STAR Experts",
+            "heading": "4. Upsell & Recommendations",
+            "text": "<h3>✓  Recommended Products</h3><h3>✓ Upselling</h3><h3>✓  Improve Average Order Value</h3>",
+            "button_label": "See How It Helps",
+            "button_link": "shopify://pages/personalization-recommendations-cro-shopify-app"
+          }
+        },
+        "row_MGnayE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Asset_33.svg",
+            "imglink": "",
+            "caption": "App By BOOST STAR Experts",
+            "heading": "5. Improve User Experience",
+            "text": "<h3>✓  Highlight With Marqee Animation</h3><h3>✓  Display Top Categories</h3><h3>✓  Display FAQ's</h3>",
+            "button_label": "See How It Helps",
+            "button_link": "shopify://pages/improve-user-experience"
+          }
+        }
+      },
+      "block_order": [
+        "row_y4cWci",
+        "row_YgzL8b",
+        "row_YbqQWm",
+        "row_nfQcDN",
+        "row_MGnayE"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_price_table_ycgUAc": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_Ar4hFf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Asset_34.svg",
+            "highlighted": true,
+            "title": "Conversion Rate Optimizer",
+            "description": "Perfect for Getting Started",
+            "price": "FREE TO USE",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_kJQDpp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Asset_34.svg",
+            "highlighted": true,
+            "title": "Conversion Rate Optimizer",
+            "description": "Perfect for Big Businesses",
+            "price": "$29 / mo",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_knU6Lc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Asset_34.svg",
+            "highlighted": true,
+            "title": "Conversion Rate Optimizer",
+            "description": "Perfect for Startups",
+            "price": "Custom Audit ?",
+            "feature_1": "Bullet Feature 1",
+            "feature_2": "Bullet Feature 2",
+            "feature_3": "Bullet Feature 3",
+            "feature_4": "Bullet Feature 4",
+            "feature_5": "Bullet Feature 5",
+            "feature_6": "Bullet Feature 6",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ar4hFf",
+        "item_kJQDpp",
+        "item_knU6Lc"
+      ],
+      "settings": {
+        "price_size": 35,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "price_color": "#97ba52",
+        "highlight_color": "#97ba52",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1), rgba(16, 208, 26, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "21 / 9",
+        "max_width": 1600,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25
+      }
+    },
+    "rich_text_PgNKfN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WwQGUf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try <strong>Convertify</strong> For Your <strong>Shopify</strong> Store Today!",
+            "heading_size": "h1"
+          }
+        },
+        "text_QV8nzw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Install Free Shopify App & Improve the conversion rate of your website in <strong>5 steps</strong>.</p>"
+          }
+        },
+        "button_hFyYhd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Install Shopify App Now!",
+            "button_link": "https://apps.shopify.com/conversion-rate-optimizer",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_WwQGUf",
+        "text_QV8nzw",
+        "button_hFyYhd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_ym97mU",
+    "boost_star_experts_marquee_highlights_eRQtYz",
+    "reviews_4AbBF9",
+    "multicolumn_ELe4qL",
+    "rich_text_EyTCbb",
+    "multirow_77LKCr",
+    "boost_star_price_table_ycgUAc",
+    "rich_text_PgNKfN"
+  ]
+}

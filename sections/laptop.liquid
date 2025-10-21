@@ -1,0 +1,150 @@
+<section>
+  <style>
+    html {
+      font-size: 62.5%;
+    }
+  </style>
+
+  <div class="container">
+    <div class="laptop">
+      <div class="laptop__screen" style="
+        padding: 3%;
+        border-radius: 2rem;
+        background: {{ section.settings.laptop_screen_background | default: '#ecf1f7' }};
+        background-image: {{ section.settings.laptop_screen_background_image | default: 'linear-gradient(to bottom, #333, #111)' }};
+        box-shadow: {{ section.settings.laptop_screen_box_shadow | default: '0 0.1rem 0 #cfcfcf' }};
+        border: {{ section.settings.laptop_screen_border | default: '2px solid #ccc' }};
+      ">
+        <iframe 
+          src="{{ section.settings.iframe_url }}" 
+          width="{{ section.settings.iframe_width }}" 
+          height="{{ section.settings.iframe_height }}" 
+          style="background: {{ section.settings.iframe_background | default: '#000' }}; border: none; border-radius: 1rem;" 
+          allowfullscreen="{{ section.settings.allow_fullscreen }}" 
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="laptop__bottom" style="
+        margin-right: -7%;
+        margin-left: -7%;
+        height: 0.7rem;
+        background: {{ section.settings.laptop_bottom_background | default: '#e9eff5' }};
+        background-image: {{ section.settings.laptop_bottom_background_image | default: 'linear-gradient(to right, #d2dde9 0%, #f9fcff 15%, #e5ebf2 40%, #e5ebf2 60%, #f9fcff 85%, #d2dde9 100%)' }};
+      ">
+        <div class="laptop__under" style="
+          left: 25%;
+          width: 50%;
+          height: 1.5rem;
+          background: {{ section.settings.laptop_under_background | default: '#e2e8f0' }};
+          background-image: {{ section.settings.laptop_under_background_image | default: 'linear-gradient(to bottom, #e2e8f0, #bec7d1)' }};
+        "></div>
+      </div>
+      <div class="laptop__shadow" style="
+        right: -10%;
+        bottom: -2.5rem;
+        left: -10%;
+        height: 2rem;
+        background: {{ section.settings.laptop_shadow_background | default: 'radial-gradient(ellipse closest-side, #000, transparent)' }};
+        opacity: 0.5;
+      "></div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Laptop Iframe",
+  "settings": [
+    {
+      "type": "text",
+      "id": "iframe_url",
+      "label": "Iframe URL",
+      "default": "https://cycle.in/"
+    },
+    {
+      "type": "text",
+      "id": "iframe_width",
+      "label": "Iframe Width",
+      "default": "100%"
+    },
+    {
+      "type": "text",
+      "id": "iframe_height",
+      "label": "Iframe Height",
+      "default": "50rem"
+    },
+    {
+      "type": "color",
+      "id": "iframe_background",
+      "label": "Iframe Background",
+      "default": "#000"
+    },
+    {
+      "type": "checkbox",
+      "id": "allow_fullscreen",
+      "label": "Allow Fullscreen",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "laptop_screen_background",
+      "label": "Laptop Screen Background",
+      "default": "#ecf1f7"
+    },
+    {
+      "type": "text",
+      "id": "laptop_screen_background_image",
+      "label": "Laptop Screen Background Image",
+      "default": "linear-gradient(to bottom, #333, #111)"
+    },
+    {
+      "type": "text",
+      "id": "laptop_screen_box_shadow",
+      "label": "Laptop Screen Box Shadow",
+      "default": "0 0.1rem 0 #cfcfcf"
+    },
+    {
+      "type": "text",
+      "id": "laptop_screen_border",
+      "label": "Laptop Screen Border",
+      "default": "2px solid #ccc"
+    },
+    {
+      "type": "color",
+      "id": "laptop_bottom_background",
+      "label": "Laptop Bottom Background",
+      "default": "#e9eff5"
+    },
+    {
+      "type": "text",
+      "id": "laptop_bottom_background_image",
+      "label": "Laptop Bottom Background Image",
+      "default": "linear-gradient(to right, #d2dde9 0%, #f9fcff 15%, #e5ebf2 40%, #e5ebf2 60%, #f9fcff 85%, #d2dde9 100%)"
+    },
+    {
+      "type": "color",
+      "id": "laptop_under_background",
+      "label": "Laptop Under Background",
+      "default": "#e2e8f0"
+    },
+    {
+      "type": "text",
+      "id": "laptop_under_background_image",
+      "label": "Laptop Under Background Image",
+      "default": "linear-gradient(to bottom, #e2e8f0, #bec7d1)"
+    },
+    {
+      "type": "text",
+      "id": "laptop_shadow_background",
+      "label": "Laptop Shadow Background",
+      "default": "radial-gradient(ellipse closest-side, #000, transparent)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

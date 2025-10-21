@@ -1,0 +1,205 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "none",
+  "sections": {
+    "brand_story_GDHWbh": {
+      "type": "brand-story",
+      "blocks": {
+        "product_jVfYT6": {
+          "type": "product",
+          "settings": {
+            "product_image": "{{ metaobject.product_reviews.value.product_image1.value }}",
+            "product_name": "{{ metaobject.product_reviews.value.product_name1.value }}",
+            "product_price": "{{ metaobject.product_reviews.value.product_price1.value }}",
+            "product_description": "{{ metaobject.product_reviews.value.product_description1.value }}",
+            "product_button_text": "See Product",
+            "product_button_url": "{{ metaobject.product_reviews.value.product_url_1.value }}"
+          }
+        },
+        "product_QAiNWN": {
+          "type": "product",
+          "settings": {
+            "product_image": "{{ metaobject.product_reviews.value.product_image_3.value }}",
+            "product_name": "{{ metaobject.product_reviews.value.product_name3.value }}",
+            "product_price": "{{ metaobject.product_reviews.value.product_price3.value }}",
+            "product_description": "{{ metaobject.product_reviews.value.product_description3.value }}",
+            "product_button_text": "See Product",
+            "product_button_url": "{{ metaobject.product_reviews.value.product_url_2.value }}"
+          }
+        },
+        "product_yyLFK7": {
+          "type": "product",
+          "settings": {
+            "product_image": "{{ metaobject.product_reviews.value.product_image_2.value }}",
+            "product_name": "{{ metaobject.product_reviews.value.product_name_2.value }}",
+            "product_price": "{{ metaobject.product_reviews.value.product_price2.value }}",
+            "product_description": "{{ metaobject.product_reviews.value.product_description2.value }}",
+            "product_button_text": "See Product",
+            "product_button_url": "{{ metaobject.product_reviews.value.product_url_3.value }}"
+          }
+        },
+        "review_dpg44B": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/user_centric.svg",
+            "reviewer_name": "{{ metaobject.product_reviews.value.reviewer_name1.value }}",
+            "reviewer_location": "{{ metaobject.product_reviews.value.reviewer_location1.value }}",
+            "review_text": "{{ metaobject.product_reviews.value.review_text1.value }}"
+          }
+        },
+        "review_XnjXzJ": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/user_centric.svg",
+            "reviewer_name": "{{ metaobject.product_reviews.value.reviewer_name2.value }}",
+            "reviewer_location": "{{ metaobject.product_reviews.value.reviewer_location2.value }}",
+            "review_text": "{{ metaobject.product_reviews.value.review_text2.value }}"
+          }
+        },
+        "review_GV3kJj": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/user_centric.svg",
+            "reviewer_name": "{{ metaobject.product_reviews.value.reviewer_name3.value }}",
+            "reviewer_location": "{{ metaobject.product_reviews.value.reviewer_location3.value }}",
+            "review_text": "{{ metaobject.product_reviews.value.review_text3.value }}"
+          }
+        },
+        "review_M8wgiP": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/user_centric.svg",
+            "reviewer_name": "{{ metaobject.product_reviews.value.reviewer_name4.value }}",
+            "reviewer_location": "{{ metaobject.product_reviews.value.reviewer_location4.value }}",
+            "review_text": "{{ metaobject.product_reviews.value.review_text4.value }}"
+          }
+        },
+        "review_hGCGk3": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/user_centric.svg",
+            "reviewer_name": "{{ metaobject.product_reviews.value.reviewer_name5.value }}",
+            "reviewer_location": "{{ metaobject.product_reviews.value.reviewer_location5.value }}",
+            "review_text": "{{ metaobject.product_reviews.value.review_text5.value }}"
+          }
+        },
+        "review_AWVXMh": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/user_centric.svg",
+            "reviewer_name": "{{ metaobject.product_reviews.value.reviewer_name6.value }}",
+            "reviewer_location": "{{ metaobject.product_reviews.value.reviewer_location6.value }}",
+            "review_text": "{{ metaobject.product_reviews.value.review_text6.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "product_jVfYT6",
+        "product_QAiNWN",
+        "product_yyLFK7",
+        "review_dpg44B",
+        "review_XnjXzJ",
+        "review_GV3kJj",
+        "review_M8wgiP",
+        "review_hGCGk3",
+        "review_AWVXMh"
+      ],
+      "name": "Brang Story",
+      "settings": {
+        "primary_color": "#7bae5f",
+        "dark_green": "#5a8a44",
+        "text_color": "#333333",
+        "light_gray": "#f5f5f5",
+        "beige": "#f0e6d2",
+        "hero_bg_color": "#ffffff",
+        "hero_image": "{{ metaobject.hero_image.value }}",
+        "brand_logo": "{{ metaobject.brand_logo.value }}",
+        "brand_name": "{{ metaobject.brand_name.value }}",
+        "tagline": "{{ metaobject.tagline.value }}",
+        "founder_name": "{{ metaobject.founder_name.value }}",
+        "founder_title": "{{ metaobject.founder_title.value }}",
+        "watch_button_text": "Watch Now",
+        "hero_pattern_1": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-7.svg",
+        "hero_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "agency_logo": "shopify://shop_images/icon_1.png",
+        "divider_color_1": "#7bae5f",
+        "divider_color_2": "#5a8a44",
+        "story_bg_image": "shopify://shop_images/all-background.png",
+        "story_title": "Our Story",
+        "story_short_text": "{{ metaobject.brand_story_short | metafield_tag }}",
+        "story_long_text": "{{ metaobject.brand_story_long | metafield_tag }}",
+        "read_more_text": "Read More",
+        "read_less_text": "Read Less",
+        "story_pattern_1": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-4.svg",
+        "story_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-7.svg",
+        "story_pattern_3": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "video_cover_image": "{{ metaobject.youtube_thumbnail.value }}",
+        "video_title": "{{ metaobject.brand_name.value }}",
+        "video_url": "{{ metaobject.video_urls.value }}",
+        "video_pattern_1": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "video_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "video_pattern_3": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "founder_section_title": "About the Founder",
+        "founder_background_image": "{{ metaobject.founder_background_image.value }}",
+        "founder_accordion_title_1": "Background",
+        "founder_accordion_content_1": "{{ metaobject.founder_accordion_content_1 | metafield_tag }}",
+        "founder_experience_image": "{{ metaobject.founder_experience_image.value }}",
+        "founder_accordion_title_2": "Experience",
+        "founder_accordion_content_2": "{{ metaobject.founder_accordion_content_2 | metafield_tag }}",
+        "founder_vision_image": "{{ metaobject.founder_vision_image.value }}",
+        "founder_accordion_title_3": "Vision",
+        "founder_accordion_content_3": "{{ metaobject.founder_accordion_content_3 | metafield_tag }}",
+        "founder_pattern_1": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-7.svg",
+        "founder_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "journey_title": "Brand Journey",
+        "journey_started_image": "{{ metaobject.founder_vision_image.value }}",
+        "journey_accordion_title_1": "How It Started",
+        "journey_accordion_content_1": "{{ metaobject.journey_accordion_content_1 | metafield_tag }}",
+        "journey_unique_image": "{{ metaobject.journey_unique_image.value }}",
+        "journey_accordion_title_2": "What Makes Us Unique",
+        "journey_accordion_content_2": "{{ metaobject.journey_accordion_content_2 | metafield_tag }}",
+        "journey_mission_image": "{{ metaobject.journey_mission_image.value }}",
+        "journey_accordion_title_3": "Mission & Values",
+        "journey_accordion_content_3": "{{ metaobject.journey_accordion_content_3 | metafield_tag }}",
+        "journey_pattern_1": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "journey_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-7.svg",
+        "product_section_bg": "#f5f5f5",
+        "product_section_title": "Our Products",
+        "usp_title": "Why We Are Unique?",
+        "usp_title_1": "{{ metaobject.usp_title_1.value }}",
+        "usp_text_1": "{{ metaobject.usp_text_1.value }}",
+        "usp_title_2": "{{ metaobject.usp_title_2.value }}",
+        "usp_text_2": "{{ metaobject.usp_text_2.value }}",
+        "usp_title_3": "{{ metaobject.usp_title3.value }}",
+        "usp_text_3": "{{ metaobject.usp_text_3.value }}",
+        "usp_title_4": "{{ metaobject.usp_title_4.value }}",
+        "usp_text_4": "{{ metaobject.usp_text_4.value }}",
+        "product_pattern_1": "shopify://shop_images/Copy_of_elements_shape.svg",
+        "product_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "social_bg_color": "#484948",
+        "social_title": "Share Our Story",
+        "social_share_text": "Check out Lumière - Where Clean Beauty Meets Ritual",
+        "reviews_title": "What Our Customers Say",
+        "review_pattern_1": "shopify://shop_images/Copy_of_elements_shape.svg",
+        "review_pattern_2": "shopify://shop_images/content_ce8edc28-186e-4dc2-a8fb-8a6a744bdf10-10.svg",
+        "footer_image": "shopify://shop_images/footer-buildings.png",
+        "footer_bg_color": "#000000",
+        "heart_color": "#7bae5f",
+        "footer_text": "Gifted with",
+        "footer_link_text": "BOOST STAR Experts",
+        "footer_link_url": ""
+      }
+    }
+  },
+  "order": [
+    "brand_story_GDHWbh"
+  ]
+}

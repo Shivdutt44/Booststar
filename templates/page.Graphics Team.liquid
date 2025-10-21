@@ -1,0 +1,35 @@
+<center><ul><h2>Our Graphics Team</h2></ul></center>
+
+<slider-component class="slider-mobile-gutter">
+<ul class="multicolumn-list contains-content-container grid grid--2-col-tablet-down grid--5-col-desktop" id="Slider-template--15661695369293__multicolumn_DkfmDG" role="list">
+  {% for boost in shop.metaobjects.our_graphics_team.values %}
+  <li id="Slide-template--15661695369293__multicolumn_DkfmDG-1" class="multicolumn-list__item grid__item center scroll-trigger animate--slide-in" data-cascade="" style="--animation-order: 0;">
+            <div class="multicolumn-card content-container">
+                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                  <div class="media media--transparent media--circle">
+                    <img src="{{ boost.upload_image| img_url:'compact' }}" alt="" srcset="{{ boost.upload_image| img_url:'master' }};width=50 50w, {{ boost.upload_image| img_url:'master' }};width=75 75w, {{ boost.upload_image| img_url:'master' }};width=100 100w, {{ boost.upload_image| img_url:'master' }};width=150 150w, {{ boost.upload_image| img_url:'master' }};width=200 200w, {{ boost.upload_image| img_url:'master' }};width=300 300w, {{ boost.upload_image| img_url:'master' }};width=400 400w, {{ boost.upload_image| img_url:'master' }};width=500 500w, {{ boost.upload_image| img_url:'master' }};width=750 750w, {{ boost.upload_image| img_url:'master' }};width=1000 1000w, {{ boost.upload_image| img_url:'master' }};width=1250 1250w, {{ boost.upload_image| img_url:'master' }};width=1500 1500w, {{ boost.upload_image| img_url:'master' }};width=1750 1750w, {{ boost.upload_image| img_url:'master' }};width=2000 2000w, {{ boost.upload_image| img_url:'master' }};width=2250 2250w, {{ boost.upload_image| img_url:'master' }};width=2500 2500w,{{ boost.upload_image| img_url:'master' }};width=2750 2750w, {{ boost.upload_image| img_url:'master' }};width=3000 3000w, {{ boost.upload_image| img_url:'master' }};width=3200 3200w"  width="3200" height="3200" loading="lazy" sizes="
+                      (min-width: 1600px) calc((1600px - 260px) * 1 /  6),
+                      (min-width: 990px) calc((100vw - 260px) * 1 / 6),
+                      (min-width: 750px) calc((100vw - 140px) * 1 / 6),
+                      calc((100vw - 50px) * 1 / 2)
+                    " class="multicolumn-card__image">
+                  </div>
+                </div><div class="multicolumn-card__info">
+                  <h3 class="inline-richtext">{{ boost.enter_name.value }}</h3><div class="rte">
+                  <p>{{ boost.enter_position.value }} </p></div>
+                  <a class="link animate-arrow" href="#">Know more<span class="icon-wrap">&nbsp;<svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
+</path></svg>
+</span></a></div>
+            </div>
+          </li>
+          {% endfor %}
+        
+       
+        </ul>
+
+  
+  </slider-component>
+    
+
+

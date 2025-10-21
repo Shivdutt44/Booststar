@@ -1,0 +1,770 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KN4Yjr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9mhnk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrEn3t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win The Customer Trust With {{ metaobject.heading.value }}</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9mhnk",
+        "text_HrEn3t"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_T6JkeU": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_3Jrbdm": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_pG4beP": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_jwVYdF": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_EkEWja": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_Yer3Fi": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_3Jrbdm",
+        "icon_with_text_pG4beP",
+        "icon_with_text_jwVYdF",
+        "icon_with_text_EkEWja",
+        "icon_with_text_Yer3Fi"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_MgPNTk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HV4KX8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_MwV9K4": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_HV4KX8",
+        "text_MwV9K4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_PbJJ3d": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/hh.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/eefae.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "<strong>The Tee Take</strong>",
+        "content": "<p>Plain or bleach, you name it we have it.</p>",
+        "link_text": "Shop More",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#111111",
+        "text_size": 15,
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_Eq9ccM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gnUPmL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_78V4kr": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gnUPmL",
+        "text_78V4kr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_m8qUP6": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/asd.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/ded.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "From Scratch to Sweetness",
+        "content": "<p>A mini delight crafted with magic of love</p>",
+        "link_text": "Shop More",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#111111",
+        "text_size": 15,
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_eKMj8U": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LAG4cX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_beRiT9": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LAG4cX",
+        "text_beRiT9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_kDMpcE": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/sfs.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/e4wsdr.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "Radiant Results",
+        "content": "<p>Experience the Natural Glow</p>",
+        "link_text": "Explore",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#111111",
+        "text_size": 15,
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_7bKj9X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ggbtJq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gXYUtt": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ggbtJq",
+        "text_gXYUtt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_i4MdM3": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/dd.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/adw.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "From Bean to Brew",
+        "content": "<p>Pure and Natural: The Journey of Coffee</p>",
+        "link_text": "Shop Now",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_color": "#ffffff",
+        "background_color": "linear-gradient(4deg, rgba(137, 57, 20, 1), rgba(242, 82, 8, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_QhJ6Uq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XX8gJe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_ViRqbE": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XX8gJe",
+        "text_ViRqbE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_ELNCDM": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/dd.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/adw.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "From Bean to Brew",
+        "content": "<p>Pure and Natural: The Journey of Coffee</p>",
+        "link_text": "Shop Now",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_color": "#ffffff",
+        "background_color": "linear-gradient(4deg, rgba(137, 57, 20, 1), rgba(242, 82, 8, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_PKBD9C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ywtg8a": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_kKUrGT": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ywtg8a",
+        "text_kKUrGT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_LqfCfK": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/dd.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/adw.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "From Bean to Brew",
+        "content": "<p>Pure and Natural: The Journey of Coffee</p>",
+        "link_text": "Shop Now",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_color": "#ffffff",
+        "background_color": "linear-gradient(4deg, rgba(137, 57, 20, 1), rgba(242, 82, 8, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "rich_text_67iRBX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wGi3ay": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_CbJkf3": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wGi3ay",
+        "text_CbJkf3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_before_after_wKLRRP": {
+      "type": "boost-star-before-after",
+      "settings": {
+        "before_image": "shopify://shop_images/dd.png",
+        "before_caption": "Before",
+        "after_image": "shopify://shop_images/adw.png",
+        "after_caption": "After",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 4,
+        "media_shadow": true,
+        "headline": "From Bean to Brew",
+        "content": "<p>Pure and Natural: The Journey of Coffee</p>",
+        "link_text": "Shop Now",
+        "link": "",
+        "media_location": "left",
+        "alignment": "center",
+        "headline_size": 40,
+        "headline_color": "#ffffff",
+        "text_size": 15,
+        "text_color": "#ffffff",
+        "background_color": "linear-gradient(4deg, rgba(137, 57, 20, 1), rgba(242, 82, 8, 1) 100%)",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 20,
+        "margin_block": 0,
+        "element_spacing": 15,
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "button_text_size": 15,
+        "button_padding_tb": 10,
+        "button_padding_lr": 25,
+        "button_border_radius": 5,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif"
+      }
+    },
+    "image_banner_Wzi84b": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NEWQfU": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_YaedkH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_jRFzKU": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_NEWQfU",
+        "text_YaedkH",
+        "buttons_jRFzKU"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_2": "shopify://shop_images/Asset_36.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_TzAHeq": {
+      "type": "reviews",
+      "blocks": {
+        "review_aqCWL4": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_aqCWL4"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 66.67%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_UiUTHg": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_yycXGG": {
+          "type": "image",
+          "repeater": "{{ metaobject.win_the_customer_trust.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_yycXGG"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Win The Customer Trust</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_KN4Yjr",
+    "boost_star_experts_marquee_highlights_T6JkeU",
+    "rich_text_MgPNTk",
+    "boost_star_before_after_PbJJ3d",
+    "rich_text_Eq9ccM",
+    "boost_star_before_after_m8qUP6",
+    "rich_text_eKMj8U",
+    "boost_star_before_after_kDMpcE",
+    "rich_text_7bKj9X",
+    "boost_star_before_after_i4MdM3",
+    "rich_text_QhJ6Uq",
+    "boost_star_before_after_ELNCDM",
+    "rich_text_PKBD9C",
+    "boost_star_before_after_LqfCfK",
+    "rich_text_67iRBX",
+    "boost_star_before_after_wKLRRP",
+    "image_banner_Wzi84b",
+    "reviews_TzAHeq",
+    "top_collections_boost_star_UiUTHg"
+  ]
+}

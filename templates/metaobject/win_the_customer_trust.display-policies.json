@@ -1,0 +1,942 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KN4Yjr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9mhnk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_HrEn3t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win The Customer Trust With {{ metaobject.heading.value }}</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9mhnk",
+        "text_HrEn3t"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_tk6wni": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_TmCcwr": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_4QNqJB": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_JePzB9": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_d4zd6c": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_QCVgBL": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_TmCcwr",
+        "icon_with_text_4QNqJB",
+        "icon_with_text_JePzB9",
+        "icon_with_text_d4zd6c",
+        "icon_with_text_QCVgBL"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_MNhaec": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G86jbk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_W843qk": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_G86jbk",
+        "text_W843qk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_8xbeMF": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_U9JBEW": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_23.svg",
+            "headline": "<strong>Secure Checkout</strong>",
+            "text": "Ensuring high security",
+            "link": ""
+          }
+        },
+        "icon_kwanp9": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_27.svg",
+            "headline": "<strong>Free Returns</strong>",
+            "text": "Hassle free returns",
+            "link": ""
+          }
+        },
+        "icon_hBdkFi": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_26.svg",
+            "headline": "<strong>Free Shipping</strong>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_U9JBEW",
+        "icon_kwanp9",
+        "icon_hBdkFi"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(13, 139, 244, 1), rgba(13, 139, 244, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_Pe3yUc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jDRPYi": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_riifXy": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jDRPYi",
+        "text_riifXy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_44hx6m": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_mGDEBR": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_23.svg",
+            "headline": "<strong>Secure Checkout</strong>",
+            "text": "Ensuring high security",
+            "link": ""
+          }
+        },
+        "icon_F8nE4N": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_27.svg",
+            "headline": "<strong>Free Returns</strong>",
+            "text": "Hassle free returns",
+            "link": ""
+          }
+        },
+        "icon_3bfE9U": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_26.svg",
+            "headline": "<strong>Free Shipping</strong>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_mGDEBR",
+        "icon_F8nE4N",
+        "icon_3bfE9U"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(13, 139, 244, 1), rgba(13, 139, 244, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_x6eHU4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UjpDBj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_PeTMGx": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_UjpDBj",
+        "text_PeTMGx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_cQ4R4R": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_DR8qDE": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_23.svg",
+            "headline": "<strong>Secure Checkout</strong>",
+            "text": "Ensuring high security",
+            "link": ""
+          }
+        },
+        "icon_TxC7mk": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_27.svg",
+            "headline": "<strong>Free Returns</strong>",
+            "text": "Hassle free returns",
+            "link": ""
+          }
+        },
+        "icon_k9wcBm": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_26.svg",
+            "headline": "<strong>Free Shipping</strong>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_DR8qDE",
+        "icon_TxC7mk",
+        "icon_k9wcBm"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(13, 139, 244, 1), rgba(13, 139, 244, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_CXxFrh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3k6YAD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gBcxVw": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3k6YAD",
+        "text_gBcxVw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_tyfCdL": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_XrKWbt": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_23.svg",
+            "headline": "<strong>Secure Checkout</strong>",
+            "text": "Ensuring high security",
+            "link": ""
+          }
+        },
+        "icon_DLkVp8": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_27.svg",
+            "headline": "<strong>Free Returns</strong>",
+            "text": "Hassle free returns",
+            "link": ""
+          }
+        },
+        "icon_xhpLhT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_26.svg",
+            "headline": "<strong>Free Shipping</strong>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_XrKWbt",
+        "icon_DLkVp8",
+        "icon_xhpLhT"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(13, 139, 244, 1), rgba(13, 139, 244, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_H9mN9n": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FJUKCp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_RVHF4P": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FJUKCp",
+        "text_RVHF4P"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_V3CWGa": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_tkLpwi": {
+          "type": "icon",
+          "settings": {
+            "icon": "support",
+            "headline": "<strong>24X7 Support</strong>",
+            "text": "Always at your service",
+            "link": ""
+          }
+        },
+        "icon_rygRbL": {
+          "type": "icon",
+          "settings": {
+            "icon": "percent",
+            "headline": "<strong>5% Discount</strong>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        },
+        "icon_NxEfzm": {
+          "type": "icon",
+          "settings": {
+            "icon": "shipping",
+            "headline": "<strong>Free Shipping</strong>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_tkLpwi",
+        "icon_rygRbL",
+        "icon_NxEfzm"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "square",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(209, 213, 219, 1), rgba(13, 139, 244, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1) 3%, rgba(17, 17, 17, 1) 99%)",
+        "text_color": "#ffffff",
+        "headline_color": "#97ba52",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_AAiJUi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wL9Jqp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_JcdXDN": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wL9Jqp",
+        "text_JcdXDN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_MbU4hD": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_QPnTYG": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "headline": "<strong>Eco-Friendly</strong>",
+            "text": "reducing carbon footprints",
+            "link": ""
+          }
+        },
+        "icon_xeDqcz": {
+          "type": "icon",
+          "settings": {
+            "icon": "thumbsup",
+            "headline": "<strong>Top Rated</strong>",
+            "text": "High quality & High Standards",
+            "link": ""
+          }
+        },
+        "icon_n9GtLm": {
+          "type": "icon",
+          "settings": {
+            "icon": "shipping",
+            "headline": "<b>Free Shipping</b>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_QPnTYG",
+        "icon_xeDqcz",
+        "icon_n9GtLm"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "icon_color": "#97ba52",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#97ba52",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_V7eQ9h": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FaHjT4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_H9ARhf": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FaHjT4",
+        "text_H9ARhf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_display_policies_8W7Yqf": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_9EN4QL": {
+          "type": "icon",
+          "settings": {
+            "icon": "shield",
+            "headline": "<strong>Secure & Safe</strong>",
+            "text": "All data are safe",
+            "link": ""
+          }
+        },
+        "icon_7d3GjQ": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "headline": "<strong>Cruelty-free</strong>",
+            "text": "No testing on animals",
+            "link": ""
+          }
+        },
+        "icon_NgkNWK": {
+          "type": "icon",
+          "settings": {
+            "icon": "shipping",
+            "headline": "<b>Free Shipping</b>",
+            "text": "On Orders Over $99",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_9EN4QL",
+        "icon_7d3GjQ",
+        "icon_NgkNWK"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(13, 139, 244, 1), rgba(13, 139, 244, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 10,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "image_banner_Qpnnj3": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_mUU3py": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_x4pCEk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_YdNLjq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_mUU3py",
+        "text_x4pCEk",
+        "buttons_YdNLjq"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_4FaEBa": {
+      "type": "reviews",
+      "blocks": {
+        "review_8JYtaN": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_8JYtaN"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_QhXRk4": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_NxAVqb": {
+          "type": "image",
+          "repeater": "{{ metaobject.win_the_customer_trust.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_NxAVqb"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Win The Customer Trust</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_KN4Yjr",
+    "boost_star_experts_marquee_highlights_tk6wni",
+    "rich_text_MNhaec",
+    "boost_star_display_policies_8xbeMF",
+    "rich_text_Pe3yUc",
+    "boost_star_display_policies_44hx6m",
+    "rich_text_x6eHU4",
+    "boost_star_display_policies_cQ4R4R",
+    "rich_text_CXxFrh",
+    "boost_star_display_policies_tyfCdL",
+    "rich_text_H9mN9n",
+    "boost_star_display_policies_V3CWGa",
+    "rich_text_AAiJUi",
+    "boost_star_display_policies_MbU4hD",
+    "rich_text_V7eQ9h",
+    "boost_star_display_policies_8W7Yqf",
+    "image_banner_Qpnnj3",
+    "reviews_4FaEBa",
+    "top_collections_boost_star_QhXRk4"
+  ]
+}

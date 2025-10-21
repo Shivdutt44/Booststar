@@ -1,0 +1,545 @@
+{% capture css %}
+  
+<style>
+  {% if section.settings.override_fonts %}
+    {{ section.settings.text_font | font_face }}
+    {{ section.settings.headline_font | font_face }}
+  {% endif %}
+
+  #bse-cd-{{ section.id }} {
+    background-image: {{ section.settings.background_color }};
+    {% if section.settings.bg_image != blank %}
+    background-image: url("{{ section.settings.bg_image | image_url }}");
+    background-size: {{section.settings.bg_size}};
+    {% if section.settings.parallax  %}
+    background-attachment: fixed;
+    {% endif %}
+    background-position: {{section.settings.bg_pos}};
+    {% endif %}
+    margin-block: {{ section.settings.margin_block }}px;
+    padding-block: {{ section.settings.padding_block }}px;
+    padding-inline: {{ section.settings.padding_inline }}px;
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-headline p {
+    font-size: {{ section.settings.text_size }}px;
+    {% if section.settings.override_fonts %}
+      font-family: {{ section.settings.text_font.family }}, {{ section.settings.text_font.fallback_families }};
+      font-weight: {{ section.settings.text_font.weight }};
+    {% endif %}
+    color: {{ section.settings.text_color }};
+    line-height: 1.15;
+    margin: 0;
+    padding: 0 0 25px 0;
+    text-align: {{ section.settings.text_alignment }};
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-headline h2 {
+    font-size: {{ section.settings.headline_size }}px;
+    {% if section.settings.override_fonts %}
+      font-family: {{ section.settings.headline_font.family }}, {{ section.settings.headline_font.fallback_families }};
+      font-weight: {{ section.settings.headline_font.weight }};
+    {% endif %}
+    color: {{ section.settings.headline_color }};
+    line-height: 1.15;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-align: {{ section.settings.text_alignment }};
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: {{ section.settings.max_width }}px;
+    align-items: center;
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-grid-item {
+    background-image: {{ section.settings.countdown_background_color }};
+    padding: 20px;
+    text-align: center;
+    border-radius: {{ section.settings.media_radius }}px;
+    {% if section.settings.media_shadow %}box-shadow: 0 0 5px 0 rgba(0,0,0,0.20);{% endif %}
+    background : {{ section.settings.number_bg }};
+    border : 2px solid {{ section.settings.number_border_color }};
+    padding : {{ section.settings.number_padding }}px;
+  }
+
+  #bse-cd-{{ section.id }} .sp-timer {
+    font-size: {{ section.settings.timer_size }}px;
+    font-weight: bold;
+    color: {{ section.settings.timer_color }};
+  }
+
+  #bse-cd-{{ section.id }} .sp-label {
+    font-size: {{ section.settings.text_size }}px;
+    font-weight: bold;
+    color: {{ section.settings.timer_color }};
+    display: block;
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-wrapper {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-wrapper * {
+    box-sizing: border-box;
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-grid {
+    display: grid;
+    margin: 0 auto;
+    gap: {{ section.settings.grid_gap }}px;
+  }
+
+  @media only screen and (min-width: 801px) {
+    #bse-cd-{{ section.id }} .bse-cd-grid {
+      grid-auto-columns: 1fr;
+      grid-auto-flow: column;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    #bse-cd-{{ section.id }} .bse-cd-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-wrapper h2 {
+    font-weight: bold;
+    font-size: 22pt;
+    margin: 0 0 25px 0;
+    padding: 0;
+  }
+
+  #bse-cd-{{ section.id }} .bse-cd-wrapper p {
+    font-size: 13pt;
+    margin: 0 0 25px 0;
+    padding: 0;
+  }
+</style>
+ {% endcapture %} 
+ {{ css | strip_newlines }}
+
+{% capture html %}
+
+<!-- start content -->
+<section id="bse-cd-{{ section.id }}" class="bse-cd-wrapper">
+  <section class="bse-cd" sp-container>
+    <div class="bse-cd-headline">
+      {% if section.settings.headline %}
+        <h2>{{ section.settings.headline }}</h2>
+      {% endif %}
+      {% if section.settings.text %}
+        <p>{{ section.settings.text }}</p>
+      {% endif %}
+    </div>
+
+    <div class="bse-cd-grid">
+      <div class="bse-cd-grid-item">
+        <div class="bse-cd">
+          <span id="bse-cd-{{ section.id }}-days" class="sp-timer">00</span>
+          <span class="sp-label">Days</span>
+        </div>
+      </div>
+      <div class="bse-cd-grid-item">
+        <div class="bse-cd">
+          <span id="bse-cd-{{ section.id }}-hours" class="sp-timer">00</span>
+          <span class="sp-label">Hrs</span>
+        </div>
+      </div>
+      <div class="bse-cd-grid-item">
+        <div class="bse-cd">
+          <span id="bse-cd-{{ section.id }}-minutes" class="sp-timer">00</span>
+          <span class="sp-label">Mins</span>
+        </div>
+      </div>
+      <div
+        class="bse-cd-grid-item"
+        {% if section.settings.show_seconds == false %}
+          style="display:none;"
+        {% endif %}
+      >
+        <div class="bse-cd">
+          <span id="bse-cd-{{ section.id }}-seconds" class="sp-timer">00</span>
+          <span class="sp-label">Secs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+{% endcapture %}
+ {{ html | strip_newlines }}
+
+
+<script>
+    function startCountdownBS() {
+
+      var daysElement = document.getElementById('bse-cd-{{ section.id }}-days');
+      var hoursElement = document.getElementById('bse-cd-{{ section.id }}-hours');
+      var minutesElement = document.getElementById('bse-cd-{{ section.id }}-minutes');
+      var secondsElement = document.getElementById('bse-cd-{{ section.id }}-seconds');
+
+      var countdownInterval = setInterval(function () {
+
+        var end = new Date('{{ section.settings.end_date }} 12:00 AM');
+
+        var now = new Date();
+        var distance = end - now;
+
+        // defaults
+        var _second = 1000;
+        var _minute = _second * 60;
+        var _hour = _minute * 60;
+        var _day = _hour * 24;
+
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
+
+        if (hours === 0 && minutes === 0 && seconds === 0) {
+          clearInterval(countdownInterval);
+          return;
+        }
+
+        if (seconds === 0) {
+          seconds = 59;
+
+          if (minutes === 0) {
+            minutes = 59;
+            hours--;
+          } else {
+            minutes--;
+          }
+        } else {
+          seconds--;
+        }
+
+        daysElement.innerText = days.toString().padStart(2, '0');
+        hoursElement.innerText = hours.toString().padStart(2, '0');
+        minutesElement.innerText = minutes.toString().padStart(2, '0');
+        if(secondsElement) secondsElement.innerText = seconds.toString().padStart(2, '0');
+      }, 1000);
+    }
+
+  startCountdownBS();
+
+  document.addEventListener('DOMContentLoaded', startCountdownBS);
+
+  if (Shopify.designMode) {
+      document.addEventListener('shopify:section:unload', startCountdownBS);
+      document.addEventListener('shopify:section:load', startCountdownBS);
+  }
+</script>
+<!-- end snippet code -->
+
+{% schema %}
+{
+  "name": "BOOST- Count Down to Date",
+  "settings": [
+        {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "end_date",
+      "placeholder": "mm/dd/yyyy or yyyy-mm-dd",
+      "label": "End Date"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "headline",
+      "label": "Headline",
+      "default": "<b>Sample headline</b>"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "text",
+      "label": "Content",
+      "default": "Sample content"
+    },
+      {
+      "type": "header",
+      "content": "Alignment"
+    },
+    {
+        "type": "select",
+        "id": "text_alignment",
+        "default": "center",
+        "label": "Text Alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+    },
+    {
+      "type": "header",
+      "content": "Display"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_seconds",
+      "label": "Show Seconds Column",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "media_radius",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Round Corders on Date",
+      "default": 5
+    },
+    {
+      "type": "checkbox",
+      "id": "media_shadow",
+      "default": true,
+      "label": "Enable Shadow"
+    },
+     {
+      "type": "header",
+      "content": "Text"
+    },
+        {
+      "type": "range",
+      "id": "headline_size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Headline Size",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Text Size",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "timer_size",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Timer Size",
+      "default": 60
+    },
+       {
+      "type": "header",
+      "content": "Dimensions"
+    },
+    {
+
+      "id": "max_width",
+      "default": 1200,
+      "label": "Max Width of Section",
+     "type": "range",
+      "min": 500,
+      "max":1800,
+      "step": 100
+    },
+         {
+       "id": "margin_block",
+       "default": 10,
+       "label": "Margin Top/Bottom",
+       "type": "range",
+       "min": 1,
+       "max":100,
+       "step": 1
+     },
+    {
+       "id": "padding_block",
+       "default": 30,
+       "label": "Padding Top/Bottom",
+       "type": "range",
+       "min": 10,
+       "max":100,
+       "step": 1
+     },
+     {
+       "id": "padding_inline",
+       "default": 10,
+       "label": "Padding Left/Right",
+      "type": "range",
+       "min": 1,
+       "max":25,
+       "step": 1
+     },
+    {
+      "id": "grid_gap",
+      "default": 15,
+      "label": "Space between Columns",
+       "type": "range",
+      "min": 5,
+      "max":15,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "number_padding",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "label": "Number Padding",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color_background",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "timer_color",
+      "default": "#97BA52",
+      "label": "Timer Color"
+    },
+    {
+      "type": "color",
+      "id": "headline_color",
+      "default": "#111",
+      "label": "Headline Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "default": "#111",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "number_border_color",
+      "default": "#97BA52",
+      "label": "Number Border Color"
+    },
+    {
+      "type": "color",
+      "id": "number_bg",
+      "default": "#fff",
+      "label": "Number Background"
+    },
+    {
+       "type": "header",
+       "content": "Background Image"
+     },
+     {
+       "type" : "image_picker",
+       "id" : "bg_image",
+       "label" : "Background Image",
+       "info" : "Remove image to apply background color"
+     },
+    {
+       "type" : "checkbox",
+       "label" : "Enable Parallax Effect",
+       "id" : "parallax",
+       "default" : false
+     },
+      {
+       "type": "select",
+       "id": "bg_size",
+       "label": "Background Size",
+       "options": [
+         {
+           "value": "cover",
+           "label": "Cover"
+         },
+         {
+           "value": "contain",
+           "label": "Contain"
+         },
+         {
+           "value": "auto",
+           "label": "Auto"
+         }
+       ],
+       "default": "cover"
+     },
+      {
+       "type": "select",
+       "id": "bg_pos",
+       "label": "Background Position",
+       "options": [
+         {
+           "value": "top",
+           "label": "Top"
+         },
+         {
+           "value": "bottom",
+           "label": "Bottom"
+         },
+         {
+           "value": "center",
+           "label": "Center"
+         },
+         {
+           "value": "left",
+           "label": "Left"
+         },
+         {
+           "value": "right",
+           "label": "Right"
+         }
+       ],
+       "default": "center"
+     },
+    {
+      "type": "header",
+      "content": "Font Style"
+    },
+    {
+      "type": "checkbox",
+      "id": "override_fonts",
+      "label": "Override theme fonts",
+      "default": false
+    },
+    {
+      "type": "font_picker",
+      "id": "text_font",
+      "label": "Text Font",
+      "default": "sans-serif"
+    },
+    {
+      "type": "font_picker",
+      "id": "headline_font",
+      "label": "Headline Font",
+      "default": "sans-serif"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "BOOST- Count Down to Date"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,440 @@
+
+<style>
+
+  {{ section.settings.text_font | font_face }}
+  {{ section.settings.headline_font | font_face }}
+
+  #bse-isg-{{ section.id }}.bse-isg-wrap p,
+  #bse-isg-{{ section.id }}.bse-isg-wrap p a {
+    font-size: {{ section.settings.text_size }}px;
+    font-family: {{ section.settings.text_font.family }}, {{ section.settings.text_font.fallback_families }};
+    font-weight: {{ section.settings.text_font.weight }};
+    line-height: 1.15;
+  }
+
+  #bse-isg-{{ section.id }}.bse-isg-wrap h2 {
+    font-size: {{ section.settings.headline_size }}px;
+    font-family: {{ section.settings.headline_font.family }}, {{ section.settings.headline_font.fallback_families }};
+    font-weight: {{ section.settings.headline_font.weight }};
+    line-height: 1.15;
+  }
+
+  #bse-isg-{{ section.id }}.bse-isg-wrap {
+    background-image: {{ section.settings.background_color }};
+    width: 100%;
+  }
+
+
+  #bse-isg-{{ section.id }} .bse-isg {
+    position: relative;
+    margin: 0 auto;
+    max-width: {{ section.settings.max_width }}px;
+    padding: {{ section.settings.padding_top }}px {{ section.settings.padding_right }}px {{ section.settings.padding_bottom }}px {{ section.settings.padding_left }}px;
+  }
+
+  #bse-isg-{{ section.id }}  .bse-isg .bse-isg-grid {
+    display: grid;
+    align-items: center;
+    gap: {{ section.settings.grid_gap}}px;
+    position: relative;
+    z-index: 2;
+  }
+
+  @media only screen and (min-width: 801px) {
+    #bse-isg-{{ section.id }} .bse-isg .bse-isg-grid {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-auto-flow: column;
+      
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    #bse-isg-{{ section.id }} .bse-isg .bse-isg-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      
+    }
+  }
+
+  #bse-isg-{{ section.id }}  .bse-isg .bse-isg-cover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-image: {{ section.settings.cover_background }};
+    opacity: {{ section.settings.cover_opacity }}%;
+    transition: all .5s;
+  }
+
+  #bse-isg-{{ section.id }}  .bse-isg-col:hover .bse-isg-cover {
+    opacity: {{ section.settings.cover_opacity | plus: 15 }}%;
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg-col {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    aspect-ratio: {{ section.settings.aspect_ratio }};
+    border-radius: {{ section.settings.media_radius }}px;
+    {% if section.settings.media_shadow %}
+      box-shadow: 0 0 5px 0 rgba(0,0,0,0.20);
+    {% endif %}
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: all .4s;
+    z-index: 1;
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg-swap-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: all .5s;
+    z-index: 2;
+    opacity: 0;
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg-col:hover .bse-isg-swap-img {
+    opacity: 1;
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg-col:hover .bse-isg-img {
+    transform: scale(1.2);
+  }
+  
+  #bse-isg-{{ section.id }} .bse-isg-content {
+    z-index: 3;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg h2 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: {{ section.settings.text_color }};
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    text-align: left;
+  }
+
+
+  #bse-isg-{{ section.id }} .bse-isg p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  #bse-isg-{{ section.id }} .bse-isg a.bse-isg-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: {{ section.settings.button_background_color }};
+    border-radius: 5px;
+    color: {{ section.settings.button_text_color }};
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: none;
+    transition: .25s all;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+  }
+</style>
+
+<div id="bse-isg-{{ section.id }}" class="bse-isg-wrap" sp-wrap>
+
+<div class="bse-isg" sp-container>
+
+  <div class="bse-isg-grid">
+
+    {% for block in section.blocks %}
+      <div class="bse-isg-col" sp-column>
+        {% if block.settings.background_image %}
+          <img class="bse-isg-img" src="{{ block.settings.background_image | image_url: width: 600 }}">
+        {% endif %}
+        {% if block.settings.background_image %}
+          <img class="bse-isg-swap-img" src="{{ block.settings.swap_image | image_url: width: 600 }}">
+        {% endif %}
+        <div class="bse-isg-cover"></div>
+        <div class="bse-isg-content">
+          {% if block.settings.headline != "" %}<h2>{{ block.settings.headline }}</h2>{% endif %}
+          {% if block.settings.cta != "" %}<p><a class="bse-isg-cta" href="{{ block.settings.cta_link }}">{{ block.settings.cta }}</a></p>{% endif %}
+        </div>
+      </div>
+      <!-- /.bse-isg-col -->
+
+      {% endfor %}
+
+  </div>
+  <!-- /.bse-isg-grid -->
+  
+</div>
+<!-- /.bse-isg -->
+
+</div>
+<!-- /.bse-isg-wrap -->
+{% schema %}
+  {
+    "name": "custom- Image Swap Grid",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Text",
+        "info": "Set the text size for your widget"
+      },
+      {
+        "type": "font_picker",
+        "id": "text_font",
+        "label": "Text Font",
+        "default": "sans-serif"
+      },
+      {
+        "type": "range",
+        "id": "text_size",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Text Size",
+        "default": 15
+      },
+      {
+        "type": "font_picker",
+        "id": "headline_font",
+        "label": "Headline Font",
+        "default": "sans-serif"
+      },
+      {
+        "type": "range",
+        "id": "headline_size",
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Headline Size",
+        "default": 25
+      },
+      {
+        "type": "header",
+        "content": "Colors",
+        "info": "Set colors for the section."
+      },
+      {
+        "type": "color_background",
+        "id": "background_color",
+        "default": "linear-gradient(164deg, #fff 0%, #fff 0%)",
+        "label": "Background"
+      },
+      {
+        "type": "color_background",
+        "id": "cover_background",
+        "default": "linear-gradient(164deg, #111 0%, #555 100%)",
+        "label": "Cover Background"
+      },
+      {
+        "type": "range",
+        "id": "cover_opacity",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Cover Opacity",
+        "default": 25
+      },
+      {
+        "type": "color_background",
+        "id": "button_background_color",
+        "default": "linear-gradient(164deg, #111 0%, #333 100%)",
+        "label": "Button Background Color"
+      },
+      {
+        "type": "color",
+        "id": "button_text_color",
+        "default": "#fff",
+        "label": "Button Text Color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "default": "#fff",
+        "label": "Text Color"
+      },
+      {
+        "type": "header",
+        "content": "Dimensions",
+        "info": "Set the section dimensions in pixels."
+      },
+      {
+        "type": "select",
+        "id": "aspect_ratio",
+        "label": "Image Aspect Ratio",
+        "options": [
+          {
+            "value": "4 / 1",
+            "label": "4:1"
+          },
+          {
+            "value": "21 / 9",
+            "label": "21:9"
+          },
+          {
+            "value": "16 / 9",
+            "label": "16:9"
+          },
+          {
+            "value": "4 / 3",
+            "label": "4:3"
+          },
+          {
+            "value": "1 / 1",
+            "label": "1:1"
+          }
+        ],
+        "default": "1 / 1"
+      },
+      {
+        "type": "range",
+        "id": "max_width",
+        "min": 100,
+        "max": 2000,
+        "step": 20,
+        "unit": "px",
+        "label": "Max Width of Section",
+        "default": 1000
+      },
+      {
+        "type": "range",
+        "id": "grid_gap",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Gap Between Reviews",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding Top",
+        "default": 25
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding Bottom",
+        "default": 25
+      },
+      {
+        "type": "range",
+        "id": "padding_left",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding Left",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "padding_right",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding Right",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "media_radius",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Round Borders on Media",
+        "default": 5
+      },
+      {
+        "type": "checkbox",
+        "id": "media_shadow",
+        "default": true,
+        "label": "Subtle Shadow on Media"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Feature",
+        "type": "feature",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "Background Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "swap_image",
+            "label": "Swap Image"
+          },
+          {
+            "type": "inline_richtext",
+            "id": "headline",
+            "label": "Headline",
+            "default": "<b>Feature Headline</b>"
+          },
+          {
+            "type": "inline_richtext",
+            "id": "cta",
+            "default": "<b>Shop Now</b>",
+            "label": "Call to Action"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "Call to Action Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom- Image Swap Grid",
+        "blocks": [
+          {
+            "type": "feature"
+          },
+          {
+            "type": "feature"
+          },
+          {
+            "type": "feature"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+

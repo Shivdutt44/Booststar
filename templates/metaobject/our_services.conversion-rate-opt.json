@@ -1,0 +1,1602 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_EYjCbV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TU4ccj": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEST <strong>CONVERSION RATE OPTIMIZATION</strong> SERVICE",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_9tgpdp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.h_1_heading_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_pDmCGG": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Start the project",
+            "button_link_1": "#app-embed",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TU4ccj",
+        "text_9tgpdp",
+        "buttons_pDmCGG"
+      ],
+      "settings": {
+        "image": "{{ metaobject.image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_display_policies_mqhh9J": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_UFLDMT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": "https://trustpilot.com/review/booststar.rlchats.com"
+          }
+        },
+        "icon_9i6P7e": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": "https://partnersdirectory.withgoogle.com/partners/9404980363"
+          }
+        },
+        "icon_RnRhdf": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED </strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_nf6Tg7": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": "https://g.page/r/Ce4BtBFUVOsOEAI/review"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UFLDMT",
+        "icon_9i6P7e",
+        "icon_RnRhdf",
+        "icon_nf6Tg7"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(105deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(0deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": true,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_achievement_counter_xBDqin": {
+      "type": "boost-star-achievement-counter",
+      "settings": {
+        "headline": "MAXIMIZE IMPACT WITH <strong>CRO SERVICES</strong>",
+        "content": "",
+        "content_alignment": "center",
+        "box_1_number": "5000",
+        "append_1": "%",
+        "box_1_text": "Milestone Reached",
+        "box_2_number": "500",
+        "append_2": "%",
+        "box_2_text": "Milestone Reached",
+        "box_3_number": "100",
+        "append_3": "%",
+        "box_3_text": "Milestone Reached",
+        "headline_size": 25,
+        "text_size": 15,
+        "count_size": 30,
+        "text_color": "#121212",
+        "headline_color": "#121212",
+        "count_color": "#97ba52",
+        "background_color": "",
+        "number_border_color": "#97ba52",
+        "number_bg": "#121212",
+        "bg_image": "shopify://shop_images/graph_bg.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "element_spacing": 25,
+        "max_width": 1400,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 10,
+        "corner": 10,
+        "number_padding": 30,
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "count_font": "sans-serif"
+      }
+    },
+    "rich_text_ATFjNi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rVQxHq": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE ARE EXPERTS IN <strong>CONVERSION RATE OPTIMIZATION</strong> SERVICE",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rVQxHq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "boost_link_grid_VHmRrf": {
+      "type": "boost-link-grid",
+      "blocks": {
+        "image_link_X3AeQj": {
+          "type": "image_link",
+          "settings": {
+            "image": "shopify://shop_images/customer_accuisition.svg",
+            "shape": "circle",
+            "size": 44,
+            "gap": 20,
+            "text": "data-driven decisions",
+            "link": ""
+          }
+        },
+        "image_link_p33PTm": {
+          "type": "image_link",
+          "settings": {
+            "image": "shopify://shop_images/ranking.svg",
+            "shape": "circle",
+            "size": 44,
+            "gap": 20,
+            "text": "Adaptation to trends",
+            "link": ""
+          }
+        },
+        "image_link_kV7iek": {
+          "type": "image_link",
+          "settings": {
+            "image": "shopify://shop_images/rank.svg",
+            "shape": "circle",
+            "size": 44,
+            "gap": 20,
+            "text": "Improve AOV factors",
+            "link": ""
+          }
+        },
+        "image_link_bch4nJ": {
+          "type": "image_link",
+          "settings": {
+            "image": "shopify://shop_images/data.svg",
+            "shape": "circle",
+            "size": 44,
+            "gap": 20,
+            "text": "Improve Acquisition cost",
+            "link": ""
+          }
+        },
+        "image_link_yay3VJ": {
+          "type": "image_link",
+          "settings": {
+            "image": "shopify://shop_images/Roi_money.svg",
+            "shape": "circle",
+            "size": 44,
+            "gap": 20,
+            "text": "Comprehensive Audit",
+            "link": ""
+          }
+        },
+        "image_link_h6nfWW": {
+          "type": "image_link",
+          "settings": {
+            "image": "shopify://shop_images/Roi_money.svg",
+            "shape": "circle",
+            "size": 44,
+            "gap": 20,
+            "text": "Increasing ROI factors",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_link_X3AeQj",
+        "image_link_p33PTm",
+        "image_link_kV7iek",
+        "image_link_bch4nJ",
+        "image_link_yay3VJ",
+        "image_link_h6nfWW"
+      ],
+      "settings": {
+        "text_size": 16,
+        "text_color": "#f8f9fa",
+        "background_color": "",
+        "link_background_color": "linear-gradient(164deg, rgba(18, 18, 18, 1), rgba(18, 18, 18, 1) 100%)",
+        "link_border_color": "#97ba52",
+        "link_border_radius": 5,
+        "link_border_size": 3,
+        "alignment": "left",
+        "gap": 10,
+        "mobile_gap": 10,
+        "columns": "1fr 1fr",
+        "mobile_columns": "1fr 1fr",
+        "link_padding_tb": 36,
+        "link_padding_lr": 36,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1800,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "margin_top": 25,
+        "margin_bottom": 25,
+        "margin_left": 10,
+        "margin_right": 10,
+        "link_shadow": true,
+        "link_animation": true,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_C7TXfE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VB8rC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BOOST STAR Experts</strong> Vs Competitors Service",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VB8rC9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_comparison_table_fRwDTV": {
+      "type": "boost-star-comparison-table",
+      "blocks": {
+        "comparison_cUdmqF": {
+          "type": "comparison",
+          "settings": {
+            "label": "Data-Driven Analysis",
+            "product_support": true,
+            "competitor_support": false
+          }
+        },
+        "comparison_jdaPmT": {
+          "type": "comparison",
+          "settings": {
+            "label": "A/B Testing",
+            "product_support": true,
+            "competitor_support": false
+          }
+        },
+        "comparison_LVrK6p": {
+          "type": "comparison",
+          "settings": {
+            "label": "24/7 Support",
+            "product_support": true,
+            "competitor_support": true
+          }
+        },
+        "comparison_E9zgHY": {
+          "type": "comparison",
+          "settings": {
+            "label": "Conversion Tracking",
+            "product_support": true,
+            "competitor_support": false
+          }
+        },
+        "comparison_akbEH9": {
+          "type": "comparison",
+          "settings": {
+            "label": "Customer Insights",
+            "product_support": true,
+            "competitor_support": true
+          }
+        },
+        "comparison_mgjxNF": {
+          "type": "comparison",
+          "settings": {
+            "label": "ROI Focus",
+            "product_support": true,
+            "competitor_support": false
+          }
+        },
+        "comparison_D6Nd7d": {
+          "type": "comparison",
+          "settings": {
+            "label": "Speed Optimization",
+            "product_support": true,
+            "competitor_support": false
+          }
+        },
+        "comparison_bkTQxE": {
+          "type": "comparison",
+          "settings": {
+            "label": "Ongoing Support",
+            "product_support": true,
+            "competitor_support": true
+          }
+        },
+        "comparison_nM4MWJ": {
+          "type": "comparison",
+          "settings": {
+            "label": "Market Research",
+            "product_support": true,
+            "competitor_support": false
+          }
+        },
+        "comparison_3JCHF8": {
+          "type": "comparison",
+          "settings": {
+            "label": "A/B Testing",
+            "product_support": true,
+            "competitor_support": false
+          }
+        }
+      },
+      "block_order": [
+        "comparison_cUdmqF",
+        "comparison_jdaPmT",
+        "comparison_LVrK6p",
+        "comparison_E9zgHY",
+        "comparison_akbEH9",
+        "comparison_mgjxNF",
+        "comparison_D6Nd7d",
+        "comparison_bkTQxE",
+        "comparison_nM4MWJ",
+        "comparison_3JCHF8"
+      ],
+      "settings": {
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "highlight_background": "#f3f9fe",
+        "text_color": "#111111",
+        "border_color": "#cccccc",
+        "check_color": "#97ba52",
+        "x_color": "#d61f1f",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_right": 10,
+        "cell_padding": 10,
+        "product_title": "Boost Star Experts",
+        "competitor_title": "<strong>Competitor Product</strong>",
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_XQYqnz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3xd6ic": {
+          "type": "heading",
+          "settings": {
+            "heading": "100+ <strong>E-COMMERCE BUSINESSES </strong>SUCCEED WITH CRO",
+            "heading_size": "h2"
+          }
+        },
+        "text_tWnmhE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We specialize in Conversion Rate Optimization for <strong>E</strong>-<strong>Commerce </strong>websites using platforms like <strong>Shopify, Wix, BigCommerce, WooCommerce</strong>, etc increasing Conversion Rate Optimization within 6 months.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3xd6ic",
+        "text_tWnmhE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_experts_marquee_highlights_MM7Gwp": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_Hjb389": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_1.png",
+            "link": ""
+          }
+        },
+        "image_TmqFbm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_1.png",
+            "link": ""
+          }
+        },
+        "image_pdgrgD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_1.png",
+            "link": ""
+          }
+        },
+        "image_wXAtCn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_2_1.png",
+            "link": ""
+          }
+        },
+        "image_mmcFLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2_1.png",
+            "link": ""
+          }
+        },
+        "image_BLtpeC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2_1.png",
+            "link": ""
+          }
+        },
+        "image_pRrBJP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/24_1.png",
+            "link": ""
+          }
+        },
+        "image_rAmqqt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/27_1.png",
+            "link": ""
+          }
+        },
+        "image_4NarBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/26_1.png",
+            "link": ""
+          }
+        },
+        "image_QL884h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/25_1.png",
+            "link": ""
+          }
+        },
+        "image_mJYcYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/29_1.png",
+            "link": ""
+          }
+        },
+        "image_EnYQqH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hjb389",
+        "image_TmqFbm",
+        "image_pdgrgD",
+        "image_wXAtCn",
+        "image_mmcFLw",
+        "image_BLtpeC",
+        "image_pRrBJP",
+        "image_rAmqqt",
+        "image_4NarBC",
+        "image_QL884h",
+        "image_mJYcYc",
+        "image_EnYQqH"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 100,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_experts_marquee_highlights_jkKFbD": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_g7cKDD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_1.png",
+            "link": ""
+          }
+        },
+        "image_VrzaFy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/50_1.png",
+            "link": ""
+          }
+        },
+        "image_GKeB7W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/45_1.png",
+            "link": ""
+          }
+        },
+        "image_Abrp8w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/47_1.png",
+            "link": ""
+          }
+        },
+        "image_QWfX4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48_1.png",
+            "link": ""
+          }
+        },
+        "image_LFYKBU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-_2_1.png",
+            "link": ""
+          }
+        },
+        "image_6wfVhe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-_2_1.png",
+            "link": ""
+          }
+        },
+        "image_BhJ4hG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/33_1.png",
+            "link": ""
+          }
+        },
+        "image_x8bwPK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/51_1.png",
+            "link": ""
+          }
+        },
+        "image_NYACLB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/52_1.png",
+            "link": ""
+          }
+        },
+        "image_CMbimb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/49_1.png",
+            "link": ""
+          }
+        },
+        "image_cEp9Ui": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/46_1.png",
+            "link": ""
+          }
+        },
+        "image_ChMRqM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16_1.png",
+            "link": ""
+          }
+        },
+        "image_NzWXPV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dewrw_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_g7cKDD",
+        "image_VrzaFy",
+        "image_GKeB7W",
+        "image_Abrp8w",
+        "image_QWfX4d",
+        "image_LFYKBU",
+        "image_6wfVhe",
+        "image_BhJ4hG",
+        "image_x8bwPK",
+        "image_NYACLB",
+        "image_CMbimb",
+        "image_cEp9Ui",
+        "image_ChMRqM",
+        "image_NzWXPV"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 100,
+        "margin_tp": 10,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_experts_marquee_highlights_i6WHp8": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_QFC3KR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17_1.png",
+            "link": ""
+          }
+        },
+        "image_dbHy6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_1.png",
+            "link": ""
+          }
+        },
+        "image_ELe69D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_1.png",
+            "link": ""
+          }
+        },
+        "image_MTiacK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18_1.png",
+            "link": ""
+          }
+        },
+        "image_PKeV3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14_1.png",
+            "link": ""
+          }
+        },
+        "image_e8kEmd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/15_1.png",
+            "link": ""
+          }
+        },
+        "image_8kJbYt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_1.png",
+            "link": ""
+          }
+        },
+        "image_dEPCte": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_2_1.png",
+            "link": ""
+          }
+        },
+        "image_mW7HKN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_2_1.png",
+            "link": ""
+          }
+        },
+        "image_drKNQe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_2_1.png",
+            "link": ""
+          }
+        },
+        "image_YUKPAH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_1.png",
+            "link": ""
+          }
+        },
+        "image_G4cTaD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_2_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QFC3KR",
+        "image_dbHy6b",
+        "image_ELe69D",
+        "image_MTiacK",
+        "image_PKeV3W",
+        "image_e8kEmd",
+        "image_8kJbYt",
+        "image_dEPCte",
+        "image_mW7HKN",
+        "image_drKNQe",
+        "image_YUKPAH",
+        "image_G4cTaD"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 100,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "top_collections_boost_star_z9FDah": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_V9fRWG": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 85%)",
+            "image": "shopify://shop_images/visible_2.svg",
+            "text": "Increase store visibility",
+            "link": ""
+          }
+        },
+        "image_LEiJbE": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 83.165%, rgba(255, 255, 255, 1) 85%)",
+            "image": "shopify://shop_images/effiecieny.svg",
+            "text": "High productivity and efficiency",
+            "link": "https://www.sistrix.com/visibility-index/"
+          }
+        },
+        "image_NgbkxL": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 85%)",
+            "image": "shopify://shop_images/growth.svg",
+            "text": " Growth in traffic and sales ",
+            "link": ""
+          }
+        },
+        "image_EfKicD": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 85%)",
+            "image": "shopify://shop_images/brand.svg",
+            "text": "Improved brand awareness",
+            "link": ""
+          }
+        },
+        "image_KEL9cd": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 48%, rgba(255, 255, 255, 1) 82.446%)",
+            "image": "shopify://shop_images/upto_date.svg",
+            "text": "Up to date your store with a new version of shopify",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_V9fRWG",
+        "image_LEiJbE",
+        "image_NgbkxL",
+        "image_EfKicD",
+        "image_KEL9cd"
+      ],
+      "settings": {
+        "headline": "CRO BENEFITS",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/bg-section-04.jpg",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "top",
+        "circle_size": 130,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_AikteN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8Axe66": {
+          "type": "heading",
+          "settings": {
+            "heading": "Drive More Sales With The Best<strong> Conversion Rate Optimization </strong>Agency",
+            "heading_size": "h1"
+          }
+        },
+        "text_KDLrGn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Optimize, Convert, Succeed. BOOST STAR Experts increase sales for your Shopify stores in India. Our Conversion Rate Optimization service can help you grow your revenue and maximize your store’s full potential. Let us help you turn your visitors into loyal customers and achieve sustainable growth that drives long-term success. Request a consultation today and take the first step toward Shopify success.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Axe66",
+        "text_KDLrGn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_ykeNCa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NrE6Cz": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY CONVERSION RATE OPTIMIZATION IS IMPORTANT?",
+            "heading_size": "h1"
+          }
+        },
+        "text_cQwrjL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Conversion Rate Optimization (CRO) is a set of strategies for increasing the percentage of users or website visitors who complete a desired action. If your website is not converting visitors into customers or qualified leads, Conversion Rate Optimization Services can maximize its performance, including A/B testing, segmentation testing, multivariate testing, and UX optimization. </p><p>We are a conversion rate optimization agency that has helped many top brands in India, US,Canada, France and many more increase sales, starting from 2004 to now. We understand that every business is unique, and we create custom CRO strategies that align with your goals. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NrE6Cz",
+        "text_cQwrjL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_UD7UEj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bkhcif": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW WE HELP TO IMPROVE <strong>CONVERSION RATE OPTIMIZATION?</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bkhcif"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_4yn69f": {
+      "type": "multirow",
+      "blocks": {
+        "row_aqWBRG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/optimization.svg",
+            "imglink": "",
+            "caption": "ACTION 1",
+            "heading": "Conversion Rate Optimization Techniques",
+            "text": "<p>You’ve invested time and money driving traffic to your Shopify store, but your conversion rate isn’t where you want it to be. Visitors go to your pages, browse your products, and leave the site without making a purchase. </p><p>Where did you go wrong? Whether it's confusing pages, a complicated checkout process, or slow page load times. You’re losing potential customers, but you don’t have to.</p><p>Work with our expert team to increase the conversion rate. With our CRO strategies, we analyze every aspect of your site’s performance. From optimizing product pages to enhancing the checkout process, we help companies generate more sales.</p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_BXLhRy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/increase_cro.svg",
+            "imglink": "",
+            "caption": "ACTION 2",
+            "heading": "Increase conversion rate",
+            "text": "<p>You’re running an online store but you’re not seeing the sales numbers you expect. That’s where we come in. Increase conversion rates with custom strategies, testing, coding, and implementation included. </p><p>BOOST STAR Experts specialize in Conversion Rate Optimization Services that help to earn more leads, sales, and revenue from your site. We have a team of Shopify CRO experts with years of experience. </p><p>Through strategic CRO techniques, we can help you get increased conversion rates, more leads, higher revenue, and ultimately, a more profitable Shopify store. </p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_wFAJpf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/preference_analysis.svg",
+            "imglink": "",
+            "caption": "ACTION 3",
+            "heading": "Customer Analysis",
+            "text": "<p>You’ve done the hard work of driving traffic to your Shopify store, but are you truly understanding what your customers want? If not, you could be missing out on opportunities to convert them into loyal customers.</p><p>Every visitor to your site has unique needs and expectations. Why do they decide to buy? Why do they leave without purchasing? </p><p>We conduct in-depth testing and analysis to understand how customers behave and what their preferences are. As a conversion rate optimization agency, we create data-powered CRO strategies that ensure your website resonates with visitors and encourages desired actions. Turn visitors into loyal customers with our CRO services.</p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_bnNRbh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/image_processing20210616-7129-1if6ujx.gif",
+            "imglink": "",
+            "caption": "ACTION 4",
+            "heading": "Website Development",
+            "text": "<p>If a website is confusing, users are most likely to leave the site. You can boost conversion rates with a user-friendly and responsive website. A website development from our conversion rate optimization services makes it easier for users to navigate and complete desired actions. </p><p>Our development solutions are tailored to meet the unique needs of your business, helping you deliver a smooth and engaging shopping experience that keeps visitors coming back.</p><p>Today, every website must be optimized for every screen, whether it’s a desktop, mobile, or tablet. Our <a href=\"https://www.booststar.in/pages/our-services/web-development\"><span style=\"text-decoration:underline\"><strong>website development service</strong></span></a> ensures your store delivers a seamless experience across all devices, so no matter where your customers are shopping, your site looks great and functions flawlessly.</p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_tLFpyQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/performance_moitoring.svg",
+            "imglink": "",
+            "caption": "ACTION 5",
+            "heading": "Long-Term Monitoring & Optimization",
+            "text": "<p>At BOOST STAR Experts, we’re dedicated to the long-term success of your Shopify store. We help you track and analyze goal conversion rates, identify areas for improvement, and implement ongoing optimizations to stay ahead of the competition. </p><p>Our <a href=\"https://www.booststar.in/pages/our-services/seo-services\"><span style=\"text-decoration:underline\"><strong>SEO Services</strong></span></a> is help your store climb to the top of SERPs and achieve the best possible rankings. You’ll attract more high-quality traffic, leading to even more sales opportunities. </p><p>We’re committed to monitoring every key metric, testing strategies, and making data-driven informed decisions. We adapt and refine our approach to maintain and maximize your store’s growth.</p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        }
+      },
+      "block_order": [
+        "row_aqWBRG",
+        "row_BXLhRy",
+        "row_wFAJpf",
+        "row_bnNRbh",
+        "row_tLFpyQ"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_CiU3tf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xcTgwA": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR SHOPIFY CONVERSION RATE OPTIMIZATION AGENCY",
+            "heading_size": "h1"
+          }
+        },
+        "text_tmX8tr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BOOST STAR Experts specializes in improving the performance of your Shopify store with data-driven strategies. We use CRO techniques, including A/B testing and user behavior analysis to help you achieve your business goals. </p><p>As a Conversion Rate Optimization agency, we improve user experience and maximize your sales potential. With BOOST STAR Experts, you're gaining a long-term partner who understands the intricacies of your business. We build a custom strategy that reflects your unique goals, while continuously optimizing to stay ahead of the competition. </p><p>We assisted our clients achieve an average increase of 25% in conversion rates. Let us help you achieve the same success with measurable, bottom-line results. Let's make your Shopify store the best it can be.</p>"
+          }
+        },
+        "button_d6D4xx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start the project",
+            "button_link": "#app-embed",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xcTgwA",
+        "text_tmX8tr",
+        "button_d6D4xx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dLVwRm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QLjMRh": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY CHOOSE <strong>BOOST STAR EXPERTS</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QLjMRh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_HUJMXa": {
+      "type": "multirow",
+      "blocks": {
+        "row_g7LwPh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/happy_clients.svg",
+            "imglink": "",
+            "caption": " Fortunate",
+            "heading": "Proven Track Record of Happy Clients",
+            "text": "<p>The client’s success is our top priority. We work relentlessly, with integrity, to deliver results that matter. Don’t just take our word for it - read glowing reviews from businesses that have transformed their sales with our expertise. Experience the difference with BOOST STAR Experts.</p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_XVb3C6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/connected.svg",
+            "imglink": "",
+            "caption": "Universally",
+            "heading": "Global Reach, Local Impact",
+            "text": "<p>We’re proud to work with clients from 18 countries, leveraging the power of the Shopify platform to help businesses grow globally. No matter where you’re located, we tailor our CRO strategies to meet your needs and goals.</p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_H8QHUx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/experience.svg",
+            "imglink": "",
+            "caption": "Our",
+            "heading": "A Decade of Expertise",
+            "text": "<p>With 10 years of proven success, BOOST STAR Experts has consistently delivered innovative, high-impact solutions for Shopify stores. Our experience allows us to build strategies that elevate your store, ensuring you stay ahead of the competition. </p>",
+            "button_label": "Start the project",
+            "button_link": "#app-embed"
+          }
+        }
+      },
+      "block_order": [
+        "row_g7LwPh",
+        "row_XVb3C6",
+        "row_H8QHUx"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_Lrppgb": {
+      "type": "multirow",
+      "blocks": {
+        "row_D676wg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-video-to-gif_14_b1c4f0a9-9488-4e85-8ba5-787b640b9314.gif",
+            "imglink": "",
+            "caption": "Caption",
+            "heading": "Analysis of E-commerce Keywords",
+            "text": "<p>There are limitations on the keywords that must be included in the items, though.</p><p>As long as the sections are as closely related to the page as possible, they should be pertinent to the popular keywords that are included in the search string. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_tAg3EW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/SEO-gif-makccer-2.gif",
+            "imglink": "",
+            "caption": "Caption",
+            "heading": "Content Optimization: Practicality",
+            "text": "<p>Highlight terms used in product advertisements or even product names.</p><p>Earn money by distributing the acquired content naturally so that readers who are interested in the post's subject matter can locate it on their own.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dGaDfJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/SEO.gif",
+            "imglink": "",
+            "caption": "Caption",
+            "heading": "Technical Search Engine Optimization",
+            "text": "<p>Boost the website's overall loading speed and make sure it works well on all devices for users.</p><p>Address any obstacles affecting how highly you rank on websites or search engines.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PGacKp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/how-to-get-backlinks-from-google.webp",
+            "imglink": "",
+            "caption": "Caption",
+            "heading": "Creating Links: Obtain superior backlinks",
+            "text": "<p>Additionally, confirm that the indicator at your store makes stamps certifying that it satisfies validity and reliability requirements.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QhyCAg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/what-is-page-load-speed.gif",
+            "imglink": "",
+            "caption": "Caption",
+            "heading": "Performance Monitoring",
+            "text": "<p>Report tracking should be included in your SEO efforts.</p><p>To enhance the outcomes, the same data should be used for software and important decisions.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_D676wg",
+        "row_tAg3EW",
+        "row_dGaDfJ",
+        "row_PGacKp",
+        "row_QhyCAg"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_8TbyTa": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/discount-banner_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_6bGVkM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7UVD37": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're ready to maximize your Shopify store’s sales potential, our Conversion Rate Optimization services are the solution you've been looking for.  Start improving your conversion rates and discover how <a href=\"https://www.booststar.in/\"><span style=\"text-decoration:underline\"><strong>BOOST STAR Experts</strong></span></a> can help you drive more sales and grow your business.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_7UVD37"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "17222634208124d27b": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_ewr3Q8": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 36,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_ewr3Q8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "top_collections_boost_star_4qw7pF": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_76BdJg": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+            "image": "shopify://shop_images/gmail.svg",
+            "text": "Email us",
+            "link": "mailto:contact@booststar.in"
+          }
+        },
+        "image_HFWfab": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+            "image": "shopify://shop_images/call.svg",
+            "text": "Call us",
+            "link": "tel:+917000587074"
+          }
+        },
+        "image_NmDfby": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(33, 249, 150, 1) 85%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/whatsapp.svg",
+            "text": "WhatsApp",
+            "link": "https://wa.me/7000587074"
+          }
+        },
+        "image_cYwhce": {
+          "type": "image",
+          "settings": {
+            "background_color": "linear-gradient(310deg, rgba(73, 251, 17, 0) 81%, rgba(NaN, NaN, NaN, 1) 100%)",
+            "image": "shopify://shop_images/linkedin-icon.svg",
+            "text": "LinkedIn",
+            "link": "https://www.linkedin.com/company/boost-star-experts/"
+          }
+        }
+      },
+      "block_order": [
+        "image_76BdJg",
+        "image_HFWfab",
+        "image_NmDfby",
+        "image_cYwhce"
+      ],
+      "settings": {
+        "headline": "<strong>QUICK CONNECT WITH US</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 20,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-circle",
+        "image_id": true,
+        "bg_image": "shopify://shop_images/graph_bg_5799fcf1-4e4f-4d31-9906-6413836376ec.png",
+        "parallax": true,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "circle_size": 100,
+        "max_width": 1400,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 60,
+        "mobile_grid_gap": 10,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "faq_boost_star_bb8Qff": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_wtGGmx": {
+          "type": "text",
+          "settings": {
+            "question": " How to increase conversion rate e - commerce websites or stores ?",
+            "answer": "<p>Boost Star Experts offers experienced <strong>Shopify CRO experts </strong>with years of experience and skills Ecommerce CRO experts We specialize in providing eCommerce CRO services that have the capability of increasing the conversion rate of your online shop; Right from changing product pages till enhancing the checkout process, we would have helped supercharge your sales.</p>"
+          }
+        },
+        "text_c4379n": {
+          "type": "text",
+          "settings": {
+            "question": " Top CRO Strategies That Improve Lead Generation",
+            "answer": "<p>LRB– Generating leads online demands that you get the best out of your traffic. We will use CRO techniques to increase lead volumes as well as improve the efficiency level for every marketing channel you are using.</p>"
+          }
+        },
+        "text_H6iA9J": {
+          "type": "text",
+          "settings": {
+            "question": "Best Website Conversion Rate Optimization (CRO) Updates A/B Testing and Technical Expertise",
+            "answer": "<p>Our team doesn’t merely propose changes, but puts them into action by conducting conversion rate optimization tests. Whether it’s simple split testing or more complex design changes, our staff has the ability to handle a high level of technical complexity in-house.</p>"
+          }
+        },
+        "text_BHgxcH": {
+          "type": "text",
+          "settings": {
+            "question": "Why Choose Boost Star Experts For Top Shopify SEO Services?",
+            "answer": "<p><strong>Team with Experience:</strong> We can provide the following promises since our committed staff of SEO experts is constantly available.</p><p><strong>Personalised Approaches:</strong> Our intake strategy is situation-specific; there is no one-size-fits-all approach that we use.</p><p><strong>Results-Oriented:</strong> Our goal in this chapter is to paint a much clearer picture for you of exactly what we can do for your company.</p><h3><strong>Monitoring & Optimization - </strong>Our target to get your store on top SERP page and give you best ranking we can do for your company </h3>"
+          }
+        },
+        "text_ETTwPB": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_5.value }}",
+            "answer": "<p></p>{{ metaobject.ans_5 | metafield_tag }}"
+          }
+        },
+        "text_ejVwQj": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_6.value }}",
+            "answer": "<p></p>{{ metaobject.ans_6 | metafield_tag }}"
+          }
+        },
+        "text_Kc9FPY": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_7.value }}",
+            "answer": "<p></p>{{ metaobject.ans_7 | metafield_tag }}"
+          }
+        },
+        "text_AxWQzb": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_8.value }}",
+            "answer": "<p></p>{{ metaobject.ans_8 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_wtGGmx",
+        "text_c4379n",
+        "text_H6iA9J",
+        "text_BHgxcH",
+        "text_ETTwPB",
+        "text_ejVwQj",
+        "text_Kc9FPY",
+        "text_AxWQzb"
+      ],
+      "settings": {
+        "heading": "FREQUENTLY ASKED QUESTIONS",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "1F7A6",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#111111",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#f8f9fa",
+        "question_color": "#f8f9fa",
+        "background_color": "#97ba52",
+        "hover_color": "#f8f9fa",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1400,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_inline": 20
+      }
+    }
+  },
+  "order": [
+    "image_banner_EYjCbV",
+    "boost_star_display_policies_mqhh9J",
+    "boost_star_achievement_counter_xBDqin",
+    "rich_text_ATFjNi",
+    "boost_link_grid_VHmRrf",
+    "rich_text_C7TXfE",
+    "boost_star_comparison_table_fRwDTV",
+    "rich_text_XQYqnz",
+    "boost_star_experts_marquee_highlights_MM7Gwp",
+    "boost_star_experts_marquee_highlights_jkKFbD",
+    "boost_star_experts_marquee_highlights_i6WHp8",
+    "top_collections_boost_star_z9FDah",
+    "rich_text_AikteN",
+    "rich_text_ykeNCa",
+    "rich_text_UD7UEj",
+    "multirow_4yn69f",
+    "rich_text_CiU3tf",
+    "rich_text_dLVwRm",
+    "multirow_HUJMXa",
+    "multirow_Lrppgb",
+    "image_banner_8TbyTa",
+    "rich_text_6bGVkM",
+    "17222634208124d27b",
+    "top_collections_boost_star_4qw7pF",
+    "faq_boost_star_bb8Qff"
+  ]
+}

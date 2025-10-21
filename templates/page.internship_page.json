@@ -1,0 +1,1058 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_t4eX7z": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fMQhhG": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN OUR Career-Boosting Courses & Professional Training Program",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        },
+        "text_PxU6JV": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_kWEVXh": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Register Now",
+            "button_link_1": "shopify://collections/join-internship-industrial-training",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fMQhhG",
+        "text_PxU6JV",
+        "buttons_kWEVXh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/images_f99d7b66-7648-4621-9161-9059ba83ae2c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_UWy3dN": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "READY TO LAUNCH YOUR <strong>CAREER?</strong>",
+        "heading_size": "h1",
+        "description": "<p>Build in-demand skills and real experience with BoostStar Experts Internship.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "join-internship-industrial-training",
+        "products_to_show": 4,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_KEw4K6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PpRtfz": {
+          "type": "heading",
+          "settings": {
+            "heading": "MOST<strong> LOVED </strong>💚 <strong>CODING </strong>COMMUNITY",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PpRtfz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "boost_star_display_policies_Ae6grA": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_3GCeP3": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/live_hours.svg",
+            "headline": "Freshers Enrolled",
+            "text": "1200+",
+            "link": ""
+          }
+        },
+        "icon_aghiGV": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/live_classes.svg",
+            "headline": "Live Sessions",
+            "text": "1600+",
+            "link": ""
+          }
+        },
+        "icon_KxmaEk": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/students_enrolled.svg",
+            "headline": "Live Projects",
+            "text": "1600+",
+            "link": ""
+          }
+        },
+        "icon_TWTAjR": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/24x7_support.svg",
+            "headline": "24x7 Support",
+            "text": "+ Personal Guidance",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_3GCeP3",
+        "icon_aghiGV",
+        "icon_KxmaEk",
+        "icon_TWTAjR"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(146, 188, 87, 1), rgba(146, 188, 87, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1400,
+        "grid_gap": 10,
+        "padding_block": 10,
+        "padding_inline": 25,
+        "margin_block": 45,
+        "override_fonts": false,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4"
+      }
+    },
+    "rich_text_BPU49e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iF8bNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "1000+ INTERNS ARE ALREADY BECOME A PART OF <strong>BOOST STAR INTERNSHIP</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_GDUnpr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start Your Internship journey today </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iF8bNH",
+        "text_GDUnpr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_experts_marquee_highlights_LMVKpX": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_AA9qCf": {
+          "type": "image",
+          "repeater": "{{ page.metafields.custom.seo_internship_members_.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image_here.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AA9qCf"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "circle",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 20,
+        "max_width": 1400,
+        "height": 120,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "boost_star_experts_marquee_highlights_kCbP4F": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_ThgyyM": {
+          "type": "image",
+          "repeater": "{{ page.metafields.custom.internship_students.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image_here.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ThgyyM"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "circle",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 20,
+        "max_width": 1400,
+        "height": 120,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "boost_star_experts_marquee_highlights_xJEini": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_b9NRXV": {
+          "type": "image",
+          "repeater": "{{ page.metafields.custom.dm_internship_students_.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image_here.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_b9NRXV"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "circle",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 20,
+        "max_width": 1400,
+        "height": 120,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "rich_text_k8GXpe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yxVij8": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEET <strong>MYOUR MENTORS</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yxVij8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_eYcafE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GfkYt4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Riitik.png",
+            "title": "Mr. Ritik Tamrakar",
+            "text": "<p><strong>Founder & CEO</strong><br/></p>",
+            "link_label": "",
+            "link": "shopify://metaobjects/our_leaders/ritik-tamrakar"
+          }
+        },
+        "column_QxFjwg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lovekush-Manjhi-Internship-Manager-600x600-removebg-preview.png",
+            "title": "Mr. Lovekush Manjhi",
+            "text": "<p><strong>Head of Internship</strong></p>",
+            "link_label": "",
+            "link": "shopify://metaobjects/our_leaders/lovekush-manjhi"
+          }
+        }
+      },
+      "block_order": [
+        "column_GfkYt4",
+        "column_QxFjwg"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_XAVxNf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qJ8Mm7": {
+          "type": "heading",
+          "settings": {
+            "heading": "INTERNSHIP <strong>HIGHLIGHTS</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qJ8Mm7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "boost_star_experts_marquee_highlights_NQq4r6": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_XgMnyj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary.png",
+            "link": ""
+          }
+        },
+        "image_kGhVzA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Test_Result_June_Batch_00cd056a-acaa-44d7-8fa1-3bf99a0b8c71.png",
+            "link": ""
+          }
+        },
+        "image_4zAfPw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_Of_The_Month_March_12cf8d77-eb62-4dce-9d3a-af75afb7df60.png",
+            "link": ""
+          }
+        },
+        "image_bjKd3L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_Of_The_Month_March_53bd66f2-ac47-48a9-a54e-b03429721036.png",
+            "link": ""
+          }
+        },
+        "image_UFBmwC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_2_aab01f96-45c4-470e-8ca4-0fd724ff29bf.png",
+            "link": ""
+          }
+        },
+        "image_yNHdWt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_3_93f898db-0761-4d0d-b044-0fbbe2ac970f.png",
+            "link": ""
+          }
+        },
+        "image_ryxw8p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_4_c81f5415-50d4-44b5-b3d7-dcdaceb2c5cc.png",
+            "link": ""
+          }
+        },
+        "image_zrmbkB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_5_76dfb91b-91a7-4396-9e2a-520e15372c50.png",
+            "link": ""
+          }
+        },
+        "image_rGppC4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Interns_of_the_month_feburary_048e9d4e-96d5-4986-ba08-15b8de9076a7.png",
+            "link": ""
+          }
+        },
+        "image_nPBPQK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Project_of_the_Week_2_5bc49d25-9f79-4a88-a16c-f676e6474619.png",
+            "link": ""
+          }
+        },
+        "image_VCM6Kb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Best_Project_of_the_Week_6964f774-2822-4831-9170-b65c4ddab99f.png",
+            "link": ""
+          }
+        },
+        "image_LTHWep": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Interns_Of_The_Batch_MARCH_fdbcd486-3e68-4882-9b54-e5eae56cf455.png",
+            "link": ""
+          }
+        },
+        "image_BiHkj7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Test_Result_June_Batch_WD_Internship_0d88f334-7d75-4eb8-8fc3-30ad1069202b.png",
+            "link": ""
+          }
+        },
+        "image_xX9W36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/may_batch_Top_Coders.png",
+            "link": ""
+          }
+        },
+        "image_VGgegE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2024-06-04_at_08.54.53_cc505d1d_46f1cef9-c239-41c0-b079-7ce5414a6c10.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XgMnyj",
+        "image_kGhVzA",
+        "image_4zAfPw",
+        "image_bjKd3L",
+        "image_UFBmwC",
+        "image_yNHdWt",
+        "image_ryxw8p",
+        "image_zrmbkB",
+        "image_rGppC4",
+        "image_nPBPQK",
+        "image_VCM6Kb",
+        "image_LTHWep",
+        "image_BiHkj7",
+        "image_xX9W36",
+        "image_VGgegE"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 200,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "system_ui_n4"
+      }
+    },
+    "rich_text_ArDL6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LV3fwz": {
+          "type": "heading",
+          "settings": {
+            "heading": "HIGH IMPACT <strong>INTERNSHIPS</strong> TO TAKE YOUR KNOWLEDGE TO THE NEXT LEVEL",
+            "heading_size": "h1"
+          }
+        },
+        "text_JfVPAc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start Your Internship journey today </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LV3fwz",
+        "text_JfVPAc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "boost_star_price_table_maV6hy": {
+      "type": "boost-star-price-table",
+      "blocks": {
+        "item_8MjJHE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Web-dev-internship_3_1.png",
+            "highlighted": true,
+            "title": "WEB DEVELOPMENT INDUSTRIAL TRAINING / INTERNSHIP",
+            "description": "Perfect for Getting Started",
+            "price": "Rs. 1799/-",
+            "feature_1": "60 Days Training",
+            "feature_2": "High Quality Content",
+            "feature_3": "Assignments & Quizes",
+            "feature_4": "Completion Certificate",
+            "feature_5": "Excellence Certificate",
+            "feature_6": "Open Source Certificate",
+            "feature_7": "Live Project Experience",
+            "feature_8": "",
+            "cta_link": "shopify://products/web-development-internship-program",
+            "cta": "Start Your Internship"
+          }
+        },
+        "item_LHgQpi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/digital-marketing-internship_3_1.png",
+            "highlighted": true,
+            "title": "DIGITAL MARKETING INDUSTRIAL TRAINING / INTERNSHIP",
+            "description": "Perfect for Getting Started",
+            "price": "Rs. 1700/-",
+            "feature_1": "60 Days Training",
+            "feature_2": "High Quality Content",
+            "feature_3": "Assignments & Quizes",
+            "feature_4": "Completion Certificate",
+            "feature_5": "Excellence Certificate",
+            "feature_6": "Open Source Certificate",
+            "feature_7": "Live Project Experience",
+            "feature_8": "",
+            "cta_link": "shopify://products/google-ads-internship-industrial-training",
+            "cta": "Start Your Internship"
+          }
+        }
+      },
+      "block_order": [
+        "item_8MjJHE",
+        "item_LHgQpi"
+      ],
+      "settings": {
+        "price_size": 40,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "price_color": "#111111",
+        "highlight_color": "#97ba52",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1), rgba(151, 186, 82, 1) 100%)",
+        "highlighted_button_text_color": "#ffffff",
+        "media_aspect_ratio": "4 / 3",
+        "max_width": 1400,
+        "padding_block": 25,
+        "padding_inline": 10,
+        "margin_block": 10,
+        "grid_gap": 20,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_font": "system_ui_n4",
+        "text_size": 15,
+        "headline_font": "system_ui_n4",
+        "headline_size": 25
+      }
+    },
+    "image_with_text_rzwUmw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UBFiNc": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENHANCE YOUR RESUME WITH NEW SKILLS<strong>❤️</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_r6Ygnk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boost your career prospects by adding a valuable new skill to your resume. Start learning today and stand out from the competition! </p>",
+            "text_style": "body"
+          }
+        },
+        "button_PmcBfM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Training",
+            "button_link": "shopify://collections/join-internship-industrial-training",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UBFiNc",
+        "text_r6Ygnk",
+        "button_PmcBfM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Certificate_of_Completion11.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1721237112adfaf518": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_aqHqBc": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_aqHqBc"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "rich_text_9PijE8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_phw9Uj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BENEFITS</strong> FROM OUR  RESOURCES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_phw9Uj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_He7WEM": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Want_to_hone_your_skills_and_gain_Experience0.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "video_WYWA6e": {
+      "type": "video",
+      "settings": {
+        "heading": "INTERNSHIP EVENT",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/oabgnp7w06o?si=hF4DbpQ0z7Lde66q",
+        "cover_image": "shopify://shop_images/The-time-has-come-to-announce-the-winner-of-Best-Interns-of-the-Batch-May-during-the-Internship-YouTube.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_zVUkDK": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_QmkBJB": {
+          "type": "caption",
+          "settings": {
+            "caption": "- Note From Our Founder & CEO -",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_enHL3b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mr. Ritik Tamrakar",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_tTBzfB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over 7 years of experience, our team at <strong>BOOST STAR Experts</strong> works tirelessly to help <strong>eCommerce businesses </strong>to deliver 360-degree solutions and exceptional results for our clients. We are committed to delivering exceptional results and achieving success together.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FaTbBw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://metaobjects/our_leaders/ritik-tamrakar",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_QmkBJB",
+        "heading_enHL3b",
+        "text_tTBzfB",
+        "button_FaTbBw"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ceo.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_Fq8pNe": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "INTERNSHIP GUIDANCE",
+        "heading_size": "h1",
+        "blog": "internship",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_boost_star_EJC8Jm": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_jtRD8n": {
+          "type": "text",
+          "settings": {
+            "question": "Why Choose BOOST STAR Experts ?",
+            "answer": "<p>Gain real-world experience with impactful projects, expert mentorship, and comprehensive training. Enjoy a supportive, collaborative environment with networking opportunities and a proven track record of fostering successful careers. Choose BOOST STAR Experts to build a strong foundation for your future career.</p>"
+          }
+        },
+        "text_nhQ8FF": {
+          "type": "text",
+          "settings": {
+            "question": "Do I need to know web development to join this program?",
+            "answer": "<p>No, we will start from the basics. Even if you have never written a single line of code, you will be able to understand everything and become interview-ready for your dream companies like Google, Microsoft, Amazon. All you need to do is be consistent.</p>"
+          }
+        },
+        "text_HkP6Rf": {
+          "type": "text",
+          "settings": {
+            "question": "What are the timings? Can I do this course with my college classes or job?",
+            "answer": "<p>Yes, you can. We will have 5 classes a week, and the timing of the classes is 5 to 6 PM or 6 to 7 PM, so your college classes or job won’t be a problem.</p>"
+          }
+        },
+        "text_pNcxaP": {
+          "type": "text",
+          "settings": {
+            "question": "Will this course be taught in Hindi or English?",
+            "answer": "<p>You will get the recorded sessions in both Hindi as well as English. If you choose the advanced web development track, the live classes will be in Hindi.</p>"
+          }
+        },
+        "text_BWb7Jw": {
+          "type": "text",
+          "settings": {
+            "question": "Do I need a computer for this course?",
+            "answer": "<p>It is tough to do web development on any device other than a laptop. Yes, you are required to have a decent laptop/computer with an internet connection.</p>"
+          }
+        },
+        "text_fFzzba": {
+          "type": "text",
+          "settings": {
+            "question": "How to join Internship ?",
+            "answer": "<p>explore opportunities and apply online. Submit your application, and if shortlisted, attend an interview. Successful candidates will receive an offer and start their internship. Contact us at +6265854542 or <a>contact@booststar.in</a> for assistance.</p>"
+          }
+        },
+        "text_CeUkEF": {
+          "type": "text",
+          "settings": {
+            "question": "What if I miss the LIVE class?",
+            "answer": "<p>Don’t worry, the recordings of every LIVE class will be shared on our platform after the class ends.</p>"
+          }
+        },
+        "text_knhL3L": {
+          "type": "text",
+          "settings": {
+            "question": "Which technologies are we going to use in the course?",
+            "answer": "<p>We will be using HTML, CSS, JavaScript, Tailwind CSS, and open-source tools. Additionally, we will cover React.js, Node.js, and SEO. Actually, we will be focusing on the fundamentals of web development, so the specific technology doesn’t play that big of a part, but these technologies are best suited as you can use them to build and enhance websites and web applications.</p>"
+          }
+        },
+        "text_ngpQh9": {
+          "type": "text",
+          "settings": {
+            "question": "Will I be provided with a certificate?",
+            "answer": "<p>Yes, you will get a course completion certificate once you complete this program.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jtRD8n",
+        "text_nhQ8FF",
+        "text_HkP6Rf",
+        "text_pNcxaP",
+        "text_BWb7Jw",
+        "text_fFzzba",
+        "text_CeUkEF",
+        "text_knhL3L",
+        "text_ngpQh9"
+      ],
+      "settings": {
+        "heading": "FREQUENTLY ASKED QUESTIONS",
+        "tag": "h1",
+        "text_alignment": "center",
+        "headline_size": 22,
+        "icon_style": "25B6",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#111111",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "system_ui_n4",
+        "icon_color": "#ffffff",
+        "question_color": "#ffffff",
+        "background_color": "#92bc57",
+        "hover_color": "#efefef",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1200,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_inline": 20
+      }
+    },
+    "image_gallery_GXh4WB": {
+      "type": "image-gallery",
+      "blocks": {
+        "gallery_jrTMG4": {
+          "type": "gallery",
+          "settings": {
+            "starimg": "shopify://shop_images/Best_Interns_of_the_month_feburary_4_c81f5415-50d4-44b5-b3d7-dcdaceb2c5cc.png",
+            "link": ""
+          }
+        },
+        "gallery_7PN6my": {
+          "type": "gallery",
+          "settings": {
+            "starimg": "shopify://shop_images/Best_Interns_of_the_month_feburary_048e9d4e-96d5-4986-ba08-15b8de9076a7.png",
+            "link": ""
+          }
+        },
+        "gallery_ndD4DU": {
+          "type": "gallery",
+          "settings": {
+            "starimg": "shopify://shop_images/Best_Interns_of_the_month_feburary_5_76dfb91b-91a7-4396-9e2a-520e15372c50.png",
+            "link": ""
+          }
+        },
+        "gallery_BKyxLp": {
+          "type": "gallery",
+          "settings": {
+            "starimg": "shopify://shop_images/Digital_Marketing_Internship_Banner1.png",
+            "link": ""
+          }
+        },
+        "gallery_bVF8eB": {
+          "type": "gallery",
+          "settings": {
+            "starimg": "shopify://shop_images/Best_Interns_of_the_month_feburary.png",
+            "link": ""
+          }
+        },
+        "gallery_N7YGHU": {
+          "type": "gallery",
+          "settings": {
+            "starimg": "shopify://shop_images/Best_Interns_of_the_month_feburary_2.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "gallery_jrTMG4",
+        "gallery_7PN6my",
+        "gallery_ndD4DU",
+        "gallery_BKyxLp",
+        "gallery_bVF8eB",
+        "gallery_N7YGHU"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Our Gallery",
+        "paragraph": "Check out our latest collection below.",
+        "heading_position": "center",
+        "paragraph_position": "center",
+        "image_position": "left"
+      }
+    }
+  },
+  "order": [
+    "image_banner_t4eX7z",
+    "featured_collection_UWy3dN",
+    "rich_text_KEw4K6",
+    "boost_star_display_policies_Ae6grA",
+    "rich_text_BPU49e",
+    "boost_star_experts_marquee_highlights_LMVKpX",
+    "boost_star_experts_marquee_highlights_kCbP4F",
+    "boost_star_experts_marquee_highlights_xJEini",
+    "rich_text_k8GXpe",
+    "multicolumn_eYcafE",
+    "main",
+    "rich_text_XAVxNf",
+    "boost_star_experts_marquee_highlights_NQq4r6",
+    "rich_text_ArDL6A",
+    "boost_star_price_table_maV6hy",
+    "image_with_text_rzwUmw",
+    "1721237112adfaf518",
+    "rich_text_9PijE8",
+    "image_banner_He7WEM",
+    "video_WYWA6e",
+    "image_with_text_zVUkDK",
+    "featured_blog_Fq8pNe",
+    "faq_boost_star_EJC8Jm",
+    "image_gallery_GXh4WB"
+  ]
+}

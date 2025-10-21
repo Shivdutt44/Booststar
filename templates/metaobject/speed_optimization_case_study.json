@@ -1,0 +1,996 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_VQAEig": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_87QMnx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Speed-Optimisation-For-Group-Websites-1024x597.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_87QMnx"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_hwgEdr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UEcALM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Industry:</strong> <br/><strong>Tools Used:</strong> shopify<br/><strong>Region:</strong> United Kingdom</p><p><strong>Technology Used:</strong> shopify</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CM43n6": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>The Team</strong></p><p>Project Manager: 1<br/>Developer: 1</p><p><strong>Project Duration:</strong> 4 Months</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UEcALM",
+        "column_CM43n6"
+      ],
+      "settings": {
+        "title": "Project Details",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Q4D9DQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PCqECT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Client’s Requirements ",
+            "heading_size": "h1"
+          }
+        },
+        "text_qtNUnU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the client’s website was slow – an average loading time of 5.82 seconds with 76% of performance, they approached us for website speed optimization and performance. In addition to it, they also came up with a few dependencies on website maintenance works as well. </p><p>The client decided to enhance all the 30 websites’ speed, performance, and loading time with the web developer’s support. While looking up for agencies to work with, they checked our ColorWhistle site’s speed in GTMetrix, and on looking at the score, they reached us.    </p>"
+          }
+        },
+        "button_ix3X7B": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PCqECT",
+        "text_qtNUnU",
+        "button_ix3X7B"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_9RqWPn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Best_Tools_to_Measure_Page_Speed_-_2_1_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_J9EEh9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EztNXh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Before Speed Optimization – Checklist",
+            "heading_size": "h1"
+          }
+        },
+        "text_kjDANY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Optimizing the speed of live websites is a sensitive concern. So, at ColorWhistle, while working on speed-related activities, we follow a checklist. This will make us ensure that we’re not missing out anything.</p><p></p><h2>1. Test the Speed</h2><p>The client had 30 websites for their hotels, restaurants, spas, and so on. Among all these multiple sites, one was the parent site – <a href=\"https://www.thecairncollection.co.uk/\" target=\"_blank\">Cairn Collection</a>. And they managed the rest of the child websites from this parent site using the super admin login credentials. </p><p><em>Super admin is an admin type with a dedicated username and password. It greatly helps in managing multiple sites. Instead of creating individual usernames and passwords for all the sites, you can access them from a single username.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EztNXh",
+        "text_kjDANY"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_KQjY7r": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8BJ9pP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Before-Speed-improvment.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8BJ9pP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tyDncz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6tmyWc": {
+          "type": "heading",
+          "settings": {
+            "heading": "2. Take Backups & Screenshots",
+            "heading_size": "h1"
+          }
+        },
+        "text_tnkTQe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When working on speed improvements, backup is a crucial step. For normal single sites, we use <a href=\"https://wordpress.org/plugins/all-in-one-wp-migration/\" target=\"_blank\">All-in-one WP Migration</a> plugin, we tried to use the same. </p><p>Unfortunately, the plugin didn’t support multiple websites. So, we manually, signed-in to the MyAdmin portal and took backups of the database of all websites. </p><p>Then, we logged-in to the cPanel of each website and took backups of the website files. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tmyWc",
+        "text_tnkTQe"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_V4h7Mj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3fYbt9": {
+          "type": "heading",
+          "settings": {
+            "heading": "3. Create a Demo Version",
+            "heading_size": "h1"
+          }
+        },
+        "text_TPmKnf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since this is speed implementation, we cannot work on the live site nor put off the site in maintenance mode. So, what we did? We built a demo environment and cloned all the websites. </p><p>We kept the URLs as it is just with ‘/dev’. We ensured the same is followed all through the sites and pages. Also, confirmed all the demo sites work similarly as current sites without anything being missed out.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3fYbt9",
+        "text_TPmKnf"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_aJqhPt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_L7T9nG": {
+          "type": "heading",
+          "settings": {
+            "heading": "4. Upgrade WordPress & Plugins  ",
+            "heading_size": "h1"
+          }
+        },
+        "text_nk9erM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The outdated versions will also make the websites slow. On both the demo and live sites, we found that the versions of WordPress and plugins were outdated. We updated to the latest versions on both live and demo sites. </p><p>After updating the plugins, we checked if it was working well or facing any issues. For that, we did a few test form submissions and checked if emails are sent properly. Everything worked fine on both the demo and live versions. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L7T9nG",
+        "text_nk9erM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_kM3X3Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8mtCpH": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Did We Do? ",
+            "heading_size": "h0"
+          }
+        },
+        "heading_PbAftp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Manual Speed Optimization Works ",
+            "heading_size": "h1"
+          }
+        },
+        "heading_ahEHBE": {
+          "type": "heading",
+          "settings": {
+            "heading": "1. Optimize the Images",
+            "heading_size": "h1"
+          }
+        },
+        "text_fMxaTJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>On average, the optimal size of an image on a website gallery can be below 200KB because when the image size is high, it will have a great impact on website load time. As our client is a hotel-based project, the websites had too many images. </p><p>We’re already familiar with an image optimization plugin, called <a href=\"https://wordpress.org/plugins/wp-smushit/\" target=\"_blank\">Smus</a>. In our previous projects,  after activating this, we have seen positive results, so opted for the same. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8mtCpH",
+        "heading_PbAftp",
+        "heading_ahEHBE",
+        "text_fMxaTJ"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_LeUwjw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xLpENn": {
+          "type": "heading",
+          "settings": {
+            "heading": "2. Optimize the Database",
+            "heading_size": "h1"
+          }
+        },
+        "text_9TRYME": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If a website needs to load quickly, then it’s imperative that its database be optimized as well. Form submissions, user details, tables, fields, and every small to big detail on a website will be stored in the database. </p><p>We did a thorough audit of the database and removed all the unwanted form submissions, tables, fields, etc. For this, we installed a plugin named <a href=\"https://wordpress.org/plugins/wp-optimize/\" target=\"_blank\">WPOptimize</a>. With just a few clicks in the plugin settings, we were able to optimize the database in a matter of minutes. </p>"
+          }
+        },
+        "button_a4Hife": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xLpENn",
+        "text_9TRYME",
+        "button_a4Hife"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_z6K3KG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qzWmxH": {
+          "type": "heading",
+          "settings": {
+            "heading": "3. Clean-up Cache",
+            "heading_size": "h1"
+          }
+        },
+        "text_fPkdLq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cache is a major issue that heavily impacts website performance. To clear all the cache, we were looking for an ideal plugin solution for multiple sites. Our previous experiences helped us to opt for the right plugin, which is, <a href=\"https://wordpress.org/plugins/autoptimize/\" target=\"_blank\">AutoOptimize</a>. </p>"
+          }
+        },
+        "button_3ih7mK": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qzWmxH",
+        "text_fPkdLq",
+        "button_3ih7mK"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_X4aHhb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tfjHck": {
+          "type": "heading",
+          "settings": {
+            "heading": "4. Disable Unwanted Scripts and CSS Files",
+            "heading_size": "h1"
+          }
+        },
+        "text_tjAHQm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unwanted CSS files and Java scripts are nothing, for example, if ‘request a quote form’ is added to the ‘contact us’ page. To make the form work, certain coding scripts will be added. The same scripts will be replicated across all the pages including the homepage. This is not needful in any way, instead slow downs the site’s performance. </p><p>On the other side, manually disabling the code section would be tedious, so we came up with an alternate plugin option. The WordPress plugin <a href=\"https://wordpress.org/plugins/wp-asset-clean-up/\" target=\"_blank\">Asset CleanUp</a> helped us to get rid of all the unwanted scripts and CSS files. </p>"
+          }
+        },
+        "button_6hVLNU": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tfjHck",
+        "text_tjAHQm",
+        "button_6hVLNU"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_rf6MfM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dxnVN8": {
+          "type": "heading",
+          "settings": {
+            "heading": "5. Remove Unnecessary Plugins",
+            "heading_size": "h1"
+          }
+        },
+        "text_RMHhB9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Any difficult task can be accomplished with a plugin installation. As plugins help in serving different purposes, web developers generally download a myriad of them. At the same time, more plugins will break the site’s performance too.  </p><p>When we did a complete audit of all the websites, we came to know that certain plugins were sitting without purpose. So, we removed the unused plugins from the list.</p>"
+          }
+        },
+        "button_fBrKrm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dxnVN8",
+        "text_RMHhB9",
+        "button_fBrKrm"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_Wcdprz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wPiAdz": {
+          "type": "heading",
+          "settings": {
+            "heading": "6. Implement HTTP2",
+            "heading_size": "h1"
+          }
+        },
+        "text_hyXzf8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After the update of HTTP2, enabling it makes websites load faster. Since the client approached us specifically for speed optimization, we planned to activate HTTP2 for all 30 websites.  </p><p>For this, we signed into the respective cPanel of the hub site and enabled the HTTP2 Server Push mechanism. Previously, the client used the HTTP extension. </p>"
+          }
+        },
+        "button_KNF9Gk": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wPiAdz",
+        "text_hyXzf8",
+        "button_KNF9Gk"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_KaHHPb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bKx4g3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mobile Responsiveness",
+            "heading_size": "h1"
+          }
+        },
+        "text_Drw9Ej": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When we were working on speed-related tasks, we found that a few sites were facing responsiveness issues. To fix them, we learned the twig template engine and re-visited the style and layout of the designs in mobile view and fixed. What we did for mobile responsiveness? </p><ul><li>Optimized the toggle menu in mobile view</li><li>Changed background color in contrast to the text</li></ul>"
+          }
+        },
+        "button_MtRtTf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bKx4g3",
+        "text_Drw9Ej",
+        "button_MtRtTf"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_NMx3w6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FhBRYc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Server Optimization",
+            "heading_size": "h1"
+          }
+        },
+        "text_a4dfQz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Usually, when the server is loaded with more files and data, it will make the site load slower. We examined the client’s website server had more files, so planned to delete unwanted files. As a result, we were able to remove 108 GB of data from the server.  </p>"
+          }
+        },
+        "button_F6eb3p": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FhBRYc",
+        "text_a4dfQz",
+        "button_F6eb3p"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_aWyH48": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fbBDgy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bug Fixing",
+            "heading_size": "h1"
+          }
+        },
+        "text_wN9JPJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When we were assessing the sites, we found certain bugs and fixed them. </p><ul><li>The pop-up for cookies should appear only once and when users click on ‘Accept’, it should not pop up again. But here even after clicking ‘Accept’, the pop-up was showing. We fixed this bug by adding cookie-based popup functionality.</li><li>In the Timber theme, when certain requests were made, indifferent functionalities worked. We fixed it</li><li>The Revolution Slider was not functioning properly as CDN was disabled. So, we enabled the CDN  </li><li>Two forms cannot work on a single page, so removed the form and added a button. When users click the button, it will trigger a request to the header book now form</li></ul>"
+          }
+        },
+        "button_MppTHa": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fbBDgy",
+        "text_wN9JPJ",
+        "button_MppTHa"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_TmydFG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Mct8J9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Manual Speed Optimization – Result ",
+            "heading_size": "h1"
+          }
+        },
+        "text_bGzHay": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After manually optimizing all the 30 websites’ speed, there was an improvement in a few sites as expected, but unfortunately, few websites loaded slower than before.  </p>"
+          }
+        },
+        "button_TLtjUg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mct8J9",
+        "text_bGzHay",
+        "button_TLtjUg"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_Hpm7TK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ljgy76": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/after-speed-improvement.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ljgy76"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dHE8VA": {
+      "type": "rich-text",
+      "blocks": {
+        "text_PEEUKW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To resolve this, we installed the <a href=\"https://wp-rocket.me/\" target=\"_blank\">WPRocket</a> plugin. As a result, we were able to see improvements.</p><p>This is a paid plugin. Initially, the client was not ready to pay the price. As we explained to them the perks of it, they were convinced.</p><p><a href=\"https://wp-rocket.me/\">WPRocket</a> is the best suitable plugin for speed optimization. This one can replace all the other plugins, as it can on itself handle all the speed-related tasks.</p>"
+          }
+        },
+        "button_aiB6Xc": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_PEEUKW",
+        "button_aiB6Xc"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_nAXBbk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rqzBtj": {
+          "type": "heading",
+          "settings": {
+            "heading": "The End-result",
+            "heading_size": "h1"
+          }
+        },
+        "text_PUKHY9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After completing the quality checks, we measured all 30 websites’ speed. And, the client was happy with the improvement. 🙂 This was the overall GTMetrix performance rate and load time. </p>"
+          }
+        },
+        "button_Tgrckg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rqzBtj",
+        "text_PUKHY9",
+        "button_Tgrckg"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_R9Hqmr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_atyJ7U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/End.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_atyJ7U"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_YFM3gc": {
+      "type": "rich-text",
+      "blocks": {
+        "text_tnb8p8": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Performance was increased from 76% to 84%</li><li>Load time got decreased from 5.82 sec to 2.50 sec </li><li>Acquired 8% improvement rate in the overall performance</li><li>Got 43% enhancement rate in the overall load time </li></ul><p>At <a href=\"https://colorwhistle.com/\">ColorWhistle</a>, we’ve got in-depth knowledge and experience in website speed optimization works. So, working on this project didn’t seem overwhelming for us. But what seemed new to us was, the multiple sites with a SuperAdmin panel. </p><p>It was again a happy learning experience for our team. 🙂 </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tnb8p8"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_display_policies_mqhh9J": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_UFLDMT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": "https://trustpilot.com/review/booststar.rlchats.com"
+          }
+        },
+        "icon_9i6P7e": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": "https://partnersdirectory.withgoogle.com/partners/9404980363"
+          }
+        },
+        "icon_RnRhdf": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED </strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_nf6Tg7": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": "https://g.page/r/Ce4BtBFUVOsOEAI/review"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UFLDMT",
+        "icon_9i6P7e",
+        "icon_RnRhdf",
+        "icon_nf6Tg7"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(105deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(0deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": true,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "slideshow_VQAEig",
+    "multicolumn_hwgEdr",
+    "rich_text_Q4D9DQ",
+    "image_banner_9RqWPn",
+    "rich_text_J9EEh9",
+    "multicolumn_KQjY7r",
+    "rich_text_tyDncz",
+    "rich_text_V4h7Mj",
+    "rich_text_aJqhPt",
+    "rich_text_kM3X3Q",
+    "rich_text_LeUwjw",
+    "rich_text_z6K3KG",
+    "rich_text_X4aHhb",
+    "rich_text_rf6MfM",
+    "rich_text_Wcdprz",
+    "rich_text_KaHHPb",
+    "rich_text_NMx3w6",
+    "rich_text_aWyH48",
+    "rich_text_TmydFG",
+    "multicolumn_Hpm7TK",
+    "rich_text_dHE8VA",
+    "rich_text_nAXBbk",
+    "multicolumn_R9Hqmr",
+    "rich_text_YFM3gc",
+    "boost_star_display_policies_mqhh9J"
+  ]
+}

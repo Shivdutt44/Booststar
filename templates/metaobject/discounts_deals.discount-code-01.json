@@ -1,0 +1,731 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_B3rghX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9WTAmm": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_3eGywk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply \"<strong>Discount Code 01</strong>\" section to show offers  and deals . </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9WTAmm",
+        "text_3eGywk"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "boost_star_experts_marquee_highlights_MWbR4t": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_6egAzT": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "FAST LOADING TIME",
+            "icon": "trending",
+            "link": ""
+          }
+        },
+        "icon_with_text_HFrt3m": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BEAUTIFUL DESIGNS",
+            "icon": "heart",
+            "link": ""
+          }
+        },
+        "icon_with_text_VbW8gB": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "BUILD FOR SHOPIFY 2.0",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_eiQakm": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO USE",
+            "icon": "thumbsup",
+            "link": ""
+          }
+        },
+        "icon_with_text_8iFm4E": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#97ba52",
+            "size": 30,
+            "gap": 10,
+            "text": "EASY TO INTEGRATE",
+            "icon": "check",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_6egAzT",
+        "icon_with_text_HFrt3m",
+        "icon_with_text_VbW8gB",
+        "icon_with_text_eiQakm",
+        "icon_with_text_8iFm4E"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_yf8WtH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qBJfQP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 1</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_JEBRRn": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_qBJfQP",
+        "text_JEBRRn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_FJUbUU": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "3",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "corner": 10,
+        "border_type": "dashed",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#97ba52",
+        "card_background_color": "#ffffff",
+        "background_color": "#97ba52",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_M9zztD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6hri4B": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 2</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_LQTpy6": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6hri4B",
+        "text_LQTpy6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_YeQqNV": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "2",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "corner": 10,
+        "border_type": "dashed",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#97ba52",
+        "card_background_color": "#ffffff",
+        "background_color": "#97ba52",
+        "bg_image": "shopify://shop_images/motion-6252_256.gif",
+        "parallax": false,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_tXEJN8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WKqicQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 3</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_NmXqir": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_WKqicQ",
+        "text_NmXqir"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_f9y6YN": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "1",
+        "border_color": "#000000",
+        "border_width": 4,
+        "corner": 10,
+        "border_type": "dashed",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#97ba52",
+        "card_background_color": "#ffffff",
+        "background_color": "#121212",
+        "bg_image": "shopify://shop_images/Asset_44.svg",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_a444RK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PY8hMX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 4</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_yTWYcK": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_PY8hMX",
+        "text_yTWYcK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_JmVmar": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "2",
+        "border_color": "#97ba52",
+        "border_width": 4,
+        "corner": 10,
+        "border_type": "dashed",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#97ba52",
+        "card_background_color": "#ffffff",
+        "background_color": "#a4a4a4",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_qzf7Nk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_geEw3f": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 5</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Cdbb7a": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_geEw3f",
+        "text_Cdbb7a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_w8ChTi": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "1",
+        "border_color": "#e94919",
+        "border_width": 4,
+        "corner": 10,
+        "border_type": "dashed",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#dc143c",
+        "card_background_color": "#ffffff",
+        "background_color": "#f5f5f5",
+        "bg_image": "shopify://shop_images/ripple.gif",
+        "parallax": false,
+        "bg_size": "auto",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_fcggax": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Hm6xq6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 6</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_LWhBtD": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hm6xq6",
+        "text_LWhBtD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_mnyfKj": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "1",
+        "border_color": "#a4a4a4",
+        "border_width": 4,
+        "corner": 10,
+        "border_type": "dotted",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#97ba52",
+        "card_background_color": "#ffffff",
+        "background_color": "#a4a4a4",
+        "bg_image": "shopify://shop_images/ewsdrf.png",
+        "parallax": true,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "rich_text_ayTG6R": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pMcakm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DESIGN 7</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_bBKqMF": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_pMcakm",
+        "text_bBKqMF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "boost_star_discount_code_1_CBkXK4": {
+      "type": "boost-star-discount-code-1",
+      "settings": {
+        "heading": "10% Coupon",
+        "heading_tag": "h3",
+        "description": "Valid till 30 March 2025. Copy and use immediately at Checkout page.",
+        "coupon_code": "PUCO10",
+        "copy_button_text": "COPY",
+        "copied_button_text": "COPIED",
+        "style": "3",
+        "border_color": "#e94919",
+        "border_width": 10,
+        "corner": 25,
+        "border_type": "dotted",
+        "heading_color": "#565656",
+        "description_color": "#565656",
+        "vertical_line_color": "#565656",
+        "border_coupon_color": "#e1e1e1",
+        "button_text_color": "#ffffff",
+        "button_background_color": "#dc143c",
+        "card_background_color": "#ffffff",
+        "background_color": "#dc143c",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1600,
+        "margin_tp": 39,
+        "margin_bt": 37,
+        "padding_tp": 20,
+        "padding_bt": 20
+      }
+    },
+    "image_banner_z6HCde": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_xpfbVh": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_dhhbgd": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p>{{ metaobject.short_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_7i9H8y": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Install App",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Need Help ?",
+            "button_link_2": "shopify://pages/contact-us",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_xpfbVh",
+        "text_dhhbgd",
+        "buttons_7i9H8y"
+      ],
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "reviews_Azfjqh": {
+      "type": "reviews",
+      "blocks": {
+        "review_qthRrH": {
+          "type": "review",
+          "repeater": "{{ metaobject.app_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.brand_name.value }}",
+            "designation": "{{ block.repeater.client_name_and_designation.value }}",
+            "review": "{{ block.repeater.client_review | metafield_tag }}",
+            "image": "{{ block.repeater.brand_logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_qthRrH"
+      ],
+      "settings": {
+        "heading": "Joyful Experiences from Shopify Store Owners",
+        "heading_color": "#000000",
+        "section_bg_color": "#ffffff",
+        "bg_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(146, 188, 87, 1) 100%)",
+        "star_color": "#ffb400",
+        "text_color": "#000000",
+        "bg_image": "shopify://shop_images/BOOST_STAR_EXPERTS_-_background_WHITE.png",
+        "parallax": true,
+        "bg_size": "contain",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": true,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1600,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 30,
+        "padding-bottom": 30,
+        "padding-inline": 10
+      }
+    },
+    "top_collections_boost_star_cLyrm4": {
+      "type": "top-collections-boost-star",
+      "blocks": {
+        "image_GciHqC": {
+          "type": "image",
+          "repeater": "{{ metaobject.discounts_deals.value }}",
+          "settings": {
+            "background_color": "linear-gradient(109deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+            "image": "{{ block.repeater.banner_image.value }}",
+            "text": "{{ block.repeater.heading.value }}",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "image_GciHqC"
+      ],
+      "settings": {
+        "headline": "<strong>Explore Other Ways to Discounts & Deals</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "text_size": 15,
+        "headline_color": "#111111",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "circle_alignment": "center",
+        "shape": "bse-square",
+        "image_id": true,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "circle_size": 200,
+        "max_width": 1600,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "mobile_circle_size": 75,
+        "mobile_grid_gap": 15,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_B3rghX",
+    "boost_star_experts_marquee_highlights_MWbR4t",
+    "rich_text_yf8WtH",
+    "boost_star_discount_code_1_FJUbUU",
+    "rich_text_M9zztD",
+    "boost_star_discount_code_1_YeQqNV",
+    "rich_text_tXEJN8",
+    "boost_star_discount_code_1_f9y6YN",
+    "rich_text_a444RK",
+    "boost_star_discount_code_1_JmVmar",
+    "rich_text_qzf7Nk",
+    "boost_star_discount_code_1_w8ChTi",
+    "rich_text_fcggax",
+    "boost_star_discount_code_1_mnyfKj",
+    "rich_text_ayTG6R",
+    "boost_star_discount_code_1_CBkXK4",
+    "image_banner_z6HCde",
+    "reviews_Azfjqh",
+    "top_collections_boost_star_cLyrm4"
+  ]
+}

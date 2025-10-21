@@ -1,0 +1,1273 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */ 
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "icon_with_text_H3PYi8": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "20+ BRANDS HAVE IMPROVED THE SPEED",
+            "icon_2": "check_mark",
+            "heading_2": "DELIVER THE WORK WITHIN 3 DAYS",
+            "icon_3": "check_mark",
+            "heading_3": "WE WILL OFFICIALLY CONNECT VIA SHOPIFY"
+          }
+        },
+        "forms_inline_VN6aVe": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "203678",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "left",
+            "form_alignment": "flex-start",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
+        "icon_with_text_qbNiLK": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "",
+            "icon_2": "check_mark",
+            "heading_2": "",
+            "icon_3": "check_mark",
+            "heading_3": "<strong>LIVE WEBSITE WILL NOT BE AFFECTED</strong>"
+          }
+        },
+        "icon_with_text_FgPdCr": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "WHY FREE ? CELEBRATING 1000+ BRAND COLLABORATIONS",
+            "icon_2": "check_mark",
+            "heading_2": "ACHIEVE 100% RESULTS WITH SATISFICATION",
+            "icon_3": "check_mark",
+            "heading_3": "<strong>IMPROVE CORE WEB VITALS </strong>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "custom_liquid_YrUqrh": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "hidecart": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "icon_with_text_H3PYi8",
+        "forms_inline_VN6aVe",
+        "icon_with_text_qbNiLK",
+        "icon_with_text_FgPdCr",
+        "variant_picker",
+        "custom_liquid_YrUqrh",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "custom_css": [
+        "#app-embed {background: #e0e0e0; padding: 20px 20px; max-width: var(--inline-container-max-width); width: 100%; min-height: var(--inline-container-min-height); color: wheat; border-radius: 8px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "boost_star_display_policies_mqhh9J": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_UFLDMT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": "https://trustpilot.com/review/booststar.rlchats.com"
+          }
+        },
+        "icon_9i6P7e": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": "https://partnersdirectory.withgoogle.com/partners/9404980363"
+          }
+        },
+        "icon_RnRhdf": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED </strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_nf6Tg7": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": "https://g.page/r/Ce4BtBFUVOsOEAI/review"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UFLDMT",
+        "icon_9i6P7e",
+        "icon_RnRhdf",
+        "icon_nf6Tg7"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(105deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(0deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": true,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    },
+    "multicolumn_MkFQK3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8Urmgz": {
+          "type": "column",
+          "settings": {
+            "title": "STEP 1",
+            "text": "<p>Connect Officially Via Shopify Partners</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MXRpTL": {
+          "type": "column",
+          "settings": {
+            "title": "STEP 2",
+            "text": "<p>Get The Basic Access Of The Store</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_erJzFJ": {
+          "type": "column",
+          "settings": {
+            "title": "STEP 3",
+            "text": "<p>Enhance The Perfomance On As Per Google Policies </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kV6Hjt": {
+          "type": "column",
+          "settings": {
+            "title": "STEP 4",
+            "text": "<p>Do The Testing, Go Live & Share the Speed Report</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8Urmgz",
+        "column_MXRpTL",
+        "column_erJzFJ",
+        "column_kV6Hjt"
+      ],
+      "settings": {
+        "title": "HOW CAN WE<strong> IMPROVE</strong> THE <strong>SPEED </strong>WITHOUT AFFECTING THE <strong>SALES</strong>?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+     "rich_text_qX9fkb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B63pJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUCCESS WITH <strong>1000+ E-COMMERCE BUSINESSES </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_zbpb4L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We specialize in Shopify, Wix, BigCommerce, WooCommerce<strong> </strong>etc, with <strong>1000+ projects</strong> completed and increased client revenue within <strong>6 months</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B63pJY",
+        "text_zbpb4L"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "boost_star_experts_marquee_highlights_i6WHp8": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_QFC3KR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17_1_a2df1db6-4222-42dd-8884-117ec54b65a0.png",
+            "link": ""
+          }
+        },
+        "image_dbHy6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_1.png",
+            "link": ""
+          }
+        },
+        "image_ELe69D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_1.png",
+            "link": ""
+          }
+        },
+        "image_MTiacK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18_1.png",
+            "link": ""
+          }
+        },
+        "image_PKeV3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14_1.png",
+            "link": ""
+          }
+        },
+        "image_e8kEmd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/15_1.png",
+            "link": ""
+          }
+        },
+        "image_8kJbYt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_1.png",
+            "link": ""
+          }
+        },
+        "image_dEPCte": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_2_1.png",
+            "link": ""
+          }
+        },
+        "image_mW7HKN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_2_1.png",
+            "link": ""
+          }
+        },
+        "image_drKNQe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_2_1.png",
+            "link": ""
+          }
+        },
+        "image_YUKPAH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_1.png",
+            "link": ""
+          }
+        },
+        "image_G4cTaD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_2_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QFC3KR",
+        "image_dbHy6b",
+        "image_ELe69D",
+        "image_MTiacK",
+        "image_PKeV3W",
+        "image_e8kEmd",
+        "image_8kJbYt",
+        "image_dEPCte",
+        "image_mW7HKN",
+        "image_drKNQe",
+        "image_YUKPAH",
+        "image_G4cTaD"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 110,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_experts_marquee_highlights_MM7Gwp": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_Hjb389": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_1.png",
+            "link": ""
+          }
+        },
+        "image_TmqFbm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_1.png",
+            "link": ""
+          }
+        },
+        "image_pdgrgD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_1.png",
+            "link": ""
+          }
+        },
+        "image_wXAtCn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_2_1.png",
+            "link": ""
+          }
+        },
+        "image_mmcFLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2_1.png",
+            "link": ""
+          }
+        },
+        "image_BLtpeC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2_1.png",
+            "link": ""
+          }
+        },
+        "image_pRrBJP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/24_1.png",
+            "link": ""
+          }
+        },
+        "image_rAmqqt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/27_1.png",
+            "link": ""
+          }
+        },
+        "image_4NarBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/26_1.png",
+            "link": ""
+          }
+        },
+        "image_QL884h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/25_1.png",
+            "link": ""
+          }
+        },
+        "image_mJYcYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/29_1.png",
+            "link": ""
+          }
+        },
+        "image_EnYQqH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hjb389",
+        "image_TmqFbm",
+        "image_pdgrgD",
+        "image_wXAtCn",
+        "image_mmcFLw",
+        "image_BLtpeC",
+        "image_pRrBJP",
+        "image_rAmqqt",
+        "image_4NarBC",
+        "image_QL884h",
+        "image_mJYcYc",
+        "image_EnYQqH"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 120,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "boost_star_experts_marquee_highlights_jkKFbD": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_g7cKDD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_1.png",
+            "link": ""
+          }
+        },
+        "image_VrzaFy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/50_1.png",
+            "link": ""
+          }
+        },
+        "image_GKeB7W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/45_1.png",
+            "link": ""
+          }
+        },
+        "image_Abrp8w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/47_1.png",
+            "link": ""
+          }
+        },
+        "image_QWfX4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48_1.png",
+            "link": ""
+          }
+        },
+        "image_LFYKBU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-_2_1.png",
+            "link": ""
+          }
+        },
+        "image_6wfVhe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-_2_1.png",
+            "link": ""
+          }
+        },
+        "image_BhJ4hG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/33_1.png",
+            "link": ""
+          }
+        },
+        "image_x8bwPK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/51_1.png",
+            "link": ""
+          }
+        },
+        "image_NYACLB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/52_1.png",
+            "link": ""
+          }
+        },
+        "image_CMbimb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/49_1.png",
+            "link": ""
+          }
+        },
+        "image_cEp9Ui": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/46_1.png",
+            "link": ""
+          }
+        },
+        "image_ChMRqM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16_1.png",
+            "link": ""
+          }
+        },
+        "image_NzWXPV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dewrw_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_g7cKDD",
+        "image_VrzaFy",
+        "image_GKeB7W",
+        "image_Abrp8w",
+        "image_QWfX4d",
+        "image_LFYKBU",
+        "image_6wfVhe",
+        "image_BhJ4hG",
+        "image_x8bwPK",
+        "image_NYACLB",
+        "image_CMbimb",
+        "image_cEp9Ui",
+        "image_ChMRqM",
+        "image_NzWXPV"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 10,
+        "max_width": 1400,
+        "height": 110,
+        "margin_tp": 10,
+        "margin_bt": 0,
+        "padding_tp": 0,
+        "padding_bt": 0,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_6A3MTW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mXhLXY": {
+          "type": "heading",
+          "settings": {
+            "heading": "KIND WORDS FORM OUR <strong>HAPPY CLIENTS</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KCRt4U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We don't just provide best services, we commit to <strong>skyrocketing</strong> your business and sales.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mXhLXY",
+        "text_KCRt4U"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_review_d77fUy": {
+      "type": "video-review",
+      "blocks": {
+        "video_b3BinM": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/gina nail supply digital marketing review.mp4",
+            "link": "",
+            "video_inline": false,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Meet Luis & His Online Business Success",
+            "cite": "Gina Nail Supplies",
+            "cta_link": ""
+          }
+        },
+        "video_6JaHcm": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Nayla Jewelry.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Meet the founder & CEO of <strong>Nayla Jewelry</strong>, crafting inspiring, spiritual pieces since 2011.",
+            "cite": "<strong>Nayla Jewelry</strong>",
+            "cta_link": ""
+          }
+        },
+        "video_rxXmA9": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/DEMOI.mp4",
+            "link": "shopify://metaobjects/client_reviews/de-moi",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Founder of <strong>DEMOI,</strong> Demee Koch, believes in beauty inside and her hometown",
+            "cite": "DEMOI",
+            "cta_link": ""
+          }
+        },
+        "video_4NEz4m": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Jamara Home.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "<strong>Jamara Home</strong> founder brings Nigeria’s best home appliances and accessories.",
+            "cite": "Jamara Home",
+            "cta_link": ""
+          }
+        },
+        "video_DweH8U": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/stickergeen custom stickers speed work, seo review.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Meet Valentine ( Founder ) From <strong>France </strong>Who Sell Custom & Personalided Stickers",
+            "cite": "Sticker Green",
+            "cta_link": ""
+          }
+        },
+        "video_MtJLYz": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Apexl Cosmetics.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Founder of <strong>APEXL Cosmetics</strong> creates premium skincare,  haircare formulations.",
+            "cite": "Apexl Cosmetics",
+            "cta_link": ""
+          }
+        },
+        "video_CWc43F": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Kass Care.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "The founder of <strong>KASS CARE </strong>created the brand for safe consumer products.",
+            "cite": "Kass Care",
+            "cta_link": ""
+          }
+        },
+        "video_jCNAwW": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Josie Boutique.mp4",
+            "link": "",
+            "video_inline": false,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": true,
+            "quote": "Founder of <strong>Josies Boutique</strong> specializes in premium women products",
+            "cite": "Josie Boutique",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_b3BinM",
+        "video_6JaHcm",
+        "video_rxXmA9",
+        "video_4NEz4m",
+        "video_DweH8U",
+        "video_MtJLYz",
+        "video_CWc43F",
+        "video_jCNAwW"
+      ],
+      "settings": {
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "headline_font": "sans-serif",
+        "text_size": 15,
+        "text_line_height": "1.2",
+        "text_color": "#111111",
+        "headline_size": 15,
+        "headline_line_height": "1.2",
+        "headline_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "review_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "highlight_color": "#97ba52",
+        "media_aspect_ratio": "1 / 1",
+        "max_width": 1400,
+        "grid_gap": 0,
+        "padding_top": 1,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "mobile_display": "slideshow",
+        "mobile_columns": "1fr",
+        "progress_background_color": "linear-gradient(177deg, rgba(17, 17, 17, .25) 3%, rgba(17, 17, 17, 0.25) 100%)",
+        "progress_foreground_color": "linear-gradient(177deg, rgba(17, 17, 17, 1) 3%, rgba(17, 17, 17, 1) 100%)",
+        "indicator_color": "#111111",
+        "enable_autoplay": true,
+        "autoplay_time": "5000",
+        "big_play_pause_button": false,
+        "media_radius": 5,
+        "media_shadow": true
+      }
+    },
+    "video_Tg4L7y": {
+      "type": "video",
+      "settings": {
+        "heading": "CELEBARING <strong>DIWALI</strong> BY <strong>BOOSING</strong> YOUR WEBSITE'S LOADING TIME <strong>FOR FREE</strong>",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/DIWALI OFFER FREE SHOPIFY SPEED OPTIMIZATION SERVIC.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1728992424ef9f1012": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_bMBJYp": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "203678",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_bMBJYp"
+      ],
+      "custom_css": [
+        "#app-embed {background: #e0e0e0; padding: 20px 20px; max-width: var(--inline-container-max-width); width: 100%; min-height: var(--inline-container-min-height); color: wheat; border-radius: 8px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_ikJdyA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FBLeBz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Baller-babe_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/baller-babe"
+          }
+        },
+        "column_6EbBWx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Floor-land-1_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/cycle"
+          }
+        },
+        "column_zqJDtJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Conscious-chmeist-1_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://metaobjects/client_reviews/cycle"
+          }
+        }
+      },
+      "block_order": [
+        "column_FBLeBz",
+        "column_6EbBWx",
+        "column_zqJDtJ"
+      ],
+      "settings": {
+        "title": "EXPLORE <strong>CASE STUDIES</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Get Motivated",
+        "button_link": "shopify://pages/client-success-stories-boost-star-experts-reviews",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_iKCyry": {
+      "type": "multirow",
+      "blocks": {
+        "row_xzNzjE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/shopify-banner-hero551.webp",
+            "imglink": "",
+            "caption": "WITH MONEY BACK GUARANTEE",
+            "heading": "Boost ROAS, Conversion Rate and Performance with Shopify Store Speed Optimization",
+            "text": "<h3>Enhanced Conversions</h3><h3>Mobile-Optimized Experience​​</h3><h3>Maximized Ad Performance</h3><p>Speed up your Shopify site, and let top advertising platforms such as Google, Facebook, Instagram, and TikTok prioritize your fast-loading site, and enjoy lower Ad CPC and CPM, ultimately maximizing your return on investment (ROI).</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_HFmpfn": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Elevate-Shopify-new.webp",
+            "imglink": "",
+            "caption": "WITH MONEY BACK GUARANTEE",
+            "heading": "Shopify Speed Optimization to Improve Store's SEO & Ranking",
+            "text": "<h3>Improved Bounce Rate</h3><h3>Improved Google Rankings</h3><h3>Mastery of Core Web Vitals</h3><p>Fix all Core Web Vitals, including the Largest Contentful Paint, First Input Delay, Cumulative Layout Shift and Interaction to the First Paint to improve online store speed on Shopify, enhancing the website's ranking in search engines.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_xzNzjE",
+        "row_HFmpfn"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_yVaMhq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CDpYxa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose <strong>BOOST STAR</strong> For Shopify Speed Optimization?",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_ngnGHG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Website Speedy is the perfect SaaS-based tool for Shopify speed optimization. It makes sure that your site fits your brand requirements and helps you grow your business. With Website Speedy, you will have a website that loads in users in one eye blink, producing a smooth browsing experience and optimal site performance.</p><ul><li>Transparent and flexible process, timely delivery.</li><li>Optimize SEO, theme, performance and all device speed.</li><li>A dedicated team optimizes stores to meet your business needs.</li><li>Services focused on maximizing return on investment.</li><li>Partnered with companies across many industries.</li><li>Solutions work seamlessly across devices and platforms.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CDpYxa",
+        "text_ngnGHG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/core-web-vital-four.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_xbChjf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yrXHHL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ads.webp",
+            "title": "<strong>Fix  Blocking Issues</strong>",
+            "text": "<p>Thinking on how to speed up your Shopify website? Don't worry, fixing render-blocking resources can bring a huge difference in your loading time. Website Speedy identifies the issue and adjusts settings to prioritize important content loading first. So, Website Speedy simplifies this process for quick improvements.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KPgdJd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rander.jpg",
+            "title": "Efficient Page Caching",
+            "text": "<p>Website Speedy tool makes your Shopify site faster by saving copies of your web pages. This means less work for the server when someone visits your site. It offers different ways to do this, like using plugins or server settings. Just choose what works best for you, and your site will load quickly!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cPthhd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/optimize-theme.webp",
+            "title": "Optimize Theme & Templates",
+            "text": "<p>Shopify theme optimization effectively optimizes your site theme. Themes are crucial in attracting consumers, but using unoptimized heavy themes can slow down Shopify's speed. Consequently, utilize Website Speedy and optimize the Shopify theme.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7AzDzU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon-img.png",
+            "title": "Optimize Images",
+            "text": "<p>For Shopify speed optimization, Website Speedy compresses all the visuals on your site without affecting their quality even a single percent. With image minimifcation, Website Speedy speed up your Shopify site.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eT4dqk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon-cache.png",
+            "title": "Browser Caching",
+            "text": "<p>Website Speedy tool optimizes your Shopify store by enabling browser caching. This means it stores website stuff in the user's browser, so pages load quicker when they come back. Browser caching effectively speeds up your Shopify site.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kictpD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/plugin-efficiency.webp",
+            "title": "File Minification",
+            "text": "<p>Website Speedy condenses your site code by eliminating all renderblocking elements, block delimiters, and comments. It involves removing unrequired characters from CSS, JavaScript, and HTML files to increase Shopify loading speed.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yrXHHL",
+        "column_KPgdJd",
+        "column_cPthhd",
+        "column_7AzDzU",
+        "column_eT4dqk",
+        "column_kictpD"
+      ],
+      "settings": {
+        "title": "How To Increase Speed Score On Shopify With <strong>BOOST STAR ?</strong>",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_kRdtzA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_B6qPf7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon-performance.png",
+            "title": "Shopify Performance Optimization",
+            "text": "<p>Website Speedy provides functionality for optimizing your whole website. This means your store will remain the same in terms of look and feel, but the smoothness of site loading, navigation, etc., will be further enhanced.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LiLttY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon-seo-1-svgrepo.png",
+            "title": "Shopify SEO Optimization",
+            "text": "<p>With Shopify SEO optimization, you can achieve a better search engine ranking. Website Speedy makes changes and enhancements to your website that are crucial for better search engine result page ranking and driving traffic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qDYHgR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ads_3c56d491-79de-43bb-9ab9-514d0a562e93.webp",
+            "title": "Shopify Mobile Optimization",
+            "text": "<p>Ignoring Shopify mobile optimization can affect your site revenue by 70 percent. Buyers frequently use their mobile phones to visit a store and buy the product. Website Speedy enhances your site speed on Mobile.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_B6qPf7",
+        "column_LiLttY",
+        "column_qDYHgR"
+      ],
+      "settings": {
+        "title": "What More You Can Achieve With <strong>BOOST STAR ?</strong>",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "boost_star_display_policies_mqhh9J",
+    "rich_text_qX9fkb",
+    "boost_star_experts_marquee_highlights_i6WHp8",
+    "boost_star_experts_marquee_highlights_MM7Gwp",
+    "boost_star_experts_marquee_highlights_jkKFbD",
+    "rich_text_6A3MTW",
+    "video_review_d77fUy",
+    "multicolumn_MkFQK3",
+    "video_Tg4L7y",
+    "1728992424ef9f1012",
+    "multicolumn_ikJdyA",
+    "multirow_iKCyry",
+    "image_banner_yVaMhq",
+    "multicolumn_xbChjf",
+    "multicolumn_kRdtzA"
+  ]
+}

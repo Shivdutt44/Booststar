@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_aPRiaK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_q33xDk": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEET THE <strong>BOOST STAR EXPERTS </strong>TEAM",
+            "heading_type": "h1",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_q33xDk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/startups_20at_20a_20coworking_20space.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_MybcDc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GqfGcd": {
+          "type": "heading",
+          "settings": {
+            "heading": "TEAM LEADERS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GqfGcd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_jFDtDd": {
+      "type": "multirow",
+      "blocks": {
+        "row_rEFGbQ": {
+          "type": "row",
+          "repeater": "{{ page.metafields.custom.leaders.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image.value }}",
+            "imglink": "https://www.linkedin.com/in/ritik-tamrakar-boost-star-experts/",
+            "caption": "{{ block.repeater.position.value }}",
+            "heading": "{{ block.repeater.enter_name.value }}",
+            "text": "{{ block.repeater.biography_section | metafield_tag }}",
+            "button_label": "Read More",
+            "button_link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "row_rEFGbQ"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_46cgW3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qHR8Tp": {
+          "type": "heading",
+          "settings": {
+            "heading": "TEAM MEMBERS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qHR8Tp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_JhbwDw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MiKwha": {
+          "type": "column",
+          "repeater": "{{ page.metafields.custom.team_members.value }}",
+          "settings": {
+            "image": "{{ block.repeater.upload_image.value }}",
+            "title": "{{ block.repeater.enter_name.value }}",
+            "text": "{{ block.repeater.write_about_him_her | metafield_tag }}",
+            "link_label": "{{ block.repeater.enter_position.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_MiKwha"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_aPRiaK",
+    "main",
+    "rich_text_MybcDc",
+    "multirow_jFDtDd",
+    "rich_text_46cgW3",
+    "multicolumn_JhbwDw"
+  ]
+}

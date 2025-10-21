@@ -1,0 +1,727 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_bRWd7R": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ metaobject.banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "boost_star_experts_marquee_highlights_AJHFz4": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "icon_with_text_zNy8MT": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#ffffff",
+            "size": 25,
+            "gap": 5,
+            "text": "Website Development",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_ec8X77": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#ffffff",
+            "size": 25,
+            "gap": 5,
+            "text": "Website Design",
+            "icon": "leaf",
+            "link": ""
+          }
+        },
+        "icon_with_text_4rtCxn": {
+          "type": "icon_with_text",
+          "settings": {
+            "color": "#ffffff",
+            "size": 25,
+            "gap": 5,
+            "text": " Website Speed Optimization",
+            "icon": "leaf",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_zNy8MT",
+        "icon_with_text_ec8X77",
+        "icon_with_text_4rtCxn"
+      ],
+      "settings": {
+        "media_aspect_ratio": "1 / 1",
+        "shape": "circle",
+        "slideshow_speed": "10s",
+        "text_color": "#ffffff",
+        "background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1) 100%, rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 20,
+        "padding_bt": 20,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_wtrjJz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_8NU8wn": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.description_1 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_8NU8wn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_fahpAj": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_qFYQ3N": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.story_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "button_6AdRap": {
+          "type": "button",
+          "settings": {
+            "button_label": "View {{ metaobject.h_1_heading.value }} Store",
+            "button_link": "{{ metaobject.website_url.value }}",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_qFYQ3N",
+        "button_6AdRap"
+      ],
+      "settings": {
+        "image": "{{ metaobject.brand_logo.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_QtNDTc": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BLmFFe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.description_2 | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BLmFFe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_weqmjA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gCVayX": {
+          "type": "column",
+          "settings": {
+            "title": "{{ metaobject.column_title_1.value }}",
+            "text": "<p></p>{{ metaobject.column_description_1 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hrRXq7": {
+          "type": "column",
+          "settings": {
+            "title": "{{ metaobject.column_title_2.value }}",
+            "text": "<p></p>{{ metaobject.column_description_2 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PitaBK": {
+          "type": "column",
+          "settings": {
+            "title": "{{ metaobject.column_title_3.value }}",
+            "text": "<p></p>{{ metaobject.column_description_3 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gCVayX",
+        "column_hrRXq7",
+        "column_PitaBK"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "boost_star_experts_marquee_highlights_xxVzba": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_RrFYGV": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_1.value }}",
+            "link": ""
+          }
+        },
+        "image_FYVWJp": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_2.value }}",
+            "link": ""
+          }
+        },
+        "image_E9MeQR": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_3.value }}",
+            "link": ""
+          }
+        },
+        "image_QfxEHy": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_4.value }}",
+            "link": ""
+          }
+        },
+        "image_9zrUVW": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_5.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RrFYGV",
+        "image_FYVWJp",
+        "image_E9MeQR",
+        "image_QfxEHy",
+        "image_9zrUVW"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "10s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1) 99%, rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": true,
+        "slideshow_spacing": 40,
+        "max_width": 1600,
+        "height": 300,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 36,
+        "padding_bt": 36,
+        "override_fonts": true,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_nJzxqN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BAzVN6": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p>{{ metaobject.description_3 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_BAzVN6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn_DRmeNV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ViKEt7": {
+          "type": "column",
+          "settings": {
+            "title": "{{ metaobject.column_title_4.value }}",
+            "text": "<p></p>{{ metaobject.column_description_4 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AG7TMA": {
+          "type": "column",
+          "settings": {
+            "title": "{{ metaobject.column_title_5.value }}",
+            "text": "<p></p>{{ metaobject.column_description_5 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zJhxri": {
+          "type": "column",
+          "settings": {
+            "title": "{{ metaobject.column_title_6.value }}",
+            "text": "<p></p>{{ metaobject.column_description_6 | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ViKEt7",
+        "column_AG7TMA",
+        "column_zJhxri"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "boost_star_experts_marquee_highlights_CWhVPD": {
+      "type": "boost-star-experts-marquee-highlights",
+      "blocks": {
+        "image_jHGJyb": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.mobile_image_1.value }}",
+            "link": ""
+          }
+        },
+        "image_hmqKaj": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.mobile_image_2.value }}",
+            "link": ""
+          }
+        },
+        "image_CjCyCF": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.mobile_image_3.value }}",
+            "link": ""
+          }
+        },
+        "image_47bBzp": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.mobile_image_4.value }}",
+            "link": ""
+          }
+        },
+        "image_hYewtb": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.mobile_image_5.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jHGJyb",
+        "image_hmqKaj",
+        "image_CjCyCF",
+        "image_47bBzp",
+        "image_hYewtb"
+      ],
+      "settings": {
+        "media_aspect_ratio": "auto",
+        "shape": "square",
+        "slideshow_speed": "15s",
+        "text_color": "#111111",
+        "background_color": "linear-gradient(164deg, rgba(151, 186, 82, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "text_size": 15,
+        "media_shadow": false,
+        "slideshow_spacing": 0,
+        "max_width": 1200,
+        "height": 330,
+        "margin_tp": 0,
+        "margin_bt": 0,
+        "padding_tp": 36,
+        "padding_bt": 36,
+        "override_fonts": false,
+        "text_font": "sans-serif"
+      }
+    },
+    "rich_text_zVqWaD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NEJ8bX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.heading_description_3 | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NEJ8bX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_N3NLMB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_H7Py8V": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/optimization.svg",
+            "title": "<strong>Increased Website Traffic</strong>",
+            "text": "<p>We have lowered the CPA by working 6 months on this store, by increasing the sales we automatically lower the CPA in the campaign.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LPqCmd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/chart_15f235bf64_b85b30e396.svg",
+            "title": "<strong>Improved Brand Awareness</strong>",
+            "text": "<p>By targeting lots of new customers, we developed the good brand value of the brand in the market & organic search volume also got increased due to our plan of action.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BkLmUm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/persoanlisation.svg",
+            "title": "<strong>High ROAS</strong>",
+            "text": "<p>We have achieved 8x Return On Ad Spend, which is higher than as compared to the past  14 months. Earlier the account was 6x.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_H7Py8V",
+        "column_LPqCmd",
+        "column_BkLmUm"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_a8ngBQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_YYeLRA": {
+          "type": "row",
+          "settings": {
+            "image": "{{ metaobject.boost_image_1.value }}",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p></p>{{ metaobject.boost_description_1 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_efbmMx": {
+          "type": "row",
+          "settings": {
+            "image": "{{ metaobject.boost_image_2.value }}",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p></p>{{ metaobject.boost_description_2 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pqRy8p": {
+          "type": "row",
+          "settings": {
+            "image": "{{ metaobject.boost_image_3.value }}",
+            "imglink": "",
+            "caption": "",
+            "heading": "",
+            "text": "<p></p>{{ metaobject.boost_description_3 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_YYeLRA",
+        "row_efbmMx",
+        "row_pqRy8p"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_dQYP9L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MNfkmJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONCLUSION",
+            "heading_size": "h1"
+          }
+        },
+        "text_Ge8iii": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Flooring Industry is highly competitive, & success requires a strategic approach. We created the well plan by focusing on brand awareness, Targeting Audience, and Conversion rate optimization, and we were able to achieve our goal. Our objective was to get sales with 8x ROAS & we got that return on investment. This store tells by targeting the right audience with perfect strategy we can achieve our goals through digital marketing. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MNfkmJ",
+        "text_Ge8iii"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "17334871030d80fe22": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_b4MhQ6": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "146577",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 36,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_b4MhQ6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "boost_star_display_policies_mqhh9J": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_UFLDMT": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": "https://trustpilot.com/review/booststar.rlchats.com"
+          }
+        },
+        "icon_9i6P7e": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": "https://partnersdirectory.withgoogle.com/partners/9404980363"
+          }
+        },
+        "icon_RnRhdf": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED </strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_nf6Tg7": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": "https://g.page/r/Ce4BtBFUVOsOEAI/review"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UFLDMT",
+        "icon_9i6P7e",
+        "icon_RnRhdf",
+        "icon_nf6Tg7"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "rounded",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(105deg, rgba(151, 186, 82, 1) 15%, rgba(99, 135, 28, 1) 85%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(0deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": true,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "image_banner_bRWd7R",
+    "boost_star_experts_marquee_highlights_AJHFz4",
+    "rich_text_wtrjJz",
+    "image_with_text_fahpAj",
+    "rich_text_QtNDTc",
+    "multicolumn_weqmjA",
+    "boost_star_experts_marquee_highlights_xxVzba",
+    "rich_text_nJzxqN",
+    "multicolumn_DRmeNV",
+    "boost_star_experts_marquee_highlights_CWhVPD",
+    "rich_text_zVqWaD",
+    "multicolumn_N3NLMB",
+    "multirow_a8ngBQ",
+    "rich_text_dQYP9L",
+    "17334871030d80fe22",
+    "boost_star_display_policies_mqhh9J"
+  ]
+}

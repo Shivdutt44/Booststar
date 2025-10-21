@@ -1,0 +1,808 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_nVXmch": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jBGFNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "RESULTS DRIVEN EMAIL MARKETING FOR ECOMMERCE SUCCESS",
+            "heading_size": "h1"
+          }
+        },
+        "text_73c8bi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong> No Service or Setup Fee |</strong> Only Pay 15% of Sales from Our Emails!</p>"
+          }
+        },
+        "button_EEpRGY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Email Marketing Today!",
+            "button_link": "#app-embed",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jBGFNH",
+        "text_73c8bi",
+        "button_EEpRGY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_EYjCbV": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/email_1920_x_1080_px_3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_MVUgMn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AqrfjJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ABOUT OUR EMAILS MARKETING SERVICE</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "caption_igemiM": {
+          "type": "caption",
+          "settings": {
+            "caption": " No Service or Setup Fee | Only Pay 15% of Sales from Our Emails!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "text_HMCPxV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At <strong>BOOST STAR Experts</strong>, we specialize in improving sales and building customer loyalty through our email marketing campaigns. Whether it’s targeting new customers or retargeting old ones, our strategies ensure you see measurable results.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Qc7WQH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Your Email Today!",
+            "button_link": "#app-embed",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AqrfjJ",
+        "caption_igemiM",
+        "text_HMCPxV",
+        "button_Qc7WQH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/experienced_2_e010e66e-2b54-4a63-a452-1b43d96ce0d4.svg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_3aUN88": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/email_1920_x_1080_px_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_7admhk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_R6NjrG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Results_fair.svg",
+            "title": "<strong>Holidays and Occasions</strong>",
+            "text": "<p> Customized festive campaigns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_T9iEmR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/live_classes.svg",
+            "title": "<strong>Newsletters</strong>",
+            "text": "<p> Keep your audience engaged regularly.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3Cmpkz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/24x7_support.svg",
+            "title": "<strong>Product Highlights</strong>",
+            "text": "<p> Showcase your bestsellers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XdnmwB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/students_enrolled.svg",
+            "title": "<strong>Promotions</strong>",
+            "text": "<p>Offer exclusive deals to drive sales</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_R6NjrG",
+        "column_T9iEmR",
+        "column_3Cmpkz",
+        "column_XdnmwB"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin: auto;}"
+      ],
+      "settings": {
+        "title": "<strong>TYPE OF EMAILS WE CREATE</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Start The Project Now!",
+        "button_link": "#app-embed",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_6MBqne": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_brFEtY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ELIGIBILITY TO GET STARTED </strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_df3Yqe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To ensure our services are the right fit, your business must meet the following criteria</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_brFEtY",
+        "text_df3Yqe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_Lrppgb": {
+      "type": "multirow",
+      "blocks": {
+        "row_D676wg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Analysis.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Customer Base</strong>",
+            "text": "<p> You should have more than <strong>5,000+ customers</strong>.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_tAg3EW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/content_optimization.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Active Website</strong>",
+            "text": "<p>Your eCommerce store must be live and optimized for conversions.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_dGaDfJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Technical_Seo.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Email List</strong>",
+            "text": "<p> A pre-existing email subscriber list is preferred (if not, we can help grow it).</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_PGacKp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/back_linking.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Product Catalog</strong>",
+            "text": "<p> A minimum of <strong>10+ products</strong> to promote effectively.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_QhyCAg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/performance_moitoring.svg",
+            "imglink": "",
+            "caption": "Enhance",
+            "heading": "<strong>Marketing Consent</strong>",
+            "text": "<p> Customer email list must comply with email marketing regulations.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_cbFKfw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/How_to_optimize_my_eCommerce_site_for_search_engines_-_2.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Platform Compatibility</strong>",
+            "text": "<p> Your store should be on <strong>Shopify</strong> or a compatible platform.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_D676wg",
+        "row_tAg3EW",
+        "row_dGaDfJ",
+        "row_PGacKp",
+        "row_QhyCAg",
+        "row_cbFKfw"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_UD7UEj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bkhcif": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>EMAIL AUTOMATIONS WE USE</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bkhcif"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_4yn69f": {
+      "type": "multirow",
+      "blocks": {
+        "row_aqWBRG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/happy_clients.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Recover Abandoned Checkouts</strong>",
+            "text": "<p>Encourage customers to complete their purchase 10 hours post-abandonment.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_BXLhRy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/connected.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Recover Abandoned Carts</strong>",
+            "text": "<p>Re-engage customers who added items to their cart but didn’t proceed to checkout.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_wFAJpf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/experience.svg",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Welcome Emails</strong>",
+            "text": "<p>Send a warm welcome and offer a discount to new subscribers.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_wxRXny": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Best_E_commerce_business_ideas_-_2.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Thank You Emails</strong>",
+            "text": "<p>Show gratitude after first and subsequent purchases.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_MAgjAN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/what-does-a-digital-marketinf-specialist-do-2_1.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Win Back Customers</strong>",
+            "text": "<p>Offer a discount to re-engage customers inactive for 60+ days.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        },
+        "row_qzAUM6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/230310020541256146.png",
+            "imglink": "",
+            "caption": "",
+            "heading": "<strong>Upsell After Purchase</strong>",
+            "text": "<p>Showcase related products 14 days after purchase.</p>",
+            "button_label": "Start Email Marketing",
+            "button_link": "#app-embed"
+          }
+        }
+      },
+      "block_order": [
+        "row_aqWBRG",
+        "row_BXLhRy",
+        "row_wFAJpf",
+        "row_wxRXny",
+        "row_MAgjAN",
+        "row_qzAUM6"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "reviews_efMqjT": {
+      "type": "reviews",
+      "blocks": {
+        "review_GXUAxi": {
+          "type": "review",
+          "repeater": "{{ metaobject.client_reviews.value }}",
+          "settings": {
+            "reviews": "5",
+            "name": "{{ block.repeater.client_full_name.value }}",
+            "designation": "{{ block.repeater.client_designation.value }}",
+            "review": "{{ block.repeater.review_description | metafield_tag }}",
+            "image": "{{ block.repeater.business_success_image.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "review_GXUAxi"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "KIND WORDS FORM OUR HAPPY CLIENTS",
+        "heading_color": "#000000",
+        "section_bg_color": "#f5f5f5",
+        "bg_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "star_color": "#ffd700",
+        "text_color": "#000000",
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "text-align": "center",
+        "block-style": "style1",
+        "sildes_to_show": 3,
+        "autoplay_slider": true,
+        "show_dots": false,
+        "ele-space": 10,
+        "radius": 10,
+        "max_width": 1400,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "padding-top": 36,
+        "padding-bottom": 36,
+        "padding-inline": 5
+      }
+    },
+    "image_banner_8TbyTa": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/discount-banner_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_chYEEb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hrVAdA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Choose BOOST STAR Experts?</strong>",
+            "heading_type": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_ifBAJy": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Risk-Free Pricing Model:</strong> $99 Service or Set Up Fee then pay only 15% of sales generated through our emails.</li><li><strong>Proven Expertise:</strong> Experience in crafting high-performing email campaigns tailored to your audience.</li><li><strong>Comprehensive Solutions:</strong> From setup to strategy and execution, we handle it all.</li><li><strong>Data-Driven Results:</strong> Track campaign performance and optimize for better conversions.</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_xnYqkG": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hrVAdA",
+        "text_ifBAJy",
+        "button_xnYqkG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/blog-imgedd_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_boost_star_bb8Qff": {
+      "type": "faq-boost-star",
+      "blocks": {
+        "text_wtGGmx": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_1.value }}",
+            "answer": "{{ metaobject.ans_1 | metafield_tag }}"
+          }
+        },
+        "text_c4379n": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_2.value }}",
+            "answer": "{{ metaobject.ans_2 | metafield_tag }}"
+          }
+        },
+        "text_H6iA9J": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_3.value }}",
+            "answer": "<p></p>{{ metaobject.ans_3 | metafield_tag }}"
+          }
+        },
+        "text_BHgxcH": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_4.value }}",
+            "answer": "<p></p>{{ metaobject.ans_4 | metafield_tag }}"
+          }
+        },
+        "text_KLC4yj": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_5.value }}",
+            "answer": "<p></p>{{ metaobject.ans_5 | metafield_tag }}"
+          }
+        },
+        "text_dwVT8J": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_6.value }}",
+            "answer": "<p></p>{{ metaobject.ans_6 | metafield_tag }}"
+          }
+        },
+        "text_9WVcqH": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_7.value }}",
+            "answer": "<p></p>{{ metaobject.ans_7 | metafield_tag }}"
+          }
+        },
+        "text_PpTWMp": {
+          "type": "text",
+          "settings": {
+            "question": "{{ metaobject.faq_8.value }}",
+            "answer": "<p></p>{{ metaobject.ans_8 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_wtGGmx",
+        "text_c4379n",
+        "text_H6iA9J",
+        "text_BHgxcH",
+        "text_KLC4yj",
+        "text_dwVT8J",
+        "text_9WVcqH",
+        "text_PpTWMp"
+      ],
+      "settings": {
+        "heading": "<strong>8 Important FAQs for Email Marketing Services (Shopify & Shopify Plus)</strong>",
+        "tag": "h2",
+        "text_alignment": "center",
+        "headline_size": 25,
+        "icon_style": "27A4",
+        "border_radius": 8,
+        "layout_style": "row",
+        "headline_color": "#111111",
+        "s_background_color": "linear-gradient(164deg, rgba(140, 140, 140, 1), rgba(55, 55, 55, 1) 100%)",
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "icon_color": "#f8f9fa",
+        "question_color": "#f8f9fa",
+        "background_color": "#97ba52",
+        "hover_color": "#f8f9fa",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5,
+        "parallax": false,
+        "bg_size": "cover",
+        "bg_pos": "center",
+        "max_width": 1400,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "padding_inline": 20
+      }
+    },
+    "contact_form_dy9aRL": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "<strong>Contact form</strong>",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17335459778a36ef0a": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_dVaWKR": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "275428",
+            "text_color": "#202020",
+            "button_background_color": "#97ba52",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 40,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_dVaWKR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "boost_star_display_policies_PTxhbJ": {
+      "type": "boost-star-display-policies",
+      "blocks": {
+        "icon_rDFKar": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_38_bbce87c6-e519-45fb-b456-26dfd88eff30.svg",
+            "headline": "<strong>4.9 STAR RATINGS</strong>",
+            "text": "On Trustopilot",
+            "link": ""
+          }
+        },
+        "icon_tetGR3": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_39_3e81f4e4-939a-452f-89d2-a81345e4652b.svg",
+            "headline": "<strong>GOOGLE PARTNERS</strong>",
+            "text": "Certified Experts",
+            "link": ""
+          }
+        },
+        "icon_qN6UH8": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_16.svg",
+            "headline": "<strong>ISO CERTIFIED</strong>",
+            "text": "Certified Service Standards",
+            "link": ""
+          }
+        },
+        "icon_dYdEFP": {
+          "type": "icon",
+          "settings": {
+            "icon": "image",
+            "image": "shopify://shop_images/Asset_40_42ce22f4-1a2f-4303-a368-c8a37c4ec129.svg",
+            "headline": "<strong>4.9 ON GOOGLE</strong>",
+            "text": "High Google Ratings",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_rDFKar",
+        "icon_tetGR3",
+        "icon_qN6UH8",
+        "icon_dYdEFP"
+      ],
+      "settings": {
+        "headline_size": 15,
+        "headline_line_height": "inherit",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "icon_shape": "circle",
+        "icon_padding": 25,
+        "icon_size": 40,
+        "icon_background_color": "linear-gradient(164deg, rgba(180, 218, 127, 1), rgba(146, 188, 87, 1) 100%)",
+        "icon_color": "#ffffff",
+        "background_color": "linear-gradient(96deg, rgba(151, 186, 82, 0.21), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "desktop_columns": "1fr 1fr  1fr 1fr",
+        "mobile_columns": "1fr",
+        "max_width": 1600,
+        "grid_gap": 20,
+        "padding_block": 25,
+        "padding_inline": 25,
+        "margin_block": 5,
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif"
+      }
+    }
+  },
+  "order": [
+    "rich_text_nVXmch",
+    "image_banner_EYjCbV",
+    "image_with_text_MVUgMn",
+    "image_banner_3aUN88",
+    "multicolumn_7admhk",
+    "rich_text_6MBqne",
+    "multirow_Lrppgb",
+    "rich_text_UD7UEj",
+    "multirow_4yn69f",
+    "reviews_efMqjT",
+    "image_banner_8TbyTa",
+    "image_with_text_chYEEb",
+    "faq_boost_star_bb8Qff",
+    "contact_form_dy9aRL",
+    "17335459778a36ef0a",
+    "boost_star_display_policies_PTxhbJ"
+  ]
+}
