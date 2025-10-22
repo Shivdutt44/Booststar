@@ -92,6 +92,28 @@
         transform: translateX(calc(-100% - var(--gap)));
       }
     }
+
+    @keyframes underline-grow {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: {{ section.settings.heading_underline_width }}%;
+      }
+    }
+
+    #id-{{ section.id }} .heading-underline {
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: {{ section.settings.heading_underline_thickness }}px;
+      background-color: {{ section.settings.heading_underline_color }};
+      width: {{ section.settings.heading_underline_width }}%;
+      {% if section.settings.heading_underline_animate %}
+      animation: underline-grow 0.5s ease-out;
+      {% endif %}
+    }
       @media (max-width: 768px) {
          #id-{{ section.id }} .logo-marquee__group img {
             max-width: clamp(1rem, 1rem + 28vmin, {{ section.settings.t_max_width }});
@@ -111,7 +133,7 @@
 <section class="logo-text-wrapper" id="id-{{ section.id }}">
   <div class="content-wrapper" style="text-align: {{ section.settings.heading_alignment }};">
     {%- if section.settings.heading != blank -%}
-      <h2 style="color: {{ section.settings.heading_color }}; font-size: {{ section.settings.heading_font_size }}px;">{{ section.settings.heading }}</h2>
+      <h2 style="color: {{ section.settings.heading_color }}; font-size: {{ section.settings.heading_font_size }}px; {% if section.settings.heading_underline_enable %}position: relative;{% endif %}">{{ section.settings.heading }}{% if section.settings.heading_underline_enable %}<span class="heading-underline" style="background-color: {{ section.settings.heading_underline_color }}; height: {{ section.settings.heading_underline_thickness }}px; width: {{ section.settings.heading_underline_width }}%; {% if section.settings.heading_underline_animate %}animation: underline-grow 0.5s ease-out;{% endif %}"></span>{% endif %}</h2>
     {%- endif -%}
     {%- if section.settings.subheading != blank -%}
       <h3 style="color: {{ section.settings.subheading_color }}; font-size: {{ section.settings.subheading_font_size }}px;">{{ section.settings.subheading }}</h3>
@@ -366,6 +388,44 @@
       "id": "subheading_color",
       "label": "Subheading Color",
       "default": "#666666"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_underline_enable",
+      "label": "Enable Underline",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "heading_underline_color",
+      "label": "Underline Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_underline_thickness",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "label": "Underline Thickness",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "heading_underline_width",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Underline Width",
+      "default": 100
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_underline_animate",
+      "label": "Animate Underline",
+      "default": true
     },
     {
       "type": "header",
