@@ -164,21 +164,65 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_qpjPLN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOOGLE_PARTNER_2.png",
+            "title": "Turning Genuine Traffic into <strong>Successful Conversions</strong>",
+            "text": "<p>As an acclaimed Google partner company, we are driven by the aim to let your business reach its target height through successful business conversions from genuine online traffic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WweaAK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOOGLE_PARTNER_2.png",
+            "title": "Turning Genuine Traffic into <strong>Successful Conversions</strong>",
+            "text": "<p>As an acclaimed Google partner company, we are driven by the aim to let your business reach its target height through successful business conversions from genuine online traffic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Eya9yR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOOGLE_PARTNER_2.png",
+            "title": "Turning Genuine Traffic into <strong>Successful Conversions</strong>",
+            "text": "<p>As an acclaimed Google partner company, we are driven by the aim to let your business reach its target height through successful business conversions from genuine online traffic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dRAET4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOOGLE_PARTNER_2.png",
+            "title": "Turning Genuine Traffic into <strong>Successful Conversions</strong>",
+            "text": "<p>As an acclaimed Google partner company, we are driven by the aim to let your business reach its target height through successful business conversions from genuine online traffic.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_UGLei9",
-        "column_KFatgb"
+        "column_KFatgb",
+        "column_qpjPLN",
+        "column_WweaAK",
+        "column_Eya9yR",
+        "column_dRAET4"
       ],
       "custom_css": [
         "h2 {text-align: center; margin: auto;}"
       ],
       "settings": {
         "title": "YOUR TRUSTED <strong>SHOPIFY & GOOGLE</strong> PARTNER",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -188,21 +232,6 @@
         "swipe_on_mobile": false,
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "video_jwk4ek": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": true,
-        "video_url": "https://youtu.be/SSI0_MQwgLQ",
-        "cover_image": "shopify://shop_images/YT--Thumbnail-2_1.png",
-        "description": "Booststar experts",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "top_collections_boost_star_xC8pT3": {
@@ -1661,7 +1690,6 @@
     "custom_liquid_VJ3D9W",
     "boost_star_display_policies_mqhh9J",
     "multicolumn_FzWp6B",
-    "video_jwk4ek",
     "top_collections_boost_star_xC8pT3",
     "boost_star_achievement_counter_RKmRXP",
     "rich_text_qX9fkb",
